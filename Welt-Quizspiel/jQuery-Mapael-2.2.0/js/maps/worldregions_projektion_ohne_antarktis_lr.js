@@ -25,7 +25,7 @@
     $.extend(true, Mapael,
         {
             maps :  {
-                worldregions_projektion_ohne_antarktis : {
+                worldregions_projektion_ohne_antarktis: {
                     width : 1920,
                     height : 1080,
                     getCoords : function (lat, lon) {

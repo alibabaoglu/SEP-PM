@@ -14,3 +14,4 @@ function pauseAudio() {
     x.pause();
 
 }
+
