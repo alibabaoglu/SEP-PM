@@ -19,18 +19,18 @@ ipcMain.on('request', (event, cmd) => {
     // Event emitter for sending asynchronous messages
 
     var fh =  new FileHandler("/files/"); 
-     
+
     if(cmd == "highscore"){
         var rep = fh.readFile("highscore.json");
-        event.sender.send('highscore-reply', rep)
+        event.returnValue = rep;
     }
     if(cmd == "fragen"){
-        var rep = fh.readFile("fragen.json", rep)
-        event.sender.send('fragen-reply', rep)
+        var rep = fh.readFile("fragen.json");
+        event.returnValue = rep;
     }
     if(cmd == "savegame"){
-        var rep = fh.readFile("savegame.json", rep)
-        event.sender.send('savegame-reply', rep)
+        var rep = fh.readFile("savegame.json");
+        event.returnValue = rep;
     }
     
  })

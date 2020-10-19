@@ -1,8 +1,9 @@
 const DataHandler = require('./js/DataHandler.js');
 
 var dh = new DataHandler();
-//dh.requestData("highscore");
-dh.transmitData("savegame", "{'tt':18}");
+console.log(dh.requestData("savegame"));
+//dh.transmitData("savegame", "{'tt':18}");
+
 
 function startGame() {
     myGameArea.start();
