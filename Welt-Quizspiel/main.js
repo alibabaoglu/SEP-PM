@@ -17,15 +17,20 @@ let mainWindow;
 ipcMain.on('request', (event, cmd) => {
     //console.log(cmd)
     // Event emitter for sending asynchronous messages
-    var rep ="ttt";
-    var fh =  new FileHandler("/files/");  
-    rep = fh.readFile("dummy.json");
+
+    var fh =  new FileHandler("/files/"); 
+     
     if(cmd == "highscore"){
-        event.sender.send('highscore', rep)
+        var rep = fh.readFile("highscore.json");
+        event.sender.send('highscore-reply', rep)
     }
     if(cmd == "fragen"){
-        fh.writeToFile("testt.json", rep)
-        event.sender.send('fragen', "wa")
+        var rep = fh.readFile("fragen.json", rep)
+        event.sender.send('fragen-reply', rep)
+    }
+    if(cmd == "savegame"){
+        var rep = fh.readFile("savegame.json", rep)
+        event.sender.send('savegame-reply', rep)
     }
     
  })

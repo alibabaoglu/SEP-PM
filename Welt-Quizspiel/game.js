@@ -1,3 +1,9 @@
+const DataHandler = require('./js/DataHandler.js');
+
+var dh = new DataHandler();
+//dh.requestData("highscore");
+dh.transmitData("savegame", "{'tt':18}");
+
 function startGame() {
     myGameArea.start();
 }
@@ -12,4 +18,3 @@ function pauseAudio() {
     x.pause();
 
 }
-

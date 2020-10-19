@@ -9,10 +9,9 @@
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src='../node_modules/raphael/raphael.js'></script>
     <script src='../jQuery-Mapael-2.2.0/js/jquery.mapael.js'></script>
-    <script src='../jQuery-Mapael-2.2.0/js/maps/worldregions_projektion_ohne_antarktis.js'></script>
+    <script src='../jQuery-Mapael-2.2.0\js\maps\world_countries_mercator.js'></script>
     <script src='../data.js'></script>
-    <script src='../game.js'></script>
-   
+    <script >require('../game.js');</script>
     
     
     <script>if (window.module) module = window.module;</script>
@@ -68,7 +67,7 @@
             $(function () {
                 var x = $(".container").mapael({
                     map: {
-                        name: "worldregions_projektion_ohne_antarktis"
+                        name: "world_countries_mercator"
                         , zoom: {
                             enabled: true
                         }, 

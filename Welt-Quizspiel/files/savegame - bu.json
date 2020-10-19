@@ -1,0 +1,9 @@
+{
+    'sg1': [
+        { 
+            'used_questions':['fid1', 'fid2']
+            'user':'Tm',
+            'score':15
+        }
+    ]
+}
