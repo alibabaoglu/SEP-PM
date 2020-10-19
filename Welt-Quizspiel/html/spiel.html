@@ -1,3 +1,167 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7de39bf2feefc5ee4eb9e4d6f2d996563add297bef19fb9a8c259c67cce94768
-size 4924
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src='../node_modules/raphael/raphael.js'></script>
+    <script src='../jQuery-Mapael-2.2.0/js/jquery.mapael.js'></script>
+    <script src='../jQuery-Mapael-2.2.0/js/maps/worldregions_projektion_ohne_antarktis_lr.js'></script>
+    <script src='../game.js'></script>
+    <script>if (window.module) module = window.module;</script>
+
+    <link rel="stylesheet" href="../css/stylequiz.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <p id="Counter"> 0 $</p>
+        <div class="map">Alternative content</div>
+    </div>
+
+
+    <div id="QuizWindow" style="display: none;">
+        <div class="modal-content">
+
+            <h3>Regionsname</h3>
+            <br>
+            <br>
+            <img class="RegionImg" src="../img/questionmark.png">
+            <br>
+            <br>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <br>
+            <br>
+            <h4>Frage: ...</h4>
+            <br>
+            <button class="QuizAnswer">Antwort 1</button>
+            <button class="QuizAnswer">Antwort 2</button>
+            <button class="QuizAnswer">Antwort 3</button>
+            <button class="QuizAnswer">Antwort 4</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button class="QuizBtn" onclick="closeQuiz()">Weiter reisen</button>
+            <button class="QuizBtn">nÃƒÂ¤chste Frage</button>
+        </div>
+
+
+        <script>
+            $.mapael.prototype.defaultOptions.map.defaultArea.attrsHover.animDuration = 50;
+            $(function () {
+                var x = $(".container").mapael({
+                    map: {
+                        name: "worldregions_projektion_ohne_antarktis"
+                        , zoom: {
+                            enabled: true
+                        }, 
+                        defaultArea: {
+                            attrs: {
+                                fill: "#f4f4e8"
+                            }
+                            , text: {
+                                attrs: {
+                                    "fill": "black",
+                                    "font-size": 16,
+                                    "font-weight": "bold"
+                                },
+                                attrsHover: {
+                                    fill: "#000"
+                                }
+
+                            }
+                            , eventHandlers: {
+                                click: function (e, id, mapElem, textElem) {
+                                    var newData = {
+                                        'areas': {}
+                                    };
+                                    if (!(mapElem.originalAttrs.fill == "#5ba4ff")) {
+
+                                        newData.areas[id] = {
+                                            attrs: {
+                                                fill: "#5ba4ff"
+                                            }
+                                        };
+                                        openQuiz();
+                                    }
+                                    $(".container").trigger('update', [{ mapOptions: newData }]);
+                                }
+                            }
+                        }
+                    },
+                    areas: {
+                        "NAM": {
+                            attrs:{
+                            fill: "#9EC7F3"
+
+                        },
+                           
+                            text: {
+                                margin: {x: -60, y: 50},
+                                content: "North America",
+                            },
+                        },
+                        "CAM": {
+                            attrs:{
+                            fill: "#FFFFD0"
+
+                        },
+                            text: {
+                                margin: {x: -80, y: 0},
+                                content: "Central America",
+                            },
+                        },
+                        "SAM": {
+                            attrs:{
+                            fill: "#FFD0D0"
+
+                        },
+                           
+                            text: {
+                                margin: {x: 0, y: -50},
+                                content: "South America",
+                            },
+
+                        },
+                        "KA": {
+                            attrs:{
+                            fill: "#FFD0D0"
+
+                        },
+                           
+                            text: {
+                                margin: {x: 0, y: -50},
+                                content: "Karibik",
+                            },
+
+                        },
+                    
+
+                    },
+                });
+            });
+
+
+        </script>
+
+</body>
+
+</html>
