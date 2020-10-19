@@ -50,16 +50,18 @@
             <br>
             <h2 id="question"></h2>
             <br>
-            <button class="QuizAnswer">Antwort 1</button>
-            <button class="QuizAnswer">Antwort 2</button> <br>
-            <button class="QuizAnswer">Antwort 3</button>
-            <button class="QuizAnswer">Antwort 4</button>
+           
+
+            <button id="1" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
+            <button id="2" class="QuizAnswer" onClick="checkAnswer(this.id)"></button><br>
+            <button id="3" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
+            <button id="4" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
             <br>
             <br>
             <br>
            
-            <button class="QuizBtn" onclick="closeQuiz()">Weiter reisen</button>
-            <button class="QuizBtn">Naechste Frage</button>
+            <button id="close" class="QuizBtn" onclick="closeQuiz()">Weiter reisen</button>
+            <button id="nextQuestion" onclick="openQuiz()" class="QuizBtn">Naechste Frage</button>
         </div>
 
 
@@ -99,7 +101,7 @@
                                                 fill: "#5ba4ff"
                                             }
                                         };
-                                        openQuiz(id);
+                                        newRegion(id);
                                         
                                     }
                                     $(".container").trigger('update', [{ mapOptions: newData }]);
