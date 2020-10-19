@@ -1,8 +1,6 @@
-
 function startGame() {
     myGameArea.start();
 }
-
 
 function playAudio() {
     var x = document.getElementById("menu-audio");

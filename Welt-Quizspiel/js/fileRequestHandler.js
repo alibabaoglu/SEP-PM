@@ -10,10 +10,10 @@ function transmitData(command, data){
 }
 
 ipcRenderer.on('highscore', (event, arg) => {
-    console.log("HS"+arg);
+    console.log(arg);
 })
 
 ipcRenderer.on('fragen', (event, arg) => {
-    console.log("FR"+arg);
+    console.log(arg);
 })
 

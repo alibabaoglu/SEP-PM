@@ -9,8 +9,12 @@
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src='../node_modules/raphael/raphael.js'></script>
     <script src='../jQuery-Mapael-2.2.0/js/jquery.mapael.js'></script>
-    <script src='../jQuery-Mapael-2.2.0\js\maps\mapael-maps\world\world_countries_mercator.js'></script>
+    <script src='../jQuery-Mapael-2.2.0/js/maps/worldregions_projektion_ohne_antarktis.js'></script>
+    <script src='../data.js'></script>
     <script src='../game.js'></script>
+   
+    
+    
     <script>if (window.module) module = window.module;</script>
 
     <link rel="stylesheet" href="../css/stylequiz.css">
@@ -44,23 +48,18 @@
                 clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
             <br>
             <br>
-            <h4>Frage: ...</h4>
+            <h2 id="question"></h2>
             <br>
             <button class="QuizAnswer">Antwort 1</button>
-            <button class="QuizAnswer">Antwort 2</button>
+            <button class="QuizAnswer">Antwort 2</button> <br>
             <button class="QuizAnswer">Antwort 3</button>
             <button class="QuizAnswer">Antwort 4</button>
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+           
             <button class="QuizBtn" onclick="closeQuiz()">Weiter reisen</button>
-            <button class="QuizBtn">nÃƒÂ¤chste Frage</button>
+            <button class="QuizBtn">Naechste Frage</button>
         </div>
 
 
@@ -69,7 +68,7 @@
             $(function () {
                 var x = $(".container").mapael({
                     map: {
-                        name: "world_countries_mercator"
+                        name: "worldregions_projektion_ohne_antarktis"
                         , zoom: {
                             enabled: true
                         }, 
@@ -80,7 +79,7 @@
                             , text: {
                                 attrs: {
                                     "fill": "black",
-                                    "font-size": 16,
+                                    "font-size": 14,
                                     "font-weight": "bold"
                                 },
                                 attrsHover: {
@@ -100,7 +99,8 @@
                                                 fill: "#5ba4ff"
                                             }
                                         };
-                                        openQuiz();
+                                        openQuiz(id);
+                                        
                                     }
                                     $(".container").trigger('update', [{ mapOptions: newData }]);
                                 }
@@ -112,10 +112,9 @@
                             attrs:{
                             fill: "#9EC7F3"
 
-                        },
-                           
+                            },
                             text: {
-                                margin: {x: -60, y: 50},
+                                margin: {x: -50, y: 50},
                                 content: "North America",
                             },
                         },
@@ -124,35 +123,21 @@
                             fill: "#FFFFD0"
 
                         },
+                            
                             text: {
-                                margin: {x: -80, y: 0},
+                                margin: {x: 0, y: 0},
                                 content: "Central America",
                             },
                         },
                         "SAM": {
-                            attrs:{
-                            fill: "#FFD0D0"
-
-                        },
                            
                             text: {
-                                margin: {x: 0, y: -50},
+                                margin: {x: 0, y: 0},
                                 content: "South America",
                             },
 
                         },
-                        "KA": {
-                            attrs:{
-                            fill: "#FFD0D0"
 
-                        },
-                           
-                            text: {
-                                margin: {x: 0, y: -50},
-                                content: "Karibik",
-                            },
-
-                        },
                     
 
                     },

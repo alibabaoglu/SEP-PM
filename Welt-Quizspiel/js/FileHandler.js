@@ -16,6 +16,7 @@ class FileHandler{
     }
 
      writeToFile(fileName, data){
+        console.log("Writing to: "+this.workingDirPathAbs+fileName);
         fileSystem.writeFileSync(this.workingDirPathAbs+fileName,data,{encoding:'utf8', flag:'w'} );
     }
 }
