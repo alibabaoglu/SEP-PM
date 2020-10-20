@@ -53,8 +53,14 @@ function newRegion(id) {
  *               It also resets the items to their default settings.
  */
 function openQuiz() {
+    for (let index = 1; index < 5; index++) {
+        $(`#${index}`).css('opacity', '1.0');
+    }
+    $('.joker').css('pointer-events', 'all');
+    $('.joker').css('opacity', '1.0');
+
     $(".QuizAnswer").css("background-color", "rgba(128,128,128, 0.5)");
-    $(".QuizAnswer").prop("disabled", false);
+    $(".QuizAnswer").css("pointer-events", 'all');
     $('#QuizWindow').css('display', 'block');
     playQuiz();
 }
@@ -90,18 +96,35 @@ function playQuiz() {
 function checkAnswer(clicked_id) {
     if (solution == parseInt(clicked_id)) {
         money += 1;
-        $(`#${solution}`).css("background-color", "lightgreen");
+        $(`#${solution}`).css("background-color", "#b3ff99");
     } else {
         money -= 1;
-        $(`#${clicked_id}`).css("background-color", "red");
-        $(`#${solution}`).css("background-color", "lightgreen");
+        $(`#${clicked_id}`).css("background-color", "#ff4d4d");
+        $(`#${solution}`).css("background-color", "#b3ff99");
     }
-    $(".QuizAnswer").prop("disabled", true);
+
+    $('.joker').css('pointer-events', 'none');
+
+    $(".QuizAnswer").css("pointer-events", 'none');
     $('#Counter').text(money + " $");
 }
 
 function useJoker(){
-    money -= 10;    
+    if(true){
+    money -= 20;
+    var answerToHide1 = solution;
+    var answerToHide2 = solution;
+    do {
+        answerToHide1 = Math.floor(Math.random() * 4)+1;
+        answerToHide2 = Math.floor(Math.random() * 4)+1;
+    } while(answerToHide1 === solution || answerToHide2 === solution || answerToHide2 === answerToHide1);
+
+    $('.joker').css('pointer-events', 'none');
+    $('.joker').css('opacity', '0.5');
+    $('#'+answerToHide1).css('opacity', '0.3');
+    $('#'+answerToHide2).css('opacity', '0.3');
+} 
+
 }
 
 /** 

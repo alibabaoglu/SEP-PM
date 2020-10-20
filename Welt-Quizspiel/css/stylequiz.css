@@ -29,6 +29,10 @@
     height: 700px;
   }
 
+.joker{
+float:right;
+}
+
   #Counter {
       border: 1px solid black;
       width: 50px;
