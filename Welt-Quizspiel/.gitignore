@@ -2,8 +2,9 @@
 .jQuery-Mapael-2.2.0
 /node_modules
 /jQuery-Mapael-2.2.0
+/release-builds
+.release-builds
 .DS_Store
 .fuse_hidden*
 .idea
-/node_modules
 /bower_components

@@ -1,5 +1,6 @@
 {
   "name": "welt-quizspiel",
+  "productName": "Weltregionen Quizspiel",
   "version": "1.0.0",
   "description": "Welt Quizspiel desktop app",
   "main": "main.js",

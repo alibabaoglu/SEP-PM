@@ -15,4 +15,4 @@ constructor(){
 
 }
 
-module.exports = DataHandler
+module.exports = DataHandler;

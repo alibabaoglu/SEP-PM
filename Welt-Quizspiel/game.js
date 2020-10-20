@@ -1,12 +1,13 @@
 const DataHandler = require('./js/DataHandler.js');
 
 var dh = new DataHandler();
-console.log(dh.requestData("savegame"));
+console.log(dh.requestData("fragen"));
 
 function playAudio() {
     var x = document.getElementById("menu-audio");
     x.play();
 }
+
 function pauseAudio() {
     var x = document.getElementById("menu-audio");
     x.pause();
