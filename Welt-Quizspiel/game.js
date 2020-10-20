@@ -96,6 +96,10 @@ function checkAnswer(clicked_id) {
     $('#Counter').text(money + " $");
 }
 
+function useJoker(){
+    money -= 10;    
+}
+
 /** 
  * @description:  Closes the quiz window
 */
