@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:88601d750fc2a47ef62f46f9d7999176c1c27a51699e74505943f1f0382b1b00
-size 5866
-=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,9 +12,10 @@ size 5866
     <script src='../jQuery-Mapael-2.2.0/js/maps/worldregions_projektion_ohne_antarktis.js'></script>
     <script src='../data.js'></script>
     <script src='../game.js'></script>
-   
-    
-    
+    <link rel="shortcut icon" href="#" />
+
+
+
     <script>if (window.module) module = window.module;</script>
 
     <link rel="stylesheet" href="../css/stylequiz.css">
@@ -28,6 +24,7 @@ size 5866
 </head>
 
 <body>
+
 
     <div class="container">
         <p id="Counter"> 0 $</p>
@@ -49,20 +46,26 @@ size 5866
             <br>
             <h2 id="question"></h2>
             <br>
-           
-           
+
+
             <button id="1" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
             <button id="2" class="QuizAnswer" onClick="checkAnswer(this.id)"></button><br>
             <button id="3" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
             <button id="4" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
-          
+
             <br>
             <br>
             <br>
-           
+
             <button id="close" class="QuizBtn" onclick="closeQuiz()">Weiter reisen</button>
             <button id="nextQuestion" onclick="openQuiz()" class="QuizBtn">Naechste Frage</button>
         </div>
+
+        <audio id="menu-audio" src="../audio/audi.mp3"   >
+            <p>Wenn Sie dies lesen, dann liegt es daran, dass Ihr Browser das Audioelement nicht unterstützt.</p>
+
+        </audio>
+
 
 
         <script>
@@ -73,7 +76,7 @@ size 5866
                         name: "worldregions_projektion_ohne_antarktis"
                         , zoom: {
                             enabled: true
-                        }, 
+                        },
                         defaultArea: {
                             attrs: {
                                 fill: "#f4f4e8"
@@ -90,6 +93,12 @@ size 5866
 
                             }
                             , eventHandlers: {
+                                mouseover: function (e) {
+                                    playAudio();
+                                },
+                                mouseout: function (e) {
+                                    pauseAudio();
+                                },
                                 click: function (e, id, mapElem, textElem) {
                                     var newData = {
                                         'areas': {}
@@ -102,7 +111,7 @@ size 5866
                                             }
                                         };
                                         newRegion(id);
-                                        
+
                                     }
                                     $(".container").trigger('update', [{ mapOptions: newData }]);
                                 }
@@ -111,36 +120,36 @@ size 5866
                     },
                     areas: {
                         "NAM": {
-                            attrs:{
-                            fill: "#9EC7F3"
+                            attrs: {
+                                fill: "#9EC7F3"
 
                             },
                             text: {
-                                margin: {x: -50, y: 50},
+                                margin: { x: -50, y: 50 },
                                 content: "North America",
                             },
                         },
                         "CAM": {
-                            attrs:{
-                            fill: "#FFFFD0"
+                            attrs: {
+                                fill: "#FFFFD0"
 
-                        },
-                            
+                            },
+
                             text: {
-                                margin: {x: 0, y: 0},
+                                margin: { x: 0, y: 0 },
                                 content: "Central America",
                             },
                         },
                         "SAM": {
-                           
+
                             text: {
-                                margin: {x: 0, y: 0},
+                                margin: { x: 0, y: 0 },
                                 content: "South America",
                             },
 
                         },
 
-                    
+
 
                     },
                 });
@@ -152,4 +161,3 @@ size 5866
 </body>
 
 </html>
->>>>>>> origin/Quiz-Logik
