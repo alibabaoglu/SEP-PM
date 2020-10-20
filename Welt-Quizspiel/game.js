@@ -1,8 +1,13 @@
+/**
+ * TODO:
+ * Ende Fenster ( Richtige/Falsche antworten),
+ * Kontinente erst Sperren, wenn alle Fragen beantwortet wurden,
+ * Kontinente Regionen beschriften
+ */
 const DataHandler = require('./js/DataHandler.js');
 
 var dh = new DataHandler();
-console.log(dh.requestData("fragen"));
-
+DATA = JSON.parse(dh.requestData("fragen"));
 function playAudio() {
     var x = document.getElementById("menu-audio");
     x.play();
@@ -15,8 +20,8 @@ function pauseAudio() {
 }
 /** 
  * @description: Stores values in the session storage before the page refreshes.
- *               
- */
+ *               s
+*/
 window.onbeforeunload = function () {
     sessionStorage.setItem("money", parseInt(money));
 }
@@ -43,7 +48,6 @@ function newRegion(id) {
     console.log(regionID);
     openQuiz();
 }
-
 /** 
  * @description: Opens the quiz window and calls the function playQuiz(). 
  *               It also resets the items to their default settings.
@@ -74,11 +78,10 @@ function playQuiz() {
         delete DATA[regionID][questionID];
 
     } else {
-        $('#question').text("Das Quiz in dieser Region wurde beendet!");
-        $('#QuizWindow').css('display', 'none');
+
+        setTimeout(completedQuiz(), 5000);
     }
 }
-
 /** 
  * @description:  Checks if the answer is correct.
  * @param: {clicked_id} id of the clicked button(answer).             
@@ -101,5 +104,9 @@ function checkAnswer(clicked_id) {
 */
 function closeQuiz() {
     $('#QuizWindow').css('display', 'none');
+}
 
+function completedQuiz() {
+    $('#question').text("Das Quiz in dieser Region wurde beendet!");
+    $('#QuizWindow').css('display', 'none');
 }
