@@ -16,6 +16,7 @@ function playAudio() {
 function pauseAudio() {
     var x = document.getElementById("menu-audio");
     x.pause();
+    x.currentTime = 0;
 }
 /** 
  * @description: Stores values in the session storage before the page refreshes.
@@ -66,15 +67,21 @@ solution = 0;
 */
 function playQuiz() {
     var allQuestionsID = Object.keys(DATA[regionID]);
-    var questionID = allQuestionsID[Math.floor(Math.random() * allQuestionsID.length)];
-    $('#question').text(DATA[regionID][questionID]["Frage"]);
+    if (allQuestionsID.length > 0) {
+        var questionID = allQuestionsID[Math.floor(Math.random() * allQuestionsID.length)];
+        $('#question').text(DATA[regionID][questionID]["Frage"]);
 
-    for (let index = 1; index < 5; index++) {
-        $(`#${index}`).text(DATA[regionID][questionID]["Antworten"][index - 1]);
+        for (let index = 1; index < 5; index++) {
+            $(`#${index}`).text(DATA[regionID][questionID]["Antworten"][index - 1]);
+        }
+
+        solution = DATA[regionID][questionID]["Lösung"];
+        delete DATA[regionID][questionID];
+
+    } else {
+        $('#question').text("Das Quiz in dieser Region wurde beendet!");
+        $('#QuizWindow').css('display', 'none');
     }
-
-    solution = DATA[regionID][questionID]["Lösung"];
-    delete DATA[regionID][questionID];
 }
 
 /** 
