@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5160d8b8b6410d27607dfed032ea5bb2b0607be50ae396356b51909547392298
-size 895
+const {app, BrowserWindow} = require('electron')
+const url = require('url')
+const path = require('path')
+
+let win
+
+function createWindow() {
+   win = new BrowserWindow({width: 800, height: 600})
+   win.loadURL(url.format ({
+      pathname: path.join(__dirname, 'html/index.html'),
+      protocol: 'file:',
+      slashes: true
+   }))
+}
+
+app.on('ready', createWindow)
+
+function playAudio() {
+    var x = document.getElementById("menu-audio");
+    x.play();
+
+}
+function pauseAudio() {
+    var x = document.getElementById("menu-audio");
+    x.pause();
+
+}
