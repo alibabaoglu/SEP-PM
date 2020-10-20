@@ -9,14 +9,14 @@ class FileHandler{
     }
 
      readFile(fileName){
-        console.log("Reading: "+this.workingDirPathAbs+fileName);
+       // console.log("Reading: "+this.workingDirPathAbs+fileName);
         var file = fileSystem.readFileSync(this.workingDirPathAbs+fileName,{encoding:'utf8', flag:'r'} );
-        console.log(file)
+        //console.log(file)
         return file; 
     }
 
      writeToFile(fileName, data){
-        console.log("Writing to: "+this.workingDirPathAbs+fileName);
+        //console.log("Writing to: "+this.workingDirPathAbs+fileName);
         fileSystem.writeFileSync(this.workingDirPathAbs+fileName,data,{encoding:'utf8', flag:'w'} );
     }
 }

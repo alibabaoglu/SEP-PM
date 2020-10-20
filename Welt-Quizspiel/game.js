@@ -1,8 +1,13 @@
+/**
+ * TODO:
+ * Ende Fenster ( Richtige/Falsche antworten),
+ * Kontinente erst Sperren, wenn alle Fragen beantwortet wurden,
+ * Kontinente Regionen beschriften
+ */
 const DataHandler = require('./js/DataHandler.js');
 
 var dh = new DataHandler();
-console.log(dh.requestData("fragen"));
-
+DATA = JSON.parse(dh.requestData("fragen"));
 function playAudio() {
     var x = document.getElementById("menu-audio");
     x.play();
@@ -15,8 +20,7 @@ function pauseAudio() {
 }
 /** 
  * @description: Stores values in the session storage before the page refreshes.
- *               
- */
+ *               s
 window.onbeforeunload = function () {
     sessionStorage.setItem("money", parseInt(money));
 }
