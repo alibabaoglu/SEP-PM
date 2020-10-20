@@ -1,3 +1,8 @@
+const DataHandler = require('./js/DataHandler.js');
+
+var dh = new DataHandler();
+console.log(dh.requestData("savegame"));
+
 function playAudio() {
     var x = document.getElementById("menu-audio");
     x.play();
