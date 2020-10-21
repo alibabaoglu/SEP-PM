@@ -19,13 +19,13 @@
             <button onclick="playAudio()" type="button">Play Audio</button>
             <button onclick="pauseAudio()" type="button">Pause Audio</button>
             <div class="center">
-                <button class="MenuBtn" onclick="window.location.href='spiel.html'">Neues Spiel Starten</button>
+                <button class="MenuBtn" onclick="sessionStorage.setItem('continue', 'false');window.location.href='spiel.html'">Neues Spiel Starten</button>
                 <br>
                 <br>
-                <button class="MenuBtn">Spiel Fortsetzen</button>
+                <button class="MenuBtn" onclick="sessionStorage.setItem('continue', 'true');window.location.href='spiel.html'">Spiel Fortsetzen</button>
                 <br>
                 <br>
-                <button class="MenuBtn">Highscore</button>
+                <button class="MenuBtn" onclick="showHighscoreBoard()">Highscore</button>
 
             </div>
         </div>
