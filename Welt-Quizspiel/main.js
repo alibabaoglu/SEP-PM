@@ -41,6 +41,10 @@ ipcMain.on('request', (event, cmd) => {
         var rep = fh.readFile("savegame.json");
         event.returnValue = rep;
     }
+    if (cmd == "options") {
+        var rep = fh.readFile("options.json");
+        event.returnValue = rep;
+    }
 
 })
 

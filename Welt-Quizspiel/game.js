@@ -4,9 +4,12 @@
  * Kontinente erst Sperren, wenn alle Fragen beantwortet wurden,
  * Kontinente Regionen beschriften
  */
+const { valHooks } = require('jquery');
 const DataHandler = require('./js/DataHandler.js');
 
 var dh = new DataHandler();
+difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy']; 
+
 DATA = JSON.parse(dh.requestData("fragen"));
 function playAudio() {
     var x = document.getElementById("menu-audio");
@@ -94,10 +97,10 @@ function playQuiz() {
 */
 function checkAnswer(clicked_id) {
     if (solution == parseInt(clicked_id)) {
-        money += 1;
+        money += difficulty["rewardMoney"];
         $(`#${solution}`).css("background-color", "#b3ff99");
     } else {
-        money -= 1;
+        money -= difficulty["penaltyMoney"];;
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
         $(`#${solution}`).css("background-color", "#b3ff99");
     }
@@ -109,8 +112,9 @@ function checkAnswer(clicked_id) {
 }
 
 function useJoker(){
-    if(true){
-    money -= 20;
+    if(money >= difficulty["jokerCost"] ){
+    money -= difficulty["jokerCost"];
+    $('#Counter').text(money + " $");
     var answerToHide1 = solution;
     var answerToHide2 = solution;
     do {
@@ -126,10 +130,15 @@ function useJoker(){
 
 }
 
+function modMoney(val){
+    money += val;
+    $('#Counter').text(money + " $");
+}
+
 /** 
  * @description:  Closes the quiz window
 */
-function closeQuiz() {
+function closeQuiz() {  
     $('#QuizWindow').css('display', 'none');
 }
 
@@ -137,3 +146,4 @@ function completedQuiz() {
     $('#question').text("Das Quiz in dieser Region wurde beendet!");
     $('#QuizWindow').css('display', 'none');
 }
+g
