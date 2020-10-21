@@ -21,6 +21,7 @@ function pauseAudio() {
 /** 
  * @description: Stores values in the session storage before the page refreshes.
  *               s
+*/
 window.onbeforeunload = function () {
     sessionStorage.setItem("money", parseInt(money));
 }
@@ -47,7 +48,6 @@ function newRegion(id) {
     console.log(regionID);
     openQuiz();
 }
-
 /** 
  * @description: Opens the quiz window and calls the function playQuiz(). 
  *               It also resets the items to their default settings.
@@ -84,11 +84,10 @@ function playQuiz() {
         delete DATA[regionID][questionID];
 
     } else {
-        $('#question').text("Das Quiz in dieser Region wurde beendet!");
-        $('#QuizWindow').css('display', 'none');
+
+        setTimeout(completedQuiz(), 5000);
     }
 }
-
 /** 
  * @description:  Checks if the answer is correct.
  * @param: {clicked_id} id of the clicked button(answer).             
@@ -132,5 +131,9 @@ function useJoker(){
 */
 function closeQuiz() {
     $('#QuizWindow').css('display', 'none');
+}
 
+function completedQuiz() {
+    $('#question').text("Das Quiz in dieser Region wurde beendet!");
+    $('#QuizWindow').css('display', 'none');
 }

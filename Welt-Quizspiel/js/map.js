@@ -77,9 +77,26 @@ $(function () {
                 },
 
             },
+            "NAM": {
+                attrs: {
+                    fill: "#9EC7F3"
 
+                },
+                text: {
+                    margin: { x: -50, y: 50 },
+                    content: "North America",
+                },
+            },
+            "NAM": {
+                attrs: {
+                    fill: "#9EC7F3"
 
-
+                },
+                text: {
+                    margin: { x: -50, y: 50 },
+                    content: "North America",
+                },
+            },
         },
     });
 });
