@@ -38,15 +38,19 @@ $(function () {
                         var newData = {
                             'areas': {}
                         };
-                        if (!(mapElem.originalAttrs.fill == "#5ba4ff")) {
-
+                            if(!regionIsCompleted(id)){
+                        /*  
                             newData.areas[id] = {
                                 attrs: {
                                     fill: "#5ba4ff"
                                 }
-                            };
-                            newRegion(id);
+                            };*/
 
+                            newRegion(id);
+                        
+                        }
+                        else{
+                            setCompletedRegionColor(id);
                         }
                         $(".container-map").trigger('update', [{ mapOptions: newData }]);
                     }
@@ -185,3 +189,48 @@ $(function () {
         },
     });
 });
+
+function setCompletedRegionColor(id){
+    console.log(id);
+    var newData = {
+        'areas': {}
+    };
+
+    newData.areas[id] = {
+        attrs: {
+            fill: completeRegionColorShades[correctAnswers[id]]
+        },
+        attrsHover:{
+            animDuration:10000000
+        }
+
+    }; 
+    console.log(completeRegionColorShades[correctAnswers[id]]);
+    $(".container-map").trigger('update', [{ mapOptions: newData }]);
+};
+
+function initializeColors(){
+    var newData = {
+        'areas': {}
+    };
+    allRegIDs = Object.keys(DATA);
+   // console.log(Object.keys(DATA[allRegIDs[i]]));
+    for (let i = 0; i < allRegIDs.length; i++) {
+        if(Object.keys(DATA[allRegIDs[i]]).length < 1){
+            newData.areas[allRegIDs[i]] = {
+                attrs: {
+                    fill: completeRegionColorShades[correctAnswers[allRegIDs[i]]]
+                },
+                attrsHover:{
+                    animDuration:10000000
+                }
+        
+            }; 
+        }
+        
+       
+        
+    }
+    $(".container-map").trigger('update', [{ mapOptions: newData }]);
+
+}

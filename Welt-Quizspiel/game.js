@@ -10,7 +10,8 @@ username = "testuser";
 time_passed = "00:00:01";
 dh = new DataHandler();
 difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy']; 
-
+completeRegionColorShades = ['#b80000','#b86500','#b89600','#b8b500','#a8b800','#53b800','#53b800'];
+correctAnswers = {};
 DATA = {};
 function playAudio() {
     var x = document.getElementById("menu-audio");
@@ -24,30 +25,57 @@ function loadSavegame(){
         loadDefaultValues();
     }
     else{
-        console.log("Loading Savegame")
+    console.log("Loading Savegame")
     loadedSavegame = JSON.parse(dh.requestData("savegame"));
     DATA = loadedSavegame['questions_left'];
     username = loadedSavegame['username'];
     loadedSavegame['audio'] ? playAudio() : pauseAudio();
     money = loadedSavegame['money'];
     time_passed = loadedSavegame['time_passed'];
-    difficulty = loadedSavegame['difficulty'];}
-
+    difficulty = loadedSavegame['difficulty'];
+    correctAnswers = loadedSavegame['correctAnswers']
+}
+    console.log("init");
+    initializeColors();
     updateUIElements();
 }
 
 function loadDefaultValues(){
     console.log("Loading default Values")
         DATA = JSON.parse(dh.requestData("fragen"));
+        DATA = selectQuestionSubset(DATA);
         username = "defaultUN";
         true ? playAudio() : pauseAudio();
         money = 0;
         time_passed = "00:00:00";
         difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy']; 
+        correctAnswers = {"NAM":0};
     updateUIElements();
 }
 
+
+function selectQuestionSubset(allQuestions){
+    var allRegionIDs = Object.keys(allQuestions);
+    var subset = {};
+    for (let i = 0; i < allRegionIDs.length; i++) {
+        var allQuestionsIDs = Object.keys(allQuestions[allRegionIDs[i]]);
+        subset[allRegionIDs[i]] = {};
+        var k = allQuestionsIDs.length-1;
+        for (let j = 0; j < 6; j++) {
+            allQuestionsIDs = Object.keys(allQuestions[allRegionIDs[i]]);
+            k = allQuestionsIDs.length-1;
+            var rand = Math.floor(Math.random() * k);
+            subset[allRegionIDs[i]][allQuestionsIDs[rand]] = allQuestions[allRegionIDs[i]][allQuestionsIDs[rand]];
+            delete allQuestions[allRegionIDs[i]][allQuestionsIDs[rand]];
+        } 
+    }
+
+
+    return subset;
+}
+
  function saveSavegame(saveToDisk = true){
+    sessionStorage.setItem("continue", 'true');
     var newSavegame = {};
     newSavegame['username'] = username;
     newSavegame['audio'] = document.getElementById("menu-audio").paused;
@@ -55,6 +83,7 @@ function loadDefaultValues(){
     newSavegame['time_passed'] = time_passed;
     newSavegame['questions_left'] = DATA;
     newSavegame['difficulty'] = difficulty;
+    newSavegame['correctAnswers']= correctAnswers;
     //sessionStorage.setItem("savegame", JSON.stringify(newSavegame));
     if(saveToDisk){
         dh.transmitData("savegame",JSON.stringify(newSavegame,null, 2));
@@ -103,6 +132,7 @@ function updateUIElements(){
  *               
  */
 window.onload = function () {
+    
     console.log(sessionStorage.getItem("continue") == "true");
     if (sessionStorage.getItem("continue") == "true"){
         loadSavegame();
@@ -110,8 +140,9 @@ window.onload = function () {
     else{
         loadDefaultValues();
     }
-    sessionStorage.removeItem("continue");
-
+    //sessionStorage.removeItem("continue"); 
+    
+    console.log(DATA);
     openNav();
     changeDisplay();
     if (sessionStorage.getItem('money') != null) {
@@ -131,6 +162,14 @@ function newRegion(id) {
     console.log(regionID);
     openQuiz();
 }
+
+function regionIsCompleted(id){
+    console.log(Object.keys(DATA[id]).length);
+    return Object.keys(DATA[id]).length < 1;
+}
+
+
+
 /** 
  * @description: Opens the quiz window and calls the function playQuiz(). 
  *               It also resets the items to their default settings.
@@ -145,7 +184,13 @@ function openQuiz() {
     $(".QuizAnswer").css("background-color", "rgba(128,128,128, 0.5)");
     $(".QuizAnswer").css("pointer-events", 'all');
     $('#QuizWindow').css('display', 'block');
+    if($('#nextQuestion').text() == "Region verlassen"){
+        closeQuiz();
+        $('#nextQuestion').text("Nächste Frage");
+    }
+    else{
     playQuiz();
+    }
 }
 
 solution = 0;
@@ -154,6 +199,7 @@ solution = 0;
  *               At the end the question will be removed from the JSON object.              
 */
 function playQuiz() {
+    $('#nextQuestion').css('pointer-events', 'none');
     var allQuestionsID = Object.keys(DATA[regionID]);
     if (allQuestionsID.length > 0) {
         var questionID = allQuestionsID[Math.floor(Math.random() * allQuestionsID.length)];
@@ -164,7 +210,9 @@ function playQuiz() {
         }
 
         solution = DATA[regionID][questionID]["Lösung"];
-        delete DATA[regionID][questionID];
+        currentRegion = regionID;
+        currentQuestion=questionID;
+        
         saveSavegame();
     } else {
 
@@ -176,7 +224,19 @@ function playQuiz() {
  * @param: {clicked_id} id of the clicked button(answer).             
 */
 function checkAnswer(clicked_id) {
+    if(Object.keys(DATA[currentRegion]).length > 1){
+        $('#nextQuestion').css('pointer-events', 'all');
+
+    }
+
+    if(correctAnswers[currentRegion] === undefined){
+        correctAnswers[currentRegion] = parseInt(0);
+    }
+    console.log(correctAnswers[currentRegion]);
+    console.log(completeRegionColorShades[correctAnswers[currentRegion]]);
     if (solution == parseInt(clicked_id)) {
+        
+        correctAnswers[currentRegion] = parseInt(correctAnswers[currentRegion]+1);
         money += difficulty["rewardMoney"];
         coinAnimation();
         $(`#${solution}`).css("background-color", "lightgreen");
@@ -185,6 +245,9 @@ function checkAnswer(clicked_id) {
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
         $(`#${solution}`).css("background-color", "#b3ff99");
     }
+    delete DATA[currentRegion][currentQuestion];
+
+
     
     $('.joker').css('pointer-events', 'none');
 
@@ -211,7 +274,7 @@ function useJoker(){
 } 
 
 }
-
+//debug can be deleted
 function modMoney(val){
     money += val;
     $('#Counter').text(money + " $");
@@ -221,6 +284,9 @@ function modMoney(val){
  * @description:  Closes the quiz window
 */
 function closeQuiz() {  
+    if(Object.keys(DATA[currentRegion]).length < 1){
+    setCompletedRegionColor(currentRegion);
+}
     $('#QuizWindow').css('display', 'none');
     saveSavegame(true);
 }
@@ -247,7 +313,7 @@ function coinAnimation() {
     //Visibility statt display
     $("#treasure_chest_noanime").css('display', 'none');
     $("#treasure_chest").css('display', 'flex');
-
+return;
 }
 
 

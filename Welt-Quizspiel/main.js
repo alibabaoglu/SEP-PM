@@ -10,15 +10,16 @@ function createWindow() {
     win = new BrowserWindow(
         {
             minimizable: true,
-            resizable: false,
-            
+            //resizable: false,
+
             webPreferences: {
                 nodeIntegration: true
             }
 
 
         })
-    win.maximize();
+    //win.maximize();
+    win.setSize(1920, 1080);
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'html/index.html'),
         protocol: 'file:',
