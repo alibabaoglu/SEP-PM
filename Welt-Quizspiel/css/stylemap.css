@@ -3,13 +3,6 @@
     padding: 0px;
 }
 
-.container {
-    width: 100%;
-    background-color: #BFE5F6;
-    background-image: none;
-    padding: 10px;
-}
-
 .RegionInfo {
     width: 80%;
     text-align: center;
@@ -31,15 +24,14 @@
     padding: 10px;
     margin: 0px 20px 20px 20px;
     width: 40%;
-
     border-radius: 5px;
-    background-color: rgba(128,128,128, 0.5);
+    background-color: rgba(128, 128, 128, 0.5);
     border-style: none;
 }
 
 .QuizAnswer:hover {
-background-color: rgba(128,128,128, 0.9);
-border-style: none;
+    background-color: rgba(128, 128, 128, 0.9);
+    border-style: none;
 }
 
 .Quizcontrol {
@@ -51,12 +43,62 @@ border-style: none;
 
 #Counter {
     width: 60px;
-    position: top;
+  
     background-color: white;
-    text-align: right;
+    text-align: center;
     margin: 5px;
-    padding: 10px;
-    border:none;
-    border-radius: 5px;;
+   
+    border: none;
+    border-radius: 5px;
+    ;
 }
 
+.container-map{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    background-color: deepskyblue;
+
+}
+
+/* For all zoom buttons */
+
+.mapael .zoomButton {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+    left: 10px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* Reset Zoom button first */
+
+.mapael .zoomReset {
+    top: 10px;
+}
+
+/* Then Zoom In button */
+
+.mapael .zoomIn {
+    top: 30px;
+}
+
+/* Then Zoom Out button */
+
+.mapael .zoomOut {
+    top: 50px;
+}

@@ -70,8 +70,25 @@ function pauseAudio() {
 }
 /** 
  * @description: Stores values in the session storage before the page refreshes.
- *               s
+ *               
 */
+/**
+window.addEventListener("resize", changeDisplay);
+
+function changeDisplay() {
+    console.log(window.innerWidth)
+    if (window.innerWidth > 1000) {
+        $('.container-map').css('display', 'table');
+        $('.container-map').css('margin', 'auto');
+        console.log("table");
+    } else {
+        $('.container-map').css('display', 'inline-block');
+        $('.container-map').css('margin', '0');
+        console.log("inline");
+    }
+
+}
+ */
 window.onbeforeunload = function () {
    // sessionStorage.setItem("money", parseInt(money));
     saveSavegame();
@@ -95,6 +112,12 @@ window.onload = function () {
     }
     sessionStorage.removeItem("continue");
 
+    openNav();
+    changeDisplay();
+    if (sessionStorage.getItem('money') != null) {
+        money = parseInt(sessionStorage.getItem('money'));
+        $('#Counter').text(money + " $");
+    } else money = 0;
 }
 
 regionID = "";
@@ -155,7 +178,8 @@ function playQuiz() {
 function checkAnswer(clicked_id) {
     if (solution == parseInt(clicked_id)) {
         money += difficulty["rewardMoney"];
-        $(`#${solution}`).css("background-color", "#b3ff99");
+        coinAnimation();
+        $(`#${solution}`).css("background-color", "lightgreen");
     } else {
         money -= difficulty["penaltyMoney"];;
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
@@ -202,6 +226,29 @@ function closeQuiz() {
 }
 
 function completedQuiz() {
-    $('#question').text("Das Quiz in dieser Region wurde beendet!");
+    $('#question').text("Das Quiz in dieser Region wurde beendet! \n Sie haben ");
     $('#QuizWindow').css('display', 'none');
 }
+
+//Animation funktioniert bisher nur in maximized window / fullscreen.
+function coinAnimation() {
+    $("#coin-gif").css('display', 'inline-block');
+    $("#coin-quiz").animate(
+        {
+            left: '-=800',
+            top: '-=400'
+        }, 4000, function () {
+
+            $(this).removeAttr('style');
+            $("#coin-gif").css('display', 'none');
+            $("#treasure_chest").css('display', 'none');
+        });
+
+    //Visibility statt display
+    $("#treasure_chest_noanime").css('display', 'none');
+    $("#treasure_chest").css('display', 'flex');
+
+}
+
+
+ 

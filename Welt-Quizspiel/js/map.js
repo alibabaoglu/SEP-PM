@@ -1,10 +1,16 @@
 $.mapael.prototype.defaultOptions.map.defaultArea.attrsHover.animDuration = 50;
 $(function () {
-    var x = $(".container").mapael({
+    var x = $(".container-map").mapael({
         map: {
             name: "worldregions_projektion_ohne_antarktis"
             , zoom: {
-                enabled: true
+                enabled: true,
+                maxlevel: 10,
+                init: {
+                    x: 400,
+                    y: 300,
+                    level: 0
+                }
             },
             defaultArea: {
                 attrs: {
@@ -42,7 +48,7 @@ $(function () {
                             newRegion(id);
 
                         }
-                        $(".container").trigger('update', [{ mapOptions: newData }]);
+                        $(".container-map").trigger('update', [{ mapOptions: newData }]);
                     }
                 }
             }
@@ -50,53 +56,132 @@ $(function () {
         areas: {
             "NAM": {
                 attrs: {
-                    fill: "#9EC7F3"
+                    fill: "#4D824B"
 
                 },
-                text: {
-                    margin: { x: -50, y: 50 },
-                    content: "North America",
-                },
+
             },
             "CAM": {
                 attrs: {
-                    fill: "#FFFFD0"
+                    fill: "#F2D0FF"
 
-                },
-
-                text: {
-                    margin: { x: 0, y: 0 },
-                    content: "Central America",
                 },
             },
             "SAM": {
-
-                text: {
-                    margin: { x: 0, y: 0 },
-                    content: "South America",
-                },
-
-            },
-            "NAM": {
                 attrs: {
-                    fill: "#9EC7F3"
+                    fill: "#69C487"
 
                 },
-                text: {
-                    margin: { x: -50, y: 50 },
-                    content: "North America",
-                },
+
             },
-            "NAM": {
+            "NAS": {
                 attrs: {
-                    fill: "#9EC7F3"
+                    fill: "#5675C1"
 
                 },
-                text: {
-                    margin: { x: -50, y: 50 },
-                    content: "North America",
-                },
+
             },
+            "WAS": {
+                attrs: {
+                    fill: "#F664CD"
+
+                },
+
+            },
+
+            "CAS": {
+                attrs: {
+                    fill: " #C54A56"
+
+                },
+
+            },
+            "SAS": {
+                attrs: {
+                    fill: " #69C487"
+
+                },
+
+            },
+            "EAS": {
+                attrs: {
+                    fill: " #67CFF0"
+
+                },
+
+            },
+            "OZN": {
+                attrs: {
+                    fill: " #52836E"
+
+                },
+
+            },
+            "WEU": {
+                attrs: {
+                    fill: " #D5EE74"
+
+                },
+
+            },
+            "NEU": {
+                attrs: {
+                    fill: " #B3A3FB"
+
+                },
+
+            },
+            "EEU": {
+                attrs: {
+                    fill: " #42779C"
+
+                },
+
+            },
+            "SEU": {
+                attrs: {
+                    fill: " #42779C"
+
+                },
+
+            },
+            "NAF": {
+                attrs: {
+                    fill: " #4FDEB8"
+
+                },
+
+            },
+            "WAF": {
+                attrs: {
+                    fill: " #743481"
+
+                },
+
+            },
+            "EAF": {
+                attrs: {
+                    fill: " #A33C5A"
+
+                },
+
+            },
+            "CAF": {
+                attrs: {
+                    fill: " #A6FB66"
+
+                },
+
+            },
+            "SAF": {
+                attrs: {
+                    fill: " #5478F0"
+
+                },
+
+            },
+
+
         },
     });
 });

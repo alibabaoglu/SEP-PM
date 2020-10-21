@@ -1,0 +1,492 @@
+{
+    "NAF": {
+        "NAF1": {
+            "Frage": "Welches Land besaß in der Region die meisten Kolonien? Deutschland, GB, Spanien)",
+            "Antworten": [
+                "Frankreich",
+                "Deutschland",
+                "Großbritanien",
+                "Spanien"
+            ],
+            "Lösung": 1
+        },
+        "NAF2": {
+            "Frage": "2. Welche Religion prägt diese Region??",
+            "Antworten": [
+                "Buddhismus",
+                "Christentum",
+                "Hinduismus",
+                "Islam"
+            ],
+            "Lösung": 4
+        },
+        "NAF3": {
+            "Frage": "Welche Landschaftsform prägt diese Region?",
+            "Antworten": [
+                "Urwald",
+                "Hochgebirge",
+                "Savanne",
+                "Wüste"
+            ],
+            "Lösung": 4
+        },
+        "NAF4": {
+            "Frage": "Welche Arten der Energieversorgung haben hohes Potenzial in der Region?",
+            "Antworten": [
+                "Kohle und Gas",
+                "Wind und Solarenergie",
+                "Wasserkraft und Öl",
+                "Atomstrom"
+            ],
+            "Lösung": 2
+        },
+        "NAF5": {
+            "Frage": "Welches großen Völker gab es vor den Römern im Westen der Region?",
+            "Antworten": [
+                "Umayyaden",
+                "Osmanen",
+                "Vandalen",
+                "Numider und Phönizier"
+            ],
+            "Lösung": 4
+        },
+        "NAF6": {
+            "Frage": "Worauf basiert die Wirtschaft zu einem großen Teil?",
+            "Antworten": [
+                "Waffen und Technikexport",
+                "Landwirtschaft",
+                "Ölexport und Tourismus",
+                "Devisengeschäfte"
+            ],
+            "Lösung": 3
+        },
+        "NAF7": {
+            "Frage": "Welches Land ist mit 2.4 Mio. Quadratkilometern das größte der Region?",
+            "Antworten": [
+                "Algerien",
+                "Ägypten",
+                "Lybien",
+                "Marokko"
+            ],
+            "Lösung": 1
+        },
+        "NAF8": {
+            "Frage": "Was war der arabische Frühling?",
+            "Antworten": [
+                "Abkommen zur Zusammenarbeit",
+                "Besonders mildes Frühjahr",
+                "Proteste für Demokratie",
+                "Gleichberechtigung für Frauen"
+            ],
+            "Lösung": 3
+        },
+        "NAF9": {
+            "Frage": "Welche Metropolregion ist mit 20 Mio. die größte Afrikas?",
+            "Antworten": [
+                "Rabat",
+                "Casablanca",
+                "Alexandria",
+                "Kairo"
+            ],
+            "Lösung": 4
+        }
+    },
+    "WAF": {
+        "WAF1": {
+            "Frage": "Wieviele der 16 Länder Westafrikas haben einen niedrigen Human-Development-Index von unter 0.5(Deutschland=0.94)?",
+            "Antworten": [
+                "4",
+                "9",
+                "14",
+                "16"
+            ],
+            "Lösung": 3
+        },
+        "WAF2": {
+            "Frage": "Wie hoch ist der mittlere Pro-Kopf-Stromverbrauch der 16 Länder Westafrikas?(Deutschland 7176 KwH)",
+            "Antworten": [
+                "100-200 KwH",
+                "500-1000 KwH",
+                "2000-3000 KwH",
+                "5000-6000 KwH"
+            ],
+            "Lösung": 1
+        },
+        "WAF3": {
+            "Frage": "Wieviele Menschen Leben in Westafrika?",
+            "Antworten": [
+                "80 Mio.",
+                "123 Mio.",
+                "195 Mio.",
+                "400 Mio."
+            ],
+            "Lösung": 4
+        },
+        "WAF4": {
+            "Frage": "Was ist den Menschen in Westafrika wichtig?",
+            "Antworten": [
+                "Umweltschutz",
+                "Neues Auto",
+                "Verbesserung der Lebensumstände",
+                "Stylische Kleidung"
+            ],
+            "Lösung": 3
+        },
+        "WAF5": {
+            "Frage": "Wieviele Menschen wohnen in Nigeria?",
+            "Antworten": [
+                "60 Mio.",
+                "92 Mio.",
+                "123 Mio.",
+                "195 Mio."
+            ],
+            "Lösung": 4
+        },
+        "WAF6": {
+            "Frage": "Wann begann mutmaßlich die Entwicklung erster zentralisierter Zivilisationen in der Region?",
+            "Antworten": [
+                "12000 BC%",
+                "1600 BC",
+                "500 AC",
+                "1200 AC"
+            ],
+            "Lösung": 2
+        },
+        "WAF7": {
+            "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
+            "Antworten": [
+                "Attentat von Paris",
+                "Attentat von Sarajevo",
+                "Attentat von Hanau",
+                "Attentat von Anagni"
+            ],
+            "Lösung": 2
+        },
+        "WAF8": {
+            "Frage": "Warum wurde die Kolonisation der Länder Ende des 19.Jahrhunderts forciert??",
+            "Antworten": [
+                "Urlaubsstrände",
+                "Überbevölkerung",
+                "Ressourcen und Rivalität",
+                "Entdeckertum"
+            ],
+            "Lösung": 3
+        },
+        "WAF9": {
+            "Frage": "Welches Land besaß die meisten Kolonien in Westafrika?",
+            "Antworten": [
+                "Groß-Britannien",
+                "Frankreich",
+                "Holland",
+                "Portugal"
+            ],
+            "Lösung": 2
+        }
+    },
+    "CAF": {
+        "CAF1": {
+            "Frage": "Wieviel größer ist Kongo-Kinshasa als Deutschland",
+            "Antworten": [
+                "2.3 mal",
+                "6.6 mal",
+                "10 mal",
+                "12.7 mal"
+            ],
+            "Lösung": 2
+        },
+        "CAF2": {
+            "Frage": "Wieviele Menschen starben während der 23 Jahre Kolonialherrschaft des belgischen Königs Leopolds 2. über Belgisch-Kongo?",
+            "Antworten": [
+                "keine",
+                "100-200.000",
+                "1 Mio.",
+                "8-10 Mio."
+            ],
+            "Lösung": 4
+        },
+        "CAF3": {
+            "Frage": "Weshalb wurde der erste Ministerpräsident des Kongo, Lumumba, ermordet?",
+            "Antworten": [
+                "Massive Korruption",
+                "Beleidigung des belgischen Königs",
+                "Zur Aufrechterhaltung der Rohstoffausbeutung durch Belgien und USA",
+                "Expansionistische Bestrebungen"
+            ],
+            "Lösung": 3
+        },
+        "CAF4": {
+            "Frage": "Was ist die Haupeinnahmensquelle der Menschen der Region?",
+            "Antworten": [
+                "Landwirtschaft",
+                "Industrie",
+                "Dienstleistungen",
+                "Tourismus"
+            ],
+            "Lösung": 1
+        },
+        "CAF5": {
+            "Frage": "In welcher Klimazone liegt Mittelafrika?",
+            "Antworten": [
+                "Tropen",
+                "Subtropen",
+                "Savanne",
+                "Gemäßigte Zone"
+            ],
+            "Lösung": 1
+        },
+        "CAF6": {
+            "Frage": "Wie funktioniert die Energieversorgung der Menschen größtenteils?",
+            "Antworten": [
+                "Strom durch Kraftwerke",
+                "Gasflaschen",
+                "Holz",
+                "Solarenergie"
+            ],
+            "Lösung": 3
+        },
+        "CAF7": {
+            "Frage": "Wie groß ist der Regenwald in Zentralafrika in Quadratkilometern?",
+            "Antworten": [
+                "0.5 Mio.",
+                "etwa 2 Mio.",
+                "etwa 1 Mio.",
+                "0.3 Mio."
+            ],
+            "Lösung": 2
+        },
+        "CAF8": {
+            "Frage": "Welche Affenart lebt im Regenwald?",
+            "Antworten": [
+                "Gorilla",
+                "Orang-Utan",
+                "Lemuren",
+                "Makaken"
+            ],
+            "Lösung": 1
+        },
+        "CAF9": {
+            "Frage": "Wieviele Menschen leben in der Metropolregion Kinshasas?",
+            "Antworten": [
+                "3 Mio.",
+                "5 Mio.",
+                "9 Mio.",
+                "14 Mio."
+            ],
+            "Lösung": 4
+        }
+    },
+    "EAF": {
+        "EAF1": {
+            "Frage": "An welchem Meer liegt Ostafrika?",
+            "Antworten": [
+                "Mittelmeer",
+                "Pazifik",
+                "Indischer Ozean",
+                "Atlantik"
+            ],
+            "Lösung": 3
+        },
+        "EAF2": {
+            "Frage": "Welche geologische Besonderheit prägt die Region?",
+            "Antworten": [
+                "Die afrikanische Platte bricht und erzeugt einen Grabenbruch.",
+                "Die indische Platte schiebt sich unter die afrikanische Platte und schiebt Berge auf",
+                "Es gibt einen Hotspot",
+                "Es gab einen großen Meteoriteneinschlag"
+            ],
+            "Lösung": 1
+        },
+        "EAF3": {
+            "Frage": "Wie prägen die geologischen Ereignisse die Region?",
+            "Antworten": [
+                "Vulkan und Seebildung",
+                "Unfruchtbare Landschaft",
+                "Artensterben",
+                "Bergbildung"
+            ],
+            "Lösung": 4
+        },
+        "EAF4": {
+            "Frage": "Was sind die „Big Five“ die man u.a. in Ostafrika findet?",
+            "Antworten": [
+                "Die 5 höchsten Berge",
+                "Die 5 reichsten Länder Afrikas",
+                "5 große Tierarten",
+                "Die 5 dienstältesten Diktatoren"
+            ],
+            "Lösung": 3
+        },
+        "EAF5": {
+            "Frage": "Was ist das besondere am Lake Victoria?",
+            "Antworten": [
+                "Größte Artenvielfalt an Süßwasserfischen",
+                "Leergefischt",
+                "1000m tief",
+                "Zweit-größter See der Welt"
+            ],
+            "Lösung": 1
+        },
+        "EAF6": {
+            "Frage": "Was ist das besondere am See Tanganyika?",
+            "Antworten": [
+                "670km lang,1400m tief",
+                "Salzsee",
+                "Dritt-größter See der Welt",
+                "Wird vom Nil entwässert"
+            ],
+            "Lösung": 1
+        },
+        "EAF7": {
+            "Frage": "Was ist das besondere am Berg Kilimanjaro?",
+            "Antworten": [
+                "Wurde nie bestiegen",
+                "5900m hoher Vulkan",
+                "Wird als Gottheit verehrt",
+                "Wurde von Ptolemäus 100 vor Christus beschrieben"
+            ],
+            "Lösung": 2
+        },
+        "EAF8": {
+            "Frage": "Wie alt sind die Menschheitsspuren, die man hier findet?",
+            "Antworten": [
+                "10.000 Jahre",
+                "20.000-50.000 Jahre",
+                "100.000 Jahre",
+                "über 300.000 Jahre"
+            ],
+            "Lösung": 4
+        },
+        "EAF9": {
+            "Frage": "Weswegen interessierten sich die Portugiesen im 16.Jhr. für Ostafrika?",
+            "Antworten": [
+                "Neue Handelsroute nach Indien finden gegen Araber",
+                "Neue Sklavenquellen erschließen",
+                "Gefängnis für Kriminelle",
+                "Entdeckungsreisen"
+            ],
+            "Lösung": 1
+        },
+        "EAF10": {
+            "Frage": "Welches Land hat am zweitmeisten Unesco Weltkulturerbestätten in der Region?",
+            "Antworten": [
+                "Kenia",
+                "Tansania",
+                "Äthiopien",
+                "Uganda"
+            ],
+            "Lösung": 3
+        },
+        "EAF11": {
+            "Frage": "Welches Land gilt seit langem als gescheiterter Staat?",
+            "Antworten": [
+                "Ruanda",
+                "Somalia",
+                "Äthiopien",
+                "Mosambique"
+            ],
+            "Lösung": 2
+        }
+    },
+    "SAF": {
+        "SAF1": {
+            "Frage": "Welches Land dominiert die Region?",
+            "Antworten": [
+                "Namibia",
+                "Botswana",
+                "Swasiland",
+                "Südafrika"
+            ],
+            "Lösung": 4
+        },
+        "SAF2": {
+            "Frage": "Wodurch ist die Region wirtschaftlich bekannt?",
+            "Antworten": [
+                "Rohstoffreichtum",
+                "Bürgerkriege",
+                "Umweltschutz",
+                "Landwirtschaft"
+            ],
+            "Lösung": 1
+        },
+        "SAF3": {
+            "Frage": "Was ist ein großes gesundheitliches Problem der Region?",
+            "Antworten": [
+                "Cholera-Pandemie",
+                "Aids-Pandemie",
+                "Corona-Pandemie",
+                "Vogelgrippen-Pandemie"
+            ],
+            "Lösung": 2
+        },
+        "SAF4": {
+            "Frage": "Welches Gesellschaftssystem gab es in Südafrika bis 1994?",
+            "Antworten": [
+                "Kommunismus",
+                "Apartheid",
+                "Diktatur",
+                "Königreich"
+            ],
+            "Lösung": 2
+        },
+        "SAF5": {
+            "Frage": "Was war eine militärische Besonderheit Südafrikas?",
+            "Antworten": [
+                "Bis 1991 Atommacht",
+                "Größte Armee Afrikas bis 1998",
+                "Besetzte Namibia im 2.Weltkrieg",
+                "Nahm bis 1985 an keinem Krieg teil"
+            ],
+            "Lösung": 1
+        },
+        "SAF6": {
+            "Frage": "Wieviele amtliche Landessprachen gibt es in Südafrika?",
+            "Antworten": [
+                "2",
+                "3",
+                "7",
+                "11"
+            ],
+            "Lösung": 4
+        },
+        "SAF7": {
+            "Frage": "Welche Umweltbesonderheit gibt es in Südafrika?",
+            "Antworten": [
+                "Keine Nationalparks",
+                "Niedrige CO2-Emission pro Kopf",
+                "Sehr hohe Artenvielfalt endemischer Pflanzen und Tiere",
+                "Zentralplateau liegt auf 3000 m Höhe"
+            ],
+            "Lösung": 3
+        },
+        "SAF8": {
+            "Frage": "Wieviele Menschen Leben in dem 824000 km² großem Namibia?",
+            "Antworten": [
+                "20 Mio.",
+                "2.5 Mio",
+                "12 Mio.",
+                "35 Mio."
+            ],
+            "Lösung": 2
+        },
+        "SAF9": {
+            "Frage": "Wie alt ist die Namib-Wüste?",
+            "Antworten": [
+                "80 Mio. Jahre",
+                "15 Mio. Jahre",
+                "2 Mio. Jahre",
+                "0.5 Mio. Jahre"
+            ],
+            "Lösung": 1
+        },
+        "SAF10": {
+            "Frage": "Was war die Apartheid?",
+            "Antworten": [
+                "Atomprogramm",
+                "Entwicklungsprogramm",
+                "Rassentrennung",
+                "Vertreibung der Europäer"
+            ],
+            "Lösung": 3
+        }
+    }
+}
