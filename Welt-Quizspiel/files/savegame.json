@@ -1,11 +1,112 @@
 {
   "username": "defaultUN",
   "audio": true,
-  "money": -60,
+  "money": 120,
   "time_passed": "00:00:00",
   "questions_left": {
-    "NEU": {},
+    "NEU": {
+      "NEU2": {
+        "Frage": "Welche Länder zählen zu den Nordischen Ländern?",
+        "Antworten": [
+          "Norwegen, Finnland, Schweden",
+          "Grönland, Finnland, Island, Färöer, Schweden",
+          "Norwegen, Finnland, Schweden, Färöer, Island, Grönland",
+          "Norwegen, Grönland, Finnland, Island, Schweden"
+        ],
+        "Lösung": 3
+      },
+      "NEU3": {
+        "Frage": "Welche Länder zählen zum Baltikum?",
+        "Antworten": [
+          "Weißrussland, Estland, Lettland",
+          "Lettland, Weißrussland, Estland, Litauen",
+          "Estland und Lettland",
+          "Estland, Lettland, Litauen"
+        ],
+        "Lösung": 4
+      },
+      "NEU8": {
+        "Frage": "Seit wann gehört Dänemark zur EU?",
+        "Antworten": [
+          "1973",
+          "1980",
+          "1995",
+          "1993"
+        ],
+        "Lösung": 1
+      },
+      "NEU6": {
+        "Frage": "Welcher Religion gehört die Mehrheit der Isländer an?",
+        "Antworten": [
+          "lutherisch-orthodox",
+          "evangelisch-lutherisch",
+          "katholisch",
+          "britisch-evangelisch"
+        ],
+        "Lösung": 2
+      },
+      "NEU4": {
+        "Frage": "Wie heißen die berühmten Steinfelsen in England, die bereits in der Jungsteinzeit errichtet wurden?",
+        "Antworten": [
+          "Stone St. James",
+          "Stonesbury",
+          "Amesbury Stoning",
+          "Stonehenge"
+        ],
+        "Lösung": 4
+      },
+      "NEU9": {
+        "Frage": "An welche Länder grenzt Dänemark?",
+        "Antworten": [
+          "Deutschland und Luxemburg",
+          "Niederlande",
+          "Deutschland",
+          "Deutschland, Belgien und Luxemburg"
+        ],
+        "Lösung": 3
+      }
+    },
     "EEU": {
+      "EEU7": {
+        "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
+        "Antworten": [
+          "Attentat von Paris",
+          "Attentat von Sarajevo",
+          "Attentat von Hanau",
+          "Attentat von Anagni"
+        ],
+        "Lösung": 2
+      },
+      "EEU3": {
+        "Frage": "Welches ist das jüngste Land Osteuropas?",
+        "Antworten": [
+          "Kosovo",
+          "Montenegro",
+          "Mazedonien",
+          "Ungarn"
+        ],
+        "Lösung": 1
+      },
+      "EEU6": {
+        "Frage": "Wie viel Prozent der rumänischen Bevölkerung ist von Armut betroffen?",
+        "Antworten": [
+          "25%",
+          "39%",
+          "41%",
+          "33%"
+        ],
+        "Lösung": 4
+      },
+      "EEU1": {
+        "Frage": "In welchem osteuropäischen Land wurde die weltweit erste Digitaluhr erfunden?",
+        "Antworten": [
+          "Albanien",
+          "Mazedonien",
+          "Serbien",
+          "Bulgarien"
+        ],
+        "Lösung": 4
+      },
       "EEU8": {
         "Frage": "Welches dieser Länder gehört nicht zu den Balkanstaaten?",
         "Antworten": [
@@ -25,49 +126,70 @@
           "Dart"
         ],
         "Lösung": 2
-      },
-      "EEU6": {
-        "Frage": "Wie viel Prozent der rumänischen Bevölkerung ist von Armut betroffen?",
+      }
+    },
+    "SEU": {
+      "SEU4": {
+        "Frage": "In welchem südeuropäischen Land wachsen als einziges Bananen?",
         "Antworten": [
-          "25%",
-          "39%",
-          "41%",
-          "33%"
-        ],
-        "Lösung": 4
-      },
-      "EEU9": {
-        "Frage": "Welche Stadt gilt als Einzige der Welt, die auf zwei Kontinenten liegt?",
-        "Antworten": [
-          "Minsk",
-          "Budapest",
-          "Istanbul",
-          "Prag"
+          "Portugal",
+          "Griechenland",
+          "Spanien",
+          "Monaco"
         ],
         "Lösung": 3
       },
-      "EEU7": {
-        "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
+      "SEU7": {
+        "Frage": "Welches Land in Südeuropa hat die meisten Hotelzimmer?",
         "Antworten": [
-          "Attentat von Paris",
-          "Attentat von Sarajevo",
-          "Attentat von Hanau",
-          "Attentat von Anagni"
+          "Italien",
+          "Malta",
+          "Spanien",
+          "Portugal"
+        ],
+        "Lösung": 1
+      },
+      "SEU6": {
+        "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
+        "Antworten": [
+          "Englisch",
+          "Maltesisch",
+          "Deutsch",
+          "Italienisch"
         ],
         "Lösung": 2
       },
-      "EEU1": {
-        "Frage": "In welchem osteuropäischen Land wurde die weltweit erste Digitaluhr erfunden?",
+      "SEU9": {
+        "Frage": "Wie heißt die längste Brücke in Südeuropa?",
         "Antworten": [
-          "Albanien",
-          "Mazedonien",
-          "Serbien",
-          "Bulgarien"
+          "Po (Italien)",
+          "Ponte Vasco da Gama (Portugal)",
+          "Drau (Italien)",
+          "Ebro (Spanien)"
+        ],
+        "Lösung": 2
+      },
+      "SEU5": {
+        "Frage": "Welcher dieser Flüsse fließt durch Rom?",
+        "Antworten": [
+          "Ticino",
+          "Po",
+          "Rienz",
+          "Tiber"
         ],
         "Lösung": 4
+      },
+      "SEU8": {
+        "Frage": "Was ist die Amtssprache von Andorra?",
+        "Antworten": [
+          "Portugiesisch",
+          "Spanisch",
+          "Katalanisch",
+          "Französisch"
+        ],
+        "Lösung": 3
       }
     },
-    "SEU": {},
     "WEU": {}
   },
   "difficulty": {
@@ -78,8 +200,6 @@
   },
   "correctAnswers": {
     "NAM": 0,
-    "SEU": 0,
-    "WEU": 0,
-    "NEU": 4
+    "WEU": 6
   }
 }

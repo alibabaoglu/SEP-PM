@@ -10,13 +10,12 @@ function createWindow() {
     win = new BrowserWindow(
         {
             minimizable: true,
-            //resizable: false,
+            resizable: false,
+            fullscreen: true,
 
             webPreferences: {
                 nodeIntegration: true
             }
-
-
         })
     //win.maximize();
     win.setSize(1920, 1080);
