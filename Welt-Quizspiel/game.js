@@ -131,7 +131,6 @@ function completedQuiz() {
     $('#QuizWindow').css('display', 'none');
 }
 
-<<<<<<< HEAD
 //Animation funktioniert bisher nur in maximized window / fullscreen.
 function coinAnimation() {
     $("#coin-gif").css('display', 'inline-block');
@@ -154,19 +153,3 @@ function coinAnimation() {
 
 
  
-=======
-/** 
- * @description:  Opens the popup window without further actions
-*/
-function openWindow(){
-    document.getElementById("QuizWindow").style.display = "block";
-
-}
-/** 
- * @description:  Closes the popup window without further actions
-*/
-function closeWindow(){
-    document.getElementById("QuizWindow").style.display = "none";
-
-}
->>>>>>> 3c4a11bba4796077290fc75b97d235e65f118a2f
