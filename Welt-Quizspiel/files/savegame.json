@@ -1,39 +1,39 @@
 {
   "username": "defaultUN",
   "audio": true,
-  "money": 120,
+  "money": 0,
   "time_passed": "00:00:00",
   "questions_left": {
     "NEU": {
-      "NEU2": {
-        "Frage": "Welche Länder zählen zu den Nordischen Ländern?",
+      "NEU1": {
+        "Frage": "Welche Länder zählen zu Skandinavien?",
         "Antworten": [
+          "Norwegen, Schweden, Grönland",
           "Norwegen, Finnland, Schweden",
-          "Grönland, Finnland, Island, Färöer, Schweden",
-          "Norwegen, Finnland, Schweden, Färöer, Island, Grönland",
-          "Norwegen, Grönland, Finnland, Island, Schweden"
+          "Schweden, Finnland, Island",
+          "Schweden, Norwegen, Färöer"
+        ],
+        "Lösung": 2
+      },
+      "NEU5": {
+        "Frage": "Was bedeutet Butterbrot auf Norwegisch?",
+        "Antworten": [
+          "smoerbrod",
+          "buttsbröd",
+          "smørbrød",
+          "smørbred"
         ],
         "Lösung": 3
       },
-      "NEU3": {
-        "Frage": "Welche Länder zählen zum Baltikum?",
+      "NEU7": {
+        "Frage": "In welchem nordeuropäischen Land wurde LEGO erfunden?",
         "Antworten": [
-          "Weißrussland, Estland, Lettland",
-          "Lettland, Weißrussland, Estland, Litauen",
-          "Estland und Lettland",
-          "Estland, Lettland, Litauen"
+          "Norwegen",
+          "Dänemark",
+          "Schweden",
+          "Island"
         ],
-        "Lösung": 4
-      },
-      "NEU8": {
-        "Frage": "Seit wann gehört Dänemark zur EU?",
-        "Antworten": [
-          "1973",
-          "1980",
-          "1995",
-          "1993"
-        ],
-        "Lösung": 1
+        "Lösung": 2
       },
       "NEU6": {
         "Frage": "Welcher Religion gehört die Mehrheit der Isländer an?",
@@ -45,15 +45,15 @@
         ],
         "Lösung": 2
       },
-      "NEU4": {
-        "Frage": "Wie heißen die berühmten Steinfelsen in England, die bereits in der Jungsteinzeit errichtet wurden?",
+      "NEU2": {
+        "Frage": "Welche Länder zählen zu den Nordischen Ländern?",
         "Antworten": [
-          "Stone St. James",
-          "Stonesbury",
-          "Amesbury Stoning",
-          "Stonehenge"
+          "Norwegen, Finnland, Schweden",
+          "Grönland, Finnland, Island, Färöer, Schweden",
+          "Norwegen, Finnland, Schweden, Färöer, Island, Grönland",
+          "Norwegen, Grönland, Finnland, Island, Schweden"
         ],
-        "Lösung": 4
+        "Lösung": 3
       },
       "NEU9": {
         "Frage": "An welche Länder grenzt Dänemark?",
@@ -67,35 +67,15 @@
       }
     },
     "EEU": {
-      "EEU7": {
-        "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
+      "EEU9": {
+        "Frage": "Welche Stadt gilt als Einzige der Welt, die auf zwei Kontinenten liegt?",
         "Antworten": [
-          "Attentat von Paris",
-          "Attentat von Sarajevo",
-          "Attentat von Hanau",
-          "Attentat von Anagni"
+          "Minsk",
+          "Budapest",
+          "Istanbul",
+          "Prag"
         ],
-        "Lösung": 2
-      },
-      "EEU3": {
-        "Frage": "Welches ist das jüngste Land Osteuropas?",
-        "Antworten": [
-          "Kosovo",
-          "Montenegro",
-          "Mazedonien",
-          "Ungarn"
-        ],
-        "Lösung": 1
-      },
-      "EEU6": {
-        "Frage": "Wie viel Prozent der rumänischen Bevölkerung ist von Armut betroffen?",
-        "Antworten": [
-          "25%",
-          "39%",
-          "41%",
-          "33%"
-        ],
-        "Lösung": 4
+        "Lösung": 3
       },
       "EEU1": {
         "Frage": "In welchem osteuropäischen Land wurde die weltweit erste Digitaluhr erfunden?",
@@ -107,13 +87,13 @@
         ],
         "Lösung": 4
       },
-      "EEU8": {
-        "Frage": "Welches dieser Länder gehört nicht zu den Balkanstaaten?",
+      "EEU5": {
+        "Frage": "Aus welchem osteuropäischen Land stammt der Erfinder Nikola Tesla?",
         "Antworten": [
-          "Ungarn",
-          "Slowenien",
-          "Kosovo",
-          "Montenegro"
+          "Serbien",
+          "Slowakei",
+          "Rumänien",
+          "Bulgarien"
         ],
         "Lösung": 1
       },
@@ -126,19 +106,29 @@
           "Dart"
         ],
         "Lösung": 2
-      }
-    },
-    "SEU": {
-      "SEU4": {
-        "Frage": "In welchem südeuropäischen Land wachsen als einziges Bananen?",
+      },
+      "EEU4": {
+        "Frage": "Aus welchem Land stammt der teuerste Käse der Welt (1.000 € pro Kilo)?",
         "Antworten": [
-          "Portugal",
-          "Griechenland",
-          "Spanien",
-          "Monaco"
+          "Bulgarien",
+          "Albanien",
+          "Serbien",
+          "Türkei"
         ],
         "Lösung": 3
       },
+      "EEU7": {
+        "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
+        "Antworten": [
+          "Attentat von Paris",
+          "Attentat von Sarajevo",
+          "Attentat von Hanau",
+          "Attentat von Anagni"
+        ],
+        "Lösung": 2
+      }
+    },
+    "SEU": {
       "SEU7": {
         "Frage": "Welches Land in Südeuropa hat die meisten Hotelzimmer?",
         "Antworten": [
@@ -149,15 +139,25 @@
         ],
         "Lösung": 1
       },
-      "SEU6": {
-        "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
+      "SEU8": {
+        "Frage": "Was ist die Amtssprache von Andorra?",
         "Antworten": [
-          "Englisch",
-          "Maltesisch",
-          "Deutsch",
-          "Italienisch"
+          "Portugiesisch",
+          "Spanisch",
+          "Katalanisch",
+          "Französisch"
         ],
-        "Lösung": 2
+        "Lösung": 3
+      },
+      "SEU2": {
+        "Frage": "Was machen die Spanier an Silvester um Mitternacht als Erstes?",
+        "Antworten": [
+          "eine Weintraube essen",
+          "tanzen",
+          "Wein trinken",
+          "ein Feuerwerk zünden"
+        ],
+        "Lösung": 1
       },
       "SEU9": {
         "Frage": "Wie heißt die längste Brücke in Südeuropa?",
@@ -169,28 +169,89 @@
         ],
         "Lösung": 2
       },
-      "SEU5": {
-        "Frage": "Welcher dieser Flüsse fließt durch Rom?",
+      "SEU3": {
+        "Frage": "Welches Motiv ist auf der griechischen Zwei-Euro-Münze abgebildet?",
         "Antworten": [
-          "Ticino",
-          "Po",
-          "Rienz",
-          "Tiber"
+          "die Akropolis",
+          "Entführung der Europa durch Zeus",
+          "Umriss des Peloponnes",
+          "eine Eule"
         ],
-        "Lösung": 4
+        "Lösung": 2
       },
-      "SEU8": {
-        "Frage": "Was ist die Amtssprache von Andorra?",
+      "SEU4": {
+        "Frage": "In welchem südeuropäischen Land wachsen als einziges Bananen?",
         "Antworten": [
-          "Portugiesisch",
-          "Spanisch",
-          "Katalanisch",
-          "Französisch"
+          "Portugal",
+          "Griechenland",
+          "Spanien",
+          "Monaco"
         ],
         "Lösung": 3
       }
     },
-    "WEU": {}
+    "WEU": {
+      "WEU8": {
+        "Frage": "Wie heißt der nördlichste Kanton von Luxemburg?",
+        "Antworten": [
+          "Clerf",
+          "Diekrich",
+          "Redingen",
+          "Esch an der Alzette"
+        ],
+        "Lösung": 1
+      },
+      "WEU6": {
+        "Frage": "Wo wurde 1885 der weltweit erste Fahrradweg gebaut?",
+        "Antworten": [
+          "Amsterdam",
+          "Lyon",
+          "Utrecht",
+          "Duisburg"
+        ],
+        "Lösung": 3
+      },
+      "WEU1": {
+        "Frage": "Welches Land in Westeuropa produziert den meisten Müll?",
+        "Antworten": [
+          "Frankreich",
+          "Deutschland",
+          "Schweiz",
+          "Österreich"
+        ],
+        "Lösung": 2
+      },
+      "WEU4": {
+        "Frage": "Wo steht eine fast 500 Jahre alte Statue, die zeigt, wie die Brunnenfigur gerade Kinder frisst?",
+        "Antworten": [
+          "Österreich",
+          "Deutschland",
+          "Luxemburg",
+          "Schweiz"
+        ],
+        "Lösung": 4
+      },
+      "WEU2": {
+        "Frage": "In welcher westeuropäischen Stadt gibt es nur ein Stoppschild?",
+        "Antworten": [
+          "Paris",
+          "Bern",
+          "Leipzig",
+          "Amsterdam"
+        ],
+        "Lösung": 1
+      },
+      "WEU3": {
+        "Frage": "Welches dieser Länder ist Hauptproduzent falscher Zähne?",
+        "Antworten": [
+          "Luxemburg",
+          "Schweiz",
+          "Niederlande",
+          "Liechtenstein"
+        ],
+        "Lösung": 4
+      }
+    }
   },
   "difficulty": {
     "rewardMoney": 20,
@@ -199,7 +260,9 @@
     "jokerCost": 15
   },
   "correctAnswers": {
-    "NAM": 0,
-    "WEU": 6
+    "NEU": 0,
+    "EEU": 0,
+    "SEU": 0,
+    "WEU": 0
   }
 }

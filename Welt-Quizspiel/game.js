@@ -49,7 +49,10 @@ function loadDefaultValues(){
         money = 0;
         time_passed = "00:00:00";
         difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy']; 
-        correctAnswers = {"NAM":0};
+        Object.keys(JSON.parse(dh.requestData("fragen"))).forEach(element => {
+            correctAnswers[element] = 0;
+        });
+        console.log(correctAnswers);
     updateUIElements();
 }
 
@@ -218,6 +221,7 @@ function playQuiz() {
 
         setTimeout(completedQuiz(), 5000);
     }
+
 }
 /** 
  * @description:  Checks if the answer is correct.
@@ -226,12 +230,8 @@ function playQuiz() {
 function checkAnswer(clicked_id) {
     if(Object.keys(DATA[currentRegion]).length > 1){
         $('#nextQuestion').css('pointer-events', 'all');
-
     }
 
-    if(correctAnswers[currentRegion] === undefined){
-        correctAnswers[currentRegion] = parseInt(0);
-    }
     console.log(correctAnswers[currentRegion]);
     console.log(completeRegionColorShades[correctAnswers[currentRegion]]);
     if (solution == parseInt(clicked_id)) {
