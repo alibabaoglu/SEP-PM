@@ -6,14 +6,61 @@
  */
 const { valHooks } = require('jquery');
 const DataHandler = require('./js/DataHandler.js');
-
-var dh = new DataHandler();
+username = "testuser";
+time_passed = "00:00:01";
+dh = new DataHandler();
 difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy']; 
 
-DATA = JSON.parse(dh.requestData("fragen"));
+DATA = {};
 function playAudio() {
     var x = document.getElementById("menu-audio");
     x.play();
+}
+
+
+function loadSavegame(){
+    if(dh.requestData("savegame") == "noFile"){
+        console.log("No Savegame found")
+        loadDefaultValues();
+    }
+    else{
+        console.log("Loading Savegame")
+    loadedSavegame = JSON.parse(dh.requestData("savegame"));
+    DATA = loadedSavegame['questions_left'];
+    username = loadedSavegame['username'];
+    loadedSavegame['audio'] ? playAudio() : pauseAudio();
+    money = loadedSavegame['money'];
+    time_passed = loadedSavegame['time_passed'];
+    difficulty = loadedSavegame['difficulty'];}
+
+    updateUIElements();
+}
+
+function loadDefaultValues(){
+    console.log("Loading default Values")
+        DATA = JSON.parse(dh.requestData("fragen"));
+        username = "defaultUN";
+        true ? playAudio() : pauseAudio();
+        money = 0;
+        time_passed = "00:00:00";
+        difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy']; 
+    updateUIElements();
+}
+
+ function saveSavegame(saveToDisk = true){
+    var newSavegame = {};
+    newSavegame['username'] = username;
+    newSavegame['audio'] = document.getElementById("menu-audio").paused;
+    newSavegame['money'] = money;
+    newSavegame['time_passed'] = time_passed;
+    newSavegame['questions_left'] = DATA;
+    newSavegame['difficulty'] = difficulty;
+    //sessionStorage.setItem("savegame", JSON.stringify(newSavegame));
+    if(saveToDisk){
+        dh.transmitData("savegame",JSON.stringify(newSavegame,null, 2));
+    }
+    return;
+    
 }
 
 function pauseAudio() {
@@ -26,7 +73,12 @@ function pauseAudio() {
  *               s
 */
 window.onbeforeunload = function () {
-    sessionStorage.setItem("money", parseInt(money));
+   // sessionStorage.setItem("money", parseInt(money));
+    saveSavegame();
+}
+
+function updateUIElements(){
+    $('#Counter').text(money + " $");
 }
 
 /** 
@@ -34,10 +86,15 @@ window.onbeforeunload = function () {
  *               
  */
 window.onload = function () {
-    if (sessionStorage.getItem('money') != null) {
-        money = parseInt(sessionStorage.getItem('money'));
-        $('#Counter').text(money + " $");
-    } else money = 0;
+    console.log(sessionStorage.getItem("continue") == "true");
+    if (sessionStorage.getItem("continue") == "true"){
+        loadSavegame();
+    }
+    else{
+        loadDefaultValues();
+    }
+    sessionStorage.removeItem("continue");
+
 }
 
 regionID = "";
@@ -85,7 +142,7 @@ function playQuiz() {
 
         solution = DATA[regionID][questionID]["Lösung"];
         delete DATA[regionID][questionID];
-
+        saveSavegame();
     } else {
 
         setTimeout(completedQuiz(), 5000);
@@ -104,11 +161,12 @@ function checkAnswer(clicked_id) {
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
         $(`#${solution}`).css("background-color", "#b3ff99");
     }
-
+    
     $('.joker').css('pointer-events', 'none');
 
     $(".QuizAnswer").css("pointer-events", 'none');
     $('#Counter').text(money + " $");
+    saveSavegame();
 }
 
 function useJoker(){
@@ -140,10 +198,10 @@ function modMoney(val){
 */
 function closeQuiz() {  
     $('#QuizWindow').css('display', 'none');
+    saveSavegame(true);
 }
 
 function completedQuiz() {
     $('#question').text("Das Quiz in dieser Region wurde beendet!");
     $('#QuizWindow').css('display', 'none');
 }
-g

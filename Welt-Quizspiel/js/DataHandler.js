@@ -10,7 +10,7 @@ class DataHandler {
     }
 
     transmitData(command, data) {
-        ipcRenderer.sendSync('transmit', command, data);
+        ipcRenderer.send('transmit', command, data);
     }
 
 }
