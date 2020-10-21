@@ -1,0 +1,599 @@
+{
+    "regions": [
+        {
+            "nam": [
+                {
+                    "fid": "nam1",
+                    "frage": "Wie viele Staaten zählen zu Nord Amerika?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "5",
+                        "3",
+                        "2",
+                        "4"
+                    ]
+                },
+				{
+                    "fid": "nam2",
+                    "frage": "Wie ist die Temparatur des Golfstromes?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "kalt",
+                        "warm",
+                        "kühl",
+                        "neutral"
+                    ]
+                },
+				{
+                    "fid": "nam3",
+                    "frage": "Welche Sprache (Amtssprache) wird in Kanada neben Englisch noch gesprochen?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "Französisch",
+                        "Spanisch",
+                        "Deutsch",
+                        "Japanisch"
+                    ]
+                },
+				{
+                    "fid": "nam4:",
+                    "frage": "Der CN Tower ist das Wahrzeichen der Stadt Toronto. Welche Kuriosität befindet sich in schwindelerregender Höhe?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Ein 3-D-Kino",
+                        "Der höchste Weinkeller der Welt",
+                        "Eine Aussichtsplattform ",
+                        "Ein Fernsehstudio"
+                    ]
+                },
+				{
+                    "fid": "nam5",
+                    "frage": "Wer nach Churchill in Manitoba reist, möchte gerne einem bestimmten Tier begegnen. Welches ist das?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Elch",
+                        "Walross",
+                        "Eisbär",
+                        "Wal"
+                    ]
+                },
+				{
+                    "fid": "nam6",
+                    "frage": "Die Grenze bzw das Grenzgebiet zwischen besiedeltem und zivilisiertem Land und der Wildnis westlich davon nannte man?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Vorort Grenze",
+                        "Wild West Grenze",
+                        "Border",
+                        "Frontier"
+                    ]
+                },
+				{
+                    "fid": "nam7",
+                    "frage": "Von außen wirkt es wie aus einer fremden Welt. Und von innen möchte es die Welt vereinen: das Canadian Museum for Human Rights. Wo steht es?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "Winnipeg",
+                        "Montreal",
+                        "Ottawa",
+                        "Vancover"
+                    ]
+                },
+				{
+                    "fid": "nam8",
+                    "frage": "Das erste leistungsfähige Verkehrsmittel im Westen war(en)?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "Dampfschiffe",
+                        "die Eisenbahn",
+                        "Maultiere und Waggons",
+                        "Autos"
+                    ]
+                },
+				{
+                    "fid": "nam9",
+                    "frage": "Folgende Stadt liegt mitten in der Wüste",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Miami",
+                        "New Orleans",
+                        "Las Vegas",
+                        "Los Angeles"
+                    ]
+                },
+				{
+                    "fid": "nam10",
+                    "frage": "Will man subtropisches Klima erleben, geht man",
+                    "kor_ant": "2",
+                    "answers": [
+                        "ins Death Valley",
+                        "nach Florida",
+                        "nach Kalifornien",
+                        "nach Alaska"
+                    ]
+                },
+				{
+                    "fid": "nam11",
+                    "frage": "Die erste dauerhafte Siedlung von Kolonisten war",
+                    "kor_ant": "2",
+                    "answers": [
+                        "die Ostküste",
+                        "Jamestown",
+                        "New York",
+                        "Virginia"
+                    ]
+                },
+				{
+                    "fid": "nam12",
+                    "frage": "Der heißeste und zugleich tiefste Punkt der USA",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Waimea Schlucht",
+                        "Grand Canyon",
+                        "Rocky Mountains",
+                        "Death Valley"
+                    ]
+                },
+				{
+                    "fid": "nam13",
+                    "frage": "Welche Stadt nannte man das *Tor zum Westen*?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "St Louis",
+                        "Chicago",
+                        "New York",
+                        "Washington, D.C."
+                    ]
+                },
+				{
+                    "fid": "nam14",
+                    "frage": "Die typischen Schneestürme im Innern des Kontinents heißt?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Purga",
+                        "Blizzard",
+                        "Yalca",
+                        "Winter Buran"
+                    ]
+                },
+				{
+                    "fid": "nam15",
+                    "frage": "Einer Legende nach lebt im Okanagan Valley in British Columbia ein Monster. Was für eins ist es denn?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Ein Big Foot",
+                        "Ein Drache",
+                        "Ein Riesenwurm",
+                        "Ein Seemonster wie Nessie"
+                    ]
+                }
+            ]
+        },
+        {
+            "cam": [
+                {
+                    "fid": "cam1",
+                    "frage": "Welches ist die größte Insel der Karibik?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Haiti",
+                        "Jamaika",
+                        "Kuba",
+                        "Puerto Rico"
+                    ]
+                },
+				{
+                    "fid": "cam2",
+                    "frage": "Welcher karibische Inselstaat erlebte 1983 eine Invasion durch US-amerikanische Streitkräfte?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Bahamas",
+                        "Jamaika",
+                        "Grenada",
+                        "Kuba"
+                    ]
+                },
+				{
+                    "fid": "cam3",
+                    "frage": "Woher kommt die Rosafärbung der berühmten "Pink Beaches" der Bahamas?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "von Korallenpartikeln",
+                        "von angeschwemmten Mikroplastik",
+                        "von Gehäusen zahloser Einzeller, sogenannter Foraminiferen",
+                        "con Chemieabwässern"
+                    ]
+                },
+				{
+                    "fid": "cam4",
+                    "frage": "Mit Jamaika verbindet man neben weißen Sandstränden und türkisblauem Meer auch Musik. Welche der folgenden Musikrichtungen stammt von dieser Insel?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "Reggae",
+                        "Blues",
+                        "Skiffle",
+                        "Ragtime"
+                    ]
+                },
+				{
+                    "fid": "cam5",
+                    "frage": "Zu welcher Inselkette zählen auch unter den poetischen Namen "Inseln über dem Wind" und "Inseln unter dem Wind" bekannten Eilande?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Florida Keys",
+                        "Bahamas",
+                        "Kleine Antillen",
+                        "Große Antillen"
+                    ]
+                },
+				{
+                    "fid": "cam6",
+                    "frage": "Auf welcher der karibischen Inseln verläuft eine "innereuropäische" Grenze?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "St. Martin",
+                        "Antigua",
+                        "Puerto Rico",
+                        "Hispaniola"
+                    ]
+                },
+				{
+                    "fid": "cam7",
+                    "frage": "Welchen Genuss hat die Welt der Karibik zu verdanken?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "Rum",
+                        "Süßkartoffeln",
+                        "Palmwein",
+                        "Mango-Chutney"
+                    ]
+                },
+				{
+                    "fid": "cam8",
+                    "frage": "Auf welcher Karibikinsel ereignete sich der gemessen an den Opferzahlen schlimmste Vulkanausbruch des 20. Jahrhunderts?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Montserrat",
+                        "Martinique",
+                        "Kuba",
+                        "Guadeloupe"
+                    ]
+                },
+				{
+                    "fid": "cam9",
+                    "frage": "Wie heißt die sagenumwobene Meeresregion im Nordosten der Karibik?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "Bermudadreieck",
+                        "Milchozean",
+                        "Nordwestpassage",
+                        "Teufelsmeer"
+                    ]
+                },
+				{
+                    "fid": "cam10",
+                    "frage": "Unter welchem Namen wurden die Piraten und Freibeuter der Karibik im 17. Jahrhundert berühmt und berüchtigt?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Barbaresken",
+                        "Bukaniere",
+                        "Korsaren",
+                        "Filibuster"
+                    ]
+                },
+				{
+                    "fid": "cam11",
+                    "frage": "In welchem Land befindet sich der höchste Berg der Karibik?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Kuba",
+                        "Dominikanische Republik",
+                        "Jamaika",
+                        "Grenada"
+                    ]
+                },
+				{
+                    "fid": "cam12",
+                    "frage": "Welcher ist mit einer Fläche von 8.157 Quadratkilometer der größte See Zentralamerikas?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "Nicaraguasee",
+                        "Hondurassee",
+                        "Guatemalasee",
+                        "Schwarzsee"
+                    ]
+                },
+				{
+                    "fid": "cam13",
+                    "frage": "Wie viele Sterne sind auf der Flagge von Honduras abgebildet?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "3",
+                        "5",
+                        "4",
+                        "7"
+                    ]
+                },
+				{
+                    "fid": "cam14",
+                    "frage": "Der Flughafen welcher zentralamerikanischen Hauptstadt gilt mit seiner kurzen Landebahn und der Lage in bergigem Gelände als einer der gefährlichsten der Welt?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Belmopan",
+                        "Manaus",
+                        "Tegucigalpa",
+                        "San Josè"
+                    ]
+                },
+				{
+                    "fid": "cam15",
+                    "frage": "Nach welchem kubanischen Poeten und Nationalhelden ist der Flughafen von Havanna benannt?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Ernesto "Che" Guevara",
+                        "Gabriel Garcia-Marquez",
+                        "Pablo Neruda",
+                        "Josè Martì"
+                    ]
+                },
+				{
+                    "fid": "cam16",
+                    "frage": "Der mexikanische Chemiker Mario José Molina erhielt 1995 zusammen mit Frank Sherwood Rowland und dem Meteorologen Paul J. Crutzen den Nobelpreis für Chemie. Welches Phänomen erforschten diese Wissenschaftler?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Golfstrom",
+                        "El Nino",
+                        "Klimawandel",
+                        "Ozonloch"
+                    ]
+                },
+				{
+                    "fid": "cam17",
+                    "frage": "Welcher österreichische Erzherzog wurde 1864 von Frankreich als Kaiser des mexikanischen Kaiserreichs eingesetzt und 1867 in Mexiko hingerichtet?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Erzherzog Joseph",
+                        "Erzherzog Rudolf",
+                        "Erzherzog Ferdinand Maximillian",
+                        "Erzherzog Erzherzog Franz Ferdinand"
+                    ]
+                },
+				{
+                    "fid": "cam18",
+                    "frage": "Wer hat die berühmte Stadt Teotihuacan gebaut?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Maya",
+                        "Azteken",
+                        "Inkas",
+                        "Es ist nicht bekannt"
+                    ]
+                },
+				{
+                    "fid": "cam19",
+                    "frage": "Wo befindet sich der zweitgrößte heiße See der Welt?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "in Neuseeland",
+                        "in Guyana",
+                        "in Belize",
+                        "in Dominica"
+                    ]
+                },
+				{
+                    "fid": "cam20",
+                    "frage": "Welches der nachfolgenden Länder hat keine Armee?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Trinidad und Tobago",
+                        "Costa Rica",
+                        "Luxemburg",
+                        "Vatikan"
+                    ]
+                },
+				{
+                    "fid": "cam21",
+                    "frage": "Woher kommt der Name Colòn? (Währung von Costa Rica)",
+                    "kor_ant": "3",
+                    "answers": [
+                        "aus Vogelkolonien",
+                        "vom Entdecker Bartolomeu Dias",
+                        "von Columbus",
+                        "vom lateinischen Namen für Währung der Kolonisten *moneda colonista*"
+                    ]
+                },
+				{
+                    "fid": "cam22",
+                    "frage": "Wo liegt Veracruz?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Costa Rica",
+                        "Bahamas",
+                        "Argentinien",
+                        "Mexiko"
+                    ]
+                },
+				{
+                    "fid": "cam22",
+                    "frage": "Was ist die zweitgrößte Stadt in Mexiko, nach Mexiko?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Monterrey",
+                        "Ciudad Juàrez",
+                        "Guadalajara",
+                        "Puebla"
+                    ]
+                },
+				{
+                    "fid": "cam23",
+                    "frage": "Wo liegt Tabasco?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Bahamas",
+                        "Mexiko",
+                        "Costa Rica",
+                        "Kuba"
+                    ]
+                },
+				{
+                    "fid": "cam24",
+                    "frage": "Warum werden  24-Stunden-Ameisen auch Gewehrkugelameise genannt?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "weil sie wie Kugeln aussehen",
+                        "weil sie so groß wie Kugeln sind",
+                        "weil ihr Biss wie ein Kugelschuss schmerzt",
+                        "weil sie laute Geräusche machen"
+                    ]
+                }
+            ]
+        },
+        {
+            "sam": [
+                {
+                    "fid": "sam1",
+                    "frage": "Welches Land in Südamerika hat die meisten Einwohner?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Ecuador",
+                        "Brasilien",
+                        "Argentinien",
+                        "Kolumbien"
+                    ]
+                },
+				{
+                    "fid": "sam2",
+                    "frage": "Welche Landessprachen sind in Südamerika sehr weit verbreitet?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Italienisch und Polnisch",
+                        "Japanisch und Russisch",
+                        "Spanisch und Portugiesisch",
+                        "Türkisch und Deutsch"
+                    ]
+                },
+				{
+                    "fid": "sam3",
+                    "frage": "Welcher Ozean grenzt im Osten an Südamerika?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "Atlantischer Ozean",
+                        "Arktischer Ozean",
+                        "Indischer Ozean",
+                        "Pazifischer Ozean"
+                    ]
+                },
+				{
+                    "fid": "sam4",
+                    "frage": "Das Karibische Meer grenzt an welches Land?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Chile",
+                        "Bolivien",
+                        "Uruguay",
+                        "Venezuela"
+                    ]
+                },
+				{
+                    "fid": "sam5",
+                    "frage": "Welche der folgenden Religion ist in Südamerika am verbreitetsten?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Islam",
+                        "Römisch-Katholisch",
+                        "Hinduismus",
+                        "Buddhismus"
+                    ]
+                },
+				{
+                    "fid": "sam6",
+                    "frage": "Welche Inseln liegen etwa 400 Kilometer vor der Küste von Argentinien?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Panay",
+                        "Island",
+                        "Tasmanien",
+                        "Malwinen"
+                    ]
+                },
+				{
+                    "fid": "sam7",
+                    "frage": "Wie heißt die längste Gebirgskette der Erde?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Alpen",
+                        "Anden",
+                        "Karibische Kette",
+                        "Mount Everest"
+                    ]
+                },
+				{
+                    "fid": "sam8",
+                    "frage": "In welchem Jahr wurde der Grundstein für die brasilianische Hauptstadt Brasilia gelegt?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "1946",
+                        "1755",
+                        "1922",
+                        "1914"
+                    ]
+                },
+				{
+                    "fid": "sam9",
+                    "frage": "Kennen Sie den Namen des höchsten Wasserfalls der Erde?",
+                    "kor_ant": "4",
+                    "answers": [
+                        "Niagara Falls",
+                        "Catarata Gocta",
+                        "Tugela Falls",
+                        "Salto Angel"
+                    ]
+                },
+				{
+                    "fid": "sam10",
+                    "frage": "Der höchste Vulkan der Erde befindet sich in Südamerika, wie heißt er?",
+                    "kor_ant": "1",
+                    "answers": [
+                        "Ojos del Salado",
+                        "Lanin",
+                        "Cotopaxi",
+                        "Licancabur"
+                    ]
+                },
+				{
+                    "fid": "sam11",
+                    "frage": "Was passiert alle Jahre wieder zu Weihnachten in Rio de Janeiro?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Der größte Weihnachtsbaum der Welt wird beleuchtet",
+                        "Das Christkind besucht den Zuckerhut",
+                        "Der Weihnachtsmann landet mit einem Helikopter im Fußballstadion",
+                        "Die Statue Cristo Redentor („Christus, der Erlöser“) wird rot beleuchtet"
+                    ]
+                },
+				{
+                    "fid": "sam12",
+                    "frage": "Welchen Spitznamen trägt das Altiplano?",
+                    "kor_ant": "2",
+                    "answers": [
+                        "Berge der Wiederkehr",
+                        "Dach der Welt",
+                        "Gipfel der Freiheit",
+                        "Die ewigen Berge"
+                    ]
+                },
+				{
+                    "fid": "sam13",
+                    "frage": "Und was verbirgt sich hinter der hübschen Bezeichnung *das grüne Gold von Südamerika*?",
+                    "kor_ant": "3",
+                    "answers": [
+                        "Affenbrotbäume",
+                        "Bananenpalmen",
+                        "Mate-Tee",
+                        "Der Regenwald"
+                    ]
+                }
+            ]
+        }
+    ]
+}
