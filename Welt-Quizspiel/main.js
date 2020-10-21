@@ -10,13 +10,11 @@ function createWindow() {
         {
             minimizable: true,
             resizable: false,
-            //fullscreen: true,
+            fullscreen: true,
 
             webPreferences: {
                 nodeIntegration: true
             }
-
-
         })
     win.maximize();
     win.loadURL(url.format({
