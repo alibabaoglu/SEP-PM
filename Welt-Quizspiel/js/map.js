@@ -1,4 +1,5 @@
 $.mapael.prototype.defaultOptions.map.defaultArea.attrsHover.animDuration = 50;
+
 $(function () {
     var x = $(".container-map").mapael({
         map: {
@@ -38,7 +39,7 @@ $(function () {
                         var newData = {
                             'areas': {}
                         };
-                        if (!(mapElem.originalAttrs.fill == "#5ba4ff")) {
+                        if (mapElem.originalAttrs.fill != "#5ba4ff") {
 
                             newData.areas[id] = {
                                 attrs: {
@@ -59,7 +60,6 @@ $(function () {
                     fill: "#4D824B"
 
                 },
-
             },
             "CAM": {
                 attrs: {
@@ -72,7 +72,6 @@ $(function () {
                     fill: "#69C487"
 
                 },
-
             },
             "NAS": {
                 attrs: {
@@ -86,71 +85,60 @@ $(function () {
                     fill: "#F664CD"
 
                 },
-
             },
-
             "CAS": {
                 attrs: {
                     fill: " #C54A56"
 
                 },
-
             },
             "SAS": {
                 attrs: {
                     fill: " #69C487"
 
                 },
-
             },
             "EAS": {
                 attrs: {
                     fill: " #67CFF0"
 
                 },
-
             },
             "OZN": {
                 attrs: {
                     fill: " #52836E"
 
                 },
-
             },
             "WEU": {
                 attrs: {
                     fill: " #D5EE74"
 
                 },
-
             },
             "NEU": {
                 attrs: {
                     fill: " #B3A3FB"
 
                 },
-
             },
             "EEU": {
                 attrs: {
                     fill: " #42779C"
 
                 },
-
             },
             "SEU": {
                 attrs: {
                     fill: " #42779C"
 
                 },
-
             },
             "NAF": {
                 attrs: {
                     fill: " #4FDEB8"
 
                 },
-
             },
             "WAF": {
                 attrs: {
@@ -180,8 +168,20 @@ $(function () {
                 },
 
             },
+            "SEA": {
+                attrs: {
+                    fill: " #815448"
+
+                },
+
+            },
 
 
         },
     });
+
+
+
 });
+
+

@@ -8,6 +8,7 @@ const DataHandler = require('./js/DataHandler.js');
 
 var dh = new DataHandler();
 DATA = JSON.parse(dh.requestData("fragen"));
+
 function playAudio() {
     var x = document.getElementById("menu-audio");
     x.play();

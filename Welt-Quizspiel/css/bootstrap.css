@@ -297,6 +297,8 @@ legend {
 
 progress {
   vertical-align: baseline;
+  position: relative;
+  margin: 20px;
 }
 
 [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {

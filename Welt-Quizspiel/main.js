@@ -10,7 +10,8 @@ function createWindow() {
         {
             minimizable: true,
             resizable: false,
-            
+            //fullscreen: true,
+
             webPreferences: {
                 nodeIntegration: true
             }
