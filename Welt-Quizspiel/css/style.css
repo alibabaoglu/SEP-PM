@@ -37,6 +37,7 @@ footer {
     display: inline-block;
     font-size: 20px;
     width: 70%;
+    cursor: pointer;
 }
 
 #QuizWindow {
@@ -78,13 +79,13 @@ footer {
 .QuizBtn:hover {
     background-color: rgba(128,128,128, 0.9);
     border-style: none;
+    cursor: pointer;
 }
 
 
 .back {
     position: absolute;
     bottom: 40px;
-
     width: 80%;
 }
 

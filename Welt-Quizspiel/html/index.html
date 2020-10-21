@@ -6,6 +6,8 @@
     <meta charset='utf-8'>x
     <title>Welt Quizspiel</title>
     <link rel="stylesheet" href="../css/style.css">
+
+    <script src='../game.js'></script>
 </head>
 
 <body>
@@ -15,18 +17,27 @@
     </audio>
 
     <div class="container">
-        <div class="clouds">
-            <button onclick="playAudio()" type="button">Play Audio</button>
-            <button onclick="pauseAudio()" type="button">Pause Audio</button>
+        <div class="clouds"> 
+            <div id="QuizWindow">
+            <div class="modal-content" style="width: 40%">
+                <h1>Einstellungen</h1>
+                <br>
+                <br>
+                <h2>Audio:</h2>
+                <button class="QuizBtn" style="width: 80%; margin-left: 10%;" onclick="playAudio()" type="button">Play Audio</button>
+                <button class="QuizBtn" style="width: 80%; margin-left: 10%;" onclick="pauseAudio()" type="button">Pause Audio</button>
+                <!--zurück zum Menü-->
+                <div class="back">
+                <button class="QuizBtn" onclick="closeWindow()">zurück</div>
+            </div>
+        </div>
+        </div>
             <div class="center">
-                <button class="MenuBtn" onclick="window.location.href='spiel.html'">Neues Spiel Starten</button>
-                <br>
-                <br>
-                <button class="MenuBtn">Spiel Fortsetzen</button>
-                <br>
-                <br>
+                
+                <button class="MenuBtn" onclick="window.location.href='spiel.html'">Neues Spiel starten</button>
+                <button class="MenuBtn">Spiel fortsetzen</button>
                 <button class="MenuBtn">Highscore</button>
-
+                <button class="MenuBtn" onclick="openWindow()">Einstellungen</button>
             </div>
         </div>
     </div>

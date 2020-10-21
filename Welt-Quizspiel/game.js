@@ -110,3 +110,18 @@ function completedQuiz() {
     $('#question').text("Das Quiz in dieser Region wurde beendet!");
     $('#QuizWindow').css('display', 'none');
 }
+
+/** 
+ * @description:  Opens the popup window without further actions
+*/
+function openWindow(){
+    document.getElementById("QuizWindow").style.display = "block";
+
+}
+/** 
+ * @description:  Closes the popup window without further actions
+*/
+function closeWindow(){
+    document.getElementById("QuizWindow").style.display = "none";
+
+}

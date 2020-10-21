@@ -38,8 +38,9 @@
 }
 
 .QuizAnswer:hover {
-background-color: rgba(128,128,128, 0.9);
-border-style: none;
+    background-color: rgba(128,128,128, 0.9);
+    border-style: none;
+    cursor: pointer;
 }
 
 .Quizcontrol {
