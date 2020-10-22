@@ -6,12 +6,14 @@ fh = new FileHandler("/files/");
 
 let win
 
+
+
 function createWindow() {
     win = new BrowserWindow(
         {
             minimizable: true,
             resizable: false,
-           //fullscreen: true,
+             fullscreen: true,
 
             webPreferences: {
                 nodeIntegration: true

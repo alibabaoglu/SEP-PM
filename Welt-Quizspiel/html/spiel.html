@@ -12,12 +12,13 @@
     <script src='../node_modules/raphael/raphael.js'></script>
     <script src='../jQuery-Mapael-2.2.0/js/jquery.mapael.js'></script>
     <script src='../jQuery-Mapael-2.2.0/js/maps/worldregions_projektion_ohne_antarktis.js'></script>
+    <script src="../node_modules/easytimer/src/easytimer.js"></script>
     <script src='../data.js'></script>
     <script>require('../game.js');</script>
     <script src='../game.js'></script>
     <script src='../js/map.js'></script>
 
-    <script src="../node_modules/easytimer/src/easytimer.js"></script>
+    
     <link rel="shortcut icon" href="#" />
     <script>if (window.module) module = window.module;</script>
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -309,9 +310,12 @@
         </div>
     </div>
 
-    <audio id="menu-audio" src="../audio/audi.mp3" muted>
+    <audio id="menu-audio" src="../audio/audi.mp3" mute >
         <p>Wenn Sie dies lesen, dann liegt es daran, dass Ihr Browser das Audioelement nicht unterstützt.</p>
     </audio>
+    <script>var audio = document.getElementById("menu-audio");
+        audio.volume = 0.00; </script>
+    
     <script src='../js/timer.js'></script>
 </body>
 

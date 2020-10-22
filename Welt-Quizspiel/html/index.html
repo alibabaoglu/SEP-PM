@@ -11,10 +11,13 @@
 </head>
 
 <body>
-    <audio id="menu-audio" src="../audio/audi.mp3" muted loop>
+    <audio id="menu-audio" src="../audio/audi.mp3" loop mute>
         <p>Wenn Sie dies lesen, dann liegt es daran, dass Ihr Browser das Audioelement nicht unterstützt.</p>
 
     </audio>
+
+    <script>var audio = document.getElementById("menu-audio");
+        audio.volume = 0.00; </script>
 
     <div class="container">
         <div class="clouds">
