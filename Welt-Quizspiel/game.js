@@ -57,7 +57,8 @@ function loadSavegame() {
     }
     else {
         console.log("Loading Savegame")
-        loadedSavegame = JSON.parse(dh.requestData("savegame"));
+        loadedSavegame = dh.requestData("savegame");
+        console.log("LSG:"+JSON.stringify(loadedSavegame));
         DATA = loadedSavegame['questions_left'];
         username = loadedSavegame['username'];
         loadedSavegame['audio'] ? playAudio() : pauseAudio();
@@ -113,7 +114,7 @@ function selectQuestionSubset(allQuestions) {
     return subset;
 }
 
-function saveSavegame(saveToDisk = true) {
+function saveSavegame() {
     sessionStorage.setItem("continue", 'true');
     var newSavegame = {};
     newSavegame['username'] = username;
@@ -126,11 +127,9 @@ function saveSavegame(saveToDisk = true) {
     //sessionStorage.setItem("savegame", JSON.stringify(newSavegame));
     newSavegame['time_passed'] = [timer.getTimeValues()['seconds'],timer.getTimeValues()['minutes'],timer.getTimeValues()['hours']];
     //console.log(newSavegame['time_passed']);
-
-
-    if (saveToDisk) {
-        dh.transmitData("savegame", JSON.stringify(newSavegame, null, 2));
-    }
+    console.log("SG:"+JSON.stringify(newSavegame));
+        dh.transmitData("savegame", newSavegame);
+    
     return;
 
 }

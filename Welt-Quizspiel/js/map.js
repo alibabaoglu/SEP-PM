@@ -1,4 +1,4 @@
-$.mapael.prototype.defaultOptions.map.defaultArea.attrsHover.animDuration = 50;
+$.mapael.prototype.defaultOptions.map.defaultArea.attrsHover.animDuration = 70;
 
 var lastHoverID = "";
 $(function () {
@@ -33,7 +33,8 @@ $(function () {
                     mouseover: function (em, id) {
                         lastHoverID = id;
                         //console.log(id);
-                        setTimeout(function(){ console.log(lastHoverID); if(lastHoverID != ""){cHoverAudio(); }}, 80);
+                        setTimeout(function(){ //console.log(lastHoverID); 
+                            if(lastHoverID != ""){cHoverAudio(); }}, 80);
                         //playAudio();
                         //countryHoverSound.play();
                         //cHoverAudio();

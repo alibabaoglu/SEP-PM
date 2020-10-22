@@ -3,9 +3,22 @@ const url = require('url')
 const path = require('path')
 const FileHandler = require('./js/FileHandler.js');
 fh = new FileHandler("/files/");
-
+const Store = require('electron-store');
 let win
 
+fileStorage = new Store();
+initializeStorage();
+
+function initializeStorage(){
+    if (!fileStorage.has('init')){
+        console.log("Initializing Storage");
+        fileStorage.set("highscore", fh.readFile("highscore.json"));
+        fileStorage.set("fragen",fh.readFile("fragen.json"));
+        fileStorage.set("options",fh.readFile("options.json"));
+        fileStorage.set("savegame", {});
+        fileStorage.set('init', true)
+    }
+}
 
 
 function createWindow() {
@@ -30,32 +43,37 @@ function createWindow() {
 app.on('ready', createWindow);
 // Event handler for asynchronous incoming messages
 ipcMain.on('request', (event, cmd) => {
-    //console.log(cmd)
-    // Event emitter for sending asynchronous messages
 
     if (cmd == "highscore") {
-        var rep = fh.readFile("highscore.json");
+        var rep = fileStorage.get('highscore');
+        //console.log(rep);
         event.returnValue = rep;
     }
     if (cmd == "fragen") {
-        var rep = fh.readFile("fragen.json");
+        var rep = fileStorage.get('fragen');
+        //console.log("get FR");
         event.returnValue = rep;
     }
     if (cmd == "savegame") {
-        var rep = fh.readFile("savegame.json");
+        var rep = fileStorage.get('savegame');
+        //console.log("SG:"+rep);
         event.returnValue = rep;
     }
     if (cmd == "options") {
-        var rep = fh.readFile("options.json");
+        var rep = fileStorage.get('options');
+        //console.log(rep);
         event.returnValue = rep;
     }
 }
 )
 
 ipcMain.on('transmit', (event, cmd, data) => {
-    console.log(data);
+    //console.log("saving transmit");
+    //if (cmd == "savegame") {
+    //    fh.writeToFile("savegame.json", data);
+    //}
     if (cmd == "savegame") {
-        fh.writeToFile("savegame.json", data);
+        fileStorage.set("savegame", data);
     }
 })
 

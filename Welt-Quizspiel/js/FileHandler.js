@@ -9,8 +9,8 @@ class FileHandler {
     }
 
     readFile(fileName) {
-         console.log("Reading: "+this.workingDirPathAbs+fileName);
-         console.log(fileSystem.existsSync(this.workingDirPathAbs + fileName))
+         //console.log("Reading: "+this.workingDirPathAbs+fileName);
+        // console.log(fileSystem.existsSync(this.workingDirPathAbs + fileName))
         if(fileSystem.existsSync(this.workingDirPathAbs + fileName)){
         var file = fileSystem.readFileSync(this.workingDirPathAbs + fileName, { encoding: 'utf8', flag: 'r' });
         }
