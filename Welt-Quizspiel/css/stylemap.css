@@ -61,13 +61,14 @@
 }
 
 .joker{
-    border: 2px solid #3a4e5355;
-    color:  #3a4e5355;
-    width: 180px;
+    background-color: #002a36CC;
+    color: white;
+    width: 100px;
     text-align: center;
     border-radius: 5px;
+    padding: 5px;
     margin: 0%;
-    margin-left: 5%;
+    cursor: pointer;
 }
 
 .container-map{
