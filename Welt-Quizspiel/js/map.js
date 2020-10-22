@@ -77,6 +77,9 @@ $(function () {
                     fill: "#d6958e"
 
                 },
+                attrsHover: {
+                    fill: "#bd6257"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Nordamerika</span>"
                 }
@@ -85,6 +88,9 @@ $(function () {
                 attrs: {
                     fill: "#ed882f"
 
+                },
+                attrsHover: {
+                    fill: "#bd6c02"
                 },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Zentralamerika</span>"
@@ -95,6 +101,9 @@ $(function () {
                     fill: "#cfcd4b"
 
                 },
+                attrsHover: {
+                    fill: "#bfab13"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Südamerika</span>"
                 }
@@ -103,6 +112,9 @@ $(function () {
                 attrs: {
                     fill: "#61a8d1"
 
+                },
+                attrsHover: {
+                    fill: "#357dbd"
                 },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Nordasien</span>"
@@ -114,6 +126,9 @@ $(function () {
                     fill: "#837ae8"
 
                 },
+                attrsHover: {
+                    fill: "#4f43cf"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Westasien</span>"
                 }
@@ -123,14 +138,20 @@ $(function () {
                     fill: "#64cdd1"
 
                 },
+                attrsHover: {
+                    fill: "#26bdd4"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Zentralasien</span>"
                 }
             },
             "SAS": {
                 attrs: {
-                    fill: " #49bf7c"
+                    fill: "#49bf7c"
 
+                },
+                attrsHover: {
+                    fill: "#1b9166"
                 },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Südasien</span>"
@@ -141,6 +162,9 @@ $(function () {
                     fill: "#348f8f"
 
                 },
+                attrsHover: {
+                    fill: "#177f8a"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Ostasien</span>"
                 }
@@ -149,6 +173,9 @@ $(function () {
                 attrs: {
                     fill: "#baba3b"
 
+                },
+                attrsHover: {
+                    fill: "#b0a013"
                 },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Ozeanien</span>"
@@ -159,6 +186,9 @@ $(function () {
                     fill: "#e6739f"
 
                 },
+                attrsHover: {
+                    fill: "#d14b71"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Westeuropa</span>"
                 }
@@ -168,14 +198,20 @@ $(function () {
                     fill: "#faa3dd"
                     
                 },
+                attrsHover: {
+                    fill: "#de78b7"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Nordeuropa</span>"
                 }
             },
             "EEU": {
                 attrs: {
-                    fill: " #B3A3FB"
+                    fill: "#B3A3FB"
 
+                },
+                attrsHover: {
+                    fill: "#9175eb"
                 },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Osteuropa</span>"
@@ -186,6 +222,9 @@ $(function () {
                     fill: "#bd4f76"
 
                 },
+                attrsHover: {
+                    fill: "#a3324f"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Südeuropa</span>"
                 }
@@ -195,14 +234,20 @@ $(function () {
                     fill: "#bf4c41"
 
                 },
+                attrsHover: {
+                    fill: "#a83020"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Nordafrika</span>"
                 }
             },
             "WAF": {
                 attrs: {
-                    fill: " #ed5f5a"
+                    fill: "#ed5f5a"
 
+                },
+                attrsHover: {
+                    fill: "#cf382d"
                 },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Westafrika</span>"
@@ -214,6 +259,9 @@ $(function () {
                     fill: "#c27899"
 
                 },
+                attrsHover: {
+                    fill: "#b84774"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Ostafrika</span>"
                 }
@@ -224,6 +272,9 @@ $(function () {
                     fill: "#e86b3a"
 
                 },
+                attrsHover: {
+                    fill: "#c24e0f"
+                },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Zentralafrika</span>"
                 }
@@ -231,8 +282,11 @@ $(function () {
             },
             "SAF": {
                 attrs: {
-                    fill: " #f08f3a"
+                    fill: "#f08f3a"
 
+                },
+                attrsHover: {
+                    fill: "#c76d14"
                 },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Südafrika</span>"
@@ -243,6 +297,9 @@ $(function () {
                 attrs: {
                     fill: "#8bcc52"
 
+                },
+                attrsHover: {
+                    fill: "#5aa127"
                 },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Südostasien</span>"
