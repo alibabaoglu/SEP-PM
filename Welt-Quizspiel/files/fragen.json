@@ -8,7 +8,8 @@
                 "Schweden, Finnland, Island",
                 "Schweden, Norwegen, Färöer"
             ],
-            "Lösung": 2
+            "Lösung": 2,
+            "desc": ""
         },
         "NEU2": {
             "Frage": "Welche Länder zählen zu den Nordischen Ländern?",
@@ -18,7 +19,8 @@
                 "Norwegen, Finnland, Schweden, Färöer, Island, Grönland",
                 "Norwegen, Grönland, Finnland, Island, Schweden"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": ""
         },
         "NEU3": {
             "Frage": "Welche Länder zählen zum Baltikum?",
@@ -28,7 +30,8 @@
                 "Estland und Lettland",
                 "Estland, Lettland, Litauen"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": "Gemeinsam haben die Baltischen Staaten eine Gesamtfläche von ca. 175.015 km²"
         },
         "NEU4": {
             "Frage": "Wie heißen die berühmten Steinfelsen in England, die bereits in der Jungsteinzeit errichtet wurden?",
@@ -38,7 +41,8 @@
                 "Amesbury Stoning",
                 "Stonehenge"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": ""
         },
         "NEU5": {
             "Frage": "Was bedeutet Butterbrot auf Norwegisch?",
@@ -48,7 +52,8 @@
                 "smørbrød",
                 "smørbred"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": "Auf Norwegisch heißt es smørbrød; auf Schwedisch smör bröd"
         },
         "NEU6": {
             "Frage": "Welcher Religion gehört die Mehrheit der Isländer an?",
@@ -58,7 +63,8 @@
                 "katholisch",
                 "britisch-evangelisch"
             ],
-            "Lösung": 2
+            "Lösung": 2,
+            "desc": ""
         },
         "NEU7": {
             "Frage": "In welchem nordeuropäischen Land wurde LEGO erfunden?",
@@ -68,7 +74,8 @@
                 "Schweden",
                 "Island"
             ],
-            "Lösung": 2
+            "Lösung": 2,
+            "desc": "Ole Kirk Christiansen war ein dänischer Spielzeugmacher. 1932 begann er mit Holzbauklötzen, 1949 fertigte er die ersten Legosteine aus Kunststoff an."
         },
         "NEU8": {
             "Frage": "Seit wann gehört Dänemark zur EU?",
@@ -78,7 +85,8 @@
                 "1995",
                 "1993"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": ""
         },
         "NEU9": {
             "Frage": "An welche Länder grenzt Dänemark?",
@@ -88,7 +96,8 @@
                 "Deutschland",
                 "Deutschland, Belgien und Luxemburg"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": "Die dänische Küstenlinie ist gut 7.300km lang, von denen 5.000km zum Baden geeignet sind."
         },
         "NEU10": {
             "Frage": "Wie viele Einwohner hat Helsinki?",
@@ -98,7 +107,8 @@
                 "394.273",
                 "653.835"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": ""
         }
     },
     "EEU": {
@@ -110,7 +120,8 @@
                 "Serbien",
                 "Bulgarien"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": "Peter Dimitroff Petroff brachte 1971 die weltweit erste digitale Armbanduhr (Hamilton Pulsar) zum Preis von 2.100 Dollar auf den Markt."
         },
         "EEU2": {
             "Frage": "Was ist der beliebteste Sport in Litauen?",
@@ -120,7 +131,8 @@
                 "Tennis",
                 "Dart"
             ],
-            "Lösung": 2
+            "Lösung": 2,
+            "desc": ""
         },
         "EEU3": {
             "Frage": "Welches ist das jüngste Land Osteuropas?",
@@ -130,17 +142,19 @@
                 "Mazedonien",
                 "Ungarn"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": "Am 17. Februar 2008 erklärte Kosovo seine Unabhängigkeit von Serbien."
         },
         "EEU4": {
-            "Frage": "Aus welchem Land stammt der teuerste Käse der Welt (1.000 € pro Kilo)?",
+            "Frage": "Aus welchem Land stammt der teuerste Käse der Welt?",
             "Antworten": [
                 "Bulgarien",
                 "Albanien",
                 "Serbien",
                 "Türkei"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": "Die proteinhaltige und vitaminreiche Milch der Balkanesel, welche vom Aussterben bedroht sind, kostet im Rohzustand 40€/Liter. Pro Kilo Käse werden für die Herstellung 25 Liter Milch benötigt, somit ergibt sich ein Preis von 1000€/kg."
         },
         "EEU5": {
             "Frage": "Aus welchem osteuropäischen Land stammt der Erfinder Nikola Tesla?",
@@ -150,7 +164,8 @@
                 "Rumänien",
                 "Bulgarien"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": ""
         },
         "EEU6": {
             "Frage": "Wie viel Prozent der rumänischen Bevölkerung ist von Armut betroffen?",
@@ -160,7 +175,8 @@
                 "41%",
                 "33%"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": ""
         },
         "EEU7": {
             "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
@@ -170,7 +186,8 @@
                 "Attentat von Hanau",
                 "Attentat von Anagni"
             ],
-            "Lösung": 2
+            "Lösung": 2,
+            "desc": ""
         },
         "EEU8": {
             "Frage": "Welches dieser Länder gehört nicht zu den Balkanstaaten?",
@@ -180,7 +197,8 @@
                 "Kosovo",
                 "Montenegro"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": "Die Balkanstaaten umfassen Kroatien, Serbien, Montenegro, Kosovo, Slowenien, Albanien, Nordmazedonien, Bosnien und Herzegowina, Bulgarien, Rumänien, Griechenland und Thrakien."
         },
         "EEU9": {
             "Frage": "Welche Stadt gilt als Einzige der Welt, die auf zwei Kontinenten liegt?",
@@ -190,7 +208,8 @@
                 "Istanbul",
                 "Prag"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": ""
         },
         "EEU10": {
             "Frage": "Welche Währung wird in Bosnien und Herzegowina verwendet?",
@@ -200,7 +219,8 @@
                 "Euro",
                 "Konvertible Mark"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": ""
         }
     },
     "SEU": {
@@ -212,17 +232,19 @@
                 "287",
                 "435"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": "Aber: mit insgesamt 2.500 Brücken ist Hamburg Europas Stadt mit den meisten Brücken."
         },
         "SEU2": {
             "Frage": "Was machen die Spanier an Silvester um Mitternacht als Erstes?",
             "Antworten": [
-                "eine Weintraube essen",
+                "Weintrauben essen",
                 "tanzen",
                 "Wein trinken",
                 "ein Feuerwerk zünden"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": "Jeder hat genau zwölf Trauben in der Hand, für jede der letzten zwölf Sekunden des Jahres eine, die dann zu insgesamt zwölf Glockenschlägen einzeln gegessen werden"
         },
         "SEU3": {
             "Frage": "Welches Motiv ist auf der griechischen Zwei-Euro-Münze abgebildet?",
@@ -232,7 +254,8 @@
                 "Umriss des Peloponnes",
                 "eine Eule"
             ],
-            "Lösung": 2
+            "Lösung": 2,
+            "desc": ""
         },
         "SEU4": {
             "Frage": "In welchem südeuropäischen Land wachsen als einziges Bananen?",
@@ -242,7 +265,8 @@
                 "Spanien",
                 "Monaco"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": "Spanien also! Genauer genommen auf Spaniens kanarische Inseln. Mehr als 90 % der Ernte geht in den Export, das meiste davon aufs spanische Festland."
         },
         "SEU5": {
             "Frage": "Welcher dieser Flüsse fließt durch Rom?",
@@ -252,7 +276,8 @@
                 "Rienz",
                 "Tiber"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": "Der Tiber (ital. Tevere) ist mit 405 km Länge nach dem Po und der Etsch der drittlängste Fluss in Italien."
         },
         "SEU6": {
             "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
@@ -262,7 +287,8 @@
                 "Deutsch",
                 "Italienisch"
             ],
-            "Lösung": 2
+            "Lösung": 2,
+            "desc": "Die erste Amtssprache auf Malta ist Englisch."
         },
         "SEU7": {
             "Frage": "Welches Land in Südeuropa hat die meisten Hotelzimmer?",
@@ -272,7 +298,8 @@
                 "Spanien",
                 "Portugal"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": ""
         },
         "SEU8": {
             "Frage": "Was ist die Amtssprache von Andorra?",
@@ -282,7 +309,8 @@
                 "Katalanisch",
                 "Französisch"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": "Außerdem werden folgende Sprachen ebenfalls gesprochen: Spanisch, Portugiesisch und Französisch."
         },
         "SEU9": {
             "Frage": "Wie heißt die längste Brücke in Südeuropa?",
@@ -292,7 +320,8 @@
                 "Drau (Italien)",
                 "Ebro (Spanien)"
             ],
-            "Lösung": 2
+            "Lösung": 2,
+            "desc": "Mit einer Gesamtlänge von 12.345 Metern ist die Ponte Vasco da Gama die längste Brücke Europas. "
         },
         "SEU10": {
             "Frage": "In welcher südeuropäischen Stadt steht die älteste Buchhandlung der Welt?",
@@ -302,7 +331,8 @@
                 "Lissabon",
                 "Madrid"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": "Die Livraria Bertrand eröffnete 1732 und ist mit 284 Jahren die älteste Buchhandlung der Welt."
         }
     },
     "WEU": {
@@ -314,7 +344,8 @@
                 "Schweiz",
                 "Österreich"
             ],
-            "Lösung": 2
+            "Lösung": 2,
+            "desc": "Stand 2018: Deutschland produzierte ca. 417,2 Millionen Tonnen Müll."
         },
         "WEU2": {
             "Frage": "In welcher westeuropäischen Stadt gibt es nur ein Stoppschild?",
@@ -324,7 +355,8 @@
                 "Leipzig",
                 "Amsterdam"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": ""
         },
         "WEU3": {
             "Frage": "Welches dieser Länder ist Hauptproduzent falscher Zähne?",
@@ -334,7 +366,8 @@
                 "Niederlande",
                 "Liechtenstein"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": "Jedes Jahr werden aus Liechtenstein 60 Millionen falsche Zähne exportiert."
         },
         "WEU4": {
             "Frage": "Wo steht eine fast 500 Jahre alte Statue, die zeigt, wie die Brunnenfigur gerade Kinder frisst?",
@@ -344,17 +377,19 @@
                 "Luxemburg",
                 "Schweiz"
             ],
-            "Lösung": 4
+            "Lösung": 4,
+            "desc": ""
         },
         "WEU5": {
-            "Frage": "Wo befindet sich der älteste Flughafen, der vor über 100 Jahren eröffnet wurde und seitdem am selben Ort dauerhaft in Betrieb ist?",
+            "Frage": "Wo befindet sich Europas ältester Flughafen, der vor über 100 Jahren eröffnet wurde und seitdem am selben Ort dauerhaft in Betrieb ist?",
             "Antworten": [
                 "Hamburg",
                 "Amsterdam",
                 "Wien",
                 "Paris"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": "Im Jahre 1911 wurde der Hamburg Airport Helmut Schmidt von der Hamburger Luftschiffhallen GmbH gegründet."
         },
         "WEU6": {
             "Frage": "Wo wurde 1885 der weltweit erste Fahrradweg gebaut?",
@@ -364,7 +399,8 @@
                 "Utrecht",
                 "Duisburg"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": ""
         },
         "WEU7": {
             "Frage": "In welchem Land wurde das Originalrezept für Croissants erfunden?",
@@ -374,7 +410,8 @@
                 "Österreich",
                 "Belgien"
             ],
-            "Lösung": 3
+            "Lösung": 3,
+            "desc": ""
         },
         "WEU8": {
             "Frage": "Wie heißt der nördlichste Kanton von Luxemburg?",
@@ -384,7 +421,8 @@
                 "Redingen",
                 "Esch an der Alzette"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": ""
         },
         "WEU9": {
             "Frage": "Wie groß ist der Genfersee?",
@@ -394,7 +432,8 @@
                 "520,29 km²",
                 "390,68 km²"
             ],
-            "Lösung": 1
+            "Lösung": 1,
+            "desc": ""
         },
         "WEU10": {
             "Frage": "Welches ist das kleinste Land in Westeuropa?",
@@ -404,7 +443,1925 @@
                 "Andorra",
                 "Monaco"
             ],
+            "Lösung": 4,
+            "desc": "Monaco's Fläche beträgt 2,02km². Ausgenommen: der Stadtstaat Vatikanstadt mit einer Fläche von 0,44 km²"
+        }
+    },
+
+    "NAF": {
+        "NAF1": {
+            "Frage": "Welches Land besaß in der Region die meisten Kolonien? Deutschland, GB, Spanien)",
+            "Antworten": [
+                "Frankreich",
+                "Deutschland",
+                "Großbritanien",
+                "Spanien"
+            ],
+            "Lösung": 1
+        },
+        "NAF2": {
+            "Frage": "2. Welche Religion prägt diese Region??",
+            "Antworten": [
+                "Buddhismus",
+                "Christentum",
+                "Hinduismus",
+                "Islam"
+            ],
             "Lösung": 4
+        },
+        "NAF3": {
+            "Frage": "Welche Landschaftsform prägt diese Region?",
+            "Antworten": [
+                "Urwald",
+                "Hochgebirge",
+                "Savanne",
+                "Wüste"
+            ],
+            "Lösung": 4
+        },
+        "NAF4": {
+            "Frage": "Welche Arten der Energieversorgung haben hohes Potenzial in der Region?",
+            "Antworten": [
+                "Kohle und Gas",
+                "Wind und Solarenergie",
+                "Wasserkraft und Öl",
+                "Atomstrom"
+            ],
+            "Lösung": 2
+        },
+        "NAF5": {
+            "Frage": "Welches großen Völker gab es vor den Römern im Westen der Region?",
+            "Antworten": [
+                "Umayyaden",
+                "Osmanen",
+                "Vandalen",
+                "Numider und Phönizier"
+            ],
+            "Lösung": 4
+        },
+        "NAF6": {
+            "Frage": "Worauf basiert die Wirtschaft zu einem großen Teil?",
+            "Antworten": [
+                "Waffen und Technikexport",
+                "Landwirtschaft",
+                "Ölexport und Tourismus",
+                "Devisengeschäfte"
+            ],
+            "Lösung": 3
+        },
+        "NAF7": {
+            "Frage": "Welches Land ist mit 2.4 Mio. Quadratkilometern das größte der Region?",
+            "Antworten": [
+                "Algerien",
+                "Ägypten",
+                "Lybien",
+                "Marokko"
+            ],
+            "Lösung": 1
+        },
+        "NAF8": {
+            "Frage": "Was war der arabische Frühling?",
+            "Antworten": [
+                "Abkommen zur Zusammenarbeit",
+                "Besonders mildes Frühjahr",
+                "Proteste für Demokratie",
+                "Gleichberechtigung für Frauen"
+            ],
+            "Lösung": 3
+        },
+        "NAF9": {
+            "Frage": "Welche Metropolregion ist mit 20 Mio. die größte Afrikas?",
+            "Antworten": [
+                "Rabat",
+                "Casablanca",
+                "Alexandria",
+                "Kairo"
+            ],
+            "Lösung": 4
+        },
+        "NAF10": {
+            "Frage": "Was ist eine Besonderheit der Sahara?",
+            "Antworten": [
+                "Wechselnde Feucht- und Trockenphasen ",
+                "Saharastaub gelangt bis nach China",
+                "Ist 90% Sandwüste",
+                "Die Temperatur fällt nie unter 20 Grad Celsius"
+            ],
+            "Lösung": 1
+        }
+    },
+    "WAF": {
+        "WAF1": {
+            "Frage": "Wieviele der 16 Länder Westafrikas haben einen niedrigen Human-Development-Index von unter 0.5(Deutschland=0.94)?",
+            "Antworten": [
+                "4",
+                "9",
+                "14",
+                "16"
+            ],
+            "Lösung": 3
+        },
+        "WAF2": {
+            "Frage": "Wie hoch ist der mittlere Pro-Kopf-Stromverbrauch der 16 Länder Westafrikas?(Deutschland 7176 KwH)",
+            "Antworten": [
+                "100-200 KwH",
+                "500-1000 KwH",
+                "2000-3000 KwH",
+                "5000-6000 KwH"
+            ],
+            "Lösung": 1
+        },
+        "WAF3": {
+            "Frage": "Wieviele Menschen Leben in Westafrika?",
+            "Antworten": [
+                "80 Mio.",
+                "123 Mio.",
+                "195 Mio.",
+                "400 Mio."
+            ],
+            "Lösung": 4
+        },
+        "WAF4": {
+            "Frage": "Was ist den Menschen in Westafrika wichtig?",
+            "Antworten": [
+                "Umweltschutz",
+                "Neues Auto",
+                "Verbesserung der Lebensumstände",
+                "Stylische Kleidung"
+            ],
+            "Lösung": 3
+        },
+        "WAF5": {
+            "Frage": "Wieviele Menschen wohnen in Nigeria?",
+            "Antworten": [
+                "60 Mio.",
+                "92 Mio.",
+                "123 Mio.",
+                "195 Mio."
+            ],
+            "Lösung": 4
+        },
+        "WAF6": {
+            "Frage": "Wann begann mutmaßlich die Entwicklung erster zentralisierter Zivilisationen in der Region?",
+            "Antworten": [
+                "12000 BC%",
+                "1600 BC",
+                "500 AC",
+                "1200 AC"
+            ],
+            "Lösung": 2
+        },
+        "WAF7": {
+            "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
+            "Antworten": [
+                "Attentat von Paris",
+                "Attentat von Sarajevo",
+                "Attentat von Hanau",
+                "Attentat von Anagni"
+            ],
+            "Lösung": 2
+        },
+        "WAF8": {
+            "Frage": "Warum wurde die Kolonisation der Länder Ende des 19.Jahrhunderts forciert??",
+            "Antworten": [
+                "Urlaubsstrände",
+                "Überbevölkerung",
+                "Ressourcen und Rivalität",
+                "Entdeckertum"
+            ],
+            "Lösung": 3
+        },
+        "WAF9": {
+            "Frage": "Welches Land besaß die meisten Kolonien in Westafrika?",
+            "Antworten": [
+                "Groß-Britannien",
+                "Frankreich",
+                "Holland",
+                "Portugal"
+            ],
+            "Lösung": 2
+        },
+        "WAF10": {
+            "Frage": "Welche Stadt hat mit 15 Mio. Einwohner die Zweit-größte Metropolregion Afrikas?",
+            "Antworten": [
+                "Dakar",
+                "Lagos",
+                "Abidjan",
+                "Accra"
+            ],
+            "Lösung": 2
+        },
+		"WAF11": {
+            "Frage": "Wann gab es die ersten europäischen Siedlungen an den Küsten der Region?",
+            "Antworten": [
+                "1445",
+                "1312",
+                "1650",
+                "1580"
+            ],
+            "Lösung": 1
+        },
+		"WAF12": {
+            "Frage": "Was war ein wichtiges Exportgut vor dem 19. Jahrhundert?",
+            "Antworten": [
+                "Sklaven",
+                "Gewürze",
+                "Exotische Tiere",
+                "Elfenbein"
+            ],
+            "Lösung": 1
+        }
+    },
+    "CAF": {
+        "CAF1": {
+            "Frage": "Wieviel größer ist Kongo-Kinshasa als Deutschland",
+            "Antworten": [
+                "2.3 mal",
+                "6.6 mal",
+                "10 mal",
+                "12.7 mal"
+            ],
+            "Lösung": 2
+        },
+        "CAF2": {
+            "Frage": "Wieviele Menschen starben während der 23 Jahre Kolonialherrschaft des belgischen Königs Leopolds 2. über Belgisch-Kongo?",
+            "Antworten": [
+                "keine",
+                "100-200.000",
+                "1 Mio.",
+                "8-10 Mio."
+            ],
+            "Lösung": 4
+        },
+        "CAF3": {
+            "Frage": "Weshalb wurde der erste Ministerpräsident des Kongo, Lumumba, ermordet?",
+            "Antworten": [
+                "Massive Korruption",
+                "Beleidigung des belgischen Königs",
+                "Zur Aufrechterhaltung der Rohstoffausbeutung durch Belgien und USA",
+                "Expansionistische Bestrebungen"
+            ],
+            "Lösung": 3
+        },
+        "CAF4": {
+            "Frage": "Was ist die Haupeinnahmensquelle der Menschen der Region?",
+            "Antworten": [
+                "Landwirtschaft",
+                "Industrie",
+                "Dienstleistungen",
+                "Tourismus"
+            ],
+            "Lösung": 1
+        },
+        "CAF5": {
+            "Frage": "In welcher Klimazone liegt Mittelafrika?",
+            "Antworten": [
+                "Tropen",
+                "Subtropen",
+                "Savanne",
+                "Gemäßigte Zone"
+            ],
+            "Lösung": 1
+        },
+        "CAF6": {
+            "Frage": "Wie funktioniert die Energieversorgung der Menschen größtenteils?",
+            "Antworten": [
+                "Strom durch Kraftwerke",
+                "Gasflaschen",
+                "Holz",
+                "Solarenergie"
+            ],
+            "Lösung": 3
+        },
+        "CAF7": {
+            "Frage": "Wie groß ist der Regenwald in Zentralafrika in Quadratkilometern?",
+            "Antworten": [
+                "0.5 Mio.",
+                "etwa 2 Mio.",
+                "etwa 1 Mio.",
+                "0.3 Mio."
+            ],
+            "Lösung": 2
+        },
+        "CAF8": {
+            "Frage": "Welche Affenart lebt im Regenwald?",
+            "Antworten": [
+                "Gorilla",
+                "Orang-Utan",
+                "Lemuren",
+                "Makaken"
+            ],
+            "Lösung": 1
+        },
+        "CAF9": {
+            "Frage": "Wieviele Menschen leben in der Metropolregion Kinshasas?",
+            "Antworten": [
+                "3 Mio.",
+                "5 Mio.",
+                "9 Mio.",
+                "14 Mio."
+            ],
+            "Lösung": 4
+        },
+        "CAF10": {
+            "Frage": "Es gab zahlreiche Königreiche in Afrika bis ins 19. Jahrhundert hinein. Was geschah im Königreich Kongo 1485?",
+            "Antworten": [
+                "Kongolesische Adlige kehrten aus Portugal zurück",
+                "Portugiesische Entdecker wurden verspeist",
+                "Der kongolesische König versucht die katholische Kirche einzuführen",
+                "Der kongolesische König beansprucht in einem Brief an den portugiesischen König den Sklavenhandel nach kongolesischem Gesetz"
+            ],
+            "Lösung": 1
+        }
+    },
+    "EAF": {
+        "EAF1": {
+            "Frage": "An welchem Meer liegt Ostafrika?",
+            "Antworten": [
+                "Mittelmeer",
+                "Pazifik",
+                "Indischer Ozean",
+                "Atlantik"
+            ],
+            "Lösung": 3
+        },
+        "EAF2": {
+            "Frage": "Welche geologische Besonderheit prägt die Region?",
+            "Antworten": [
+                "Die afrikanische Platte bricht und erzeugt einen Grabenbruch.",
+                "Die indische Platte schiebt sich unter die afrikanische Platte und schiebt Berge auf",
+                "Es gibt einen Hotspot",
+                "Es gab einen großen Meteoriteneinschlag"
+            ],
+            "Lösung": 1
+        },
+        "EAF3": {
+            "Frage": "Wie prägen die geologischen Ereignisse die Region?",
+            "Antworten": [
+                "Vulkan und Seebildung",
+                "Unfruchtbare Landschaft",
+                "Artensterben",
+                "Bergbildung"
+            ],
+            "Lösung": 4
+        },
+        "EAF4": {
+            "Frage": "Was sind die „Big Five“ die man u.a. in Ostafrika findet?",
+            "Antworten": [
+                "Die 5 höchsten Berge",
+                "Die 5 reichsten Länder Afrikas",
+                "5 große Tierarten",
+                "Die 5 dienstältesten Diktatoren"
+            ],
+            "Lösung": 3
+        },
+        "EAF5": {
+            "Frage": "Was ist das besondere am Lake Victoria?",
+            "Antworten": [
+                "Größte Artenvielfalt an Süßwasserfischen",
+                "Leergefischt",
+                "1000m tief",
+                "Zweit-größter See der Welt"
+            ],
+            "Lösung": 1
+        },
+        "EAF6": {
+            "Frage": "Was ist das besondere am See Tanganyika?",
+            "Antworten": [
+                "670km lang,1400m tief",
+                "Salzsee",
+                "Dritt-größter See der Welt",
+                "Wird vom Nil entwässert"
+            ],
+            "Lösung": 1
+        },
+        "EAF7": {
+            "Frage": "Was ist das besondere am Berg Kilimanjaro?",
+            "Antworten": [
+                "Wurde nie bestiegen",
+                "5900m hoher Vulkan",
+                "Wird als Gottheit verehrt",
+                "Wurde von Ptolemäus 100 vor Christus beschrieben"
+            ],
+            "Lösung": 2
+        },
+        "EAF8": {
+            "Frage": "Wie alt sind die Menschheitsspuren, die man hier findet?",
+            "Antworten": [
+                "10.000 Jahre",
+                "20.000-50.000 Jahre",
+                "100.000 Jahre",
+                "über 300.000 Jahre"
+            ],
+            "Lösung": 4
+        },
+        "EAF9": {
+            "Frage": "Weswegen interessierten sich die Portugiesen im 16.Jhr. für Ostafrika?",
+            "Antworten": [
+                "Neue Handelsroute nach Indien finden gegen Araber",
+                "Neue Sklavenquellen erschließen",
+                "Gefängnis für Kriminelle",
+                "Entdeckungsreisen"
+            ],
+            "Lösung": 1
+        },
+        "EAF10": {
+            "Frage": "Welches Land hat am zweitmeisten Unesco Weltkulturerbestätten in der Region?",
+            "Antworten": [
+                "Kenia",
+                "Tansania",
+                "Äthiopien",
+                "Uganda"
+            ],
+            "Lösung": 3
+        },
+        "EAF11": {
+            "Frage": "Welches Land gilt seit langem als gescheiterter Staat?",
+            "Antworten": [
+                "Ruanda",
+                "Somalia",
+                "Äthiopien",
+                "Mosambique"
+            ],
+            "Lösung": 2
+        }
+    },
+    "SAF": {
+        "SAF1": {
+            "Frage": "Welches Land dominiert die Region?",
+            "Antworten": [
+                "Namibia",
+                "Botswana",
+                "Swasiland",
+                "Südafrika"
+            ],
+            "Lösung": 4
+        },
+        "SAF2": {
+            "Frage": "Wodurch ist die Region wirtschaftlich bekannt?",
+            "Antworten": [
+                "Rohstoffreichtum",
+                "Bürgerkriege",
+                "Umweltschutz",
+                "Landwirtschaft"
+            ],
+            "Lösung": 1
+        },
+        "SAF3": {
+            "Frage": "Was ist ein großes gesundheitliches Problem der Region?",
+            "Antworten": [
+                "Cholera-Pandemie",
+                "Aids-Pandemie",
+                "Corona-Pandemie",
+                "Vogelgrippen-Pandemie"
+            ],
+            "Lösung": 2
+        },
+        "SAF4": {
+            "Frage": "Welches Gesellschaftssystem gab es in Südafrika bis 1994?",
+            "Antworten": [
+                "Kommunismus",
+                "Apartheid",
+                "Diktatur",
+                "Königreich"
+            ],
+            "Lösung": 2
+        },
+        "SAF5": {
+            "Frage": "Was war eine militärische Besonderheit Südafrikas?",
+            "Antworten": [
+                "Bis 1991 Atommacht",
+                "Größte Armee Afrikas bis 1998",
+                "Besetzte Namibia im 2.Weltkrieg",
+                "Nahm bis 1985 an keinem Krieg teil"
+            ],
+            "Lösung": 1
+        },
+        "SAF6": {
+            "Frage": "Wieviele amtliche Landessprachen gibt es in Südafrika?",
+            "Antworten": [
+                "2",
+                "3",
+                "7",
+                "11"
+            ],
+            "Lösung": 4
+        },
+        "SAF7": {
+            "Frage": "Welche Umweltbesonderheit gibt es in Südafrika?",
+            "Antworten": [
+                "Keine Nationalparks",
+                "Niedrige CO2-Emission pro Kopf",
+                "Sehr hohe Artenvielfalt endemischer Pflanzen und Tiere",
+                "Zentralplateau liegt auf 3000 m Höhe"
+            ],
+            "Lösung": 3
+        },
+        "SAF8": {
+            "Frage": "Wieviele Menschen Leben in dem 824000 km² großem Namibia?",
+            "Antworten": [
+                "20 Mio.",
+                "2.5 Mio",
+                "12 Mio.",
+                "35 Mio."
+            ],
+            "Lösung": 2
+        },
+        "SAF9": {
+            "Frage": "Wie alt ist die Namib-Wüste?",
+            "Antworten": [
+                "80 Mio. Jahre",
+                "15 Mio. Jahre",
+                "2 Mio. Jahre",
+                "0.5 Mio. Jahre"
+            ],
+            "Lösung": 1
+        },
+        "SAF10": {
+            "Frage": "Was war die Apartheid?",
+            "Antworten": [
+                "Atomprogramm",
+                "Entwicklungsprogramm",
+                "Rassentrennung",
+                "Vertreibung der Europäer"
+            ],
+            "Lösung": 3
+        }
+    },
+
+    "NAM": {
+        "NAM1": {
+            "Frage": "Wie viele Staaten zählen zu Nord Amerika?",
+            "Antworten": [
+                "5",
+                "3",
+                "2",
+                "4"
+            ],
+            "Lösung": 1,
+			"desc": "Die folgenden Staaten und Abhängige Gebiete zählen zu der Region Nordamerika: Bermuda, Kanada, Grönland, Saint-Pierre und Miquelon und die Vereinigten Staaten von Amerika"
+        },
+		"NAM2": {
+            "Frage": "Wie ist die Temparatur des Golfstromes?",
+            "Antworten": [
+                "kalt",
+                "warm",
+                "kühl",
+                "neutral"
+            ],
+            "Lösung": 2,
+			"desc": "Der Golfstrom ist eine der größten und schnellsten Meeresströmungen unseres Planeten und er ist besonders warm. Ohne ihn wäre es bei uns im Schnitt fünf bis zehn Grad kälter."
+        },
+        "NAM3": {
+            "Frage": "Welche Sprache (Amtssprache) wird in Kanada neben Englisch noch gesprochen?",
+            "Antworten": [
+                "Französisch",
+                "Spanisch",
+                "Deutsch",
+                "Japanisch"
+            ],
+            "Lösung": 1,
+			"desc": "Die Amtssprachen in Kanada sind Englisch und Französisch. Jedoch geben 20% der Bevölkerung von Kanada an, weder Englisch noch Französisch als Muttersprache zu sprechen. Die offizielle Zweisprachigkeit ist im Amtssprachengesetz festgelegt."
+        },
+		"NAM4": {
+            "Frage": "Der CN Tower ist das Wahrzeichen der Stadt Toronto. Welche Kuriosität befindet sich in schwindelerregender Höhe?",
+            "Antworten": [
+                "Ein 3-D-Kino",
+                "Der höchste Weinkeller der Welt",
+                "Eine Aussichtsplattform ",
+                "Ein Fernsehstudio"
+            ],
+            "Lösung": 2,
+			"desc": "Das rotierende Restaurant 360 (das allerdings sehr teuer und nicht gerade für die beste Küche bekannt ist) in etwa 350 Metern Höhe beherbergt seit 1997 einen himmlischen Weinkeller. 2006 wurde er vom Guiness-Buch der Rekorde zum höchstgelegenen Weinkeller der Welt ernannt."
+        },
+        "NAM5": {
+            "Frage": "Wer nach Churchill in Manitoba reist, möchte gerne einem bestimmten Tier begegnen. Welches ist das?",
+            "Antworten": [
+                "Elch",
+                "Walross",
+                "Eisbär",
+                "Wal"
+            ],
+            "Lösung": 3,
+			"desc": "Churchill gilt als Hauptstadt der Eisbären."
+        },
+        "NAM6": {
+            "Frage": "Die Grenze bzw das Grenzgebiet zwischen besiedeltem und zivilisiertem Land und der Wildnis westlich davon nannte man?",
+            "Antworten": [
+                "Vorort Grenze",
+                "Wild West Grenze",
+                "Border",
+                "Frontier"
+            ],
+            "Lösung": 4,
+			"desc": "Eine typische Grenzlandsituation bestand an der nordamerikanischen Frontier zwischen 1620 und 1890, in der die einheimischen Indianerstämme von etwa 1620 (Landung der Pilgerväter) bis 1890 (Auflösung des Indianer-Territoriums) immer weiter nach Westen gedrängt wurden."
+        },
+        "NAM7": {
+            "Frage": "Von außen wirkt es wie aus einer fremden Welt. Und von innen möchte es die Welt vereinen: das Canadian Museum for Human Rights. Wo steht es?",
+            "Antworten": [
+                "Winnipeg",
+                "Montreal",
+                "Ottawa",
+                "Vancover"
+            ],
+            "Lösung": 1,
+			"desc": "Das Gebäude des Kanadischen Museums für Menschenrechte (CMHR) in Winnipeg erinnert an eine überdimensionale Pickelhaube oder aber an einen Helm mit Antenne. Und eben diese »Antenne« ist der 23 Stockwerke hohe Tower of Hope, den Architekt Antoine Predock symbolisch auf die Welt – alias Haube– gesetzt hat."
+        },
+        "NAM8": {
+            "Frage": "Das erste leistungsfähige Verkehrsmittel im Westen war(en)?",
+            "Antworten": [
+                "Dampfschiffe",
+                "die Eisenbahn",
+                "Maultiere und Waggons",
+                "Autos"
+            ],
+            "Lösung": 1,
+			"desc": "Am 1. Februar 1788 ließen sich Isaac Briggs und William Longstreet das erste Dampfschiff patentieren. Der Amerikaner Robert Fulton erhielt am 11. Februar 1809 ein Patent für einen modifizierten Entwurf, der auch wirtschaftlich erfolgreich war."
+        },
+		"NAM9": {
+            "Frage": "Folgende Stadt liegt mitten in der Wüste",
+            "Antworten": [
+                "Miami",
+                "New Orleans",
+                "Las Vegas",
+                "Los Angeles"
+            ],
+            "Lösung": 3,
+			"desc": "Las Vegas in der Mojave-Wüste des US-Bundesstaates Nevada ist ein beliebtes Reiseziel, das für sein quirliges Nachtleben mit rund um die Uhr geöffneten Casinos und anderen Unterhaltungsangeboten bekannt ist. Hauptstraße und Lebensader der Stadt ist der knapp 6,5 km lange sogenannte Strip. Entlang dieses Boulevards befinden sich zahlreiche Mottohotels mit ausgefallenen Gestaltungselementen wie Musikbrunnen oder Nachbildungen einer ägyptischen Pyramide, des Canale Grande in Venedig oder des Eiffelturms."
+        },
+        "NAM10": {
+            "Frage": "Will man subtropisches Klima erleben, geht man",
+            "Antworten": [
+                "ins Death Valley",
+                "nach Florida",
+                "nach Kalifornien",
+                "nach Alaska"
+            ],
+            "Lösung": 2,
+			"desc": "Der allergrößte Teil Floridas hat ein feuchtes, subtropisches Klima, nur im Süden herrscht tropisches Klima. Die durchschnittlichen Tageshöchsttemperaturen liegen im kältesten Monat, dem Januar, im Norden bei rund 20 Grad tagsüber und die Tiefsttemperaturen nachts bei rund 5 Grad."
+        },
+        "NAM11": {
+            "Frage": "Die erste dauerhafte Siedlung von Kolonisten war",
+            "Antworten": [
+                "die Ostküste",
+                "Jamestown",
+                "New York",
+                "Virginia"
+            ],
+            "Lösung": 2,
+			"desc": "Jamestown war die erste dauerhafte englische Siedlung in Nordamerika. Sie wurde 1607 – zunächst als James Fort – auf einer Insel im James River in Virginia gegründet und nach König James I. von England benannt. Sie war zugleich die erste aus England gegründete Kolonie und somit Keimzelle des Britischen Weltreichs."
+        },
+        "NAM12": {
+            "Frage": "Der heißeste und zugleich tiefste Punkt der USA",
+            "Antworten": [
+                "Waimea Schlucht",
+                "Grand Canyon",
+                "Rocky Mountains",
+                "Death Valley"
+            ],
+            "Lösung": 4,
+			"desc": "Das Death Valley ist ein Wüstental in Ostkalifornien in der nördlichen Mojave-Wüste, das an die Great Basin Desert grenzt. Es ist einer der heißesten Orte der Erde, zusammen mit Wüsten im Nahen Osten und in der Sahara."
+        },
+        "NAM13": {
+            "Frage": "Welche Stadt nannte man das *Tor zum Westen*?",
+            "Antworten": [
+                "St Louis",
+                "Chicago",
+                "New York",
+                "Washington, D.C."
+            ],
+            "Lösung": 1,
+			"desc": "St. Louis ist eine Großstadt in Missouri am Mississippi. Ihr Wahrzeichen, der 192 m hohe Bogen Gateway Arch, wurde in den 1960ern zum Gedenken an die Lewis-und-Clark-Expedition des frühen 19. Jahrhunderts sowie die allgemeine westliche Erweiterung Amerikas errichtet."
+        },
+        "NAM14": {
+            "Frage": "Die typischen Schneestürme im Innern des Kontinents heißt?",
+            "Antworten": [
+                "Purga",
+                "Blizzard",
+                "Yalca",
+                "Winter Buran"
+            ],
+            "Lösung": 2,
+			"desc": "Der Blizzard ist ein starker Schneesturm, der hauptsächlich in Nordamerika auftritt. Die Bezeichnung eines heftigen Schneesturms als Blizzard wurde später auch in anderen Regionen wie z. B. in der Antarktis und in Nordskandinavien übernommen."
+        },
+        "NAM15": {
+            "Frage": "Einer Legende nach lebt im Okanagan Valley in British Columbia ein Monster. Was für eins ist es denn?",
+            "Antworten": [
+                "Ein Big Foot",
+                "Ein Drache",
+                "Ein Riesenwurm",
+                "Ein Seemonster wie Nessie"
+            ],
+            "Lösung": 4,
+			"desc": "Die kanadische Version des Monsters von Loch Ness hört auf den Namen Ogopogo. Naja, mit dem Hören dürfte es so eine Sache sein. Der Legende nach handelt es sich beim Ogopogo nämlich um eine Schlange. Eine Seeschlange, um genau zu sein – die sich mit bis zu 15 Metern Länge und einem schafsähnlichen Kopf mit wallender Haarmähne durch den bis zu 230 Meter tiefen Okanagan Lake in British Columbia schlängelt. Und ­ – weil es sonst keine Legende wäre – sich auch äußerst ungern bis gar nicht an der Wasseroberfläche zeigt."
+        }
+    },
+    "CAM": {
+        "CAM1": {
+            "Frage": "Welches ist die größte Insel der Karibik?",
+            "Antworten": [
+                "Haiti",
+                "Jamaika",
+                "Kuba",
+                "Puerto Rico"
+            ],
+            "Lösung": 3,
+			"desc": "Mit einer Fläche von gut 104.000 Quadratkilometern ist Kuba nicht nur die größte Insel der Großen Antillen, sondern der gesamten Karibik. Damit ist die Insel etwa so groß wie die alte DDR. Gleichzeitig hat Kuba mit 11.3 Millionen Einwohnern auch die größte Bevölkerung der Karibikstaaten und die Hauptstadt Havanna ist mit über zwei Millionen Einwohnern die größte Metropole der Karibik."
+        },
+        "CAM2": {
+            "Frage": "Welcher karibische Inselstaat erlebte 1983 eine Invasion durch US-amerikanische Streitkräfte?",
+            "Antworten": [
+                "Bahamas",
+                "Jamaika",
+                "Grenada",
+                "Kuba"
+            ],
+            "Lösung": 3,
+			"desc": "Die US-Invasion in Grenada war eine militärische Intervention, mit der die USA auf den Staatsstreich gegen den Regierungschef Grenadas, Maurice Bishop, reagierten. Das Unternehmen begann am 25. Oktober 1983 und endete etwa eine Woche später. Die Operation diente vorgeblich dazu, die Sicherheit US-amerikanischer Staatsbürger auf Grenada zu garantieren. Wahrscheinlicher ist, dass die damalige US-Regierung eine zu starke Anlehnung der kommunistischen Regierung Grenadas an Kuba und Nicaragua befürchtete."
+        },
+        "CAM3": {
+            "Frage": "Woher kommt die Rosafärbung der berühmten 'Pink Beaches' der Bahamas?",
+            "Antworten": [
+                "von Korallenpartikeln",
+                "von angeschwemmten Mikroplastik",
+                "von Gehäusen zahloser Einzeller, sogenannter Foraminiferen",
+                "con Chemieabwässern"
+            ],
+            "Lösung": 3,
+			"desc": "Der rosafarbene Sand auf vielen Urlaubsfotos aus der Karibik ist nicht etwa auf einen falschen Weißabgleich der Kamera zurückzuführen: Einige Strände der Bahamas schimmern tatsächlich rosa. Für die Färbung sind die pinkfarbenen oder hellroten Schalen zahlloser Foraminiferen verantwortlich. Diese urtümlichen Tierchen zählen zu den am weitesten verbreiteten Einzellern überhaupt und werden in entsprechenden Mengen angespült."
+        },
+        "CAM4": {
+            "Frage": "Mit Jamaika verbindet man neben weißen Sandstränden und türkisblauem Meer auch Musik. Welche der folgenden Musikrichtungen stammt von dieser Insel?",
+            "Antworten": [
+                "Reggae",
+                "Blues",
+                "Skiffle",
+                "Ragtime"
+            ],
+            "Lösung": 1,
+			"desc": "Für eine einzelne, kleine Insel hatte Jamaika großen Einfluss auf die Popgeschichte: Nach Mento, Ska und Rocksteady entstand Ende der 1960er-Jahre der Reggae und entwickelte sich zu einer der bedeutendsten Richtungen der modernen Popmusik. Und natürlich stammen auch viele Reggae-Musiker wie Bob Marley und Shaggy von der Insel."
+        },
+        "CAM5": {
+            "Frage": "Zu welcher Inselkette zählen auch unter den poetischen Namen 'Inseln über dem Wind' und 'Inseln unter dem Wind' bekannten Eilande?",
+            "Antworten": [
+                "Florida Keys",
+                "Bahamas",
+                "Kleine Antillen",
+                "Große Antillen"
+            ],
+            "Lösung": 3,
+			"desc": "Als Kleine Antillen bezeichnet man die Inselkette in der östlichen Karibik, die sich von den Jungferninseln im Norden bis vor die venezolanische Küste im Süden erstreckt. 'Inseln über dem Winde' ist ein poetischer Name für den nördlichen Teil der Kleinen Antillen, zu denen zu bekannte Inseln wie Barbados, Martinique oder Guadeloupe zählen. Weiter südwestlich liegen die 'Inseln unter dem Winde', darunter Aruba, Bonaire und Curaçao. Die Namen beziehen sich auf den in diesen Breiten vorherrschenden Nordost-Passatwind."
+        },
+        "CAM6": {
+            "Frage": "Auf welcher der karibischen Inseln verläuft eine 'innereuropäische' Grenze?",
+            "Antworten": [
+                "St. Martin",
+                "Antigua",
+                "Puerto Rico",
+                "Hispaniola"
+            ],
+            "Lösung": 1,
+			"desc": "St. Martin ist eine der Inseln im Norden der Kleinen Antillen. In dieser Inselgruppe gehört sie zu den 'Inseln über dem Winde'. Politisch ist sie geteilt zwischen Frankreich und den Niederlanden: Der nördliche, größere Inselteil zählt zusammen mit einigen Nebeninseln zum französischen Collectivité d’outre-mer Saint-Martin, während der Süden den autonomen Landesteil Sint Maarten im Königreich der Niederlande bildet. Nur dort haben Frankreich und die Niederlande eine gemeinsame Landgrenze."
+        },
+        "CAM7": {
+            "Frage": "Welchen Genuss hat die Welt der Karibik zu verdanken?",
+            "Antworten": [
+                "Rum",
+                "Süßkartoffeln",
+                "Palmwein",
+                "Mango-Chutney"
+            ],
+            "Lösung": 1,
+			"desc": "Ab dem 16. Jahrhundert war die Karibik die Hochburg für den Anbau von Zuckerrohr, das durch die Europäer dort eingeführt und in größtenteils von Sklaven bewirtschafteten Plantagen angebaut wurde. Der aus Melasse des Zuckerrohrs, seltener aus frischem Zuckerrohrsaft gewonnene Rum wurde im 17. Jahrhundert entwickelt. Bekannt wurde das Getränk unter anderem dadurch, dass die Royal Navy täglich um die Mittagszeit eine Rumration ausschenkte. Nicht zuletzt durch diesen Brauch wurde Rum, oft als Grog, weltweit zu einem typischen Seefahrergetränk."
+        },
+        "CAM8": {
+            "Frage": "Auf welcher Karibikinsel ereignete sich der gemessen an den Opferzahlen schlimmste Vulkanausbruch des 20. Jahrhunderts?",
+            "Antworten": [
+                "Montserrat",
+                "Martinique",
+                "Kuba",
+                "Guadeloupe"
+            ],
+            "Lösung": 2,
+			"desc": "Der Mont Pelé ist ein 1.397 Meter hoher Stratovulkan auf der zu Frankreich gehörenden Insel Martinique. Während einer heftigen Aktivitätsphase zwischen 1902 und 1905 ereignete sich der folgenreiche Ausbruch vom 8. Mai 1902, welcher, gemessen an den Opferzahlen, der weltweit verlustreichste des 20. Jahrhunderts war. Die sieben Kilometer vom Gipfel entfernt am Meer gelegene Inselhauptstadt Saint-Pierre wurde vollständig vernichtet, wobei Schätzungen zufolge zwischen 28.000 und 40.000 Menschen ums Leben kamen. Seit der letzten Eruptionsperiode zwischen 1929 und 1932 ist der Vulkan inaktiv und eine beliebte Tourismusattraktion."
+        },
+        "CAM9": {
+            "Frage": "Wie heißt die sagenumwobene Meeresregion im Nordosten der Karibik?",
+            "Antworten": [
+                "Bermudadreieck",
+                "Milchozean",
+                "Nordwestpassage",
+                "Teufelsmeer"
+            ],
+            "Lösung": 1,
+			"desc": "Das berühmte Bermudadreieck liegt nordöstlich der Karibik im Westatlantik. Die drei Ecken bilden im Norden die Bermudainseln, im Westen die US-Metropole Miami und im Süden die Insel Puerto Rico. Die Region – auch Teufelsdreieck genannt – wurde durch rätselhafte Schiffs- und Flugzeugkatastrophen berühmt."
+        },
+        "CAM10": {
+            "Frage": "Unter welchem Namen wurden die Piraten und Freibeuter der Karibik im 17. Jahrhundert berühmt und berüchtigt?",
+            "Antworten": [
+                "Barbaresken",
+                "Bukaniere",
+                "Korsaren",
+                "Filibuster"
+            ],
+            "Lösung": 2,
+			"desc": "Die ersten Bukaniere gingen aus den französischen Siedlern hervor, die versuchten sich im Kolonialgebiet in der Karibik niederzulassen. Später wurden diese durch eine große Zahl weiterer Holländer, Engländer und anderer Europäer verstärkt. Die Bukanier bedrohten zunächst die spanischen Siedlungen und Schiffe, später den gesamten europäischen Handelsverkehr in der Region. Der Ausdruck 'Bukanier' wurde daher schließlich als Synonym für Pirat benutzt."
+        },
+        "CAM11": {
+            "Frage": "In welchem Land befindet sich der höchste Berg der Karibik?",
+            "Antworten": [
+                "Kuba",
+                "Dominikanische Republik",
+                "Jamaika",
+                "Grenada"
+            ],
+            "Lösung": 2,
+			"desc": "Heute heißt der Berg Pico Duarte. Während der Trujillo-Diktatur jedoch bekam der Berg zwischenzeitlich den Namen Pico Trujillo."
+        },
+        "CAM12": {
+            "Frage": "Welcher ist mit einer Fläche von 8.157 Quadratkilometer der größte See Zentralamerikas?",
+            "Antworten": [
+                "Nicaraguasee",
+                "Hondurassee",
+                "Guatemalasee",
+                "Schwarzsee"
+            ],
+            "Lösung": 1,
+			"desc": "Der Nicaraguasee ist auch der drittgrößte See ganz Lateinamerikas nach dem Maracaibo-See und dem Titicacasee. Die anderen beiden Seen existieren nicht."
+        },
+        "CAM13": {
+            "Frage": "Wie viele Sterne sind auf der Flagge von Honduras abgebildet?",
+            "Antworten": [
+                "3",
+                "5",
+                "4",
+                "7"
+            ],
+            "Lösung": 2,
+			"desc": "Die Sterne symbolisieren die ehemaligen Mitglieder der Zentralamerikanischen Konföderation."
+        },
+        "CAM14": {
+            "Frage": "Der Flughafen welcher zentralamerikanischen Hauptstadt gilt mit seiner kurzen Landebahn und der Lage in bergigem Gelände als einer der gefährlichsten der Welt?",
+            "Antworten": [
+                "Belmopan",
+                "Manaus",
+                "Tegucigalpa",
+                "San Josè"
+            ],
+            "Lösung": 3,
+			"desc": "Zusätzlich stellt die Höhe und die kurze Landebahn des Flughafens eine Herausforderung dar."
+        },
+        "CAM15": {
+            "Frage": "Nach welchem kubanischen Poeten und Nationalhelden ist der Flughafen von Havanna benannt?",
+            "Antworten": [
+                "Ernesto 'Che' Guevara",
+                "Gabriel Garcia-Marquez",
+                "Pablo Neruda",
+                "Josè Martì"
+            ],
+            "Lösung": 4,
+			"desc": "Von ihm stammen zum Beispiel die Werke „New York unter dem Schnee“ und „Mit Feder und Machete“."
+        },
+        "CAM16": {
+            "Frage": "Der mexikanische Chemiker Mario José Molina erhielt 1995 zusammen mit Frank Sherwood Rowland und dem Meteorologen Paul J. Crutzen den Nobelpreis für Chemie. Welches Phänomen erforschten diese Wissenschaftler?",
+            "Antworten": [
+                "Golfstrom",
+                "El Nino",
+                "Klimawandel",
+                "Ozonloch"
+            ],
+            "Lösung": 4,
+			"desc": "Als Ozonloch bezeichnet man eine starke Ausdünnung der Ozonschicht, aufgrund chlorierter organischer Verbindungen (FCKW oder CFCs) in der Atmosphäre. Die ausgedünnte Ozonschicht lässt mehr vom UV-B-Anteil der Sonnenstrahlung zum Erdboden durch, was bei Lebewesen karzinogen wirken kann."
+        },
+        "CAM17": {
+            "Frage": "Welcher österreichische Erzherzog wurde 1864 von Frankreich als Kaiser des mexikanischen Kaiserreichs eingesetzt und 1867 in Mexiko hingerichtet?",
+            "Antworten": [
+                "Erzherzog Joseph",
+                "Erzherzog Rudolf",
+                "Erzherzog Ferdinand Maximillian",
+                "Erzherzog Erzherzog Franz Ferdinand"
+            ],
+            "Lösung": 3,
+			"desc": "Maximilian wurde jedoch schon 1867 von der legitimen Gegenregierung des Präsidenten Benito Juárez gefangen genommen, von einem Kriegsgericht zum Tode verurteilt und hingerichtet."
+        },
+        "CAM18": {
+            "Frage": "Wer hat die berühmte Stadt Teotihuacan gebaut?",
+            "Antworten": [
+                "Maya",
+                "Azteken",
+                "Inkas",
+                "Es ist nicht bekannt"
+            ],
+            "Lösung": 4,
+			"desc": "Es ist nicht bekannt wer diese Stadt erbaut hat. Teotihuacán im Bundesstaat Mexico ist eine der bedeutendsten prähistorischen Ruinenstädte Amerikas, die vor allem für ihre Stufentempel wie etwa eine große Sonnenpyramide bekannt ist. Die Geschichte Teotihuacán musste komplett aus archäologischen Funden rekonstruiert werden."
+        },
+        "CAM19": {
+            "Frage": "Wo befindet sich der zweitgrößte heiße See der Welt?",
+            "Antworten": [
+                "in Neuseeland",
+                "in Guyana",
+                "in Belize",
+                "in Dominica"
+            ],
+            "Lösung": 4,
+			"desc": "Der Boiling Lake liegt im Nationalpark Morne Trois Pitons, dem Weltkulturerbe von Dominica. Es ist der zweitgrößte heiße See der Welt nach dem Frying Pan Lake in Neuseeland. Sein Temperaturbereich liegt an den Rändern zwischen 82 und 92 Grad Celsius, aber in der Mittle des Sees kocht er aktiv"
+        },
+        "CAM20": {
+            "Frage": "Welches der nachfolgenden Länder hat keine Armee?",
+            "Antworten": [
+                "Trinidad und Tobago",
+                "Costa Rica",
+                "Luxemburg",
+                "Vatikan"
+            ],
+            "Lösung": 2,
+			"desc": "Costa Rica ist das Vorzeigeland für Sozialpolitik, Wirtschaft, Demokratie und Umweltschutz. Es wird auch gern als die *Schweiz von Amerika* bezeichnet. Die Costa Ricaner scheinen überzeugt, dass der Verzicht auf das Militär der sicherste Weg ist, all das zu erhalten und zu schützen."
+        },
+        "CAM21": {
+            "Frage": "Woher kommt der Name Colòn? (Währung von Costa Rica)",
+            "Antworten": [
+                "aus Vogelkolonien",
+                "vom Entdecker Bartolomeu Dias",
+                "von Columbus",
+                "vom lateinischen Namen für Währung der Kolonisten *moneda colonista*"
+            ],
+            "Lösung": 3,
+			"desc": "Der Colón oder Costa-Rica-Colón ist die Währung Costa Ricas. Der Colón wurde 1897 eingeführt und löste den Peso ab. Er war zuerst in 100 Céntimos unterteilt, von 1917 bis 1919 in 100 Centavos, und danach wieder in Céntimos."
+        },
+        "CAM22": {
+            "Frage": "Wo liegt Veracruz?",
+            "Antworten": [
+                "Costa Rica",
+                "Bahamas",
+                "Argentinien",
+                "Mexiko"
+            ],
+            "Lösung": 4,
+			"desc": "Veracruz, umgangssprachlich auch Puerto de Veracruz, ist der wichtigste Atlantikhafen Mexikos am Golf von Mexiko mit 428.323 Einwohnern, die jarochos genannt werden."
+        },
+        "CAM23": {
+            "Frage": "Was ist die zweitgrößte Stadt in Mexiko, nach Mexiko?",
+            "Antworten": [
+                "Monterrey",
+                "Ciudad Juàrez",
+                "Guadalajara",
+                "Puebla"
+            ],
+            "Lösung": 3,
+			"desc": "Guadalajara spanisch ist die Hauptstadt des Bundesstaates Jalisco und mit ca. 1,9 Mio. Einwohnern (Stadt) und ca. 5 Mio. (Metropolitanregion) die zweitgrößte Stadt in Mexiko. Die Stadt ist Sitz eines Erzbischofs und ist auch bekannt unter dem Namen Perla del Occidente (spanisch für „Perle des Westens“)."
+        },
+        "CAM24": {
+            "Frage": "Wo liegt Tabasco?",
+            "Antworten": [
+                "Bahamas",
+                "Mexiko",
+                "Costa Rica",
+                "Kuba"
+            ],
+            "Lösung": 2,
+			"desc": "Tabasco, offiziell Freier und Souveräner Staat Tabasco, ist ein Bundesstaat Mexikos, unmittelbar östlich des Isthmus von Tehuantepec an der Küste des Golfes von Mexiko."
+        },
+        "CAM25": {
+            "Frage": "Warum werden  24-Stunden-Ameisen auch Gewehrkugelameise genannt?",
+            "Antworten": [
+                "weil sie wie Kugeln aussehen",
+                "weil sie so groß wie Kugeln sind",
+                "weil ihr Biss wie ein Kugelschuss schmerzt",
+                "weil sie laute Geräusche machen"
+            ],
+            "Lösung": 3,
+			"desc": "Die 24-Stunden-Ameise, auch Tropische Riesenameise oder engl. Bullet Ant genannt, ist eine der größten Ameisenarten der Welt. Ihr Giftstich gilt als extrem schmerzhaft. Sie lebt in Süd- und Mittelamerika im tropischen Regenwald."
+        }
+    },
+    "SAM": {
+        "SAM1": {
+            "Frage": "Welches Land in Südamerika hat die meisten Einwohner?",
+            "Antworten": [
+                "Ecuador",
+                "Brasilien",
+                "Argentinien",
+                "Kolumbien"
+            ],
+            "Lösung": 2,
+			"desc": "Brasilien hat mir über 200 Millionen Einwohnern die meisten Einwohner in Südamerika."
+        },
+        "SAM2": {
+            "Frage": "Welche Landessprachen sind in Südamerika sehr weit verbreitet?",
+            "Antworten": [
+                "Italienisch und Polnisch",
+                "Japanisch und Russisch",
+                "Spanisch und Portugiesisch",
+                "Türkisch und Deutsch"
+            ],
+            "Lösung": 3,
+			"desc": "Spanisch und Portugiesisch sind in Südamerika weit verbreitet."
+        },
+        "SAM3": {
+            "Frage": "Welcher Ozean grenzt im Osten an Südamerika?",
+            "Antworten": [
+                "Atlantischer Ozean",
+                "Arktischer Ozean",
+                "Indischer Ozean",
+                "Pazifischer Ozean"
+            ],
+            "Lösung": 1,
+			"desc": "Der Atlantische Ozean grenzt im Osten an Südamerika."
+        },
+        "SAM4": {
+            "Frage": "Das Karibische Meer grenzt an welches Land?",
+            "Antworten": [
+                "Chile",
+                "Bolivien",
+                "Uruguay",
+                "Venezuela"
+            ],
+            "Lösung": 4,
+			"desc": "Venezuela hat eine lange Küste und das Meer an dieser nennt sich das Karibische Meer."
+        },
+        "SAM5": {
+            "Frage": "Welche der folgenden Religion ist in Südamerika am verbreitetsten?",
+            "Antworten": [
+                "Islam",
+                "Römisch-Katholisch",
+                "Hinduismus",
+                "Buddhismus"
+            ],
+            "Lösung": 2,
+			"desc": "Die überwiegende Mehrheit der Bevölkerung bekennt sich zum römisch-katholischen Glauben. Die Tendenz ist jedoch fallend."
+        },
+        "SAM6": {
+            "Frage": "Welche Inseln liegen etwa 400 Kilometer vor der Küste von Argentinien?",
+            "Antworten": [
+                "Panay",
+                "Island",
+                "Tasmanien",
+                "Malwinen"
+            ],
+            "Lösung": 4,
+			"desc": "Die Malwinen - auch Falklandinseln genannt - liegen etwa 400 Kilometer vor Argentinien."
+        },
+        "SAM7": {
+            "Frage": "Wie heißt die längste Gebirgskette der Erde?",
+            "Antworten": [
+                "Alpen",
+                "Anden",
+                "Karibische Kette",
+                "Mount Everest"
+            ],
+            "Lösung": 2,
+			"desc": "Die Anden auf der Westseite des südamerikanischen Kontinents gehören zu den längsten Gebirgszügen der Erde."
+        },
+        "SAM8": {
+            "Frage": "In welchem Jahr wurde der Grundstein für die brasilianische Hauptstadt Brasilia gelegt?",
+            "Antworten": [
+                "1946",
+                "1755",
+                "1922",
+                "1914"
+            ],
+            "Lösung": 3,
+			"desc": "Am 7. September 1922 wurde der Grundstein der Stadt gelegt, die 1960 Rio de Janeiro als Hauptstadt Brasiliens ablöste. Anlass für den Bau der Planhauptstadt war der Bedarf nach einer neuen föderalen Hauptstadt. Mittlerweile leben etwa 2,5 Millionen Menschen in der neuen Hauptstadt."
+        },
+        "SAM9": {
+            "Frage": "Kennen Sie den Namen des höchsten Wasserfalls der Erde?",
+            "Antworten": [
+                "Niagara Falls",
+                "Catarata Gocta",
+                "Tugela Falls",
+                "Salto Angel"
+            ],
+            "Lösung": 4,
+			"desc": "Mit seinen 978 Metern Fallhöhe ist der Salto Angel im Südosten Venezuelas der höchste Wasserfall der Erde. Benannt wurde er im Jahr 1933 nach seinem Wiederentdecker, dem Buschpiloten Jimmie Angel."
+        },
+        "SAM10": {
+            "Frage": "Der höchste Vulkan der Erde befindet sich in Südamerika, wie heißt er?",
+            "Antworten": [
+                "Ojos del Salado",
+                "Lanin",
+                "Cotopaxi",
+                "Licancabur"
+            ],
+            "Lösung": 1,
+			"desc": "Mit 6.893 Metern Höhe ist der Ojos del Salado der höchste aktive Vulkan der Welt. Er liegt im Grenzland von Argentinien und Chile in der Wüste Atacama."
+        },
+        "SAM11": {
+            "Frage": "Was passiert alle Jahre wieder zu Weihnachten in Rio de Janeiro?",
+            "Antworten": [
+                "Der größte Weihnachtsbaum der Welt wird beleuchtet",
+                "Das Christkind besucht den Zuckerhut",
+                "Der Weihnachtsmann landet mit einem Helikopter im Fußballstadion",
+                "Die Statue Cristo Redentor („Christus, der Erlöser“) wird rot beleuchtet"
+            ],
+            "Lösung": 3,
+			"desc": "Jedes Jahr zu Weihnachten tauscht der brasilianische Weihnachtsmann seinen Schlitten gegen einen Helikopter. Absetzen lässt er sich damit im größten Fußballstadion des Landes, dem Maracanã-Stadion, wo die Brasilianer eine große Weihnachtsfeier mit vielen Showeinlagen zelebrieren."
+        },
+        "SAM12": {
+            "Frage": "Welchen Spitznamen trägt das Altiplano?",
+            "Antworten": [
+                "Berge der Wiederkehr",
+                "Dach der Welt",
+                "Gipfel der Freiheit",
+                "Die ewigen Berge"
+            ],
+            "Lösung": 2,
+			"desc": "Die vegetationsarmen Hochflächen des Altiplano in Bolivien und Peru tragen auch den Namen 'Dach der Welt'. Sie sind etwa so groß wie halb Deutschland. Am östlichen Rand des Altiplano liegt La Paz, eine der höchsten Städte der Welt."
+        },
+        "SAM13": {
+            "Frage": "Und was verbirgt sich hinter der hübschen Bezeichnung *das grüne Gold von Südamerika*?",
+            "Antworten": [
+                "Affenbrotbäume",
+                "Bananenpalmen",
+                "Mate-Tee",
+                "Der Regenwald"
+            ],
+            "Lösung": 3,
+			"desc": "Ob Brasilien, Argentinien oder Uruguay: In ganz Südamerika gehört Mate zu den beliebtesten Getränken. Der Tee wird aus den klein geschnittenen getrockneten Blättern des Mate-Strauches gewonnen."
+        }
+    },
+
+    "NAS": {
+        "NAS1": {
+            "Frage": "Wie heißt die kälteste Großstadt der Welt?",
+            "Antworten": [
+                "Sotschi",
+                "Minsk",
+                "Jakutsk",
+                "Wolgograd"
+            ],
+            "Lösung": 3,
+            "desc": "Jakutsk ist auf Permafrostboden gebaut, der niemals auftaut."
+        },
+        "NAS2": {
+            "Frage": "Wie lautet das älteste und tiefste Süßwasserreservoir der Welt?",
+            "Antworten": [
+                "Seligersee",
+                "Baikalsee",
+                "Baunt",
+                "Todscha-See"
+            ],
+            "Lösung": 2,
+            "desc": "Er ist mit 1642 Metern der tiefste, mit mehr als 25 Millionen Jahren der älteste und zudem auch der wasserreichste Süßwassersee der Erde."
+        },
+        "NAS3": {
+            "Frage": "Wie heißt die natürliche Grenze von Osteuropa und Nordasien?",
+            "Antworten": [
+                "Upaalgebirge",
+                "Uralgebirge",
+                "Urgalgebirge",
+                "Uraalgebirge"
+            ],
+            "Lösung": 2,
+            "desc": "Das Ural ist ein bis 1895 m hohes und knapp 2400 km langes Gebirge"
+        },
+        "NAS4": {
+            "Frage": "Wie groß ist die Küstenlänge Nordasiens?",
+            "Antworten": [
+                "ca. 30.000 km",
+                "ca. 50.000 km",
+                "ca 20.000 km",
+                "ca 40.000 km"
+            ],
+            "Lösung": 1,
+            "desc": ""
+        },
+        "NAS5": {
+            "Frage": "Was sind die schwerwiegendsten Folgen des Klimawandels für Nordasien?",
+            "Antworten": [
+                "Anstieg des Meeresspiegels",
+                "Tsunami",
+                "Stärkere Schneestürme",
+                "Waldbrände und das Auftauen von Parmafrost-Gebieten"
+            ],
+            "Lösung": 4,
+            "desc": "Das Auftauen von Parmafrost-Gebieten führt zur Freilegung von im Boden eingeschlossenem Methan"
+        },
+        "NAS6": {
+            "Frage": "Wie heißt die Eisenbahn die quer durch Russland führt?",
+            "Antworten": [
+                "Transasiatische Eisenbahn",
+                "Nordasiatische Eisenbahn",
+                "Russische Eisenbahn",
+                "Transsibirische Eisenbahn"
+            ],
+            "Lösung": 4,
+            "desc": "Von Moskau nach Wladiwostok mit der Eisenbahn, das ist die Strecke für die hartgesottenen Fans des Schienenverkehrs. Knapp 9300 Kilometer sind es – acht Tage und sieben Nächte dauert die Fahrt."
+        },
+        "NAS7": {
+            "Frage": "Wo liegen die Durchschnittstemperaturen Nordasiens?",
+            "Antworten": [
+                "zwischen -30°C und 0°C",
+                "zwischen -20°C und +10°C",
+                "zwischen -10°C und +10°C",
+                "zwischen -20°C und +20°C"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "NAS8": {
+            "Frage": "Was ist die stärkste Glaubensrichtung Nordasiens?",
+            "Antworten": [
+                "Buddhismus",
+                "Agnostizismus",
+                "Islam",
+                "Christentum"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "NAS9": {
+            "Frage": "Für was ist Sibirien geschichtlich bekannt?",
+            "Antworten": [
+                "Als Punkt einer entscheidende Schlacht im  kalten Krieg",
+                "Für seine Goldvorkommen",
+                "Für seine Gefängnisse, Arbeitslager und als Region der Verbannten",
+                "Für seine Diamantenminen"
+            ],
+            "Lösung": 3,
+            "desc": "Von 1930 bis 1953 waren in den Lagern mindestens 18 Millionen Menschen inhaftiert. Mehr als 2,7 Millionen starben im Lager oder in der Verbannung."
+        },
+        "NAS10": {
+            "Frage": "Welche dieser Gebietsformen findet man nicht in Nordasien?",
+            "Antworten": [
+                "Nadelwälder",
+                "Grassteppen",
+                "Sandwüsten",
+                "Tropen"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        }
+    },
+    "EAS": {
+        "EAS1": {
+            "Frage": "Wie lang ist die chinesische Mauer?",
+            "Antworten": [
+                "23196 km",
+                "24196 km",
+                "21196 km",
+                "22196 km"
+            ],
+            "Lösung": 3,
+            "desc": "Die UNESCO erklärte die Chinesische Mauer 1987 zum Weltkulturerbe."
+        },
+        "EAS2": {
+            "Frage": "Wo liegen die Durchschnittstemperaturen Nordasiens?",
+            "Antworten": [
+                "zwischen 5°C und 30°C",
+                "zwischen 20°C und 40°C",
+                "zwischen 15°C und 35°C",
+                "zwischen 10°C und 25°C"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "EAS3": {
+            "Frage": "Wie heißt die ehemalige Handelsroute zwischen Ostasien und den Westen verband?",
+            "Antworten": [
+                "Seidenstraße",
+                "Samtstraße",
+                "Seidenroute",
+                "Samtroute"
+            ],
+            "Lösung": 1,
+            "desc": "Die Bezeichnung geht auf den im 19. Jahrhundert lebenden deutschen Geografen Ferdinand von Richthofen zurück, der den Begriff 1877 erstmals verwendet hat."
+        },
+        "EAS4": {
+            "Frage": "Wie heißen die 2 Sonderverwaltungszonen Chinas?",
+            "Antworten": [
+                "Hongkong und Macau",
+                "Hongkong und Peking",
+                "Peking und Macau",
+                "Shenzhen und Peking"
+            ],
+            "Lösung": 1,
+            "desc": "Diese Autonomie erlaubt es Hongkong, seine eigenen Gesetze, Zölle sowie seine eigene Währung zu besitzen."
+        },
+        "EAS5": {
+            "Frage": "Welches Land ist momentan führend in umweltfreundlichen Technologien?",
+            "Antworten": [
+                "China",
+                "Japan",
+                "Südkorea",
+                "USA"
+            ],
+            "Lösung": 2,
+            "desc": "Beim Klimawandel hat besonders der ansteigende Meeresspiegel dramatische Folgen für Japan. Bei einem Anstieg von 1m würden 90% der Sandstrände Japans im Meer verschwinden."
+        },
+        "EAS6": {
+            "Frage": "Wie heißt der längste Fluss Asiens?",
+            "Antworten": [
+                "Jangstsekan",
+                "Jiangtsekian",
+                "Jangtsekiang",
+                "Jiangtsekang"
+            ],
+            "Lösung": 3,
+            "desc": "Jangtsekiang ist mit ca. 6400lm der längste Fluss Asiens."
+        },
+        "EAS7": {
+            "Frage": "Wann fand der Koreakrieg statt?",
+            "Antworten": [
+                "1950 bis 1953",
+                "1947 bis 1953",
+                "1947 bis 1955",
+                "1950 bis 1955"
+            ],
+            "Lösung": 1,
+            "desc": "Die Spaltung Koreas, was eine vorübergehende Lösung nach dem 2ten Weltkrieg sein sollte, wurde durch diesen Krieg zementiert."
+        },
+        "EAS8": {
+            "Frage": "Wie hießen die 4 Plagen die man zur Zeit Maos versuchte auszurotten?",
+            "Antworten": [
+                "Ratten, Fliegen, Stechmücken und Sperlinge",
+                "Ratten, Fliegen, Stechmücken und Grashüpfer",
+                "Ratten, Fliegen, Grashüpfer und Sperlinge",
+                "Ratten, Grashüpfer, Stechmücken und Sperlinge"
+            ],
+            "Lösung": 1,
+            "desc": "Die starke Reeduzierung der Sperlinge führte zu einer großen Plage an Grashüpfern."
+        },
+        "EAS9": {
+            "Frage": "Wie heißen die Südkoreanischen Comics?",
+            "Antworten": [
+                "Manhwa",
+                "Manga",
+                "Manhua",
+                "Mahua"
+            ],
+            "Lösung": 1,
+            "desc": "Im Gegensatz zu Mangas ließt man Manhwas von links nach rechts."
+        },
+        "EAS10": {
+            "Frage": "Wie groß ist der Tokyo Tower?",
+            "Antworten": [
+                "255m",
+                "333m",
+                "355m",
+                "233m"
+            ],
+            "Lösung": 2,
+            "desc": " Der Tokyo Tower wurde im Jahr 1958 fertiggestellt"
+        }
+    },
+    "CAS": {
+        "CAS1": {
+            "Frage": "Wie heißt die zweitgrößte Sandwüste der Welt?",
+            "Antworten": [
+                "Kalahari",
+                "Rub al-Chali",
+                "Sahara",
+                "Taklamakan"
+            ],
+            "Lösung": 4,
+            "desc": "Die im Nordosten Chinas liegende Wüste umfasst rund 340.000 Quadratkilometer Sandwüste mit Dünen, die sich auf über 300 Meter erheben können."
+        },
+        "CAS2": {
+            "Frage": "Was ist die vorherrschende Religion in Zentralasien?",
+            "Antworten": [
+                "Christentum",
+                "Agnostizismus",
+                "Islam",
+                "Buddhismus"
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "CAS3": {
+            "Frage": "Wo liegen die Durchschnittstemperaturen Zentralasiens?",
+            "Antworten": [
+                "zwischen 0°C und 10°C",
+                "zwischen 10°C und 20°C",
+                "zwischen 15°C und 30°C",
+                "zwischen 5°C und 25°C"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "CAS4": {
+            "Frage": "Wie nennt man die Steppe, die bis nach Osteuropa reicht?",
+            "Antworten": [
+                "Eurasische Steppe",
+                "Ostasische Steppe",
+                "Großasische Steppe",
+                "Querasische Steppe"
+            ],
+            "Lösung": 1,
+            "desc": ""
+        },
+        "CAS5": {
+            "Frage": "Was ist das Nationalgericht von Usbekistan?",
+            "Antworten": [
+                "Laghman",
+                "Plow",
+                "Samsa",
+                "Schurpa"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "CAS6": {
+            "Frage": "",
+            "Antworten": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "CAS7": {
+            "Frage": "",
+            "Antworten": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "CAS8": {
+            "Frage": "",
+            "Antworten": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "Lösung": 1,
+            "desc": ""
+        },
+        "CAS9": {
+            "Frage": "",
+            "Antworten": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "CAS10": {
+            "Frage": "",
+            "Antworten": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "Lösung": 2,
+            "desc": ""
+        }
+    },
+    "WAS": {
+        "WAS1": {
+            "Frage": "Wo liegen die Durchschnittstemperaturen Westasiens in den Sommermonaten?",
+            "Antworten": [
+                "zwischen 25°C und 45°C",
+                "zwischen 35°C und 55°C",
+                "zwischen 35°C und 45°C",
+                "zwischen 45°C und 55°C"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "WAS2": {
+            "Frage": "Wie heißt der See der dafür bekannt ist, dass man auf ihm liegen kann ohne zu schwimmen?",
+            "Antworten": [
+                "Rotes Meer",
+                "Totes Meer",
+                "Schwarzes Meer",
+                "Arabische See"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "WAS3": {
+            "Frage": "Womit sorge Saudi-Arabien am 02.10.2018 für Aufrur?",
+            "Antworten": [
+                "Neue Frauenrechte",
+                "Mord an einem Journalisten",
+                "öffentliche Auspeitschung eines Journalisten",
+                "Neuen Waffenabkommen"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "WAS4": {
+            "Frage": "Wann wurde das Atomabkommen mit dem Iran beschlossen?",
+            "Antworten": [
+                "2011",
+                "2013",
+                "2009",
+                "2015"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "WAS5": {
+            "Frage": "Wann hat der syrische Krieg begonnen?",
+            "Antworten": [
+                "2013",
+                "2009",
+                "2011",
+                "2015"
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "WAS6": {
+            "Frage": "Was ist der Nahostkonflikt?",
+            "Antworten": [
+                "Der Konflikt um Syrien",
+                "Der Konflikt zwischen Iran und Irak",
+                "Der Sammelbegriff für die Konflikte Westasiens",
+                "Der Konflikt um Palist die Region Palästina"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "WAS7": {
+            "Frage": "Seit wann ist Zypern Teil der EU?",
+            "Antworten": [
+                "2000",
+                "2004",
+                "1993",
+                "2001"
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "WAS8": {
+            "Frage": "Wie heißt der zentrale Wallfahrtsort des Islams?",
+            "Antworten": [
+                "Meka",
+                "Mekka",
+                "Makka",
+                "Maka"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "WAS9": {
+            "Frage": "Wie heißt die tiefste Höhle der Welt?",
+            "Antworten": [
+                "Mammoth Cave",
+                "Voronya Höhle",
+                "Sistema Sac Actun",
+                "Son-Doong-Höhle"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "WAS10": {
+            "Frage": "Wie heißt die weltweit größte Sandwüste?",
+            "Antworten": [
+                "Sahara",
+                "Rub al-Chali",
+                "Gobi",
+                "Hammada"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        }
+    },
+    "SAS": {
+        "SAS1": {
+            "Frage": "Wie heißt die tektonische Platte auf der Südasien liegt?",
+            "Antworten": [
+                "Asische Platte",
+                "Südplatte",
+                "Südasiatische Platte",
+                "Indische Platte"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "SAS2": {
+            "Frage": "Aus wievielen Inseln bestehen die Malediven?",
+            "Antworten": [
+                "ca. 1000 Inseln",
+                "ca. 1200 Inseln",
+                "ca. 1400 Inseln",
+                "ca. 800 Inseln"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "SAS3": {
+            "Frage": "Wo liegen die Durchschnittstemperaturen Südasiens in den Sommermonaten?",
+            "Antworten": [
+                "zwischen 18°C und 45°C",
+                "zwischen 18°C und 35°C",
+                "zwischen 25°C und 45°C",
+                "zwischen 25°C und 35°C"
+            ],
+            "Lösung": 1,
+            "desc": ""
+        },
+        "SAS4": {
+            "Frage": "Welche dieser Klimazonen befindet sich nichtin Südasien?",
+            "Antworten": [
+                "Wüstenklima",
+                "tropisches Regenwaldklima",
+                "Feucht-gemäßigtes Klima",
+                "Steppenklima"
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "SAS5": {
+            "Frage": "Was ist die stärkste Glaubensrichtung Nordasiens?",
+            "Antworten": [
+                "Buddhismus",
+                "Hinduismus",
+                "Agnostizismus",
+                "Christentum"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "SAS6": {
+            "Frage": "Wie groß ist der Mount Everest",
+            "Antworten": [
+                "8848 m",
+                "8588 m",
+                "8978 m",
+                "8258 m"
+            ],
+            "Lösung": 1,
+            "desc": ""
+        },
+        "SAS7": {
+            "Frage": "Was löste den Afghanistan Krieg aus?",
+            "Antworten": [
+                "Ein Versuch Afghanistan gewaltsam zu annektieren",
+                "Ein Aufstand der Bevölkerung gegen die Herrschenden",
+                "Ein misslungener Militärputsch",
+                "Staatsstreich durch die kommunistische Volkspartei"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "SAS8": {
+            "Frage": "Wie nennt man in Indien den Magen-Darm-Virus noch?",
+            "Antworten": [
+                "Indian Bowel",
+                "Delhi Belly",
+                "Indian Belly",
+                "Delhi Bowel"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "SAS9": {
+            "Frage": "Wann ist der Geburtstag des Mahatma Gandhis?",
+            "Antworten": [
+                "7. Mai",
+                "3. Januar",
+                "5. November",
+                "2. Oktober"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "SAS10": {
+            "Frage": "Wie nennt man einen weibliche Meisterin des Yoga?",
+            "Antworten": [
+                "Yodin",
+                "Yodan",
+                "Yoda",
+                "Yogin"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        }
+    },
+    "SEA": {
+        "SEA1": {
+            "Frage": "Was ist die größte Ethnische Gruppe in Südostasien?",
+            "Antworten": [
+                "Javaner",
+                "Vietnamesen",
+                "Negritos",
+                "Chinesen"
+            ],
+            "Lösung": 1,
+            "desc": ""
+        },
+        "SEA2": {
+            "Frage": "Welcher dieser südostasiatischen Staaten ist kein Mitglied des Verbands Südostasiatischer Nationen (ASEAN)?",
+            "Antworten": [
+                "Brunei",
+                "Laos",
+                "Thailand",
+                "Osttimor"
+            ],
+            "Lösung": 4,
+            "desc": "Der Verband Südostasiatischer Nationen wurde 1967 von Thailand, Indonesien, Malaysia, den Philippinen und Singapur gegründet. Ziel war die Förderung des konjunkturellen Aufschwungs, des sozialen Fortschritts und der politischen Stabilität."
+        },
+        "SEA3": {
+            "Frage": "Welche tektonische Platte nimmt am meisten der Fläche Südostasien ein?",
+            "Antworten": [
+                "Amurplatte",
+                "Sunda-Platten",
+                "Eurasische Platte",
+                "Indische Platte"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "SEA4": {
+            "Frage": "Wie viele der 10 Staaten haben das Pariser Abkommen unterschrieben?",
+            "Antworten": [
+                "8",
+                "10",
+                "9",
+                "7"
+            ],
+            "Lösung": 2,
+            "desc": "Das Pariser Abkommen ist eine Vereinbarung von 195 Vertragsparteien der Klimarahmenkonvention der Vereinten Nationen (UNFCCC) mit dem Ziel des Klimaschutzes in Nachfolge des Kyoto-Protokolls."
+        },
+        "SEA5": {
+            "Frage": "Wie viel Prozent der Landfläche weltweit wird von Südostasien eingenommen?",
+            "Antworten": [
+                "7%",
+                "5%",
+                "3%",
+                "1%"
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "SEA6": {
+            "Frage": "Welches dieser in Südostasien beheimaten Tiere ist bedroht?",
+            "Antworten": [
+                "Die Blutsaugeragame",
+                "Das Malaiische Schuppentier",
+                "Die Hirtenmaina",
+                "Der Himalaya-Fischuhu"
+            ],
+            "Lösung": 2,
+            "desc": ""
+        },
+        "SEA7": {
+            "Frage": "Welche dieser Staaten gehört nicht zu Südostasien?",
+            "Antworten": [
+                "Myanmar",
+                "Kambodscha",
+                "Philippinen",
+                "Sri Lanka"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "SEA8": {
+            "Frage": "Von wann bis wann fand der Vietnamkrieg statt?",
+            "Antworten": [
+                "etwa 1950 bis 1975",
+                "etwa 1955 bis 1970",
+                "etwa 1950 bis 1970",
+                "etwa 1955 bis 1975"
+            ],
+            "Lösung": 4,
+            "desc": "Er gilt als einer der Stellvertreterkriege des Kalten Krieges."
+        },
+        "SEA9": {
+            "Frage": "In welchem Jahr fand der schwarze Mai in Thailand statt?",
+            "Antworten": [
+                "1992",
+                "1990",
+                "1997",
+                "1995"
+            ],
+            "Lösung": 1,
+            "desc": "Der Aufstand hatte zur Folge, dass das Militär in Thailand viel macht verlor."
+        },
+        "SEA10": {
+            "Frage": "Wann endete die Militärherrschaft in Myanmar?",
+            "Antworten": [
+                "2007",
+                "2009",
+                "2011",
+                "2013"
+            ],
+            "Lösung": 3,
+            "desc": "Mayanmar stand von 1962 bis 2011 unter Militärherrschaft"
+        }
+    },
+
+    "OZN": {
+        "OZN1": {
+            "Frage": "Welche Tests wurden auf den Mikronesien durchgeführt?",
+            "Antworten": [
+                "Raumfahrttests",
+                "Chemiewaffentests",
+                "Biowaffentests",
+                "Kernwaffentests"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "OZN2": {
+            "Frage": "Wie heißen die Ureinwohner Neuseelands?",
+            "Antworten": [
+                "Māori",
+                "Aborigines",
+                "Indianer",
+                "Negritos"
+            ],
+            "Lösung": 1,
+            "desc": ""
+        },
+        "OZN3": {
+            "Frage": "Wie heißt der bekannteste Berg Australiens?",
+            "Antworten": [
+                "Uluru",
+                "Uluuru",
+                "Ulluuru",
+                "Ulluru"
+            ],
+            "Lösung": 1,
+            "desc": ""
+        },
+        "OZN4": {
+            "Frage": "Wie heißt das bekannteste Musikinstrument der Aborigines?",
+            "Antworten": [
+                "Digerido",
+                "Didgerido",
+                "Didgeridoo",
+                "Digeridoo"
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "OZN5": {
+            "Frage": "Wie heißt das größte zusammenhängende Korallenriff der Welt?",
+            "Antworten": [
+                "Apo-Riff",
+                "Ningaloo Reef",
+                "Korallendreieck",
+                "Great Barrier Reef"
+            ],
+            "Lösung": 4,
+            "desc": "Vor der Nordostküste Australiens befindet sich die größte zusammenhängende Ansammlung von über 2.900 einzelnen Korallenriffen der Erde."
+        },
+        "OZN6": {
+            "Frage": "Wie lange ist der Abel Tasman Coast Track?",
+            "Antworten": [
+                "43 km",
+                "32 km",
+                "51 km",
+                "24 km"
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "OZN7": {
+            "Frage": "Aus wievielen Inseln bestehen die Bay of Islands?",
+            "Antworten": [
+                "89 Inseln",
+                "107 Inseln",
+                "144 Inseln",
+                "78 Inseln"
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "OZN8": {
+            "Frage": "Von wann bis wann fanden die Sträflingsverschiffungen nach Australien statt?",
+            "Antworten": [
+                "1787 bis 1849",
+                "1749 bis 1868",
+                "1787 bis 1868",
+                "1768 bis 1849"
+            ],
+            "Lösung": 3,
+            "desc": ""
+        },
+        "OZN9": {
+            "Frage": "Wie viele Inseln gehören den Förderierten Staaten von Mikronesien an?",
+            "Antworten": [
+                "807",
+                "707",
+                "507",
+                "607"
+            ],
+            "Lösung": 4,
+            "desc": ""
+        },
+        "OZN10": {
+            "Frage": "Welche Inseln formen das polynesische Dreieck?",
+            "Antworten": [
+                "Hawaii-Inseln, Neuseeland und die Osterinsel",
+                "Hawaii-Inseln, Gibertinseln und die Osterinsel",
+                "Gibertinseln, Neuseeland und die Osterinsel",
+                "Hawaii-Inseln, Neuseeland und die Gibertinseln"
+            ],
+            "Lösung": 1,
+            "desc": ""
         }
     }
 }

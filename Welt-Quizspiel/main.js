@@ -10,6 +10,7 @@ fileStorage = new Store();
 initializeStorage();
 
 function initializeStorage(){
+    fileStorage.delete('init');
     if (!fileStorage.has('init')){
         console.log("Initializing Storage");
         fileStorage.set("highscore", fh.readFile("highscore.json"));
@@ -17,6 +18,7 @@ function initializeStorage(){
         fileStorage.set("options",fh.readFile("options.json"));
         fileStorage.set("savegame", "noSG");
         fileStorage.set('init', true)
+        
     }
 }
 
