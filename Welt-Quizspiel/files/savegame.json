@@ -1,0 +1,212 @@
+{
+  "username": "tre",
+  "audio": true,
+  "money": 65,
+  "questions_left": {
+    "NEU": {
+      "NEU6": {
+        "Frage": "Welcher Religion gehört die Mehrheit der Isländer an?",
+        "Antworten": [
+          "lutherisch-orthodox",
+          "evangelisch-lutherisch",
+          "katholisch",
+          "britisch-evangelisch"
+        ],
+        "Lösung": 2
+      },
+      "NEU3": {
+        "Frage": "Welche Länder zählen zum Baltikum?",
+        "Antworten": [
+          "Weißrussland, Estland, Lettland",
+          "Lettland, Weißrussland, Estland, Litauen",
+          "Estland und Lettland",
+          "Estland, Lettland, Litauen"
+        ],
+        "Lösung": 4
+      },
+      "NEU5": {
+        "Frage": "Was bedeutet Butterbrot auf Norwegisch?",
+        "Antworten": [
+          "smoerbrod",
+          "buttsbröd",
+          "smørbrød",
+          "smørbred"
+        ],
+        "Lösung": 3
+      },
+      "NEU8": {
+        "Frage": "Seit wann gehört Dänemark zur EU?",
+        "Antworten": [
+          "1973",
+          "1980",
+          "1995",
+          "1993"
+        ],
+        "Lösung": 1
+      },
+      "NEU4": {
+        "Frage": "Wie heißen die berühmten Steinfelsen in England, die bereits in der Jungsteinzeit errichtet wurden?",
+        "Antworten": [
+          "Stone St. James",
+          "Stonesbury",
+          "Amesbury Stoning",
+          "Stonehenge"
+        ],
+        "Lösung": 4
+      },
+      "NEU7": {
+        "Frage": "In welchem nordeuropäischen Land wurde LEGO erfunden?",
+        "Antworten": [
+          "Norwegen",
+          "Dänemark",
+          "Schweden",
+          "Island"
+        ],
+        "Lösung": 2
+      }
+    },
+    "EEU": {},
+    "SEU": {
+      "SEU2": {
+        "Frage": "Was machen die Spanier an Silvester um Mitternacht als Erstes?",
+        "Antworten": [
+          "eine Weintraube essen",
+          "tanzen",
+          "Wein trinken",
+          "ein Feuerwerk zünden"
+        ],
+        "Lösung": 1
+      },
+      "SEU3": {
+        "Frage": "Welches Motiv ist auf der griechischen Zwei-Euro-Münze abgebildet?",
+        "Antworten": [
+          "die Akropolis",
+          "Entführung der Europa durch Zeus",
+          "Umriss des Peloponnes",
+          "eine Eule"
+        ],
+        "Lösung": 2
+      },
+      "SEU6": {
+        "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
+        "Antworten": [
+          "Englisch",
+          "Maltesisch",
+          "Deutsch",
+          "Italienisch"
+        ],
+        "Lösung": 2
+      },
+      "SEU9": {
+        "Frage": "Wie heißt die längste Brücke in Südeuropa?",
+        "Antworten": [
+          "Po (Italien)",
+          "Ponte Vasco da Gama (Portugal)",
+          "Drau (Italien)",
+          "Ebro (Spanien)"
+        ],
+        "Lösung": 2
+      },
+      "SEU4": {
+        "Frage": "In welchem südeuropäischen Land wachsen als einziges Bananen?",
+        "Antworten": [
+          "Portugal",
+          "Griechenland",
+          "Spanien",
+          "Monaco"
+        ],
+        "Lösung": 3
+      },
+      "SEU1": {
+        "Frage": "Wie viele Brücken hat Venedig?",
+        "Antworten": [
+          "644",
+          "513",
+          "287",
+          "435"
+        ],
+        "Lösung": 4
+      }
+    },
+    "WEU": {
+      "WEU3": {
+        "Frage": "Welches dieser Länder ist Hauptproduzent falscher Zähne?",
+        "Antworten": [
+          "Luxemburg",
+          "Schweiz",
+          "Niederlande",
+          "Liechtenstein"
+        ],
+        "Lösung": 4
+      },
+      "WEU6": {
+        "Frage": "Wo wurde 1885 der weltweit erste Fahrradweg gebaut?",
+        "Antworten": [
+          "Amsterdam",
+          "Lyon",
+          "Utrecht",
+          "Duisburg"
+        ],
+        "Lösung": 3
+      },
+      "WEU2": {
+        "Frage": "In welcher westeuropäischen Stadt gibt es nur ein Stoppschild?",
+        "Antworten": [
+          "Paris",
+          "Bern",
+          "Leipzig",
+          "Amsterdam"
+        ],
+        "Lösung": 1
+      },
+      "WEU8": {
+        "Frage": "Wie heißt der nördlichste Kanton von Luxemburg?",
+        "Antworten": [
+          "Clerf",
+          "Diekrich",
+          "Redingen",
+          "Esch an der Alzette"
+        ],
+        "Lösung": 1
+      },
+      "WEU1": {
+        "Frage": "Welches Land in Westeuropa produziert den meisten Müll?",
+        "Antworten": [
+          "Frankreich",
+          "Deutschland",
+          "Schweiz",
+          "Österreich"
+        ],
+        "Lösung": 2
+      },
+      "WEU4": {
+        "Frage": "Wo steht eine fast 500 Jahre alte Statue, die zeigt, wie die Brunnenfigur gerade Kinder frisst?",
+        "Antworten": [
+          "Österreich",
+          "Deutschland",
+          "Luxemburg",
+          "Schweiz"
+        ],
+        "Lösung": 4
+      }
+    }
+  },
+  "difficulty": {
+    "rewardMoney": 15,
+    "penaltyMoney": 10,
+    "travelCost": 10,
+    "jokerCost": 20,
+    "startMoney": 40
+  },
+  "correctAnswers": {
+    "NEU": 0,
+    "EEU": 5,
+    "SEU": 0,
+    "WEU": 0
+  },
+  "time_passed": [
+    19,
+    0,
+    0
+  ]
+}

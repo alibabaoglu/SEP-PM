@@ -1,5 +1,5 @@
 {
-    "difficulty":  {                 
+    "difficulty":  {
     "easy":{
         "rewardMoney":20,
         "penaltyMoney":10,
@@ -22,5 +22,5 @@
         "startMoney":30
     }
 }
-    
+
 }

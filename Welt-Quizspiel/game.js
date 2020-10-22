@@ -50,9 +50,6 @@ function getUsername() {
     window.location.href = 'spiel.html';
 }
 
-
-
-
 function loadSavegame() {
     if (dh.requestData("savegame") == "noSG") {
         console.log("No Savegame found")
@@ -85,7 +82,7 @@ function loadDefaultValues() {
     DATA = JSON.parse(dh.requestData("fragen"));
     DATA = selectQuestionSubset(DATA);
     true ? playAudio() : pauseAudio();
-    money = 0;
+    money = difficulty['startMoney'];
     timer.start();
     //console.log(timer);
     difficulty = JSON.parse(dh.requestData("options"))['difficulty'][sessionStorage.getItem('difficulty')];
@@ -180,6 +177,7 @@ regionID = "";
  * @param: {id} id of the clicked region.
 */
 function newRegion(id) {
+   
     regionID = id;
     //console.log(regionID);
     openQuiz();
@@ -205,6 +203,11 @@ function openQuiz() {
     $(".QuizAnswer").css("pointer-events", 'all');
     $('#QuizWindow').css('display', 'block');
         playQuiz();
+}
+
+function gameOver() {
+    alert("Spiel Vorbei!");
+
 }
 
 solution = 0;
@@ -256,6 +259,8 @@ function checkAnswer(clicked_id) {
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
         $(`#${solution}`).css("background-color", "#b3ff99");
     }
+
+    if (money < 0) gameOver();
     delete DATA[currentRegion][currentQuestion];
 
 
@@ -330,18 +335,23 @@ function coinAnimation() {
 
 function updateProgressbar(regionID) {
     var width = $(`#${regionID}`).innerWidth();
-    //alert(typeof (width + '%'));
 
 }
 
-/**
- * function updateProgressbar(regionID) {
-    var width = $(`#${regionID}`).innerWidth();
-    alert(" Width before:" + width);
-    alert(typeof width);
-    var width = parseInt($(`#${regionID}`).innerWidth() + 20);
-    alert(" After" + width)
-    $(`#${regionID}`).css('width', `${width}%`);
-
+function updateProgressbar(regionID) {
+    var allQuestions = Object.keys(DATA[regionID]).length;
+    if (allQuestions == 6)
+        $(`#${regionID}`).css({ 'width': "16.67%" });
+    if (allQuestions == 5)
+        $(`#${regionID}`).css({ 'width': "34%" });
+    if (allQuestions == 4)
+        $(`#${regionID}`).css({ 'width': "50%" });
+    if (allQuestions == 3)
+        $(`#${regionID}`).css({ 'width': "66%" });
+    if (allQuestions == 2)
+        $(`#${regionID}`).css({ 'width': "84%" });
+    if (allQuestions == 1)
+        $(`#${regionID}`).css({ 'width': "100%" });
+    if (allQuestions == 0)
+        $(`#${regionID}`).css({ 'width': "100%" });
 }
- */
