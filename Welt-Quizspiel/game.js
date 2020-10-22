@@ -6,17 +6,33 @@
  */
 const { valHooks } = require('jquery');
 const DataHandler = require('./js/DataHandler.js');
+
+
 username = "";
 time_passed = "";
-dh = new DataHandler();
+dh = new DataHandler(); 
 difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy'];
-completeRegionColorShades = ['#b80000', '#b86500', '#b89600', '#b8b500', '#a8b800', '#53b800', '#53b800'];
+//completeRegionColorShades = ['#b80000', '#b86500', '#b89600', '#b8b500', '#a8b800', '#53b800', '#53b800'];
+completeRegionColorShades = ['#ff0000', 'ff5900', '#ffb300', '#ffea00', '#e1ff00', '#a6ff00', '#00ff1a'];
 correctAnswers = {};
 DATA = {};
+
+
+
+
+var timer = new Timer();
+
+timer.addEventListener('secondsUpdated', function (e) {
+    time_passed = timer.getTimeValues().toString(); 
+    $('#basicUsage').html(timer.getTimeValues().toString());
+});
+
 function playAudio() {
     var x = document.getElementById("menu-audio");
     x.play();
 }
+
+
 
 
 function displayUsernameInput() {
@@ -47,6 +63,10 @@ function loadSavegame() {
         loadedSavegame['audio'] ? playAudio() : pauseAudio();
         money = loadedSavegame['money'];
         time_passed = loadedSavegame['time_passed'];
+        var secs = time_passed[0] + time_passed[1] * 60 + time_passed[2] * 60*60;
+        timer.stop();
+        timer.start({precision: 'seconds', startValues: {seconds: secs}});
+        $('#basicUsage').html(timer.getTimeValues().toString());
         difficulty = loadedSavegame['difficulty'];
         correctAnswers = loadedSavegame['correctAnswers']
     }
@@ -61,7 +81,9 @@ function loadDefaultValues() {
     DATA = selectQuestionSubset(DATA);
     true ? playAudio() : pauseAudio();
     money = 0;
-    difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy'];
+    timer.start();
+    console.log(timer);
+    difficulty = JSON.parse(dh.requestData("options"))['difficulty']['normal'];
     Object.keys(JSON.parse(dh.requestData("fragen"))).forEach(element => {
         correctAnswers[element] = 0;
     });
@@ -96,11 +118,15 @@ function saveSavegame(saveToDisk = true) {
     newSavegame['username'] = username;
     newSavegame['audio'] = document.getElementById("menu-audio").paused;
     newSavegame['money'] = money;
-    newSavegame['time_passed'] = document.getElementById('basicUsage').textContent;
+    //console.log(time_passed);
     newSavegame['questions_left'] = DATA;
     newSavegame['difficulty'] = difficulty;
     newSavegame['correctAnswers'] = correctAnswers;
     //sessionStorage.setItem("savegame", JSON.stringify(newSavegame));
+    newSavegame['time_passed'] = [timer.getTimeValues()['seconds'],timer.getTimeValues()['minutes'],timer.getTimeValues()['hours']];
+    console.log(newSavegame['time_passed']);
+
+
     if (saveToDisk) {
         dh.transmitData("savegame", JSON.stringify(newSavegame, null, 2));
     }

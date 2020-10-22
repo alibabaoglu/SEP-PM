@@ -1,10 +1,19 @@
 {
-  "username": "Hacker2021",
-  "audio": true,
+  "username": "sdg",
+  "audio": false,
   "money": 0,
-  "time_passed": "00:00:03",
   "questions_left": {
     "NEU": {
+      "NEU6": {
+        "Frage": "Welcher Religion gehört die Mehrheit der Isländer an?",
+        "Antworten": [
+          "lutherisch-orthodox",
+          "evangelisch-lutherisch",
+          "katholisch",
+          "britisch-evangelisch"
+        ],
+        "Lösung": 2
+      },
       "NEU1": {
         "Frage": "Welche Länder zählen zu Skandinavien?",
         "Antworten": [
@@ -15,15 +24,25 @@
         ],
         "Lösung": 2
       },
-      "NEU4": {
-        "Frage": "Wie heißen die berühmten Steinfelsen in England, die bereits in der Jungsteinzeit errichtet wurden?",
+      "NEU7": {
+        "Frage": "In welchem nordeuropäischen Land wurde LEGO erfunden?",
         "Antworten": [
-          "Stone St. James",
-          "Stonesbury",
-          "Amesbury Stoning",
-          "Stonehenge"
+          "Norwegen",
+          "Dänemark",
+          "Schweden",
+          "Island"
         ],
-        "Lösung": 4
+        "Lösung": 2
+      },
+      "NEU2": {
+        "Frage": "Welche Länder zählen zu den Nordischen Ländern?",
+        "Antworten": [
+          "Norwegen, Finnland, Schweden",
+          "Grönland, Finnland, Island, Färöer, Schweden",
+          "Norwegen, Finnland, Schweden, Färöer, Island, Grönland",
+          "Norwegen, Grönland, Finnland, Island, Schweden"
+        ],
+        "Lösung": 3
       },
       "NEU5": {
         "Frage": "Was bedeutet Butterbrot auf Norwegisch?",
@@ -35,38 +54,28 @@
         ],
         "Lösung": 3
       },
-      "NEU3": {
-        "Frage": "Welche Länder zählen zum Baltikum?",
+      "NEU4": {
+        "Frage": "Wie heißen die berühmten Steinfelsen in England, die bereits in der Jungsteinzeit errichtet wurden?",
         "Antworten": [
-          "Weißrussland, Estland, Lettland",
-          "Lettland, Weißrussland, Estland, Litauen",
-          "Estland und Lettland",
-          "Estland, Lettland, Litauen"
+          "Stone St. James",
+          "Stonesbury",
+          "Amesbury Stoning",
+          "Stonehenge"
         ],
         "Lösung": 4
-      },
-      "NEU6": {
-        "Frage": "Welcher Religion gehört die Mehrheit der Isländer an?",
-        "Antworten": [
-          "lutherisch-orthodox",
-          "evangelisch-lutherisch",
-          "katholisch",
-          "britisch-evangelisch"
-        ],
-        "Lösung": 2
-      },
-      "NEU9": {
-        "Frage": "An welche Länder grenzt Dänemark?",
-        "Antworten": [
-          "Deutschland und Luxemburg",
-          "Niederlande",
-          "Deutschland",
-          "Deutschland, Belgien und Luxemburg"
-        ],
-        "Lösung": 3
       }
     },
     "EEU": {
+      "EEU1": {
+        "Frage": "In welchem osteuropäischen Land wurde die weltweit erste Digitaluhr erfunden?",
+        "Antworten": [
+          "Albanien",
+          "Mazedonien",
+          "Serbien",
+          "Bulgarien"
+        ],
+        "Lösung": 4
+      },
       "EEU2": {
         "Frage": "Was ist der beliebteste Sport in Litauen?",
         "Antworten": [
@@ -97,16 +106,6 @@
         ],
         "Lösung": 1
       },
-      "EEU6": {
-        "Frage": "Wie viel Prozent der rumänischen Bevölkerung ist von Armut betroffen?",
-        "Antworten": [
-          "25%",
-          "39%",
-          "41%",
-          "33%"
-        ],
-        "Lösung": 4
-      },
       "EEU3": {
         "Frage": "Welches ist das jüngste Land Osteuropas?",
         "Antworten": [
@@ -117,55 +116,25 @@
         ],
         "Lösung": 1
       },
-      "EEU4": {
-        "Frage": "Aus welchem Land stammt der teuerste Käse der Welt (1.000 € pro Kilo)?",
+      "EEU6": {
+        "Frage": "Wie viel Prozent der rumänischen Bevölkerung ist von Armut betroffen?",
         "Antworten": [
-          "Bulgarien",
-          "Albanien",
-          "Serbien",
-          "Türkei"
+          "25%",
+          "39%",
+          "41%",
+          "33%"
         ],
-        "Lösung": 3
+        "Lösung": 4
       }
     },
     "SEU": {
-      "SEU2": {
-        "Frage": "Was machen die Spanier an Silvester um Mitternacht als Erstes?",
+      "SEU9": {
+        "Frage": "Wie heißt die längste Brücke in Südeuropa?",
         "Antworten": [
-          "eine Weintraube essen",
-          "tanzen",
-          "Wein trinken",
-          "ein Feuerwerk zünden"
-        ],
-        "Lösung": 1
-      },
-      "SEU1": {
-        "Frage": "Wie viele Brücken hat Venedig?",
-        "Antworten": [
-          "644",
-          "513",
-          "287",
-          "435"
-        ],
-        "Lösung": 4
-      },
-      "SEU8": {
-        "Frage": "Was ist die Amtssprache von Andorra?",
-        "Antworten": [
-          "Portugiesisch",
-          "Spanisch",
-          "Katalanisch",
-          "Französisch"
-        ],
-        "Lösung": 3
-      },
-      "SEU6": {
-        "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
-        "Antworten": [
-          "Englisch",
-          "Maltesisch",
-          "Deutsch",
-          "Italienisch"
+          "Po (Italien)",
+          "Ponte Vasco da Gama (Portugal)",
+          "Drau (Italien)",
+          "Ebro (Spanien)"
         ],
         "Lösung": 2
       },
@@ -179,28 +148,48 @@
         ],
         "Lösung": 3
       },
-      "SEU9": {
-        "Frage": "Wie heißt die längste Brücke in Südeuropa?",
+      "SEU6": {
+        "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
         "Antworten": [
-          "Po (Italien)",
-          "Ponte Vasco da Gama (Portugal)",
-          "Drau (Italien)",
-          "Ebro (Spanien)"
+          "Englisch",
+          "Maltesisch",
+          "Deutsch",
+          "Italienisch"
         ],
         "Lösung": 2
+      },
+      "SEU3": {
+        "Frage": "Welches Motiv ist auf der griechischen Zwei-Euro-Münze abgebildet?",
+        "Antworten": [
+          "die Akropolis",
+          "Entführung der Europa durch Zeus",
+          "Umriss des Peloponnes",
+          "eine Eule"
+        ],
+        "Lösung": 2
+      },
+      "SEU1": {
+        "Frage": "Wie viele Brücken hat Venedig?",
+        "Antworten": [
+          "644",
+          "513",
+          "287",
+          "435"
+        ],
+        "Lösung": 4
+      },
+      "SEU5": {
+        "Frage": "Welcher dieser Flüsse fließt durch Rom?",
+        "Antworten": [
+          "Ticino",
+          "Po",
+          "Rienz",
+          "Tiber"
+        ],
+        "Lösung": 4
       }
     },
     "WEU": {
-      "WEU9": {
-        "Frage": "Wie groß ist der Genfersee?",
-        "Antworten": [
-          "345,31 km²",
-          "299,64 km²",
-          "520,29 km²",
-          "390,68 km²"
-        ],
-        "Lösung": 1
-      },
       "WEU7": {
         "Frage": "In welchem Land wurde das Originalrezept für Croissants erfunden?",
         "Antworten": [
@@ -210,16 +199,6 @@
           "Belgien"
         ],
         "Lösung": 3
-      },
-      "WEU2": {
-        "Frage": "In welcher westeuropäischen Stadt gibt es nur ein Stoppschild?",
-        "Antworten": [
-          "Paris",
-          "Bern",
-          "Leipzig",
-          "Amsterdam"
-        ],
-        "Lösung": 1
       },
       "WEU6": {
         "Frage": "Wo wurde 1885 der weltweit erste Fahrradweg gebaut?",
@@ -231,15 +210,25 @@
         ],
         "Lösung": 3
       },
-      "WEU4": {
-        "Frage": "Wo steht eine fast 500 Jahre alte Statue, die zeigt, wie die Brunnenfigur gerade Kinder frisst?",
+      "WEU9": {
+        "Frage": "Wie groß ist der Genfersee?",
         "Antworten": [
-          "Österreich",
-          "Deutschland",
-          "Luxemburg",
-          "Schweiz"
+          "345,31 km²",
+          "299,64 km²",
+          "520,29 km²",
+          "390,68 km²"
         ],
-        "Lösung": 4
+        "Lösung": 1
+      },
+      "WEU8": {
+        "Frage": "Wie heißt der nördlichste Kanton von Luxemburg?",
+        "Antworten": [
+          "Clerf",
+          "Diekrich",
+          "Redingen",
+          "Esch an der Alzette"
+        ],
+        "Lösung": 1
       },
       "WEU5": {
         "Frage": "Wo befindet sich der älteste Flughafen, der vor über 100 Jahren eröffnet wurde und seitdem am selben Ort dauerhaft in Betrieb ist?",
@@ -250,19 +239,34 @@
           "Paris"
         ],
         "Lösung": 1
+      },
+      "WEU3": {
+        "Frage": "Welches dieser Länder ist Hauptproduzent falscher Zähne?",
+        "Antworten": [
+          "Luxemburg",
+          "Schweiz",
+          "Niederlande",
+          "Liechtenstein"
+        ],
+        "Lösung": 4
       }
     }
   },
   "difficulty": {
-    "rewardMoney": 20,
+    "rewardMoney": 15,
     "penaltyMoney": 10,
     "travelCost": 10,
-    "jokerCost": 15
+    "jokerCost": 20
   },
   "correctAnswers": {
     "NEU": 0,
     "EEU": 0,
     "SEU": 0,
     "WEU": 0
-  }
+  },
+  "time_passed": [
+    38,
+    0,
+    0
+  ]
 }

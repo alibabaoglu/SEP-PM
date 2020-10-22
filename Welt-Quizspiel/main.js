@@ -6,6 +6,8 @@ fh = new FileHandler("/files/");
 
 let win
 
+
+
 function createWindow() {
     win = new BrowserWindow(
         {

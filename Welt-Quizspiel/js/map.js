@@ -1,5 +1,6 @@
 $.mapael.prototype.defaultOptions.map.defaultArea.attrsHover.animDuration = 50;
 
+var lastHoverID = "";
 $(function () {
     var x = $(".container-map").mapael({
         map: {
@@ -29,11 +30,19 @@ $(function () {
 
                 }
                 , eventHandlers: {
-                    mouseover: function (e) {
-                        playAudio();
+                    mouseover: function (em, id) {
+                        lastHoverID = id;
+                        //console.log(id);
+                        setTimeout(function(){ console.log(lastHoverID); if(lastHoverID != ""){cHoverAudio(); }}, 80);
+                        //playAudio();
+                        //countryHoverSound.play();
+                        //cHoverAudio();
                     },
                     mouseout: function (e) {
-                        pauseAudio();
+                        lastHoverID = "";
+                        //pauseAudio();
+                        //countryHoverSound.pause();
+                        //countryHoverSound.currentTime = 0;  
                     },
                     click: function (e, id, mapElem, textElem) {
                         var newData = {
@@ -185,6 +194,23 @@ $(function () {
     });
 });
 
+//const countryHoverSound = new Audio('../audio/cHover.mp3');
+var countryHoverSound = document.createElement('audio');
+countryHoverSound.src = '../audio/cHover.mp3'
+countryHoverSound.volume = 0.2;
+
+var cHovABool = false;
+function cHoverAudio(){
+if(!cHovABool){
+    cHovABool = true;
+    countryHoverSound.play();
+    
+}
+cHovABool=false;
+    //countryHoverSound.pause();
+    //countryHoverSound.currentTime = 0;  
+}
+
 function setCompletedRegionColor(id){
     console.log(id);
     var newData = {
@@ -214,7 +240,8 @@ function initializeColors(){
         if(Object.keys(DATA[allRegIDs[i]]).length < 1){
             newData.areas[allRegIDs[i]] = {
                 attrs: {
-                    fill: completeRegionColorShades[correctAnswers[allRegIDs[i]]]
+                    fill: completeRegionColorShades[correctAnswers[allRegIDs[i]]],
+                    stroke: completeRegionColorShades[correctAnswers[allRegIDs[i]]]
                 },
                 attrsHover:{
                     animDuration:10000000
