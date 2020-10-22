@@ -196,18 +196,17 @@ function openQuiz() {
     for (let index = 1; index < 5; index++) {
         $(`#${index}`).css('opacity', '1.0');
     }
-    $('.joker').css('pointer-events', 'all');
+    $('.joker').css('pointer-events', 'auto');
     $('.joker').css('opacity', '1.0');
 
     $(".QuizAnswer").css("background-color", "rgba(128,128,128, 0.5)");
-    $(".QuizAnswer").css("pointer-events", 'all');
+    $(".QuizAnswer").css("pointer-events", 'auto');
     $('#QuizWindow').css('display', 'block');
         playQuiz();
 }
 
 function gameOver() {
     alert("Spiel Vorbei!");
-
 }
 
 solution = 0;
@@ -217,6 +216,7 @@ solution = 0;
 */
 function playQuiz() {
     $('#nextQuestion').css('pointer-events', 'none');
+    $('#nextQuestion').css('opacity', '1.0');
     var allQuestionsID = Object.keys(DATA[regionID]);
     if (allQuestionsID.length > 0) {
         var questionID = allQuestionsID[Math.floor(Math.random() * allQuestionsID.length)];
@@ -243,7 +243,11 @@ function playQuiz() {
 */
 function checkAnswer(clicked_id) {
     if (Object.keys(DATA[currentRegion]).length > 1) {
-        $('#nextQuestion').css('pointer-events', 'all');
+        $('#nextQuestion').css('pointer-events', 'auto');
+        $('#nextQuestion').css('opacity', '1.0');
+    }
+    else{
+        $('#nextQuestion').css('opacity', '0.7');
     }
 
    // console.log(correctAnswers[currentRegion]);
