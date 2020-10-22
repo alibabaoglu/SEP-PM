@@ -15,7 +15,7 @@ function initializeStorage(){
         fileStorage.set("highscore", fh.readFile("highscore.json"));
         fileStorage.set("fragen",fh.readFile("fragen.json"));
         fileStorage.set("options",fh.readFile("options.json"));
-        fileStorage.set("savegame", {});
+        fileStorage.set("savegame", "noSG");
         fileStorage.set('init', true)
     }
 }

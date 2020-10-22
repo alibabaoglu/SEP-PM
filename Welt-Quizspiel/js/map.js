@@ -16,7 +16,8 @@ $(function () {
             },
             defaultArea: {
                 attrs: {
-                    fill: "#f4f4e8"
+                    //fill:"url('data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')"
+                    //fill: "url(https://icon-library.com/images/pattern-icon/pattern-icon-13.jpg)"
                 }
                 , text: {
                     attrs: {
@@ -278,7 +279,10 @@ function setCompletedRegionColor(id){
 
     newData.areas[id] = {
         attrs: {
-            fill: completeRegionColorShades[correctAnswers[id]]
+            //fill: completeRegionColorShades[correctAnswers[id]],3
+            stroke: completeRegionColorShades[correctAnswers[id]],
+            "stroke-width":2
+            //"stroke-dasharray":".",
         },
         attrsHover:{
             animDuration:10000000
@@ -299,8 +303,9 @@ function initializeColors(){
         if(Object.keys(DATA[allRegIDs[i]]).length < 1){
             newData.areas[allRegIDs[i]] = {
                 attrs: {
-                    fill: completeRegionColorShades[correctAnswers[allRegIDs[i]]],
-                    stroke: completeRegionColorShades[correctAnswers[allRegIDs[i]]]
+                    //fill: completeRegionColorShades[correctAnswers[allRegIDs[i]]],
+                    stroke: completeRegionColorShades[correctAnswers[allRegIDs[i]]],
+                    "stroke-width":2
                 },
                 attrsHover:{
                     animDuration:10000000

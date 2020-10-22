@@ -42,8 +42,11 @@ function displayUsernameInput() {
 }
 
 function getUsername() {
+    console.log("dif");
     username = document.getElementById('inputDefault').value;
+    //difficulty = document.getElementById('inputDefault').value;
     sessionStorage.setItem('playername', username);
+    sessionStorage.setItem('difficulty', document.querySelector('input[name="difficulty"]:checked').value);
     window.location.href = 'spiel.html';
 }
 
@@ -51,7 +54,7 @@ function getUsername() {
 
 
 function loadSavegame() {
-    if (dh.requestData("savegame") == "noFile") {
+    if (dh.requestData("savegame") == "noSG") {
         console.log("No Savegame found")
         loadDefaultValues();
     }
@@ -85,7 +88,8 @@ function loadDefaultValues() {
     money = 0;
     timer.start();
     //console.log(timer);
-    difficulty = JSON.parse(dh.requestData("options"))['difficulty']['normal'];
+    difficulty = JSON.parse(dh.requestData("options"))['difficulty'][sessionStorage.getItem('difficulty')];
+    console.log(difficulty);
     Object.keys(JSON.parse(dh.requestData("fragen"))).forEach(element => {
         correctAnswers[element] = 0;
     });
@@ -200,13 +204,7 @@ function openQuiz() {
     $(".QuizAnswer").css("background-color", "rgba(128,128,128, 0.5)");
     $(".QuizAnswer").css("pointer-events", 'all');
     $('#QuizWindow').css('display', 'block');
-    if ($('#nextQuestion').text() == "Region verlassen") {
-        closeQuiz();
-        $('#nextQuestion').text("Nächste Frage");
-    }
-    else {
         playQuiz();
-    }
 }
 
 solution = 0;
@@ -254,7 +252,7 @@ function checkAnswer(clicked_id) {
         coinAnimation();
         $(`#${solution}`).css("background-color", "lightgreen");
     } else {
-        money -= difficulty["penaltyMoney"];;
+        money -= difficulty["penaltyMoney"];
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
         $(`#${solution}`).css("background-color", "#b3ff99");
     }
@@ -301,7 +299,7 @@ function closeQuiz() {
         setCompletedRegionColor(currentRegion);
     }
     $('#QuizWindow').css('display', 'none');
-    saveSavegame(true);
+    saveSavegame();
 }
 
 function completedQuiz() {
