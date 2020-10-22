@@ -14,6 +14,9 @@ dh = new DataHandler();
 difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy'];
 //completeRegionColorShades = ['#b80000', '#b86500', '#b89600', '#b8b500', '#a8b800', '#53b800', '#53b800'];
 completeRegionColorShades = ['#ff0000', 'ff5900', '#ffb300', '#ffea00', '#e1ff00', '#a6ff00', '#00ff1a'];
+fullRegionNames = {
+    "NAS":"Nordasien","EAS":"Ostasien","CAS":"Zentralasien","WAS":"Westasien","SAS":"Südasien","SEA":"Südostasien","WEU":"Westeuropa","NEU":"Nordeuropa","EEU":"Osteuropa","SEU":"Südeuropa","NAF":"Nordafrika","WAF":"Westafrika","CAF":"Zentrakafrika","EAF":"Ostafrika","SAF":"Südafrika","OZN":"Ozeanien","NAM":"Nordamerika","CAM":"Zentralamerika","SAM":"Südamerika"
+};
 correctAnswers = {};
 DATA = {};
 
@@ -115,7 +118,8 @@ function selectQuestionSubset(allQuestions) {
     return subset;
 }
 
-function saveSavegame() {
+function saveSavegame(deleteSafegame) {
+    if(!deleteSafegame){
     sessionStorage.setItem("continue", 'true');
     var newSavegame = {};
     newSavegame['username'] = username;
@@ -130,7 +134,10 @@ function saveSavegame() {
     //console.log(newSavegame['time_passed']);
     console.log("SG:"+JSON.stringify(newSavegame));
         dh.transmitData("savegame", newSavegame);
-    
+    }
+    else{
+        dh.transmitData("savegame", "noSG");
+    }
     return;
 
 }
@@ -200,7 +207,7 @@ function openQuiz() {
     $('.joker').css('opacity', '1.0');
 
     $(".QuizAnswer").css("background-color", "rgba(128,128,128, 0.5)");
-    $(".QuizAnswer").css("pointer-events", 'auto');
+    $(".QuizAnswer").css("pointer-events", 'all');
     $('#QuizWindow').css('display', 'block');
         playQuiz();
 }
@@ -217,6 +224,8 @@ solution = 0;
 function playQuiz() {
     $('#nextQuestion').css('pointer-events', 'none');
     $('#nextQuestion').css('opacity', '1.0');
+    $('#regionName').text(fullRegionNames[regionID]);
+    $('#Description').css("visibility", "hidden");
     var allQuestionsID = Object.keys(DATA[regionID]);
     if (allQuestionsID.length > 0) {
         var questionID = allQuestionsID[Math.floor(Math.random() * allQuestionsID.length)];
@@ -249,6 +258,7 @@ function checkAnswer(clicked_id) {
     else{
         $('#nextQuestion').css('opacity', '0.7');
     }
+    $('#nextQuestion').css('opacity', '1.0');
 
    // console.log(correctAnswers[currentRegion]);
     //console.log(completeRegionColorShades[correctAnswers[currentRegion]]);
@@ -263,15 +273,21 @@ function checkAnswer(clicked_id) {
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
         $(`#${solution}`).css("background-color", "#b3ff99");
     }
-
+    if('desc' in DATA[currentRegion][currentQuestion]){
+        $('#Description').text("test");
+        $('#Description').text(DATA[currentRegion][currentQuestion]["desc"]+"");
+        $('#Description').css("visibility", "visible");
+    }
+    
+    
     if (money < 0) gameOver();
     delete DATA[currentRegion][currentQuestion];
 
 
-
+    $(".QuizAnswer").css("pointer-events", 'none');
     $('.joker').css('pointer-events', 'none');
 
-    $(".QuizAnswer").css("pointer-events", 'none');
+    
     $('#Counter').text(money + " $");
     saveSavegame();
 }
