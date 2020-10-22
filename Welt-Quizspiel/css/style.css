@@ -54,6 +54,28 @@ body {
     background-color: #002a36FF;
 }
 
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #002a36CC;
+    content: '';
+    display: inline-block;
+    border: 2px solid white;
+}
+
 .difColor {
     background-color: #839496BB; 
     color:#002B36;
@@ -104,7 +126,6 @@ body {
     width: 80%;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
 .QuizBtn:hover {
