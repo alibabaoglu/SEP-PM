@@ -252,7 +252,7 @@ function checkAnswer(clicked_id) {
     console.log(correctAnswers[currentRegion]);
     console.log(completeRegionColorShades[correctAnswers[currentRegion]]);
     if (solution == parseInt(clicked_id)) {
-
+        updateProgressbar(currentRegion);
         correctAnswers[currentRegion] = parseInt(correctAnswers[currentRegion] + 1);
         money += difficulty["rewardMoney"];
         coinAnimation();
@@ -333,3 +333,21 @@ function coinAnimation() {
     $("#treasure_chest").css('display', 'flex');
     return;
 }
+
+function updateProgressbar(regionID) {
+    var width = $(`#${regionID}`).innerWidth();
+    //alert(typeof (width + '%'));
+
+}
+
+/**
+ * function updateProgressbar(regionID) {
+    var width = $(`#${regionID}`).innerWidth();
+    alert(" Width before:" + width);
+    alert(typeof width);
+    var width = parseInt($(`#${regionID}`).innerWidth() + 20);
+    alert(" After" + width)
+    $(`#${regionID}`).css('width', `${width}%`);
+
+}
+ */
