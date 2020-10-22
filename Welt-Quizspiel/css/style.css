@@ -34,7 +34,7 @@ body {
 }
 
 .MenuBtn {
-    background-color: #002a36EE;
+    background-color: #002a36CC;
     border: none;
     border-radius: 5px;
     color: white;
@@ -48,6 +48,19 @@ body {
     font-size: 20px;
     width: 60%;
     cursor: pointer;
+}
+
+.MenuBtn:hover {
+    background-color: #002a36FF;
+}
+
+.difColor {
+    background-color: #839496BB; 
+    color:#002B36;
+}
+
+.difColor:hover {
+    background-color: #839496FF; 
 }
 
 #QuizWindow {
@@ -76,12 +89,7 @@ body {
     height: 80%;
     min-width: 600px;
     min-height: 700px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
     border-radius: 20px;
     border: 10px solid #002a36;
 
@@ -96,12 +104,7 @@ body {
     width: 80%;
     border-radius: 5px;
     cursor: pointer;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
 }
 
 .QuizBtn:hover {

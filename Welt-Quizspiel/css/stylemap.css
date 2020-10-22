@@ -9,6 +9,13 @@
     margin: auto;
 }
 
+#Description {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    display: none;
+}
+
 .QuestionAnswer {
     margin: auto;
     margin-top: 30px;
@@ -20,13 +27,13 @@
     margin: 0px 20px 20px 20px;
     width: 80%;
     border-radius: 5px;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgb(128, 128, 128);
     border-style: none;
     cursor: pointer;
 }
 
 .QuizAnswer:hover {
-    background-color: rgba(128, 128, 128, 0.9);
+    background-color: rgba(128, 128, 128, 0.5);
     border-style: none;
 }
 
