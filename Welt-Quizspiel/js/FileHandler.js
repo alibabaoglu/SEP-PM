@@ -9,15 +9,24 @@ class FileHandler {
     }
 
     readFile(fileName) {
-        // console.log("Reading: "+this.workingDirPathAbs+fileName);
+         console.log("Reading: "+this.workingDirPathAbs+fileName);
+         console.log(fileSystem.existsSync(this.workingDirPathAbs + fileName))
+        if(fileSystem.existsSync(this.workingDirPathAbs + fileName)){
         var file = fileSystem.readFileSync(this.workingDirPathAbs + fileName, { encoding: 'utf8', flag: 'r' });
-        //console.log(file)
+        }
+        else{
+          return "noFile";  
+        }//console.log(file)
         return file;
     }
 
     writeToFile(fileName, data) {
-        //console.log("Writing to: "+this.workingDirPathAbs+fileName);
-        fileSystem.writeFileSync(this.workingDirPathAbs + fileName, data, { encoding: 'utf8', flag: 'w' });
+        console.log("Writing to: "+this.workingDirPathAbs+fileName);
+        fileSystem.writeFile(this.workingDirPathAbs + fileName, data, { encoding: 'utf8', flag: 'w' },  (err) => {
+            if (err) throw err;
+            console.log('The file has been saved!');
+          });
+
     }
 }
 module.exports = FileHandler

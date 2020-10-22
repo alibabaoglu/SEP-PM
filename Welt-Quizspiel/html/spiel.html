@@ -11,12 +11,13 @@
         charset="utf-8"></script>
     <script src='../node_modules/raphael/raphael.js'></script>
     <script src='../jQuery-Mapael-2.2.0/js/jquery.mapael.js'></script>
+    <script src="https://rawgit.com/aterrien/jQuery-Knob/master/dist/jquery.knob.min.js" charset="utf-8"></script>
     <script src='../jQuery-Mapael-2.2.0/js/maps/worldregions_projektion_ohne_antarktis.js'></script>
     <script src='../data.js'></script>
     <script>require('../game.js');</script>
     <script src='../game.js'></script>
     <script src='../js/map.js'></script>
-   
+
     <script src="../node_modules/easytimer/src/easytimer.js"></script>
     <link rel="shortcut icon" href="#" />
     <script>if (window.module) module = window.module;</script>
@@ -33,29 +34,26 @@
 
 
     <div id="mySidenav" class="sidenav">
-
+        <h2 id="player"></h2>
         <div style="display:flex;" id="chest">
-            <p id="Counter">0$</p>
+            <div style="padding-top: 10%;">
+                <p id="Counter">0$</p>
+            </div>
             <img id="treasure_chest_noanime" src="../img/treasure_notanime.gif" alt="this slowpoke moves" width="100"
                 alt="404 image" />
-            <img id="treasure_chest" style="display: none;" src="../img/animated-money-image-0120.gif"
+            <img id="treasure_chest" style="display: none;" src="../img/schatzkiste_schneller.gif"
                 alt="this slowpoke moves" width="100" alt="404 image" />
         </div>
-        <div id="basicUsage">00:00:00</div>
+        <div id="basicUsage" style="font-size: 16pt;">00:00:00</div>
         <br>
-        <button type="button" class="btn btn-primary">Hauptmenu</button>
-        <br>
-        <br>
-
-
 
         <div class="progress" style="height:15px">
 
             <div id="progrees_text_div" style="position: absolute;">
                 <p id="progress_text">Nordamerika</p>
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAM" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="NAM" class="progress-bar progress-bar-striped progress-bar-animated bg-NAM" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -64,8 +62,8 @@
                 <p id="progress_text">Zentralamerika</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-CAM" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="CAM" class="progress-bar progress-bar-striped progress-bar-animated bg-CAM" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -74,8 +72,8 @@
                 <p id="progress_text">Südamerika</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-SAM" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="SAM" class="progress-bar progress-bar-striped progress-bar-animated bg-SAM" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
 
@@ -85,8 +83,8 @@
                 <p id="progress_text">Nordasien</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="NAS" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
 
@@ -96,18 +94,18 @@
                 <p id="progress_text">Zentralasien</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="CAS" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
 
-            <div id="progrees_text_div" style="position: absolute; ">
+            <div  id="progrees_text_div" style="position: absolute; ">
                 <p id="progress_text">Ostasien</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="EAS" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -116,8 +114,8 @@
                 <p id="progress_text">Südasien</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="SAS" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -126,8 +124,8 @@
                 <p id="progress_text">Westasien</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="WAS" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -136,8 +134,8 @@
                 <p id="progress_text">Südostasien</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="SEA" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -146,8 +144,8 @@
                 <p id="progress_text">Ozeanien</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="OZN" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -156,8 +154,8 @@
                 <p id="progress_text">Nordeuropa</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="NEU" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -166,8 +164,8 @@
                 <p id="progress_text">Westeuropa</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="WEU" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -177,8 +175,8 @@
 
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="EEU" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
@@ -187,60 +185,61 @@
                 <p id="progress_text">Südeuropa</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="SEU" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
 
             <div id="progrees_text_div" style="position: absolute; ">
-                <p id="progress_text">Westeuropa</p>
+                <p id="progress_text">Nordafrika</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="NAF" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
 
             <div id="progrees_text_div" style="position: absolute; ">
-                <p id="progress_text">Westeuropa</p>
+                <p id="progress_text">Westafrika</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="WAF" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
 
             <div id="progrees_text_div" style="position: absolute; ">
-                <p id="progress_text">Westeuropa</p>
+                <p id="progress_text">Zentralafrika</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="CAF" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
 
             <div id="progrees_text_div" style="position: absolute; ">
-                <p id="progress_text">Westeuropa</p>
+                <p id="progress_text">Ostafrika</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="EAF" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
         <div class="progress" style="height:15px">
 
             <div id="progrees_text_div" style="position: absolute; ">
-                <p id="progress_text">Westeuropa</p>
+                <p id="progress_text">Südafrika</p>
 
             </div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;height:15px"></div>
+            <div id="SAF" class="progress-bar progress-bar-striped progress-bar-animated bg-NAS" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 0%;height:15px"></div>
         </div>
         <br>
+        <button type="button" onclick="window.location.href='index.html'" class="btn btn-primary">Hauptmenü</button>
     </div>
 
     <div id="main">
@@ -269,10 +268,15 @@
                 <br>
                 <br>
             </div>
+
+            <div class='joker' onclick='useJoker()'>
+                <h3>50/50 Joker<h3>
+            </div>
+
             <!--Question and answer options as buttons-->
             <div class="QuestionAnswer">
                 <div id="coin-quiz">
-                    <img id="coin-gif" style="display: none;" src="../img/animated-money-image-0058.gif"
+                    <img id="coin-gif" style="visibility: hidden;" src="../img/animated-money-image-0058.gif"
                         alt="this slowpoke moves" width="50" alt="404 image" />
                 </div>
                 <h2 id="question" style="text-align: left;">
@@ -290,7 +294,7 @@
             <div class="Quizcontrol">
 
                 <button id="close" class="QuizBtn" onclick="closeQuiz()">Weiter reisen</button>
-                <button id="nextQuestion" onclick="openQuiz()" class="QuizBtn">Naechste Frage</button>
+                <button id="nextQuestion" onclick="openQuiz()" class="QuizBtn">Nächste Frage</button>
             </div>
         </div>
     </div>

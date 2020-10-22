@@ -5,7 +5,9 @@
 <head>
     <meta charset='utf-8'>
     <title>Welt Quizspiel</title>
+
     <link rel="stylesheet" href="../css/style.css">
+    <script src='../game.js'></script>
 </head>
 
 <body>
@@ -19,14 +21,31 @@
             <button onclick="playAudio()" type="button">Play Audio</button>
             <button onclick="pauseAudio()" type="button">Pause Audio</button>
             <div class="center">
-                <button class="MenuBtn" onclick="window.location.href='spiel.html'">Neues Spiel Starten</button>
-                <br>
-                <br>
-                <button class="MenuBtn">Spiel Fortsetzen</button>
-                <br>
-                <br>
-                <button class="MenuBtn">Highscore</button>
-                
+                <div id="menu-buttons">
+                    <button class="MenuBtn"
+                        onclick="sessionStorage.setItem('continue', 'false');displayUsernameInput();">Neues
+                        Spiel Starten</button>
+                    <br>
+                    <br>
+                    <button class="MenuBtn"
+                        onclick="sessionStorage.setItem('continue', 'true');window.location.href='spiel.html'">Spiel
+                        Fortsetzen</button>
+                    <br>
+                    <br>
+                    <button class="MenuBtn" onclick="showHighscoreBoard()">Highscore</button>
+                </div>
+                <div id="username_div" style="background-color:#002B36; padding: 5%; visibility: hidden;">
+                    <div class="form-group">
+                        <h1 style="color: #839496;">Spielernamen eingeben:</h1> <br>
+                        <input style="height: 30px; width: 100%;" type="text" placeholder="Hacker2012"
+                            id="inputDefault">
+                    </div>
+                    <br>
+                    <button id="username_submit" onclick="getUsername();" type="submit"
+                        class="MenuBtn">Bestätigen</button>
+
+
+                </div>
             </div>
         </div>
     </div>

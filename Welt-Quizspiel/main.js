@@ -2,6 +2,7 @@ const { app, BrowserWindow, ipcMain } = require('electron')
 const url = require('url')
 const path = require('path')
 const FileHandler = require('./js/FileHandler.js');
+fh = new FileHandler("/files/");
 
 let win
 
@@ -10,26 +11,25 @@ function createWindow() {
         {
             minimizable: true,
             resizable: false,
-            fullscreen: true,
+           fullscreen: true,
 
             webPreferences: {
                 nodeIntegration: true
             }
         })
-    win.maximize();
+    //win.maximize();
+    win.setSize(1920, 1080);
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'html/index.html'),
         protocol: 'file:',
         slashes: true
     }))
 }
-app.on('ready', createWindow)
+app.on('ready', createWindow);
 // Event handler for asynchronous incoming messages
 ipcMain.on('request', (event, cmd) => {
     //console.log(cmd)
     // Event emitter for sending asynchronous messages
-
-    var fh = new FileHandler("/files/");
 
     if (cmd == "highscore") {
         var rep = fh.readFile("highscore.json");
@@ -43,14 +43,17 @@ ipcMain.on('request', (event, cmd) => {
         var rep = fh.readFile("savegame.json");
         event.returnValue = rep;
     }
-
-})
+    if (cmd == "options") {
+        var rep = fh.readFile("options.json");
+        event.returnValue = rep;
+    }
+}
+)
 
 ipcMain.on('transmit', (event, cmd, data) => {
-    console.log(data)
-    var fh = new FileHandler("/files/");
+    console.log(data);
     if (cmd == "savegame") {
-        fh.writeToFile("savegame.json", data)
+        fh.writeToFile("savegame.json", data);
     }
 })
 

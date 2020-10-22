@@ -39,15 +39,19 @@ $(function () {
                         var newData = {
                             'areas': {}
                         };
-                        if (mapElem.originalAttrs.fill != "#5ba4ff") {
+                        if (!regionIsCompleted(id)) {
+                            /*  
+                                newData.areas[id] = {
+                                    attrs: {
+                                        fill: "#5ba4ff"
+                                    }
+                                };*/
 
-                            newData.areas[id] = {
-                                attrs: {
-                                    fill: "#5ba4ff"
-                                }
-                            };
                             newRegion(id);
 
+                        }
+                        else {
+                            setCompletedRegionColor(id);
                         }
                         $(".container-map").trigger('update', [{ mapOptions: newData }]);
                     }
@@ -60,24 +64,36 @@ $(function () {
                     fill: "#4D824B"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Nordamerika</span>"
+                }
             },
             "CAM": {
                 attrs: {
                     fill: "#F2D0FF"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Zentralamerika</span>"
+                }
             },
             "SAM": {
                 attrs: {
                     fill: "#69C487"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Südamerika</span>"
+                }
             },
             "NAS": {
                 attrs: {
                     fill: "#5675C1"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Nordasien</span>"
+                }
 
             },
             "WAS": {
@@ -85,66 +101,99 @@ $(function () {
                     fill: "#F664CD"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Westasien</span>"
+                }
             },
             "CAS": {
                 attrs: {
                     fill: " #C54A56"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Zentralasien</span>"
+                }
             },
             "SAS": {
                 attrs: {
                     fill: " #69C487"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Südasien</span>"
+                }
             },
             "EAS": {
                 attrs: {
                     fill: " #67CFF0"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Ostasien</span>"
+                }
             },
             "OZN": {
                 attrs: {
                     fill: " #52836E"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Ozeanien</span>"
+                }
             },
             "WEU": {
                 attrs: {
                     fill: " #D5EE74"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Westeuropa</span>"
+                }
             },
             "NEU": {
                 attrs: {
                     fill: " #B3A3FB"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Nordeuropa</span>"
+                }
             },
             "EEU": {
                 attrs: {
                     fill: " #42779C"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Osteuropa</span>"
+                }
             },
             "SEU": {
                 attrs: {
                     fill: " #42779C"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Südeuropa</span>"
+                }
             },
             "NAF": {
                 attrs: {
                     fill: " #4FDEB8"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Nordafrika</span>"
+                }
             },
             "WAF": {
                 attrs: {
                     fill: " #743481"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Westafrika</span>"
+                }
 
             },
             "EAF": {
@@ -152,6 +201,9 @@ $(function () {
                     fill: " #A33C5A"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Ostafrika</span>"
+                }
 
             },
             "CAF": {
@@ -159,6 +211,9 @@ $(function () {
                     fill: " #A6FB66"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Zentralafrika</span>"
+                }
 
             },
             "SAF": {
@@ -166,6 +221,9 @@ $(function () {
                     fill: " #5478F0"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Südafrika</span>"
+                }
 
             },
             "SEA": {
@@ -173,15 +231,58 @@ $(function () {
                     fill: " #815448"
 
                 },
+                "tooltip": {
+                    "content": "<span style=\"font-weight:bold;\">Südostasien</span>"
+                }
 
             },
 
 
         },
     });
-
-
-
 });
 
+function setCompletedRegionColor(id) {
+    console.log(id);
+    var newData = {
+        'areas': {}
+    };
 
+    newData.areas[id] = {
+        attrs: {
+            fill: completeRegionColorShades[correctAnswers[id]]
+        },
+        attrsHover: {
+            animDuration: 10000000
+        }
+
+    };
+    console.log(completeRegionColorShades[correctAnswers[id]]);
+    $(".container-map").trigger('update', [{ mapOptions: newData }]);
+};
+
+function initializeColors() {
+    var newData = {
+        'areas': {}
+    };
+    allRegIDs = Object.keys(DATA);
+    // console.log(Object.keys(DATA[allRegIDs[i]]));
+    for (let i = 0; i < allRegIDs.length; i++) {
+        if (Object.keys(DATA[allRegIDs[i]]).length < 1) {
+            newData.areas[allRegIDs[i]] = {
+                attrs: {
+                    fill: completeRegionColorShades[correctAnswers[allRegIDs[i]]]
+                },
+                attrsHover: {
+                    animDuration: 10000000
+                }
+
+            };
+        }
+
+
+
+    }
+    $(".container-map").trigger('update', [{ mapOptions: newData }]);
+
+}
