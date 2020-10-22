@@ -71,7 +71,7 @@ $(function () {
         areas: {
             "NAM": {
                 attrs: {
-                    fill: "#4D824B"
+                    fill: "#d6958e"
 
                 },
                 "tooltip": {
@@ -80,7 +80,7 @@ $(function () {
             },
             "CAM": {
                 attrs: {
-                    fill: "#F2D0FF"
+                    fill: "#ed882f"
 
                 },
                 "tooltip": {
@@ -89,7 +89,7 @@ $(function () {
             },
             "SAM": {
                 attrs: {
-                    fill: "#69C487"
+                    fill: "#cfcd4b"
 
                 },
                 "tooltip": {
@@ -98,7 +98,7 @@ $(function () {
             },
             "NAS": {
                 attrs: {
-                    fill: "#5675C1"
+                    fill: "#61a8d1"
 
                 },
                 "tooltip": {
@@ -108,7 +108,7 @@ $(function () {
             },
             "WAS": {
                 attrs: {
-                    fill: "#F664CD"
+                    fill: "#837ae8"
 
                 },
                 "tooltip": {
@@ -117,7 +117,7 @@ $(function () {
             },
             "CAS": {
                 attrs: {
-                    fill: " #C54A56"
+                    fill: "#64cdd1"
 
                 },
                 "tooltip": {
@@ -126,7 +126,7 @@ $(function () {
             },
             "SAS": {
                 attrs: {
-                    fill: " #69C487"
+                    fill: " #49bf7c"
 
                 },
                 "tooltip": {
@@ -135,7 +135,7 @@ $(function () {
             },
             "EAS": {
                 attrs: {
-                    fill: " #67CFF0"
+                    fill: "#348f8f"
 
                 },
                 "tooltip": {
@@ -144,7 +144,7 @@ $(function () {
             },
             "OZN": {
                 attrs: {
-                    fill: " #52836E"
+                    fill: "#baba3b"
 
                 },
                 "tooltip": {
@@ -153,7 +153,7 @@ $(function () {
             },
             "WEU": {
                 attrs: {
-                    fill: " #D5EE74"
+                    fill: "#e6739f"
 
                 },
                 "tooltip": {
@@ -162,8 +162,8 @@ $(function () {
             },
             "NEU": {
                 attrs: {
-                    fill: " #B3A3FB"
-
+                    fill: "#faa3dd"
+                    
                 },
                 "tooltip": {
                     "content": "<span style=\"font-weight:bold;\">Nordeuropa</span>"
@@ -171,7 +171,7 @@ $(function () {
             },
             "EEU": {
                 attrs: {
-                    fill: " #42779C"
+                    fill: " #B3A3FB"
 
                 },
                 "tooltip": {
@@ -180,7 +180,7 @@ $(function () {
             },
             "SEU": {
                 attrs: {
-                    fill: " #42779C"
+                    fill: "#bd4f76"
 
                 },
                 "tooltip": {
@@ -189,7 +189,7 @@ $(function () {
             },
             "NAF": {
                 attrs: {
-                    fill: " #4FDEB8"
+                    fill: "#bf4c41"
 
                 },
                 "tooltip": {
@@ -198,7 +198,7 @@ $(function () {
             },
             "WAF": {
                 attrs: {
-                    fill: " #743481"
+                    fill: " #ed5f5a"
 
                 },
                 "tooltip": {
@@ -208,7 +208,7 @@ $(function () {
             },
             "EAF": {
                 attrs: {
-                    fill: " #A33C5A"
+                    fill: "#c27899"
 
                 },
                 "tooltip": {
@@ -218,7 +218,7 @@ $(function () {
             },
             "CAF": {
                 attrs: {
-                    fill: " #A6FB66"
+                    fill: "#e86b3a"
 
                 },
                 "tooltip": {
@@ -228,7 +228,7 @@ $(function () {
             },
             "SAF": {
                 attrs: {
-                    fill: " #5478F0"
+                    fill: " #f08f3a"
 
                 },
                 "tooltip": {
@@ -238,7 +238,7 @@ $(function () {
             },
             "SEA": {
                 attrs: {
-                    fill: " #815448"
+                    fill: "#8bcc52"
 
                 },
                 "tooltip": {
