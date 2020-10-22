@@ -270,7 +270,7 @@ cHovABool=false;
 }
 
 function setCompletedRegionColor(id){
-    console.log(id);
+   // console.log(id);
     var newData = {
         'areas': {}
     };
@@ -284,7 +284,7 @@ function setCompletedRegionColor(id){
         }
 
     }; 
-    console.log(completeRegionColorShades[correctAnswers[id]]);
+    //console.log(completeRegionColorShades[correctAnswers[id]]);
     $(".container-map").trigger('update', [{ mapOptions: newData }]);
 };
 

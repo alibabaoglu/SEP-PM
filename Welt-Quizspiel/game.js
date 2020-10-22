@@ -71,24 +71,24 @@ function loadSavegame() {
         difficulty = loadedSavegame['difficulty'];
         correctAnswers = loadedSavegame['correctAnswers']
     }
-    console.log("init");
+    //console.log("init");
     initializeColors();
     updateUIElements();
 }
 
 function loadDefaultValues() {
-    console.log("Loading default Values")
+    console.log("Loading default values")
     DATA = JSON.parse(dh.requestData("fragen"));
     DATA = selectQuestionSubset(DATA);
     true ? playAudio() : pauseAudio();
     money = 0;
     timer.start();
-    console.log(timer);
+    //console.log(timer);
     difficulty = JSON.parse(dh.requestData("options"))['difficulty']['normal'];
     Object.keys(JSON.parse(dh.requestData("fragen"))).forEach(element => {
         correctAnswers[element] = 0;
     });
-    console.log(correctAnswers);
+    //console.log(correctAnswers);
     updateUIElements();
 }
 
@@ -125,7 +125,7 @@ function saveSavegame(saveToDisk = true) {
     newSavegame['correctAnswers'] = correctAnswers;
     //sessionStorage.setItem("savegame", JSON.stringify(newSavegame));
     newSavegame['time_passed'] = [timer.getTimeValues()['seconds'],timer.getTimeValues()['minutes'],timer.getTimeValues()['hours']];
-    console.log(newSavegame['time_passed']);
+    //console.log(newSavegame['time_passed']);
 
 
     if (saveToDisk) {
@@ -157,7 +157,7 @@ function updateUIElements() {
 window.onload = function () {
     document.getElementById('player').innerHTML = sessionStorage.getItem('playername');
     username = sessionStorage.getItem('playername');
-    console.log(sessionStorage.getItem("continue") == "true");
+    //console.log(sessionStorage.getItem("continue") == "true");
     if (sessionStorage.getItem("continue") == "true") {
         loadSavegame();
     }
@@ -166,7 +166,7 @@ window.onload = function () {
     }
     //sessionStorage.removeItem("continue"); 
 
-    console.log(DATA);
+    //console.log(DATA);
     // openNav();
 }
 
@@ -178,12 +178,12 @@ regionID = "";
 */
 function newRegion(id) {
     regionID = id;
-    console.log(regionID);
+    //console.log(regionID);
     openQuiz();
 }
 
 function regionIsCompleted(id) {
-    console.log(Object.keys(DATA[id]).length);
+    //console.log(Object.keys(DATA[id]).length);
     return Object.keys(DATA[id]).length < 1;
 }
 
@@ -246,8 +246,8 @@ function checkAnswer(clicked_id) {
         $('#nextQuestion').css('pointer-events', 'all');
     }
 
-    console.log(correctAnswers[currentRegion]);
-    console.log(completeRegionColorShades[correctAnswers[currentRegion]]);
+   // console.log(correctAnswers[currentRegion]);
+    //console.log(completeRegionColorShades[correctAnswers[currentRegion]]);
     if (solution == parseInt(clicked_id)) {
         updateProgressbar(currentRegion);
         correctAnswers[currentRegion] = parseInt(correctAnswers[currentRegion] + 1);
