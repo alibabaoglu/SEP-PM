@@ -1,8 +1,8 @@
 {
-  "username": "defaultUN",
+  "username": "Hacker2021",
   "audio": true,
   "money": 0,
-  "time_passed": "00:00:00",
+  "time_passed": "00:00:03",
   "questions_left": {
     "NEU": {
       "NEU1": {
@@ -15,6 +15,16 @@
         ],
         "Lösung": 2
       },
+      "NEU4": {
+        "Frage": "Wie heißen die berühmten Steinfelsen in England, die bereits in der Jungsteinzeit errichtet wurden?",
+        "Antworten": [
+          "Stone St. James",
+          "Stonesbury",
+          "Amesbury Stoning",
+          "Stonehenge"
+        ],
+        "Lösung": 4
+      },
       "NEU5": {
         "Frage": "Was bedeutet Butterbrot auf Norwegisch?",
         "Antworten": [
@@ -25,15 +35,15 @@
         ],
         "Lösung": 3
       },
-      "NEU7": {
-        "Frage": "In welchem nordeuropäischen Land wurde LEGO erfunden?",
+      "NEU3": {
+        "Frage": "Welche Länder zählen zum Baltikum?",
         "Antworten": [
-          "Norwegen",
-          "Dänemark",
-          "Schweden",
-          "Island"
+          "Weißrussland, Estland, Lettland",
+          "Lettland, Weißrussland, Estland, Litauen",
+          "Estland und Lettland",
+          "Estland, Lettland, Litauen"
         ],
-        "Lösung": 2
+        "Lösung": 4
       },
       "NEU6": {
         "Frage": "Welcher Religion gehört die Mehrheit der Isländer an?",
@@ -44,16 +54,6 @@
           "britisch-evangelisch"
         ],
         "Lösung": 2
-      },
-      "NEU2": {
-        "Frage": "Welche Länder zählen zu den Nordischen Ländern?",
-        "Antworten": [
-          "Norwegen, Finnland, Schweden",
-          "Grönland, Finnland, Island, Färöer, Schweden",
-          "Norwegen, Finnland, Schweden, Färöer, Island, Grönland",
-          "Norwegen, Grönland, Finnland, Island, Schweden"
-        ],
-        "Lösung": 3
       },
       "NEU9": {
         "Frage": "An welche Länder grenzt Dänemark?",
@@ -67,36 +67,6 @@
       }
     },
     "EEU": {
-      "EEU9": {
-        "Frage": "Welche Stadt gilt als Einzige der Welt, die auf zwei Kontinenten liegt?",
-        "Antworten": [
-          "Minsk",
-          "Budapest",
-          "Istanbul",
-          "Prag"
-        ],
-        "Lösung": 3
-      },
-      "EEU1": {
-        "Frage": "In welchem osteuropäischen Land wurde die weltweit erste Digitaluhr erfunden?",
-        "Antworten": [
-          "Albanien",
-          "Mazedonien",
-          "Serbien",
-          "Bulgarien"
-        ],
-        "Lösung": 4
-      },
-      "EEU5": {
-        "Frage": "Aus welchem osteuropäischen Land stammt der Erfinder Nikola Tesla?",
-        "Antworten": [
-          "Serbien",
-          "Slowakei",
-          "Rumänien",
-          "Bulgarien"
-        ],
-        "Lösung": 1
-      },
       "EEU2": {
         "Frage": "Was ist der beliebteste Sport in Litauen?",
         "Antworten": [
@@ -107,6 +77,46 @@
         ],
         "Lösung": 2
       },
+      "EEU9": {
+        "Frage": "Welche Stadt gilt als Einzige der Welt, die auf zwei Kontinenten liegt?",
+        "Antworten": [
+          "Minsk",
+          "Budapest",
+          "Istanbul",
+          "Prag"
+        ],
+        "Lösung": 3
+      },
+      "EEU8": {
+        "Frage": "Welches dieser Länder gehört nicht zu den Balkanstaaten?",
+        "Antworten": [
+          "Ungarn",
+          "Slowenien",
+          "Kosovo",
+          "Montenegro"
+        ],
+        "Lösung": 1
+      },
+      "EEU6": {
+        "Frage": "Wie viel Prozent der rumänischen Bevölkerung ist von Armut betroffen?",
+        "Antworten": [
+          "25%",
+          "39%",
+          "41%",
+          "33%"
+        ],
+        "Lösung": 4
+      },
+      "EEU3": {
+        "Frage": "Welches ist das jüngste Land Osteuropas?",
+        "Antworten": [
+          "Kosovo",
+          "Montenegro",
+          "Mazedonien",
+          "Ungarn"
+        ],
+        "Lösung": 1
+      },
       "EEU4": {
         "Frage": "Aus welchem Land stammt der teuerste Käse der Welt (1.000 € pro Kilo)?",
         "Antworten": [
@@ -116,28 +126,28 @@
           "Türkei"
         ],
         "Lösung": 3
-      },
-      "EEU7": {
-        "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
-        "Antworten": [
-          "Attentat von Paris",
-          "Attentat von Sarajevo",
-          "Attentat von Hanau",
-          "Attentat von Anagni"
-        ],
-        "Lösung": 2
       }
     },
     "SEU": {
-      "SEU7": {
-        "Frage": "Welches Land in Südeuropa hat die meisten Hotelzimmer?",
+      "SEU2": {
+        "Frage": "Was machen die Spanier an Silvester um Mitternacht als Erstes?",
         "Antworten": [
-          "Italien",
-          "Malta",
-          "Spanien",
-          "Portugal"
+          "eine Weintraube essen",
+          "tanzen",
+          "Wein trinken",
+          "ein Feuerwerk zünden"
         ],
         "Lösung": 1
+      },
+      "SEU1": {
+        "Frage": "Wie viele Brücken hat Venedig?",
+        "Antworten": [
+          "644",
+          "513",
+          "287",
+          "435"
+        ],
+        "Lösung": 4
       },
       "SEU8": {
         "Frage": "Was ist die Amtssprache von Andorra?",
@@ -149,33 +159,13 @@
         ],
         "Lösung": 3
       },
-      "SEU2": {
-        "Frage": "Was machen die Spanier an Silvester um Mitternacht als Erstes?",
+      "SEU6": {
+        "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
         "Antworten": [
-          "eine Weintraube essen",
-          "tanzen",
-          "Wein trinken",
-          "ein Feuerwerk zünden"
-        ],
-        "Lösung": 1
-      },
-      "SEU9": {
-        "Frage": "Wie heißt die längste Brücke in Südeuropa?",
-        "Antworten": [
-          "Po (Italien)",
-          "Ponte Vasco da Gama (Portugal)",
-          "Drau (Italien)",
-          "Ebro (Spanien)"
-        ],
-        "Lösung": 2
-      },
-      "SEU3": {
-        "Frage": "Welches Motiv ist auf der griechischen Zwei-Euro-Münze abgebildet?",
-        "Antworten": [
-          "die Akropolis",
-          "Entführung der Europa durch Zeus",
-          "Umriss des Peloponnes",
-          "eine Eule"
+          "Englisch",
+          "Maltesisch",
+          "Deutsch",
+          "Italienisch"
         ],
         "Lösung": 2
       },
@@ -188,16 +178,46 @@
           "Monaco"
         ],
         "Lösung": 3
+      },
+      "SEU9": {
+        "Frage": "Wie heißt die längste Brücke in Südeuropa?",
+        "Antworten": [
+          "Po (Italien)",
+          "Ponte Vasco da Gama (Portugal)",
+          "Drau (Italien)",
+          "Ebro (Spanien)"
+        ],
+        "Lösung": 2
       }
     },
     "WEU": {
-      "WEU8": {
-        "Frage": "Wie heißt der nördlichste Kanton von Luxemburg?",
+      "WEU9": {
+        "Frage": "Wie groß ist der Genfersee?",
         "Antworten": [
-          "Clerf",
-          "Diekrich",
-          "Redingen",
-          "Esch an der Alzette"
+          "345,31 km²",
+          "299,64 km²",
+          "520,29 km²",
+          "390,68 km²"
+        ],
+        "Lösung": 1
+      },
+      "WEU7": {
+        "Frage": "In welchem Land wurde das Originalrezept für Croissants erfunden?",
+        "Antworten": [
+          "Deutschland",
+          "Frankreich",
+          "Österreich",
+          "Belgien"
+        ],
+        "Lösung": 3
+      },
+      "WEU2": {
+        "Frage": "In welcher westeuropäischen Stadt gibt es nur ein Stoppschild?",
+        "Antworten": [
+          "Paris",
+          "Bern",
+          "Leipzig",
+          "Amsterdam"
         ],
         "Lösung": 1
       },
@@ -211,16 +231,6 @@
         ],
         "Lösung": 3
       },
-      "WEU1": {
-        "Frage": "Welches Land in Westeuropa produziert den meisten Müll?",
-        "Antworten": [
-          "Frankreich",
-          "Deutschland",
-          "Schweiz",
-          "Österreich"
-        ],
-        "Lösung": 2
-      },
       "WEU4": {
         "Frage": "Wo steht eine fast 500 Jahre alte Statue, die zeigt, wie die Brunnenfigur gerade Kinder frisst?",
         "Antworten": [
@@ -231,25 +241,15 @@
         ],
         "Lösung": 4
       },
-      "WEU2": {
-        "Frage": "In welcher westeuropäischen Stadt gibt es nur ein Stoppschild?",
+      "WEU5": {
+        "Frage": "Wo befindet sich der älteste Flughafen, der vor über 100 Jahren eröffnet wurde und seitdem am selben Ort dauerhaft in Betrieb ist?",
         "Antworten": [
-          "Paris",
-          "Bern",
-          "Leipzig",
-          "Amsterdam"
+          "Hamburg",
+          "Amsterdam",
+          "Wien",
+          "Paris"
         ],
         "Lösung": 1
-      },
-      "WEU3": {
-        "Frage": "Welches dieser Länder ist Hauptproduzent falscher Zähne?",
-        "Antworten": [
-          "Luxemburg",
-          "Schweiz",
-          "Niederlande",
-          "Liechtenstein"
-        ],
-        "Lösung": 4
       }
     }
   },
