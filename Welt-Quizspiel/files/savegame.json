@@ -1,19 +1,18 @@
 {
-  "username": "",
+  "username": "tre",
   "audio": true,
-  "money": 0,
-  "time_passed": "00:00:15",
+  "money": 65,
   "questions_left": {
     "NEU": {
-      "NEU8": {
-        "Frage": "Seit wann gehört Dänemark zur EU?",
+      "NEU6": {
+        "Frage": "Welcher Religion gehört die Mehrheit der Isländer an?",
         "Antworten": [
-          "1973",
-          "1980",
-          "1995",
-          "1993"
+          "lutherisch-orthodox",
+          "evangelisch-lutherisch",
+          "katholisch",
+          "britisch-evangelisch"
         ],
-        "Lösung": 1
+        "Lösung": 2
       },
       "NEU3": {
         "Frage": "Welche Länder zählen zum Baltikum?",
@@ -22,36 +21,6 @@
           "Lettland, Weißrussland, Estland, Litauen",
           "Estland und Lettland",
           "Estland, Lettland, Litauen"
-        ],
-        "Lösung": 4
-      },
-      "NEU1": {
-        "Frage": "Welche Länder zählen zu Skandinavien?",
-        "Antworten": [
-          "Norwegen, Schweden, Grönland",
-          "Norwegen, Finnland, Schweden",
-          "Schweden, Finnland, Island",
-          "Schweden, Norwegen, Färöer"
-        ],
-        "Lösung": 2
-      },
-      "NEU7": {
-        "Frage": "In welchem nordeuropäischen Land wurde LEGO erfunden?",
-        "Antworten": [
-          "Norwegen",
-          "Dänemark",
-          "Schweden",
-          "Island"
-        ],
-        "Lösung": 2
-      },
-      "NEU4": {
-        "Frage": "Wie heißen die berühmten Steinfelsen in England, die bereits in der Jungsteinzeit errichtet wurden?",
-        "Antworten": [
-          "Stone St. James",
-          "Stonesbury",
-          "Amesbury Stoning",
-          "Stonehenge"
         ],
         "Lösung": 4
       },
@@ -64,80 +33,59 @@
           "smørbred"
         ],
         "Lösung": 3
-      }
-    },
-    "EEU": {
-      "EEU4": {
-        "Frage": "Aus welchem Land stammt der teuerste Käse der Welt (1.000 € pro Kilo)?",
-        "Antworten": [
-          "Bulgarien",
-          "Albanien",
-          "Serbien",
-          "Türkei"
-        ],
-        "Lösung": 3
       },
-      "EEU2": {
-        "Frage": "Was ist der beliebteste Sport in Litauen?",
+      "NEU8": {
+        "Frage": "Seit wann gehört Dänemark zur EU?",
         "Antworten": [
-          "Volleyball",
-          "Basketball",
-          "Tennis",
-          "Dart"
-        ],
-        "Lösung": 2
-      },
-      "EEU9": {
-        "Frage": "Welche Stadt gilt als Einzige der Welt, die auf zwei Kontinenten liegt?",
-        "Antworten": [
-          "Minsk",
-          "Budapest",
-          "Istanbul",
-          "Prag"
-        ],
-        "Lösung": 3
-      },
-      "EEU7": {
-        "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
-        "Antworten": [
-          "Attentat von Paris",
-          "Attentat von Sarajevo",
-          "Attentat von Hanau",
-          "Attentat von Anagni"
-        ],
-        "Lösung": 2
-      },
-      "EEU5": {
-        "Frage": "Aus welchem osteuropäischen Land stammt der Erfinder Nikola Tesla?",
-        "Antworten": [
-          "Serbien",
-          "Slowakei",
-          "Rumänien",
-          "Bulgarien"
+          "1973",
+          "1980",
+          "1995",
+          "1993"
         ],
         "Lösung": 1
       },
-      "EEU1": {
-        "Frage": "In welchem osteuropäischen Land wurde die weltweit erste Digitaluhr erfunden?",
+      "NEU4": {
+        "Frage": "Wie heißen die berühmten Steinfelsen in England, die bereits in der Jungsteinzeit errichtet wurden?",
         "Antworten": [
-          "Albanien",
-          "Mazedonien",
-          "Serbien",
-          "Bulgarien"
+          "Stone St. James",
+          "Stonesbury",
+          "Amesbury Stoning",
+          "Stonehenge"
         ],
         "Lösung": 4
+      },
+      "NEU7": {
+        "Frage": "In welchem nordeuropäischen Land wurde LEGO erfunden?",
+        "Antworten": [
+          "Norwegen",
+          "Dänemark",
+          "Schweden",
+          "Island"
+        ],
+        "Lösung": 2
       }
     },
+    "EEU": {},
     "SEU": {
-      "SEU5": {
-        "Frage": "Welcher dieser Flüsse fließt durch Rom?",
+      "SEU2": {
+        "Frage": "Was machen die Spanier an Silvester um Mitternacht als Erstes?",
         "Antworten": [
-          "Ticino",
-          "Po",
-          "Rienz",
-          "Tiber"
+          "eine Weintraube essen",
+          "tanzen",
+          "Wein trinken",
+          "ein Feuerwerk zünden"
         ],
-        "Lösung": 4
+        "Lösung": 1
+      },
+      "SEU3": {
+        "Frage": "Welches Motiv ist auf der griechischen Zwei-Euro-Münze abgebildet?",
+        "Antworten": [
+          "die Akropolis",
+          "Entführung der Europa durch Zeus",
+          "Umriss des Peloponnes",
+          "eine Eule"
+        ],
+        "Lösung": 2
       },
       "SEU6": {
         "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
@@ -159,25 +107,15 @@
         ],
         "Lösung": 2
       },
-      "SEU3": {
-        "Frage": "Welches Motiv ist auf der griechischen Zwei-Euro-Münze abgebildet?",
+      "SEU4": {
+        "Frage": "In welchem südeuropäischen Land wachsen als einziges Bananen?",
         "Antworten": [
-          "die Akropolis",
-          "Entführung der Europa durch Zeus",
-          "Umriss des Peloponnes",
-          "eine Eule"
+          "Portugal",
+          "Griechenland",
+          "Spanien",
+          "Monaco"
         ],
-        "Lösung": 2
-      },
-      "SEU2": {
-        "Frage": "Was machen die Spanier an Silvester um Mitternacht als Erstes?",
-        "Antworten": [
-          "eine Weintraube essen",
-          "tanzen",
-          "Wein trinken",
-          "ein Feuerwerk zünden"
-        ],
-        "Lösung": 1
+        "Lösung": 3
       },
       "SEU1": {
         "Frage": "Wie viele Brücken hat Venedig?",
@@ -191,6 +129,16 @@
       }
     },
     "WEU": {
+      "WEU3": {
+        "Frage": "Welches dieser Länder ist Hauptproduzent falscher Zähne?",
+        "Antworten": [
+          "Luxemburg",
+          "Schweiz",
+          "Niederlande",
+          "Liechtenstein"
+        ],
+        "Lösung": 4
+      },
       "WEU6": {
         "Frage": "Wo wurde 1885 der weltweit erste Fahrradweg gebaut?",
         "Antworten": [
@@ -201,15 +149,15 @@
         ],
         "Lösung": 3
       },
-      "WEU7": {
-        "Frage": "In welchem Land wurde das Originalrezept für Croissants erfunden?",
+      "WEU2": {
+        "Frage": "In welcher westeuropäischen Stadt gibt es nur ein Stoppschild?",
         "Antworten": [
-          "Deutschland",
-          "Frankreich",
-          "Österreich",
-          "Belgien"
+          "Paris",
+          "Bern",
+          "Leipzig",
+          "Amsterdam"
         ],
-        "Lösung": 3
+        "Lösung": 1
       },
       "WEU8": {
         "Frage": "Wie heißt der nördlichste Kanton von Luxemburg?",
@@ -221,48 +169,44 @@
         ],
         "Lösung": 1
       },
-      "WEU9": {
-        "Frage": "Wie groß ist der Genfersee?",
+      "WEU1": {
+        "Frage": "Welches Land in Westeuropa produziert den meisten Müll?",
         "Antworten": [
-          "345,31 km²",
-          "299,64 km²",
-          "520,29 km²",
-          "390,68 km²"
+          "Frankreich",
+          "Deutschland",
+          "Schweiz",
+          "Österreich"
         ],
-        "Lösung": 1
+        "Lösung": 2
       },
-      "WEU5": {
-        "Frage": "Wo befindet sich der älteste Flughafen, der vor über 100 Jahren eröffnet wurde und seitdem am selben Ort dauerhaft in Betrieb ist?",
+      "WEU4": {
+        "Frage": "Wo steht eine fast 500 Jahre alte Statue, die zeigt, wie die Brunnenfigur gerade Kinder frisst?",
         "Antworten": [
-          "Hamburg",
-          "Amsterdam",
-          "Wien",
-          "Paris"
+          "Österreich",
+          "Deutschland",
+          "Luxemburg",
+          "Schweiz"
         ],
-        "Lösung": 1
-      },
-      "WEU2": {
-        "Frage": "In welcher westeuropäischen Stadt gibt es nur ein Stoppschild?",
-        "Antworten": [
-          "Paris",
-          "Bern",
-          "Leipzig",
-          "Amsterdam"
-        ],
-        "Lösung": 1
+        "Lösung": 4
       }
     }
   },
   "difficulty": {
-    "rewardMoney": 20,
+    "rewardMoney": 15,
     "penaltyMoney": 10,
     "travelCost": 10,
-    "jokerCost": 15
+    "jokerCost": 20,
+    "startMoney": 40
   },
   "correctAnswers": {
     "NEU": 0,
-    "EEU": 0,
+    "EEU": 5,
     "SEU": 0,
     "WEU": 0
-  }
+  },
+  "time_passed": [
+    19,
+    0,
+    0
+  ]
 }

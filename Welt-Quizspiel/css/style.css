@@ -17,10 +17,6 @@ body {
     height: 100%;
 }
 
-footer {
-    padding: 0px;
-}
-
 #coin-quiz {
     position: relative;
 }
@@ -37,18 +33,20 @@ footer {
 }
 
 .MenuBtn {
-    background-color: rgba(31, 112, 31, 0.9);
+    background-color: #002a36EE;
     border: none;
     border-radius: 5px;
-    ;
     color: white;
     padding: 15px;
-    margin: 15px;
+    margin: 20%;
+    margin-top: 0%;
+    margin-bottom: 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    width: 70%;
+    width: 60%;
+    cursor: pointer;
 }
 
 #QuizWindow {
@@ -79,20 +77,21 @@ footer {
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 40px;
-    width: 60%;
+    width: 55%;
     height: 80%;
-    min-width: 500px;
+    min-width: 590px;
     min-height: 700px;
-    position: relative;
 }
 
 .QuizBtn {
     margin: 0px 20px 20px 20px;
     border: none;
-    background-color: rgba(128, 128, 128, 0.5);
-    padding: 20px;
-    width: 25%;
+    background-color: #002a36cc;
+    color: white;
+    padding: 10px 20px;
+    width: 80%;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .QuizBtn:hover {

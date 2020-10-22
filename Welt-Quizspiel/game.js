@@ -6,17 +6,33 @@
  */
 const { valHooks } = require('jquery');
 const DataHandler = require('./js/DataHandler.js');
+
+
 username = "";
 time_passed = "";
 dh = new DataHandler();
 difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy'];
-completeRegionColorShades = ['#b80000', '#b86500', '#b89600', '#b8b500', '#a8b800', '#53b800', '#53b800'];
+//completeRegionColorShades = ['#b80000', '#b86500', '#b89600', '#b8b500', '#a8b800', '#53b800', '#53b800'];
+completeRegionColorShades = ['#ff0000', 'ff5900', '#ffb300', '#ffea00', '#e1ff00', '#a6ff00', '#00ff1a'];
 correctAnswers = {};
 DATA = {};
+
+
+
+
+var timer = new Timer();
+
+timer.addEventListener('secondsUpdated', function (e) {
+    time_passed = timer.getTimeValues().toString();
+    $('#basicUsage').html(timer.getTimeValues().toString());
+});
+
 function playAudio() {
     var x = document.getElementById("menu-audio");
     x.play();
 }
+
+
 
 
 function displayUsernameInput() {
@@ -31,9 +47,6 @@ function getUsername() {
     window.location.href = 'spiel.html';
 }
 
-
-
-
 function loadSavegame() {
     if (dh.requestData("savegame") == "noFile") {
         console.log("No Savegame found")
@@ -47,6 +60,10 @@ function loadSavegame() {
         loadedSavegame['audio'] ? playAudio() : pauseAudio();
         money = loadedSavegame['money'];
         time_passed = loadedSavegame['time_passed'];
+        var secs = time_passed[0] + time_passed[1] * 60 + time_passed[2] * 60 * 60;
+        timer.stop();
+        timer.start({ precision: 'seconds', startValues: { seconds: secs } });
+        $('#basicUsage').html(timer.getTimeValues().toString());
         difficulty = loadedSavegame['difficulty'];
         correctAnswers = loadedSavegame['correctAnswers']
     }
@@ -60,8 +77,10 @@ function loadDefaultValues() {
     DATA = JSON.parse(dh.requestData("fragen"));
     DATA = selectQuestionSubset(DATA);
     true ? playAudio() : pauseAudio();
-    money = 0;
-    difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy'];
+    money = JSON.parse(dh.requestData("options"))['difficulty']['normal']['startMoney'];
+    timer.start();
+    console.log(timer);
+    difficulty = JSON.parse(dh.requestData("options"))['difficulty']['normal'];
     Object.keys(JSON.parse(dh.requestData("fragen"))).forEach(element => {
         correctAnswers[element] = 0;
     });
@@ -96,11 +115,15 @@ function saveSavegame(saveToDisk = true) {
     newSavegame['username'] = username;
     newSavegame['audio'] = document.getElementById("menu-audio").paused;
     newSavegame['money'] = money;
-    newSavegame['time_passed'] = document.getElementById('basicUsage').textContent;
+    //console.log(time_passed);
     newSavegame['questions_left'] = DATA;
     newSavegame['difficulty'] = difficulty;
     newSavegame['correctAnswers'] = correctAnswers;
     //sessionStorage.setItem("savegame", JSON.stringify(newSavegame));
+    newSavegame['time_passed'] = [timer.getTimeValues()['seconds'], timer.getTimeValues()['minutes'], timer.getTimeValues()['hours']];
+    console.log(newSavegame['time_passed']);
+
+
     if (saveToDisk) {
         dh.transmitData("savegame", JSON.stringify(newSavegame, null, 2));
     }
@@ -154,6 +177,7 @@ regionID = "";
  * @param: {id} id of the clicked region.
 */
 function newRegion(id) {
+   
     regionID = id;
     console.log(regionID);
     openQuiz();
@@ -185,6 +209,11 @@ function openQuiz() {
     else {
         playQuiz();
     }
+}
+
+function gameOver() {
+    alert("Spiel Vorbei!");
+
 }
 
 solution = 0;
@@ -222,7 +251,6 @@ function checkAnswer(clicked_id) {
     if (Object.keys(DATA[currentRegion]).length > 1) {
         $('#nextQuestion').css('pointer-events', 'all');
     }
-
     console.log(correctAnswers[currentRegion]);
     console.log(completeRegionColorShades[correctAnswers[currentRegion]]);
     if (solution == parseInt(clicked_id)) {
@@ -236,6 +264,8 @@ function checkAnswer(clicked_id) {
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
         $(`#${solution}`).css("background-color", "#b3ff99");
     }
+
+    if (money < 0) gameOver();
     delete DATA[currentRegion][currentQuestion];
 
 
@@ -310,18 +340,24 @@ function coinAnimation() {
 
 function updateProgressbar(regionID) {
     var width = $(`#${regionID}`).innerWidth();
-    alert(typeof (width + '%'));
 
 }
 
-/**
- * function updateProgressbar(regionID) {
-    var width = $(`#${regionID}`).innerWidth();
-    alert(" Width before:" + width);
-    alert(typeof width);
-    var width = parseInt($(`#${regionID}`).innerWidth() + 20);
-    alert(" After" + width)
-    $(`#${regionID}`).css('width', `${width}%`);
-
+function updateProgressbar(regionID) {
+    var allQuestions = Object.keys(DATA[regionID]).length;
+    if (allQuestions == 6)
+        $(`#${regionID}`).css({ 'width': "16.67%" });
+    if (allQuestions == 5)
+        $(`#${regionID}`).css({ 'width': "34%" });
+    if (allQuestions == 4)
+        $(`#${regionID}`).css({ 'width': "50%" });
+    if (allQuestions == 3)
+        $(`#${regionID}`).css({ 'width': "66%" });
+    if (allQuestions == 2)
+        $(`#${regionID}`).css({ 'width': "84%" });
+    if (allQuestions == 1)
+        $(`#${regionID}`).css({ 'width': "100%" });
+    if (allQuestions == 0)
+        $(`#${regionID}`).css({ 'width': "100%" });
 }
- */
+

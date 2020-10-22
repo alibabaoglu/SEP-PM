@@ -1,23 +1,26 @@
 {
-    "difficulty":  {                 
+    "difficulty":  {
     "easy":{
         "rewardMoney":20,
         "penaltyMoney":10,
         "travelCost":10,
-        "jokerCost":15
+        "jokerCost":15,
+        "startMoney":60
     },
     "normal":{
         "rewardMoney":15,
         "penaltyMoney":10,
         "travelCost":10,
-        "jokerCost":20
+        "jokerCost":20,
+        "startMoney":40
     },
     "hard":{
         "rewardMoney":10,
         "penaltyMoney":15,
         "travelCost":30,
-        "jokerCost":30
+        "jokerCost":30,
+        "startMoney":30
     }
 }
-    
+
 }
