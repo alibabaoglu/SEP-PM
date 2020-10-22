@@ -1,18 +1,18 @@
 {
-  "username": "sadghsdfh",
-  "audio": false,
-  "money": 0,
+  "username": "sfdhsdfh",
+  "audio": true,
+  "money": -10,
   "questions_left": {
     "NEU": {
-      "NEU3": {
-        "Frage": "Welche Länder zählen zum Baltikum?",
+      "NEU6": {
+        "Frage": "Welcher Religion gehört die Mehrheit der Isländer an?",
         "Antworten": [
-          "Weißrussland, Estland, Lettland",
-          "Lettland, Weißrussland, Estland, Litauen",
-          "Estland und Lettland",
-          "Estland, Lettland, Litauen"
+          "lutherisch-orthodox",
+          "evangelisch-lutherisch",
+          "katholisch",
+          "britisch-evangelisch"
         ],
-        "Lösung": 4
+        "Lösung": 2
       },
       "NEU5": {
         "Frage": "Was bedeutet Butterbrot auf Norwegisch?",
@@ -24,23 +24,13 @@
         ],
         "Lösung": 3
       },
-      "NEU1": {
-        "Frage": "Welche Länder zählen zu Skandinavien?",
+      "NEU2": {
+        "Frage": "Welche Länder zählen zu den Nordischen Ländern?",
         "Antworten": [
-          "Norwegen, Schweden, Grönland",
           "Norwegen, Finnland, Schweden",
-          "Schweden, Finnland, Island",
-          "Schweden, Norwegen, Färöer"
-        ],
-        "Lösung": 2
-      },
-      "NEU9": {
-        "Frage": "An welche Länder grenzt Dänemark?",
-        "Antworten": [
-          "Deutschland und Luxemburg",
-          "Niederlande",
-          "Deutschland",
-          "Deutschland, Belgien und Luxemburg"
+          "Grönland, Finnland, Island, Färöer, Schweden",
+          "Norwegen, Finnland, Schweden, Färöer, Island, Grönland",
+          "Norwegen, Grönland, Finnland, Island, Schweden"
         ],
         "Lösung": 3
       },
@@ -51,6 +41,16 @@
           "Stonesbury",
           "Amesbury Stoning",
           "Stonehenge"
+        ],
+        "Lösung": 4
+      },
+      "NEU3": {
+        "Frage": "Welche Länder zählen zum Baltikum?",
+        "Antworten": [
+          "Weißrussland, Estland, Lettland",
+          "Lettland, Weißrussland, Estland, Litauen",
+          "Estland und Lettland",
+          "Estland, Lettland, Litauen"
         ],
         "Lösung": 4
       },
@@ -66,16 +66,6 @@
       }
     },
     "EEU": {
-      "EEU6": {
-        "Frage": "Wie viel Prozent der rumänischen Bevölkerung ist von Armut betroffen?",
-        "Antworten": [
-          "25%",
-          "39%",
-          "41%",
-          "33%"
-        ],
-        "Lösung": 4
-      },
       "EEU3": {
         "Frage": "Welches ist das jüngste Land Osteuropas?",
         "Antworten": [
@@ -83,36 +73,6 @@
           "Montenegro",
           "Mazedonien",
           "Ungarn"
-        ],
-        "Lösung": 1
-      },
-      "EEU1": {
-        "Frage": "In welchem osteuropäischen Land wurde die weltweit erste Digitaluhr erfunden?",
-        "Antworten": [
-          "Albanien",
-          "Mazedonien",
-          "Serbien",
-          "Bulgarien"
-        ],
-        "Lösung": 4
-      },
-      "EEU4": {
-        "Frage": "Aus welchem Land stammt der teuerste Käse der Welt (1.000 € pro Kilo)?",
-        "Antworten": [
-          "Bulgarien",
-          "Albanien",
-          "Serbien",
-          "Türkei"
-        ],
-        "Lösung": 3
-      },
-      "EEU8": {
-        "Frage": "Welches dieser Länder gehört nicht zu den Balkanstaaten?",
-        "Antworten": [
-          "Ungarn",
-          "Slowenien",
-          "Kosovo",
-          "Montenegro"
         ],
         "Lösung": 1
       },
@@ -125,18 +85,88 @@
           "Prag"
         ],
         "Lösung": 3
+      },
+      "EEU4": {
+        "Frage": "Aus welchem Land stammt der teuerste Käse der Welt (1.000 € pro Kilo)?",
+        "Antworten": [
+          "Bulgarien",
+          "Albanien",
+          "Serbien",
+          "Türkei"
+        ],
+        "Lösung": 3
+      },
+      "EEU1": {
+        "Frage": "In welchem osteuropäischen Land wurde die weltweit erste Digitaluhr erfunden?",
+        "Antworten": [
+          "Albanien",
+          "Mazedonien",
+          "Serbien",
+          "Bulgarien"
+        ],
+        "Lösung": 4
+      },
+      "EEU7": {
+        "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
+        "Antworten": [
+          "Attentat von Paris",
+          "Attentat von Sarajevo",
+          "Attentat von Hanau",
+          "Attentat von Anagni"
+        ],
+        "Lösung": 2
+      },
+      "EEU2": {
+        "Frage": "Was ist der beliebteste Sport in Litauen?",
+        "Antworten": [
+          "Volleyball",
+          "Basketball",
+          "Tennis",
+          "Dart"
+        ],
+        "Lösung": 2
       }
     },
     "SEU": {
-      "SEU5": {
-        "Frage": "Welcher dieser Flüsse fließt durch Rom?",
+      "SEU6": {
+        "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
         "Antworten": [
-          "Ticino",
-          "Po",
-          "Rienz",
-          "Tiber"
+          "Englisch",
+          "Maltesisch",
+          "Deutsch",
+          "Italienisch"
         ],
-        "Lösung": 4
+        "Lösung": 2
+      },
+      "SEU3": {
+        "Frage": "Welches Motiv ist auf der griechischen Zwei-Euro-Münze abgebildet?",
+        "Antworten": [
+          "die Akropolis",
+          "Entführung der Europa durch Zeus",
+          "Umriss des Peloponnes",
+          "eine Eule"
+        ],
+        "Lösung": 2
+      },
+      "SEU7": {
+        "Frage": "Welches Land in Südeuropa hat die meisten Hotelzimmer?",
+        "Antworten": [
+          "Italien",
+          "Malta",
+          "Spanien",
+          "Portugal"
+        ],
+        "Lösung": 1
+      },
+      "SEU8": {
+        "Frage": "Was ist die Amtssprache von Andorra?",
+        "Antworten": [
+          "Portugiesisch",
+          "Spanisch",
+          "Katalanisch",
+          "Französisch"
+        ],
+        "Lösung": 3
       },
       "SEU1": {
         "Frage": "Wie viele Brücken hat Venedig?",
@@ -157,39 +187,19 @@
           "Ebro (Spanien)"
         ],
         "Lösung": 2
-      },
-      "SEU4": {
-        "Frage": "In welchem südeuropäischen Land wachsen als einziges Bananen?",
-        "Antworten": [
-          "Portugal",
-          "Griechenland",
-          "Spanien",
-          "Monaco"
-        ],
-        "Lösung": 3
-      },
-      "SEU6": {
-        "Frage": "Welche Sprache wurde 1935 zweite Amtssprache auf Malta?",
-        "Antworten": [
-          "Englisch",
-          "Maltesisch",
-          "Deutsch",
-          "Italienisch"
-        ],
-        "Lösung": 2
-      },
-      "SEU3": {
-        "Frage": "Welches Motiv ist auf der griechischen Zwei-Euro-Münze abgebildet?",
-        "Antworten": [
-          "die Akropolis",
-          "Entführung der Europa durch Zeus",
-          "Umriss des Peloponnes",
-          "eine Eule"
-        ],
-        "Lösung": 2
       }
     },
     "WEU": {
+      "WEU8": {
+        "Frage": "Wie heißt der nördlichste Kanton von Luxemburg?",
+        "Antworten": [
+          "Clerf",
+          "Diekrich",
+          "Redingen",
+          "Esch an der Alzette"
+        ],
+        "Lösung": 1
+      },
       "WEU5": {
         "Frage": "Wo befindet sich der älteste Flughafen, der vor über 100 Jahren eröffnet wurde und seitdem am selben Ort dauerhaft in Betrieb ist?",
         "Antworten": [
@@ -210,6 +220,16 @@
         ],
         "Lösung": 4
       },
+      "WEU7": {
+        "Frage": "In welchem Land wurde das Originalrezept für Croissants erfunden?",
+        "Antworten": [
+          "Deutschland",
+          "Frankreich",
+          "Österreich",
+          "Belgien"
+        ],
+        "Lösung": 3
+      },
       "WEU6": {
         "Frage": "Wo wurde 1885 der weltweit erste Fahrradweg gebaut?",
         "Antworten": [
@@ -219,36 +239,6 @@
           "Duisburg"
         ],
         "Lösung": 3
-      },
-      "WEU4": {
-        "Frage": "Wo steht eine fast 500 Jahre alte Statue, die zeigt, wie die Brunnenfigur gerade Kinder frisst?",
-        "Antworten": [
-          "Österreich",
-          "Deutschland",
-          "Luxemburg",
-          "Schweiz"
-        ],
-        "Lösung": 4
-      },
-      "WEU1": {
-        "Frage": "Welches Land in Westeuropa produziert den meisten Müll?",
-        "Antworten": [
-          "Frankreich",
-          "Deutschland",
-          "Schweiz",
-          "Österreich"
-        ],
-        "Lösung": 2
-      },
-      "WEU9": {
-        "Frage": "Wie groß ist der Genfersee?",
-        "Antworten": [
-          "345,31 km²",
-          "299,64 km²",
-          "520,29 km²",
-          "390,68 km²"
-        ],
-        "Lösung": 1
       }
     }
   },
@@ -265,8 +255,8 @@
     "WEU": 0
   },
   "time_passed": [
-    23,
-    3,
+    28,
+    1,
     0
   ]
 }

@@ -9,7 +9,7 @@ const DataHandler = require('./js/DataHandler.js');
 
 
 username = "";
-time_passed = "";
+time_passed = "00:00:00";
 dh = new DataHandler(); 
 difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy'];
 //completeRegionColorShades = ['#b80000', '#b86500', '#b89600', '#b8b500', '#a8b800', '#53b800', '#53b800'];
@@ -20,7 +20,7 @@ DATA = {};
 
 
 
-var timer = new Timer();
+timer = new Timer();
 
 timer.addEventListener('secondsUpdated', function (e) {
     time_passed = timer.getTimeValues().toString(); 
@@ -62,6 +62,7 @@ function loadSavegame() {
         username = loadedSavegame['username'];
         loadedSavegame['audio'] ? playAudio() : pauseAudio();
         money = loadedSavegame['money'];
+        console.log(money);
         time_passed = loadedSavegame['time_passed'];
         var secs = time_passed[0] + time_passed[1] * 60 + time_passed[2] * 60*60;
         timer.stop();
@@ -167,10 +168,6 @@ window.onload = function () {
 
     console.log(DATA);
     // openNav();
-    if (sessionStorage.getItem('money') != null) {
-        money = parseInt(sessionStorage.getItem('money'));
-        $('#Counter').text(money + " $");
-    } else money = 0;
 }
 
 regionID = "";
