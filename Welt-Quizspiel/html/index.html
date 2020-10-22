@@ -18,20 +18,16 @@
 
     <div class="container">
         <div class="clouds">
-            <button onclick="playAudio()" type="button">Play Audio</button>
-            <button onclick="pauseAudio()" type="button">Pause Audio</button>
             <div class="center">
                 <div id="menu-buttons">
                     <button class="MenuBtn"
                         onclick="sessionStorage.setItem('continue', 'false');displayUsernameInput();">Neues
                         Spiel Starten</button>
-                    <br>
-                    <br>
+
                     <button class="MenuBtn"
                         onclick="sessionStorage.setItem('continue', 'true');window.location.href='spiel.html'">Spiel
                         Fortsetzen</button>
-                    <br>
-                    <br>
+
                     <button class="MenuBtn" onclick="showHighscoreBoard()">Highscore</button>
                 </div>
                 <div id="username_div" style="background-color:#002B36; padding: 5%; visibility: hidden;">
@@ -39,11 +35,16 @@
                         <h1 style="color: #839496;">Spielernamen eingeben:</h1> <br>
                         <input style="height: 30px; width: 100%;" type="text" placeholder="Hacker2012"
                             id="inputDefault">
+                            <br>
+                            <br>
+                        <h1 style="color: #839496;">Schwierigkeitsgrad wählen:</h1> <br>
+                        <input type="radio" name="difficulty" id="easy" value="easy"> <span style="color:white;">leicht</span><br>
+                        <input type="radio" name="difficulty" id="normal" value="normal" checked="checked"> <span style="color:white;">normal</span><br>
+                        <input type="radio" name="difficulty" id="hard" value="hard"> <span style="color:white;">schwer</span><br>
                     </div>
                     <br>
                     <button id="username_submit" onclick="getUsername();" type="submit"
-                        class="MenuBtn">Bestätigen</button>
-
+                        class="MenuBtn" style="background-color: #839496; color:#002B36;">Bestätigen</button>
 
                 </div>
             </div>

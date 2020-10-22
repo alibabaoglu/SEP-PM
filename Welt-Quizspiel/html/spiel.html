@@ -278,22 +278,33 @@
                     <img id="coin-gif" style="visibility: hidden;" src="../img/animated-money-image-0058.gif"
                         alt="this slowpoke moves" width="50" alt="404 image" />
                 </div>
-                <h2 id="question" style="text-align: left;">
-                    </h3>
+                <h2 id="question"></h2>
                     <br>
                     <br>
-                    <button id="1" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
-                    <button id="2" class="QuizAnswer" onClick="checkAnswer(this.id)"></button><br>
-                    <button id="3" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
-                    <button id="4" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
-            </div>
+                    <div class="row" style="text-align: center;">
+                        <div class="col-1"></div>
+                        <div class="col-5">
+                            <button id="1" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
+                            <button id="3" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
+                        </div>
+                        <div class="col-5">
+                            <button id="2" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
+                            <button id="4" class="QuizAnswer" onClick="checkAnswer(this.id)"></button>
+                        </div>
+                    </div>
 
+                    <div class="row"></div>
 
-            <!--Continue your journey (back to the map) and call up the next question-->
-            <div class="Quizcontrol">
-
-                <button id="close" class="QuizBtn" onclick="closeQuiz()">Weiter reisen</button>
-                <button id="nextQuestion" onclick="openQuiz()" class="QuizBtn">Nächste Frage</button>
+                    <!--Continue your journey (back to the map) and call up the next question-->
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-5">
+                            <button id="close" class="QuizBtn" onclick="closeQuiz()">Weiter reisen</button>
+                        </div>
+                        <div class="col-5">
+                            <button id="nextQuestion" class="QuizBtn" onclick="openQuiz()">Naechste Frage</button>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
