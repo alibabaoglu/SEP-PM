@@ -73,11 +73,18 @@ function loadSavegame() {
         timer.start({precision: 'seconds', startValues: {seconds: secs}});
         $('#basicUsage').html(timer.getTimeValues().toString());
         difficulty = loadedSavegame['difficulty'];
-        correctAnswers = loadedSavegame['correctAnswers']
+        correctAnswers = loadedSavegame['correctAnswers'];
     }
     //console.log("init");
     initializeColors();
+    initializeBars();
     updateUIElements();
+}
+
+function initializeBars(){
+    Object.keys(fullRegionNames).forEach(element => {
+        updateProgressbar(element);
+    });
 }
 
 function loadDefaultValues() {
@@ -273,7 +280,7 @@ function checkAnswer(clicked_id) {
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
         $(`#${solution}`).css("background-color", "#b3ff99");
     }
-    if('desc' in DATA[currentRegion][currentQuestion]){
+    if(DATA[currentRegion][currentQuestion]['desc'] != ""){
         $('#Description').text("test");
         $('#Description').text(DATA[currentRegion][currentQuestion]["desc"]+"");
         $('#Description').css("visibility", "visible");
