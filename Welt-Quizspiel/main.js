@@ -28,14 +28,16 @@ function createWindow() {
         {
             minimizable: true,
             resizable: false,
-             fullscreen: true,
+             //fullscreen: true,
+             x:0,
+             y:0,
 
             webPreferences: {
                 nodeIntegration: true
             }
         })
     //win.maximize();
-    win.setSize(1920, 1080);
+    win.setSize(1920, 950);
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'html/index.html'),
         protocol: 'file:',

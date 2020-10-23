@@ -450,26 +450,24 @@
 
     "NAF": {
         "NAF1": {
-            "Frage": "Welches Land besaß in der Region die meisten Kolonien?",
+            "Frage": "Welches Land besaß in der Region die meisten Kolonien? Deutschland, GB, Spanien)",
             "Antworten": [
                 "Frankreich",
                 "Deutschland",
                 "Großbritanien",
                 "Spanien"
             ],
-            "Lösung": 1,
-            "desc":"Nordafrika stand zuvor unter osmanischer Herrschaft. Die Eroberung Algeriens durch Frankreich begann 1830. In Libyen, Algerien und Tunesien ist französisch heute die zweite Amtssprache. Ägypten geriet durch Finanzprobleme unter britische Herrschaft. Libyen wurde durch Italien erobert. Teilweise fanden die Eroberungen statt, um von innenpolitischen Problemen abzulenken."
+            "Lösung": 1
         },
         "NAF2": {
-            "Frage": "Welche Religion prägt diese Region?",
+            "Frage": "2. Welche Religion prägt diese Region??",
             "Antworten": [
                 "Buddhismus",
                 "Christentum",
                 "Hinduismus",
                 "Islam"
             ],
-            "Lösung": 4,
-			"desc":"Die Eroberung Nordafrikas began 639 durch muslimische Araber. Eroberte Völker hatten die Wahl zu konvertieren oder Tribut zu zahlen."
+            "Lösung": 4
         },
         "NAF3": {
             "Frage": "Welche Landschaftsform prägt diese Region?",
@@ -479,8 +477,7 @@
                 "Savanne",
                 "Wüste"
             ],
-            "Lösung": 4,
-			"desc":"Die Sahara nimmt ist 9 Mio. Quadratkilometer groß. Ein Großteil der Bevölkerung konzentriert sich deshalb auf Küstenbereiche und den Nil. Dieser durchquert als einziger Fluß die Sahare."
+            "Lösung": 4
         },
         "NAF4": {
             "Frage": "Welche Arten der Energieversorgung haben hohes Potenzial in der Region?",
@@ -490,75 +487,68 @@
                 "Wasserkraft und Öl",
                 "Atomstrom"
             ],
-            "Lösung": 2,
-			"desc":"Die Sahara hat eine hohe Sonneneinstrahlung. Absinkende Luftmassen verhindern Wolkenbildungen. An den Küsten können Windkraftwerke errichtet werden."
-			},
+            "Lösung": 2
+        },
         "NAF5": {
-            "Frage": "Welche großen Völker gab es vor den Römern im Westen der Region?",
+            "Frage": "Welches großen Völker gab es vor den Römern im Westen der Region?",
             "Antworten": [
-                "Umayyaden und Aleviten",
-                "Osmanen und Turkmenen",
-                "Vandalen und Goten",
+                "Umayyaden",
+                "Osmanen",
+                "Vandalen",
                 "Numider und Phönizier"
             ],
-            "Lösung": 4,
-			"desc":"Die Umayyaden waren ein arabischer Stamm, die Osmanen entwickelten sich in der Gegend der Türkei, die Vandalen waren Germanen, die es schafften in Nordafrika ein Königreich zu errichten und Rom zu plündern, bevor sie besiegt wurden. Sie kamen jedoch nach den Römern. Die berühmteste Stadt der Phönizier war Karthago. Numider waren Berbervölker, die wechselnd auf Seiten Karthagos und Roms kämpften."					
+            "Lösung": 4
         },
         "NAF6": {
-            "Frage": "Worauf basiert die Wirtschaft der Region zu einem großen Teil?",
+            "Frage": "Worauf basiert die Wirtschaft zu einem großen Teil?",
             "Antworten": [
                 "Waffen und Technikexport",
                 "Landwirtschaft",
                 "Ölexport und Tourismus",
                 "Devisengeschäfte"
             ],
-            "Lösung": 3,
-			"desc":""
+            "Lösung": 3
         },
         "NAF7": {
-            "Frage": "Welches Land ist mit 2.4 Mio. Quadratkilometern das größte  Afrikas?",
+            "Frage": "Welches Land ist mit 2.4 Mio. Quadratkilometern das größte der Region?",
             "Antworten": [
                 "Algerien",
                 "Ägypten",
                 "Lybien",
                 "Marokko"
             ],
-            "Lösung": 1,
-			"desc":""
+            "Lösung": 1
         },
         "NAF8": {
-            "Frage": "Was war der arabische Frühling, der in allen Ländern der Region Einzug hielt?",
+            "Frage": "Was war der arabische Frühling?",
             "Antworten": [
                 "Abkommen zur Zusammenarbeit",
                 "Besonders mildes Frühjahr",
                 "Proteste für Demokratie",
                 "Gleichberechtigung für Frauen"
             ],
-            "Lösung": 3,
-			"desc":""
+            "Lösung": 3
         },
         "NAF9": {
-            "Frage": "Welche Metropolregion ist mit 20 Mio. Bewohnern die größte Afrikas?",
+            "Frage": "Welche Metropolregion ist mit 20 Mio. die größte Afrikas?",
             "Antworten": [
                 "Rabat",
                 "Casablanca",
                 "Alexandria",
                 "Kairo"
             ],
-            "Lösung": 4,
-			"desc":""
+            "Lösung": 4
         },
-		 "NAF10": {
-            "Frage": "Die Sahara ist 9 Mio. Quadratkilometer groß. Welche Besonderheit hat die Wüste?",
+        "NAF10": {
+            "Frage": "Was ist eine Besonderheit der Sahara?",
             "Antworten": [
-                "Wechselnde Feucht-, Trockenphasen ",
+                "Wechselnde Feucht- und Trockenphasen ",
                 "Saharastaub gelangt bis nach China",
                 "Ist 90% Sandwüste",
                 "Die Temperatur fällt nie unter 20 Grad Celsius"
             ],
-            "Lösung": 1,
-			"desc":"Es gibt keine Wolkenbedeckung.Der Boden speichert die Wärme kaum.Deshalb gibt es große Temperaturschwankungen im Jahresverlauf. Extremwerte sind: 57.7 Grad Celsius in der libyschen Wüste und -17 Grad im Gebirge."	
-		}
+            "Lösung": 1
+        }
     },
     "WAF": {
         "WAF1": {
@@ -569,8 +559,7 @@
                 "14",
                 "16"
             ],
-            "Lösung": 3,
-			"desc":"Der Human-Development Index ist ein Wohlstandsindikator für Staaten. Er beachtet Pro-Kopf-Bruttonationaleinkommen, Lebenserwartung und Dauer der Schulbildung."
+            "Lösung": 3
         },
         "WAF2": {
             "Frage": "Wie hoch ist der mittlere Pro-Kopf-Stromverbrauch der 16 Länder Westafrikas?(Deutschland 7176 KwH)",
@@ -580,8 +569,7 @@
                 "2000-3000 KwH",
                 "5000-6000 KwH"
             ],
-            "Lösung": 1,
-			"desc":"In Deutschland verbraucht die Industrie 50%, Haushalte und Gewerbe jeweils etwa 25% des Stroms. "
+            "Lösung": 1
         },
         "WAF3": {
             "Frage": "Wieviele Menschen Leben in Westafrika?",
@@ -591,8 +579,7 @@
                 "195 Mio.",
                 "400 Mio."
             ],
-            "Lösung": 4,
-			"desc":""
+            "Lösung": 4
         },
         "WAF4": {
             "Frage": "Was ist den Menschen in Westafrika wichtig?",
@@ -600,10 +587,9 @@
                 "Umweltschutz",
                 "Neues Auto",
                 "Verbesserung der Lebensumstände",
-                "Modische Kleidung"
+                "Stylische Kleidung"
             ],
-            "Lösung": 3,
-			"desc":""
+            "Lösung": 3
         },
         "WAF5": {
             "Frage": "Wieviele Menschen wohnen in Nigeria?",
@@ -613,41 +599,37 @@
                 "123 Mio.",
                 "195 Mio."
             ],
-            "Lösung": 4,
-			"desc":""
+            "Lösung": 4
         },
         "WAF6": {
             "Frage": "Wann begann mutmaßlich die Entwicklung erster zentralisierter Zivilisationen in der Region?",
             "Antworten": [
-                "12000 BC",
+                "12000 BC%",
                 "1600 BC",
                 "500 AC",
                 "1200 AC"
             ],
-            "Lösung": 2,
-			"desc":"Die Dhar Tichitt lebten in etwa 500 Siedlungen im Südewesten der Sahara. Sie lebten von Viehaltung, Jagen, Sammeln und Landwirtschaft."
+            "Lösung": 2
         },
         "WAF7": {
-            "Frage": "Wieviele Sprachen gibt es in der Region?",
+            "Frage": "Welches dieser Attentate löste den Ersten Weltkrieg aus?",
             "Antworten": [
-                "über 1400",
-                "etwa 100",
-                "16",
-                "286"
+                "Attentat von Paris",
+                "Attentat von Sarajevo",
+                "Attentat von Hanau",
+                "Attentat von Anagni"
             ],
-            "Lösung": 1,
-			"desc":"In Nigeria allein sollen es etwa 500 sein. Die Sprachen gehören zumeist der Niger-Kongo Sprachfamilie an."
+            "Lösung": 2
         },
         "WAF8": {
-            "Frage": "Warum wurde die Kolonisation der Länder durch Europäer Ende des 19.Jahrhunderts forciert?",
+            "Frage": "Warum wurde die Kolonisation der Länder Ende des 19.Jahrhunderts forciert??",
             "Antworten": [
                 "Urlaubsstrände",
                 "Überbevölkerung",
                 "Ressourcen und Rivalität",
                 "Entdeckertum"
             ],
-            "Lösung": 3,
-			"desc":"Bis ins 19.Jahrhundert hinein unterhielten viele europäische Nationen nur Siedlungen an den Küsten. Das Zentrum Afrikas blieb relativ unerforscht."
+            "Lösung": 3
         },
         "WAF9": {
             "Frage": "Welches Land besaß die meisten Kolonien in Westafrika?",
@@ -657,10 +639,9 @@
                 "Holland",
                 "Portugal"
             ],
-            "Lösung": 2,
-			"desc":"Westafrika teilten sich Frankreich und Großbritanien unter sich auf.Die heutigen Länder gab es noch nicht. Es existierten nur einige Königreiche."
+            "Lösung": 2
         },
-	     "WAF10": {
+        "WAF10": {
             "Frage": "Welche Stadt hat mit 15 Mio. Einwohner die Zweit-größte Metropolregion Afrikas?",
             "Antworten": [
                 "Dakar",
@@ -678,8 +659,7 @@
                 "1650",
                 "1580"
             ],
-            "Lösung": 1,
-			"desc":"Portugiesische Händler gründeten die ersten Siedlungen, gefolgt von Franzosen, Briten, Spaniern, Dänen und Holländern."
+            "Lösung": 1
         },
 		"WAF12": {
             "Frage": "Was war ein wichtiges Exportgut vor dem 19. Jahrhundert?",
@@ -689,21 +669,19 @@
                 "Exotische Tiere",
                 "Elfenbein"
             ],
-            "Lösung": 1,
-			"desc":""
+            "Lösung": 1
         }
     },
     "CAF": {
         "CAF1": {
-            "Frage": "Wieviel größer ist die Demokratische Republik Kongo als Deutschland",
+            "Frage": "Wieviel größer ist Kongo-Kinshasa als Deutschland",
             "Antworten": [
                 "2.3 mal",
                 "6.6 mal",
                 "10 mal",
                 "12.7 mal"
             ],
-            "Lösung": 2,
-			"desc":"Kongo ist 2.345 Mio. Quadratkilometer groß und hat 84.07 Einwohner."
+            "Lösung": 2
         },
         "CAF2": {
             "Frage": "Wieviele Menschen starben während der 23 Jahre Kolonialherrschaft des belgischen Königs Leopolds 2. über Belgisch-Kongo?",
@@ -713,9 +691,7 @@
                 "1 Mio.",
                 "8-10 Mio."
             ],
-            "Lösung": 4,
-			"desc":"Die Erkundung vom Kongo sollte durch eine Gesellschaft erfolgen. Der Gesellschaft wurde der Kongo 'zugesprochen'. Leopold 2. kaufte die Gesellschaft auf und wurde so zum Privatbesitzer. Durch den Kautschukboom, guten Bedingungen im Kongo und dem Streben nach maximalen Gewinnen, wurde die Bevölkerung in Zwangsarbeit grausam ausgebeutet."
-			
+            "Lösung": 4
         },
         "CAF3": {
             "Frage": "Weshalb wurde der erste Ministerpräsident des Kongo, Lumumba, ermordet?",
@@ -725,8 +701,7 @@
                 "Zur Aufrechterhaltung der Rohstoffausbeutung durch Belgien und USA",
                 "Expansionistische Bestrebungen"
             ],
-            "Lösung": 3,
-			"desc":""
+            "Lösung": 3
         },
         "CAF4": {
             "Frage": "Was ist die Haupeinnahmensquelle der Menschen der Region?",
@@ -736,8 +711,7 @@
                 "Dienstleistungen",
                 "Tourismus"
             ],
-            "Lösung": 1,
-			"desc":""
+            "Lösung": 1
         },
         "CAF5": {
             "Frage": "In welcher Klimazone liegt Mittelafrika?",
@@ -747,8 +721,7 @@
                 "Savanne",
                 "Gemäßigte Zone"
             ],
-            "Lösung": 1,
-			"desc":""
+            "Lösung": 1
         },
         "CAF6": {
             "Frage": "Wie funktioniert die Energieversorgung der Menschen größtenteils?",
@@ -758,8 +731,7 @@
                 "Holz",
                 "Solarenergie"
             ],
-            "Lösung": 3,
-			"desc":""
+            "Lösung": 3
         },
         "CAF7": {
             "Frage": "Wie groß ist der Regenwald in Zentralafrika in Quadratkilometern?",
@@ -769,19 +741,17 @@
                 "etwa 1 Mio.",
                 "0.3 Mio."
             ],
-            "Lösung": 2,
-			"desc":"Hier steht der zweitgrößte Regenwald der Welt. Er steht unter großer Gefahr durch Abholzung. Rodungen geschehen durch Rohstoffabbau, Ackerbau und Holzgewinnung."
+            "Lösung": 2
         },
         "CAF8": {
-            "Frage": "Welche Affenart lebt im Regenwald der Region?",
+            "Frage": "Welche Affenart lebt im Regenwald?",
             "Antworten": [
                 "Gorilla",
                 "Orang-Utan",
                 "Lemuren",
                 "Makaken"
             ],
-            "Lösung": 1,
-			"desc":""
+            "Lösung": 1
         },
         "CAF9": {
             "Frage": "Wieviele Menschen leben in der Metropolregion Kinshasas?",
@@ -791,10 +761,9 @@
                 "9 Mio.",
                 "14 Mio."
             ],
-            "Lösung": 4,
-			"desc":""
+            "Lösung": 4
         },
-		 "CAF10": {
+        "CAF10": {
             "Frage": "Es gab zahlreiche Königreiche in Afrika bis ins 19. Jahrhundert hinein. Was geschah im Königreich Kongo 1485?",
             "Antworten": [
                 "Kongolesische Adlige kehrten aus Portugal zurück",
@@ -802,9 +771,7 @@
                 "Der kongolesische König versucht die katholische Kirche einzuführen",
                 "Der kongolesische König beansprucht in einem Brief an den portugiesischen König den Sklavenhandel nach kongolesischem Gesetz"
             ],
-            "Lösung": 1,
-			"desc":"Entdecker wurden nicht verspeist.Alles andere geschah tatsächlich.Aber nicht unbedingt 1485."
-			
+            "Lösung": 1
         }
     },
     "EAF": {
@@ -816,8 +783,7 @@
                 "Indischer Ozean",
                 "Atlantik"
             ],
-            "Lösung": 3,
-			"desc":""
+            "Lösung": 3
         },
         "EAF2": {
             "Frage": "Welche geologische Besonderheit prägt die Region?",
@@ -827,8 +793,7 @@
                 "Es gibt einen Hotspot",
                 "Es gab einen großen Meteoriteneinschlag"
             ],
-            "Lösung": 1,
-			"desc":""
+            "Lösung": 1
         },
         "EAF3": {
             "Frage": "Wie prägen die geologischen Ereignisse die Region?",
@@ -838,8 +803,7 @@
                 "Artensterben",
                 "Bergbildung"
             ],
-            "Lösung": 4,
-			"desc":""
+            "Lösung": 4
         },
         "EAF4": {
             "Frage": "Was sind die „Big Five“ die man u.a. in Ostafrika findet?",
@@ -849,8 +813,7 @@
                 "5 große Tierarten",
                 "Die 5 dienstältesten Diktatoren"
             ],
-            "Lösung": 3,
-			"desc":"Es sind Löwe, Büffel, Elephat, Nashorn und Leopard.Diese sind am schwersten zu Fuß zu jagen."
+            "Lösung": 3
         },
         "EAF5": {
             "Frage": "Was ist das besondere am Lake Victoria?",
@@ -860,8 +823,7 @@
                 "1000m tief",
                 "Zweit-größter See der Welt"
             ],
-            "Lösung": 4,
-			"desc":""
+            "Lösung": 1
         },
         "EAF6": {
             "Frage": "Was ist das besondere am See Tanganyika?",
@@ -871,8 +833,7 @@
                 "Dritt-größter See der Welt",
                 "Wird vom Nil entwässert"
             ],
-            "Lösung": 1,
-			"desc":""
+            "Lösung": 1
         },
         "EAF7": {
             "Frage": "Was ist das besondere am Berg Kilimanjaro?",
@@ -882,52 +843,47 @@
                 "Wird als Gottheit verehrt",
                 "Wurde von Ptolemäus 100 vor Christus beschrieben"
             ],
-            "Lösung": 2,
-			"desc":"Der Berg wurde tatsächlich verehrt und ist relativ leicht zu besteigen. Ptolemäus sah den Berg 100 nach Christus."
+            "Lösung": 2
         },
         "EAF8": {
-            "Frage": "Wie alt sind die ältesten Menschheitsspuren, die man bislang hier fand?",
+            "Frage": "Wie alt sind die Menschheitsspuren, die man hier findet?",
             "Antworten": [
                 "10.000 Jahre",
                 "20.000-50.000 Jahre",
                 "100.000 Jahre",
                 "über 300.000 Jahre"
             ],
-            "Lösung": 4,
-			"desc":""
+            "Lösung": 4
         },
         "EAF9": {
             "Frage": "Weswegen interessierten sich die Portugiesen im 16.Jhr. für Ostafrika?",
             "Antworten": [
-                "Neue Handelsroute nach Indien finden gegen arabische Handelskonkurenz",
+                "Neue Handelsroute nach Indien finden gegen Araber",
                 "Neue Sklavenquellen erschließen",
                 "Gefängnis für Kriminelle",
                 "Entdeckungsreisen"
             ],
-            "Lösung": 1,
-			"desc":"Der Gewürzhandel im Indischen Ozean war sehr profitabel. Durch eine eigene Route umgingen die Portugiesen die alten Routen über Land und Wasser. Dadurch konkurierten sie mit Arabern, Türken und Venedig."
+            "Lösung": 1
         },
         "EAF10": {
-            "Frage": "Welches Land hat am zweitmeisten Unesco Weltkulturerbestätten in Afrika?",
+            "Frage": "Welches Land hat am zweitmeisten Unesco Weltkulturerbestätten in der Region?",
             "Antworten": [
                 "Kenia",
                 "Tansania",
                 "Äthiopien",
                 "Uganda"
             ],
-            "Lösung": 3,
-			"desc":"Zu den Stätten zählen Landschaften, antike und mittelalterliche Städte und Gebäude, sowie prähistorische Fundstätten des modernen Menschens."
+            "Lösung": 3
         },
         "EAF11": {
-            "Frage": "Welches Land gilt seit Jahren als gescheiterter Staat?",
+            "Frage": "Welches Land gilt seit langem als gescheiterter Staat?",
             "Antworten": [
                 "Ruanda",
                 "Somalia",
                 "Äthiopien",
                 "Mosambique"
             ],
-            "Lösung": 2,
-			"desc":"Nach einer kurzen demokratischen Phase übernahmen Putschisten 1969 die Macht. Die autoritäre Regierung wurde mit der Zeit unbeliebter, so dass sich mehrere Rebellengruppen bildeten. 1991 wurde Präsident aus dem Land gedrängt. Durch die vielen  Gruppen mit Machtanspruch gab es dann 20 Jahre lang keine wirksame Regierung mehr. Trotz einer funktionalen Regierung seit 2012 ist das Land noch instabil."
+            "Lösung": 2
         }
     },
     "SAF": {
@@ -939,8 +895,7 @@
                 "Swasiland",
                 "Südafrika"
             ],
-            "Lösung": 4,
-			"desc":"Südafrika ist das größte Land der Region und gilt als Schwellenland. Südafrika hat eine diversifizierte Wirtschaft. Dennoch gibt es noch eine große soziale Ungleichheit."
+            "Lösung": 4
         },
         "SAF2": {
             "Frage": "Wodurch ist die Region wirtschaftlich bekannt?",
@@ -950,8 +905,7 @@
                 "Umweltschutz",
                 "Landwirtschaft"
             ],
-            "Lösung": 1,
-			"desc":""
+            "Lösung": 1
         },
         "SAF3": {
             "Frage": "Was ist ein großes gesundheitliches Problem der Region?",
@@ -961,8 +915,7 @@
                 "Corona-Pandemie",
                 "Vogelgrippen-Pandemie"
             ],
-            "Lösung": 2,
-			"desc":"In der Region sind zwischen 10 und 20 % der Bevölkerung infiziert. Dadurch sank die Lebenserwartung zwischenzeitlich auf unter 50 Jahre. Durch  massive Hilfsprogramme konnte ein Verschlimmerung verhindert werden. Viele Menschen in diesen Ländern erhalten nun kostengünstige patentfreie Generika."
+            "Lösung": 2
         },
         "SAF4": {
             "Frage": "Welches Gesellschaftssystem gab es in Südafrika bis 1994?",
@@ -972,8 +925,7 @@
                 "Diktatur",
                 "Königreich"
             ],
-            "Lösung": 2,
-			"desc":"Mit der Apartheid fand eine massive Benachteiligung des Großteils der Bevölkerung durch die weiße Minderheit statt, die sich bis heute auswirkt. Dabei wurde due Apartheid 1994 aufgehoben."
+            "Lösung": 2
         },
         "SAF5": {
             "Frage": "Was war eine militärische Besonderheit Südafrikas?",
@@ -983,8 +935,7 @@
                 "Besetzte Namibia im 2.Weltkrieg",
                 "Nahm bis 1985 an keinem Krieg teil"
             ],
-            "Lösung": 1,
-			"desc":"Die Atomwaffen und Trägersystem stammten aus eigener Entwicklung. Sie wurden mit dem Atomwaffensperrvertrag wieder abgeschafft. Wie allgemein üblich stützt sich Südafrika auch heute gerne auf Rüstungsprodukte aus eigener Erzeugung."
+            "Lösung": 1
         },
         "SAF6": {
             "Frage": "Wieviele amtliche Landessprachen gibt es in Südafrika?",
@@ -994,8 +945,7 @@
                 "7",
                 "11"
             ],
-            "Lösung": 4,
-			"desc":"Sogar die Strophen der Hymne werden in unterschiedlichen Sprachen gesungen."
+            "Lösung": 4
         },
         "SAF7": {
             "Frage": "Welche Umweltbesonderheit gibt es in Südafrika?",
@@ -1003,10 +953,9 @@
                 "Keine Nationalparks",
                 "Niedrige CO2-Emission pro Kopf",
                 "Sehr hohe Artenvielfalt endemischer Pflanzen und Tiere",
-                "Das Zentralplateau liegt auf 3000 m Höhe"
+                "Zentralplateau liegt auf 3000 m Höhe"
             ],
-            "Lösung": 3,
-			"desc":""
+            "Lösung": 3
         },
         "SAF8": {
             "Frage": "Wieviele Menschen Leben in dem 824000 km² großem Namibia?",
@@ -1016,8 +965,7 @@
                 "12 Mio.",
                 "35 Mio."
             ],
-            "Lösung": 2,
-			"desc":"Die Einwohnerdichte von 2.82 Menschen pro Quadratkilometer ist die zweitgeringste nach der Mongolei."
+            "Lösung": 2
         },
         "SAF9": {
             "Frage": "Wie alt ist die Namib-Wüste?",
@@ -1027,8 +975,7 @@
                 "2 Mio. Jahre",
                 "0.5 Mio. Jahre"
             ],
-            "Lösung": 1,
-			"desc": "Damit ist die Wüste die älteste der Welt. Wobei sie zur Zeit des Gondwana-Kontinents wohl noch eine Binnenwüste war."
+            "Lösung": 1
         },
         "SAF10": {
             "Frage": "Was war die Apartheid?",
@@ -1038,8 +985,7 @@
                 "Rassentrennung",
                 "Vertreibung der Europäer"
             ],
-            "Lösung": 3,
-			"desc":""
+            "Lösung": 3
         }
     },
 
@@ -1900,7 +1846,7 @@
                 "Querasische Steppe"
             ],
             "Lösung": 1,
-            "desc": "Sie beheimatet Saiga-Antilopen und Wildpferde, die einst durch ganz Europa zogen und heute in die hintersten Winkel Eurasiens zurückgedrängt sind."
+            "desc": ""
         },
         "CAS5": {
             "Frage": "Was ist das Nationalgericht von Usbekistan?",
@@ -1911,62 +1857,62 @@
                 "Schurpa"
             ],
             "Lösung": 2,
-            "desc": "Es wird traditionell aus langkörnigem Reis, Zwiebeln, Brühe sowie eventuell Fleisch, Fisch oder Gemüse zubereitet."
+            "desc": ""
         },
         "CAS6": {
-            "Frage": "Was ist am Balchaschsee so besonders?",
+            "Frage": "",
             "Antworten": [
-                "Er hat die Form eines Halbmonds.",
-                "Er besteht zur Hälfte aus Süßwasser und zur Hälfte aus Salzwasser.",
-                "Er ist ganzflächig 1m tief.",
-                "Auf ihm schwimmt eine Moschee die dem Weltkulturerbe angehört."
+                "",
+                "",
+                "",
+                ""
             ],
             "Lösung": 2,
-            "desc": "Der Balchaschsee ist einer der bedeutendsten Seen der Welt. Er ist 620 Kilometer lang und 18.428 km² groß."
+            "desc": ""
         },
         "CAS7": {
-            "Frage": "Welche Besonderheit hat die Stadt Baikonur?",
+            "Frage": "",
             "Antworten": [
-                "Sie liegt neben der größten Oase Asiens.",
-                "Sie ist eine Haltestelle des Orient Expresses.",
-                "In ihr gibt es den größten Weltraumbahnhof.",
-                "Sie gehört zur Hälfte zu Usbekistan und die andere Hälfte gehört Kasachstan an."
+                "",
+                "",
+                "",
+                ""
             ],
             "Lösung": 3,
-            "desc": "Der Weltraumbahnnhof wird von Russland bis 2050 gemietet, es bezahlt dafür 115 Millionen Dollar jährlich."
+            "desc": ""
         },
         "CAS8": {
-            "Frage": "Von welcher Baumart besitzt Kirgisistan die weltweit größten Wälder?",
+            "Frage": "",
             "Antworten": [
-                "Walnuss",
-                "Birke",
-                "Esche",
-                "Tanne"
+                "",
+                "",
+                "",
+                ""
             ],
             "Lösung": 1,
-            "desc": "Obwohl Kirgisistan einen Mangel an Wälder hat, besitzt Kirgisistan die größten Walnusswälder der Welt. In diesen Wäldern leben auch verschiedene Tiere wie Rehe, Füchse und natürlich auch noch viele andere Tiere."
+            "desc": ""
         },
         "CAS9": {
-            "Frage": "Wie lange ist der Pamir Highway?",
+            "Frage": "",
             "Antworten": [
-                "1052 km",
-                "852 km",
-                "1552 km",
-                "1252 km"
+                "",
+                "",
+                "",
+                ""
             ],
             "Lösung": 4,
-            "desc": "Der Pamir Highway ist ein schöner Wanderweg in Tadschikistan, er führt durch mehrere Städte wie Chorugh und die Hauptstadt Duschanbe."
+            "desc": ""
         },
         "CAS10": {
-            "Frage": "Was ist das Nationalgericht Kirgisistans?",
+            "Frage": "",
             "Antworten": [
-                "Plow",
-                "Beschbermak",
-                "Samsa",
-                "Schurpa"
+                "",
+                "",
+                "",
+                ""
             ],
             "Lösung": 2,
-            "desc": "Der Name, welcher soviel wie fünf Finger bedeutet, kommt davon, dass Nomaden die Mahlzeit normalerweise mit bloßen Händen aßen."
+            "desc": ""
         }
     },
     "WAS": {
@@ -1990,7 +1936,7 @@
                 "Arabische See"
             ],
             "Lösung": 2,
-            "desc": "Der Salzgehalt des Toten Meeres liegt bei bis zu 33 %, im Durchschnitt liegt er bei rund 28 % (zum Vergleich: das Mittelmeer hat einen durchschnittlichen Salzgehalt von 3,8 %)."
+            "desc": ""
         },
         "WAS3": {
             "Frage": "Womit sorge Saudi-Arabien am 02.10.2018 für Aufrur?",
@@ -2001,7 +1947,7 @@
                 "Neuen Waffenabkommen"
             ],
             "Lösung": 4,
-            "desc": "Khashoggi wurde im saudi-arabischen Konsulat in Istanbul von einem Spezialkommando ermordet. Mehr als zwei Wochen später räumte Saudi-Arabien die Tötung Khashoggis an jenem Tag ein. Seine Leiche ist bis heute nicht gefunden worden."
+            "desc": ""
         },
         "WAS4": {
             "Frage": "Wann wurde das Atomabkommen mit dem Iran beschlossen?",
@@ -2012,7 +1958,7 @@
                 "2015"
             ],
             "Lösung": 4,
-            "desc": "Am 14. Juli 2015 einigten sich die UN-Vetomächte, Deutschland und der Iran in Wien auf das Atomabkommen. Es sollte Teheran davon abbringen, eine Atomstreitmacht aufzubauen."
+            "desc": ""
         },
         "WAS5": {
             "Frage": "Wann hat der syrische Krieg begonnen?",
@@ -2023,7 +1969,7 @@
                 "2015"
             ],
             "Lösung": 3,
-            "desc": "Auslöser des Konflikts war ein friedlicher Protest gegen das autoritäre Regime Assads im Zuge des Arabischen Frühlings Anfang 2011."
+            "desc": ""
         },
         "WAS6": {
             "Frage": "Was ist der Nahostkonflikt?",
@@ -2034,7 +1980,7 @@
                 "Der Konflikt um Palist die Region Palästina"
             ],
             "Lösung": 4,
-            "desc": "Im Kern geht es um territoriale Ansprüche auf das Gebiet zwischen Jordan und Mittelmeer. Der am 14. Mai 1948 gegründete Staat Israel erstreckt sich über 78 Prozent dieses Gebietes. Die Palästinenser ihrerseits streben einen unabhängigen palästinensischen Staat an in den Gebieten, die Israel während des Sechs-Tage-Kriegs 1967 besetzt hat."
+            "desc": ""
         },
         "WAS7": {
             "Frage": "Seit wann ist Zypern Teil der EU?",
@@ -2045,7 +1991,7 @@
                 "2001"
             ],
             "Lösung": 3,
-            "desc": "Zypern ist eine Insel im östlichen Mittelmeer. Sie ist die drittgrößte Mittelmeerinsel nach Sizilien und Sardinien. Zypern gehört geographisch zu Asien, wird politisch und kulturell jedoch meist zu Europa gezählt."
+            "desc": ""
         },
         "WAS8": {
             "Frage": "Wie heißt der zentrale Wallfahrtsort des Islams?",
@@ -2056,7 +2002,7 @@
                 "Maka"
             ],
             "Lösung": 2,
-            "desc": "Das Betreten der Stadt ist nur Muslimen erlaubt, von denen sich alljährlich Millionen zur Pilgerfahrt Haddsch einfinden."
+            "desc": ""
         },
         "WAS9": {
             "Frage": "Wie heißt die tiefste Höhle der Welt?",
@@ -2067,7 +2013,7 @@
                 "Son-Doong-Höhle"
             ],
             "Lösung": 2,
-            "desc": "Die Voronya Höhle in Georgien ist mit bisher erforschten 2.191 Metern die tiefste Höhle der Welt. Es wird angenommen, dass sie sogar noch wesentlich tiefer ist."
+            "desc": ""
         },
         "WAS10": {
             "Frage": "Wie heißt die weltweit größte Sandwüste?",
@@ -2078,7 +2024,7 @@
                 "Hammada"
             ],
             "Lösung": 2,
-            "desc": "Die fast menschenleere Wüste bedeckt das südliche Drittel der Arabischen Halbinsel."
+            "desc": ""
         }
     },
     "SAS": {
@@ -2102,7 +2048,7 @@
                 "ca. 800 Inseln"
             ],
             "Lösung": 2,
-            "desc": "Die Malediven sind ein tropisches Land im Indischen Ozean, das 26 ringförmige Atolle umfasst."
+            "desc": ""
         },
         "SAS3": {
             "Frage": "Wo liegen die Durchschnittstemperaturen Südasiens in den Sommermonaten?",
@@ -2124,7 +2070,7 @@
                 "Steppenklima"
             ],
             "Lösung": 3,
-            "desc": "Der südasiatische Bereich hat fünf Klimazonen zu bieten: Wüstenklima, Steppenklima, Savannenklima, warmes wintertrockenes Klima und tropisches Regenwaldklima."
+            "desc": ""
         },
         "SAS5": {
             "Frage": "Was ist die stärkste Glaubensrichtung Nordasiens?",
@@ -2135,7 +2081,7 @@
                 "Christentum"
             ],
             "Lösung": 2,
-            "desc": "Innerhalb des Hinduismus gibt es monotheistische, dualistische und polytheistische Richtungen, Gottheiten erscheinen als persönliche oder unpersönliche Wesen. Die Hindu-Religionen verfügen weder über ein gemeinsames Glaubensbekenntnis noch über eine zentrale Institution, die Autorität für alle Hindus hätte."
+            "desc": ""
         },
         "SAS6": {
             "Frage": "Wie groß ist der Mount Everest",
@@ -2146,7 +2092,7 @@
                 "8258 m"
             ],
             "Lösung": 1,
-            "desc": "Während der Mount Everest die höchste Erhebung über dem Meeresspiegel ist, existieren noch zwei weitere Berge, die den Titel „höchster Berg der Erde“ verdienen. Vom Fuß des Berges aus gemessen ist dies der Vulkan Mauna Kea auf Hawaii, vom Erdmittelpunkt aus gerechnet der Chimborazo in Ecuador."
+            "desc": ""
         },
         "SAS7": {
             "Frage": "Was löste den Afghanistan Krieg aus?",
@@ -2157,7 +2103,7 @@
                 "Staatsstreich durch die kommunistische Volkspartei"
             ],
             "Lösung": 4,
-            "desc": "Der Krieg in Afghanistan umfasst eine Reihe von zusammenhängenden bewaffneten Konflikten, die seit 1978 in Afghanistan andauern."
+            "desc": ""
         },
         "SAS8": {
             "Frage": "Wie nennt man in Indien den Magen-Darm-Virus noch?",
@@ -2168,7 +2114,7 @@
                 "Delhi Bowel"
             ],
             "Lösung": 2,
-            "desc": "Ist man in abgelegeneren Gebieten von Indien unterwegs, sollte man auf rohes, ungekochtes Essen, wie Salate verzichten. Das Leitungswasser ist hier häufig nicht besonders sauber und kann oft Keime enthalten, die einen für 2-3 Tage an die Kloschüssel fesseln."
+            "desc": ""
         },
         "SAS9": {
             "Frage": "Wann ist der Geburtstag des Mahatma Gandhis?",
@@ -2179,7 +2125,7 @@
                 "2. Oktober"
             ],
             "Lösung": 4,
-            "desc": "Mohandas Karamchand Gandhi war ein indischer Rechtsanwalt, Publizist, Morallehrer, Asket und Pazifist, der zum geistigen und politischen Anführer der indischen Unabhängigkeitsbewegung wurde."
+            "desc": ""
         },
         "SAS10": {
             "Frage": "Wie nennt man einen weibliche Meisterin des Yoga?",
@@ -2190,7 +2136,7 @@
                 "Yogin"
             ],
             "Lösung": 4,
-            "desc": "Yoga ist eine der sechs klassischen Schulen der indischen Philosophie. Es gibt viele verschiedene Formen des Yoga, oft mit einer eigenen Philosophie und Praxis."
+            "desc": ""
         }
     },
     "SEA": {
@@ -2203,7 +2149,7 @@
                 "Chinesen"
             ],
             "Lösung": 1,
-            "desc": "Im Zuge der Politik der Transmigrasi sind viele Javaner in andere weniger dicht besiedelte Landesteile Indonesiens ausgewandert."
+            "desc": ""
         },
         "SEA2": {
             "Frage": "Welcher dieser südostasiatischen Staaten ist kein Mitglied des Verbands Südostasiatischer Nationen (ASEAN)?",
@@ -2225,7 +2171,7 @@
                 "Indische Platte"
             ],
             "Lösung": 2,
-            "desc": "Der Sundabogen auf den Sunda- und Burma-Platten wird durch den Sundagraben, dort wo die Australische Platte abtaucht, vervollständigt."
+            "desc": ""
         },
         "SEA4": {
             "Frage": "Wie viele der 10 Staaten haben das Pariser Abkommen unterschrieben?",
@@ -2247,7 +2193,7 @@
                 "1%"
             ],
             "Lösung": 3,
-            "desc": "Ein Großteil dieser Fläche ist durch den Anstieg des Meeresspiegels gefährdet."
+            "desc": ""
         },
         "SEA6": {
             "Frage": "Welches dieser in Südostasien beheimaten Tiere ist bedroht?",
@@ -2258,7 +2204,7 @@
                 "Der Himalaya-Fischuhu"
             ],
             "Lösung": 2,
-            "desc": "Die Schuppentierart wird stark vom Menschen bejagt, da ihr Fleisch als Delikatesse gilt und die Schuppen und andere Körperteile als Heilmittel in der Traditionellen Chinesischen Medizin verwendet werden."
+            "desc": ""
         },
         "SEA7": {
             "Frage": "Welche dieser Staaten gehört nicht zu Südostasien?",
@@ -2269,7 +2215,7 @@
                 "Sri Lanka"
             ],
             "Lösung": 4,
-            "desc": "Sri Lanka ist eine Inselnation südlich von Indien im Indischen Ozean."
+            "desc": ""
         },
         "SEA8": {
             "Frage": "Von wann bis wann fand der Vietnamkrieg statt?",
@@ -2316,7 +2262,7 @@
                 "Kernwaffentests"
             ],
             "Lösung": 4,
-            "desc": "Nach dem Krieg wurden die bisher japanischen Inseln als UN-Treuhandgebiet 1947 den USA überlassen. Diese führten im Treuhandgebiet Pazifische Inseln zahlreiche Kernwaffentests durch, wodurch mehrere Inseln wie Eniwetok und Bikini bis heute radioaktiv kontaminiert sind."
+            "desc": ""
         },
         "OZN2": {
             "Frage": "Wie heißen die Ureinwohner Neuseelands?",
@@ -2327,7 +2273,7 @@
                 "Negritos"
             ],
             "Lösung": 1,
-            "desc": "Ihre aus der pazifischen Inselwelt stammenden Vorfahren haben vermutlich im 13. Jahrhundert und damit etwa 300 Jahre vor den europäischen Seefahrern in mehreren Wellen von Polynesien aus das zuvor unbewohnte Neuseeland als erste Einwanderer besiedelt."
+            "desc": ""
         },
         "OZN3": {
             "Frage": "Wie heißt der bekannteste Berg Australiens?",
@@ -2338,7 +2284,7 @@
                 "Ulluru"
             ],
             "Lösung": 1,
-            "desc": "Der Uluru ist etwa 3 km lang, bis zu 2 km breit und hat an der Basis einen Umfang von rund 9 km."
+            "desc": ""
         },
         "OZN4": {
             "Frage": "Wie heißt das bekannteste Musikinstrument der Aborigines?",
@@ -2349,7 +2295,7 @@
                 "Digeridoo"
             ],
             "Lösung": 3,
-            "desc": "Im traditionellen Zusammenhang wird es meistens aus einem von Termiten ausgehöhlten Stamm lokaler Eukalyptusarten gefertigt und dient als überwiegend rhythmisch eingesetztes Begleitinstrument für Gesänge und Tänze."
+            "desc": ""
         },
         "OZN5": {
             "Frage": "Wie heißt das größte zusammenhängende Korallenriff der Welt?",
@@ -2371,7 +2317,7 @@
                 "24 km"
             ],
             "Lösung": 3,
-            "desc": "Der beliebteste Wanderweg Neuseelands. Er geht entlang der Küste von der Südinsel Neuseelands."
+            "desc": ""
         },
         "OZN7": {
             "Frage": "Aus wievielen Inseln bestehen die Bay of Islands?",
@@ -2382,7 +2328,7 @@
                 "78 Inseln"
             ],
             "Lösung": 3,
-            "desc": "Der erste Europäer, der die Bay of Islands besuchte, war der britische Seefahrer und Entdecker, Kapitän James Cook im Jahre 1769, der der Bucht ihren heutigen Namen verlieh"
+            "desc": ""
         },
         "OZN8": {
             "Frage": "Von wann bis wann fanden die Sträflingsverschiffungen nach Australien statt?",
@@ -2393,7 +2339,7 @@
                 "1768 bis 1849"
             ],
             "Lösung": 3,
-            "desc": "Obwohl es am 26. Juni 1857 gesetzlich beendet wurde, endete das Verschiffen der Sträflinge erst am 9. Januar 1868 mit der Anlandung des Schiffs Hougoumont in Fremantle in Western Australia."
+            "desc": ""
         },
         "OZN9": {
             "Frage": "Wie viele Inseln gehören den Förderierten Staaten von Mikronesien an?",
@@ -2404,7 +2350,7 @@
                 "607"
             ],
             "Lösung": 4,
-            "desc": "Im Jahr 1991 wurden die Föderierten Staaten von Mikronesien endgültig unabhängig."
+            "desc": ""
         },
         "OZN10": {
             "Frage": "Welche Inseln formen das polynesische Dreieck?",
@@ -2415,7 +2361,7 @@
                 "Hawaii-Inseln, Neuseeland und die Gibertinseln"
             ],
             "Lösung": 1,
-            "desc": "Das polynesische Dreieck beschreibt ungefähr die Ausdehnung Polynesiens im Pazifischen Ozean und ist ein Teil Ozeaniens."
+            "desc": ""
         }
     }
 }

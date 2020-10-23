@@ -34,16 +34,21 @@
                     <button class="MenuBtn" onclick="showHighscoreBoard()">Highscore</button>
                 </div>
                 <div id="username_div" style="background-color:#002B36; padding: 5%; visibility: hidden;">
-                    <div class="form-group">
+                    <div class="form-group" style="text-align: center;">
                         <h1 style="color: #839496;">Spielernamen eingeben:</h1> <br>
-                        <input style="height: 30px; width: 100%;" type="text" placeholder="Hacker2012"
+                        <input style="height: 30px; width: 90%; padding: 0px 10px;" type="text" placeholder="Hacker2012"
                             id="inputDefault">
-                            <br>
-                            <br>
+                        <br>
+                        <br>
                         <h1 style="color: #839496;">Schwierigkeitsgrad wählen:</h1> <br>
-                        <input type="radio" name="difficulty" id="easy" value="easy"> <span style="color:white;">leicht</span><br>
-                        <input type="radio" name="difficulty" id="normal" value="normal" checked="checked"> <span style="color:white;">normal</span><br>
-                        <input type="radio" name="difficulty" id="hard" value="hard"> <span style="color:white;">schwer</span><br>
+                        <div style="text-align: left; width: 20%; margin-left: 40%;">
+                            <input type="radio" name="difficulty" id="easy" value="easy"> <span style="color:white;">
+                                leicht</span><br>
+                            <input type="radio" name="difficulty" id="normal" value="normal" checked="checked"> <span
+                                style="color:white;"> normal</span><br>
+                            <input type="radio" name="difficulty" id="hard" value="hard"> <span style="color:white;">
+                                schwer</span><br>
+                        </div>
                     </div>
                     <br>
                     <button id="username_submit" onclick="getUsername();" type="submit"

@@ -229,6 +229,16 @@ solution = 0;
  *               At the end the question will be removed from the JSON object.              
 */
 function playQuiz() {
+    if(money < difficulty["jokerCost"]){
+        $('.joker').css('pointer-events', 'none');
+        $('.joker').css('opacity', '0.3');
+    }
+    else{
+        $('.joker').css('pointer-events', 'all');
+        $('.joker').css('opacity', '1');
+    }
+
+
     $('#nextQuestion').css('pointer-events', 'none');
     $('#nextQuestion').css('opacity', '1.0');
     $('#regionName').text(fullRegionNames[regionID]);
@@ -311,7 +321,7 @@ function useJoker() {
         } while (answerToHide1 === solution || answerToHide2 === solution || answerToHide2 === answerToHide1);
 
         $('.joker').css('pointer-events', 'none');
-        $('.joker').css('opacity', '0.5');
+        $('.joker').css('opacity', '0.3');
         $('#' + answerToHide1).css('opacity', '0.3');
         $('#' + answerToHide2).css('opacity', '0.3');
     }

@@ -26,8 +26,8 @@
         {
             maps :  {
                 worldregions_projektion_ohne_antarktis : {
-                    width : 1920,
-                    height : 1080,
+                    width : 1718,
+                    height : 1351,
                     getCoords : function (lat, lon) {
                         // todo
                         return {"x" : lon, "y" : lat};
