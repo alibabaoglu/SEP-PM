@@ -31,13 +31,13 @@
                         onclick="sessionStorage.setItem('continue', 'true');window.location.href='spiel.html'">Spiel
                         Fortsetzen</button>
 
-                    <button class="MenuBtn" onclick="showHighscoreBoard()">Highscore</button>
+                    <button class="MenuBtn" id="anleitung_btn" onclick="anleitung()">Anleitung</button>
                 </div>
                 <div id="username_div" style="background-color:#002B36; padding: 5%; visibility: hidden;">
                     <div class="form-group" style="text-align: center;">
                         <h1 style="color: #839496;">Spielernamen eingeben:</h1> <br>
-                        <input style="height: 30px; width: 90%; padding: 0px 10px;" type="text" placeholder="Hacker2012"
-                            id="inputDefault">
+                        <input style="height: 30px; width: 90%; padding: 0px 10px;" type="text" value="Name"
+                            id="inputDefault" >
                         <br>
                         <br>
                         <h1 style="color: #839496;">Schwierigkeitsgrad wählen:</h1> <br>
@@ -54,6 +54,29 @@
                     <button id="username_submit" onclick="getUsername();" type="submit"
                         class="MenuBtn difColor">Bestätigen</button>
 
+                </div>
+
+                <!-- The Modal -->
+                <div id="myAnleitung" class="anleitung">
+
+                    <!-- Modal content -->
+                    <div class="anleitung-content">
+                        <span onclick="anleitung_close()" class="close">&times;</span>
+                        <h2>Spielanleitung:</h2>
+                        <br>
+                        <p>Willkommen zum Weltquiz. Im Spiel geht es darum verschieden Regionen zu bereisen und ein
+                            kleines Quiz in der
+                            jeweilgen Region zu spielen.</p>
+                        <br>
+                        <h3>Spielprinzip: </h3>
+                        <br>
+                        <p> Um zu gewinnen, musst du <strong>jede Regionen</strong> bereisen und jeweils pro Region ein
+                            Quiz à 6 Fragen durchspielen.
+                        </p>
+                        <p> Wenn dein Konto im Minus ist, dann hast du verloren!</p>
+                        <p>Viel Spaß!</p>
+
+                    </div>
                 </div>
             </div>
         </div>

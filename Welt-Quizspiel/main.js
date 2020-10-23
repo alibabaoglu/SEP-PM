@@ -37,7 +37,8 @@ function createWindow() {
             }
         })
     //win.maximize();
-    win.setSize(1920, 950);
+    //win.removeMenu();
+    win.setSize(1800, 950);
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'html/index.html'),
         protocol: 'file:',
