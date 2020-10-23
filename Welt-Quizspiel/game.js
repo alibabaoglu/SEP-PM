@@ -65,6 +65,8 @@ function loadSavegame() {
         $('#basicUsage').html(timer.getTimeValues().toString());
         difficulty = loadedSavegame['difficulty'];
         correctAnswers = loadedSavegame['correctAnswers'];
+        answeredQuestion = loadedSavegame['answeredQuestion'] ;
+        correctAnsweredQuestions = loadedSavegame['correctAnsweredQuestions'] ;
     }
     //console.log("init");
     initializeColors();
@@ -129,6 +131,8 @@ function saveSavegame(deleteSafegame) {
     newSavegame['correctAnswers'] = correctAnswers;
     //sessionStorage.setItem("savegame", JSON.stringify(newSavegame));
     newSavegame['time_passed'] = [timer.getTimeValues()['seconds'], timer.getTimeValues()['minutes'], timer.getTimeValues()['hours']];
+    newSavegame['answeredQuestion'] = answeredQuestion;
+    newSavegame['correctAnsweredQuestions'] = correctAnsweredQuestions;
     //console.log(newSavegame['time_passed']);
     console.log("SG:"+JSON.stringify(newSavegame));
         dh.transmitData("savegame", newSavegame);
@@ -221,7 +225,7 @@ function lost() {
         modal.style.display = "block";
         $('#loss_name').text(username + " du hast verloren !");
         $('#termination').text(time_passed); 
-        $('#aq').text(correctAnsweredQuestions);
+        $('#aq').text(correctAnsweredQuestions + "/"+answeredQuestion);
         timer.stop();
         return true;
     }
@@ -322,7 +326,7 @@ function isWon() {
         modal.style.display = "block";
         $('#loss_name').text(username + " du hast gewonnen !");
         $('#termination').text(time_passed);
-        $('#aq').text(correctAnsweredQuestions);
+        $('#aq').text(correctAnsweredQuestions + "/" +answeredQuestion);
         timer.stop();
     }
 }
