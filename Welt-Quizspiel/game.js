@@ -1,29 +1,21 @@
-/**
- * TODO:
- * Ende Fenster ( Richtige/Falsche antworten),
- * Kontinente erst Sperren, wenn alle Fragen beantwortet wurden,
- * Kontinente Regionen beschriften
- */
+
 const { valHooks } = require('jquery');
 const DataHandler = require('./js/DataHandler.js');
-
-
 username = "";
 time_passed = "00:00:00";
-dh = new DataHandler(); 
+dh = new DataHandler();
 difficulty = JSON.parse(dh.requestData("options"))['difficulty']['easy'];
 //completeRegionColorShades = ['#b80000', '#b86500', '#b89600', '#b8b500', '#a8b800', '#53b800', '#53b800'];
 completeRegionColorShades = ['#ff0000', 'ff5900', '#ffb300', '#ffea00', '#e1ff00', '#a6ff00', '#00ff1a'];
 correctAnswers = {};
 DATA = {};
 
-
-
+answeredQuestion = 0;
 
 timer = new Timer();
 
 timer.addEventListener('secondsUpdated', function (e) {
-    time_passed = timer.getTimeValues().toString(); 
+    time_passed = timer.getTimeValues().toString();
     $('#basicUsage').html(timer.getTimeValues().toString());
 });
 
@@ -33,10 +25,7 @@ function playAudio() {
 }
 
 
-
-
 function displayUsernameInput() {
-
     document.getElementById('menu-buttons').style.display = "none";
     document.getElementById('username_div').style.visibility = "visible";
 }
@@ -58,16 +47,16 @@ function loadSavegame() {
     else {
         console.log("Loading Savegame")
         loadedSavegame = dh.requestData("savegame");
-        console.log("LSG:"+JSON.stringify(loadedSavegame));
+        console.log("LSG:" + JSON.stringify(loadedSavegame));
         DATA = loadedSavegame['questions_left'];
         username = loadedSavegame['username'];
         loadedSavegame['audio'] ? playAudio() : pauseAudio();
         money = loadedSavegame['money'];
         console.log(money);
         time_passed = loadedSavegame['time_passed'];
-        var secs = time_passed[0] + time_passed[1] * 60 + time_passed[2] * 60*60;
+        var secs = time_passed[0] + time_passed[1] * 60 + time_passed[2] * 60 * 60;
         timer.stop();
-        timer.start({precision: 'seconds', startValues: {seconds: secs}});
+        timer.start({ precision: 'seconds', startValues: { seconds: secs } });
         $('#basicUsage').html(timer.getTimeValues().toString());
         difficulty = loadedSavegame['difficulty'];
         correctAnswers = loadedSavegame['correctAnswers']
@@ -94,7 +83,6 @@ function loadDefaultValues() {
     updateUIElements();
 }
 
-
 function selectQuestionSubset(allQuestions) {
     var allRegionIDs = Object.keys(allQuestions);
     var subset = {};
@@ -110,8 +98,6 @@ function selectQuestionSubset(allQuestions) {
             delete allQuestions[allRegionIDs[i]][allQuestionsIDs[rand]];
         }
     }
-
-
     return subset;
 }
 
@@ -126,13 +112,12 @@ function saveSavegame() {
     newSavegame['difficulty'] = difficulty;
     newSavegame['correctAnswers'] = correctAnswers;
     //sessionStorage.setItem("savegame", JSON.stringify(newSavegame));
-    newSavegame['time_passed'] = [timer.getTimeValues()['seconds'],timer.getTimeValues()['minutes'],timer.getTimeValues()['hours']];
+    newSavegame['time_passed'] = [timer.getTimeValues()['seconds'], timer.getTimeValues()['minutes'], timer.getTimeValues()['hours']];
     //console.log(newSavegame['time_passed']);
-    console.log("SG:"+JSON.stringify(newSavegame));
-        dh.transmitData("savegame", newSavegame);
-    
-    return;
+    console.log("SG:" + JSON.stringify(newSavegame));
+    dh.transmitData("savegame", newSavegame);
 
+    return;
 }
 
 function pauseAudio() {
@@ -142,7 +127,7 @@ function pauseAudio() {
 }
 
 window.onbeforeunload = function () {
-    // sessionStorage.setItem("money", parseInt(money));
+
     saveSavegame();
 }
 
@@ -177,10 +162,13 @@ regionID = "";
  * @param: {id} id of the clicked region.
 */
 function newRegion(id) {
-   
+    if (regionID != id)
+        money -= difficulty["travelCost"];
+    updateUIElements()
     regionID = id;
-    //console.log(regionID);
-    openQuiz();
+    if (!lost())
+        openQuiz();
+
 }
 
 function regionIsCompleted(id) {
@@ -202,14 +190,21 @@ function openQuiz() {
     $(".QuizAnswer").css("background-color", "rgba(128,128,128, 0.5)");
     $(".QuizAnswer").css("pointer-events", 'all');
     $('#QuizWindow').css('display', 'block');
-        playQuiz();
+    playQuiz();
 }
 
-function gameOver() {
-    alert("Spiel Vorbei!");
-
+function lost() {
+    if (money < 0) {
+        $('#QuizWindow').css('display', 'none');
+        var modal = document.getElementById("game-termination");
+        modal.style.display = "block";
+        $('#loss_name').text(username + " du hast verloren !");
+        $('#termination').text(time_passed);
+        timer.stop();
+        return true;
+    }
+    return false;
 }
-
 solution = 0;
 /** 
  * @description: Randomly selects a question from the region and fills the quiz window with data.
@@ -242,25 +237,26 @@ function playQuiz() {
  * @param: {clicked_id} id of the clicked button(answer).             
 */
 function checkAnswer(clicked_id) {
+    answeredQuestion++;
     if (Object.keys(DATA[currentRegion]).length > 1) {
         $('#nextQuestion').css('pointer-events', 'all');
     }
+    updateProgressbar(currentRegion);
 
-   // console.log(correctAnswers[currentRegion]);
-    //console.log(completeRegionColorShades[correctAnswers[currentRegion]]);
     if (solution == parseInt(clicked_id)) {
-        updateProgressbar(currentRegion);
+
         correctAnswers[currentRegion] = parseInt(correctAnswers[currentRegion] + 1);
         money += difficulty["rewardMoney"];
         coinAnimation();
         $(`#${solution}`).css("background-color", "lightgreen");
     } else {
         money -= difficulty["penaltyMoney"];
+        updateUIElements();
         $(`#${clicked_id}`).css("background-color", "#ff4d4d");
         $(`#${solution}`).css("background-color", "#b3ff99");
     }
-
-    if (money < 0) gameOver();
+    lost();
+    isWon();
     delete DATA[currentRegion][currentQuestion];
 
 
@@ -270,6 +266,17 @@ function checkAnswer(clicked_id) {
     $(".QuizAnswer").css("pointer-events", 'none');
     $('#Counter').text(money + " $");
     saveSavegame();
+}
+
+function isWon() {
+    if (answeredQuestion == (6 * 19)) {
+        $('#QuizWindow').css('display', 'none');
+        var modal = document.getElementById("game-termination");
+        modal.style.display = "block";
+        $('#loss_name').text(username + " du hast gewonnen !");
+        $('#termination').text(time_passed);
+        timer.stop();
+    }
 }
 
 function useJoker() {
@@ -327,15 +334,9 @@ function coinAnimation() {
             $("#treasure_chest_noanime").css('display', 'flex');
         });
 
-    //Visibility statt display
     $("#treasure_chest_noanime").css('display', 'none');
     $("#treasure_chest").css('display', 'flex');
     return;
-}
-
-function updateProgressbar(regionID) {
-    var width = $(`#${regionID}`).innerWidth();
-
 }
 
 function updateProgressbar(regionID) {
@@ -354,4 +355,15 @@ function updateProgressbar(regionID) {
         $(`#${regionID}`).css({ 'width': "100%" });
     if (allQuestions == 0)
         $(`#${regionID}`).css({ 'width': "100%" });
+}
+
+function anleitung_close() {
+    desc = document.getElementById('myAnleitung');
+    span = document.getElementsByClassName("close")[0];
+    desc.style.display = "none";
+
+}
+function anleitung() {
+    desc = document.getElementById('myAnleitung');
+    desc.style.display = "block";
 }

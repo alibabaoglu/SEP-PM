@@ -447,7 +447,6 @@
             "desc": "Monaco's Fläche beträgt 2,02km². Ausgenommen: der Stadtstaat Vatikanstadt mit einer Fläche von 0,44 km²"
         }
     },
-
     "NAF": {
         "NAF1": {
             "Frage": "Welches Land besaß in der Region die meisten Kolonien? Deutschland, GB, Spanien)",
@@ -651,7 +650,7 @@
             ],
             "Lösung": 2
         },
-		"WAF11": {
+        "WAF11": {
             "Frage": "Wann gab es die ersten europäischen Siedlungen an den Küsten der Region?",
             "Antworten": [
                 "1445",
@@ -661,7 +660,7 @@
             ],
             "Lösung": 1
         },
-		"WAF12": {
+        "WAF12": {
             "Frage": "Was war ein wichtiges Exportgut vor dem 19. Jahrhundert?",
             "Antworten": [
                 "Sklaven",
@@ -988,7 +987,6 @@
             "Lösung": 3
         }
     },
-
     "NAM": {
         "NAM1": {
             "Frage": "Wie viele Staaten zählen zu Nord Amerika?",
@@ -999,9 +997,9 @@
                 "4"
             ],
             "Lösung": 1,
-			"desc": "Die folgenden Staaten und Abhängige Gebiete zählen zu der Region Nordamerika: Bermuda, Kanada, Grönland, Saint-Pierre und Miquelon und die Vereinigten Staaten von Amerika"
+            "desc": "Die folgenden Staaten und Abhängige Gebiete zählen zu der Region Nordamerika: Bermuda, Kanada, Grönland, Saint-Pierre und Miquelon und die Vereinigten Staaten von Amerika"
         },
-		"NAM2": {
+        "NAM2": {
             "Frage": "Wie ist die Temparatur des Golfstromes?",
             "Antworten": [
                 "kalt",
@@ -1010,7 +1008,7 @@
                 "neutral"
             ],
             "Lösung": 2,
-			"desc": "Der Golfstrom ist eine der größten und schnellsten Meeresströmungen unseres Planeten und er ist besonders warm. Ohne ihn wäre es bei uns im Schnitt fünf bis zehn Grad kälter."
+            "desc": "Der Golfstrom ist eine der größten und schnellsten Meeresströmungen unseres Planeten und er ist besonders warm. Ohne ihn wäre es bei uns im Schnitt fünf bis zehn Grad kälter."
         },
         "NAM3": {
             "Frage": "Welche Sprache (Amtssprache) wird in Kanada neben Englisch noch gesprochen?",
@@ -1021,9 +1019,9 @@
                 "Japanisch"
             ],
             "Lösung": 1,
-			"desc": "Die Amtssprachen in Kanada sind Englisch und Französisch. Jedoch geben 20% der Bevölkerung von Kanada an, weder Englisch noch Französisch als Muttersprache zu sprechen. Die offizielle Zweisprachigkeit ist im Amtssprachengesetz festgelegt."
+            "desc": "Die Amtssprachen in Kanada sind Englisch und Französisch. Jedoch geben 20% der Bevölkerung von Kanada an, weder Englisch noch Französisch als Muttersprache zu sprechen. Die offizielle Zweisprachigkeit ist im Amtssprachengesetz festgelegt."
         },
-		"NAM4": {
+        "NAM4": {
             "Frage": "Der CN Tower ist das Wahrzeichen der Stadt Toronto. Welche Kuriosität befindet sich in schwindelerregender Höhe?",
             "Antworten": [
                 "Ein 3-D-Kino",
@@ -1032,7 +1030,7 @@
                 "Ein Fernsehstudio"
             ],
             "Lösung": 2,
-			"desc": "Das rotierende Restaurant 360 (das allerdings sehr teuer und nicht gerade für die beste Küche bekannt ist) in etwa 350 Metern Höhe beherbergt seit 1997 einen himmlischen Weinkeller. 2006 wurde er vom Guiness-Buch der Rekorde zum höchstgelegenen Weinkeller der Welt ernannt."
+            "desc": "Das rotierende Restaurant 360 (das allerdings sehr teuer und nicht gerade für die beste Küche bekannt ist) in etwa 350 Metern Höhe beherbergt seit 1997 einen himmlischen Weinkeller. 2006 wurde er vom Guiness-Buch der Rekorde zum höchstgelegenen Weinkeller der Welt ernannt."
         },
         "NAM5": {
             "Frage": "Wer nach Churchill in Manitoba reist, möchte gerne einem bestimmten Tier begegnen. Welches ist das?",
@@ -1043,7 +1041,7 @@
                 "Wal"
             ],
             "Lösung": 3,
-			"desc": "Churchill gilt als Hauptstadt der Eisbären."
+            "desc": "Churchill gilt als Hauptstadt der Eisbären."
         },
         "NAM6": {
             "Frage": "Die Grenze bzw das Grenzgebiet zwischen besiedeltem und zivilisiertem Land und der Wildnis westlich davon nannte man?",
@@ -1054,7 +1052,7 @@
                 "Frontier"
             ],
             "Lösung": 4,
-			"desc": "Eine typische Grenzlandsituation bestand an der nordamerikanischen Frontier zwischen 1620 und 1890, in der die einheimischen Indianerstämme von etwa 1620 (Landung der Pilgerväter) bis 1890 (Auflösung des Indianer-Territoriums) immer weiter nach Westen gedrängt wurden."
+            "desc": "Eine typische Grenzlandsituation bestand an der nordamerikanischen Frontier zwischen 1620 und 1890, in der die einheimischen Indianerstämme von etwa 1620 (Landung der Pilgerväter) bis 1890 (Auflösung des Indianer-Territoriums) immer weiter nach Westen gedrängt wurden."
         },
         "NAM7": {
             "Frage": "Von außen wirkt es wie aus einer fremden Welt. Und von innen möchte es die Welt vereinen: das Canadian Museum for Human Rights. Wo steht es?",
@@ -1065,7 +1063,7 @@
                 "Vancover"
             ],
             "Lösung": 1,
-			"desc": "Das Gebäude des Kanadischen Museums für Menschenrechte (CMHR) in Winnipeg erinnert an eine überdimensionale Pickelhaube oder aber an einen Helm mit Antenne. Und eben diese »Antenne« ist der 23 Stockwerke hohe Tower of Hope, den Architekt Antoine Predock symbolisch auf die Welt – alias Haube– gesetzt hat."
+            "desc": "Das Gebäude des Kanadischen Museums für Menschenrechte (CMHR) in Winnipeg erinnert an eine überdimensionale Pickelhaube oder aber an einen Helm mit Antenne. Und eben diese »Antenne« ist der 23 Stockwerke hohe Tower of Hope, den Architekt Antoine Predock symbolisch auf die Welt – alias Haube– gesetzt hat."
         },
         "NAM8": {
             "Frage": "Das erste leistungsfähige Verkehrsmittel im Westen war(en)?",
@@ -1076,9 +1074,9 @@
                 "Autos"
             ],
             "Lösung": 1,
-			"desc": "Am 1. Februar 1788 ließen sich Isaac Briggs und William Longstreet das erste Dampfschiff patentieren. Der Amerikaner Robert Fulton erhielt am 11. Februar 1809 ein Patent für einen modifizierten Entwurf, der auch wirtschaftlich erfolgreich war."
+            "desc": "Am 1. Februar 1788 ließen sich Isaac Briggs und William Longstreet das erste Dampfschiff patentieren. Der Amerikaner Robert Fulton erhielt am 11. Februar 1809 ein Patent für einen modifizierten Entwurf, der auch wirtschaftlich erfolgreich war."
         },
-		"NAM9": {
+        "NAM9": {
             "Frage": "Folgende Stadt liegt mitten in der Wüste",
             "Antworten": [
                 "Miami",
@@ -1087,7 +1085,7 @@
                 "Los Angeles"
             ],
             "Lösung": 3,
-			"desc": "Las Vegas in der Mojave-Wüste des US-Bundesstaates Nevada ist ein beliebtes Reiseziel, das für sein quirliges Nachtleben mit rund um die Uhr geöffneten Casinos und anderen Unterhaltungsangeboten bekannt ist. Hauptstraße und Lebensader der Stadt ist der knapp 6,5 km lange sogenannte Strip. Entlang dieses Boulevards befinden sich zahlreiche Mottohotels mit ausgefallenen Gestaltungselementen wie Musikbrunnen oder Nachbildungen einer ägyptischen Pyramide, des Canale Grande in Venedig oder des Eiffelturms."
+            "desc": "Las Vegas in der Mojave-Wüste des US-Bundesstaates Nevada ist ein beliebtes Reiseziel, das für sein quirliges Nachtleben mit rund um die Uhr geöffneten Casinos und anderen Unterhaltungsangeboten bekannt ist. Hauptstraße und Lebensader der Stadt ist der knapp 6,5 km lange sogenannte Strip. Entlang dieses Boulevards befinden sich zahlreiche Mottohotels mit ausgefallenen Gestaltungselementen wie Musikbrunnen oder Nachbildungen einer ägyptischen Pyramide, des Canale Grande in Venedig oder des Eiffelturms."
         },
         "NAM10": {
             "Frage": "Will man subtropisches Klima erleben, geht man",
@@ -1098,7 +1096,7 @@
                 "nach Alaska"
             ],
             "Lösung": 2,
-			"desc": "Der allergrößte Teil Floridas hat ein feuchtes, subtropisches Klima, nur im Süden herrscht tropisches Klima. Die durchschnittlichen Tageshöchsttemperaturen liegen im kältesten Monat, dem Januar, im Norden bei rund 20 Grad tagsüber und die Tiefsttemperaturen nachts bei rund 5 Grad."
+            "desc": "Der allergrößte Teil Floridas hat ein feuchtes, subtropisches Klima, nur im Süden herrscht tropisches Klima. Die durchschnittlichen Tageshöchsttemperaturen liegen im kältesten Monat, dem Januar, im Norden bei rund 20 Grad tagsüber und die Tiefsttemperaturen nachts bei rund 5 Grad."
         },
         "NAM11": {
             "Frage": "Die erste dauerhafte Siedlung von Kolonisten war",
@@ -1109,7 +1107,7 @@
                 "Virginia"
             ],
             "Lösung": 2,
-			"desc": "Jamestown war die erste dauerhafte englische Siedlung in Nordamerika. Sie wurde 1607 – zunächst als James Fort – auf einer Insel im James River in Virginia gegründet und nach König James I. von England benannt. Sie war zugleich die erste aus England gegründete Kolonie und somit Keimzelle des Britischen Weltreichs."
+            "desc": "Jamestown war die erste dauerhafte englische Siedlung in Nordamerika. Sie wurde 1607 – zunächst als James Fort – auf einer Insel im James River in Virginia gegründet und nach König James I. von England benannt. Sie war zugleich die erste aus England gegründete Kolonie und somit Keimzelle des Britischen Weltreichs."
         },
         "NAM12": {
             "Frage": "Der heißeste und zugleich tiefste Punkt der USA",
@@ -1120,7 +1118,7 @@
                 "Death Valley"
             ],
             "Lösung": 4,
-			"desc": "Das Death Valley ist ein Wüstental in Ostkalifornien in der nördlichen Mojave-Wüste, das an die Great Basin Desert grenzt. Es ist einer der heißesten Orte der Erde, zusammen mit Wüsten im Nahen Osten und in der Sahara."
+            "desc": "Das Death Valley ist ein Wüstental in Ostkalifornien in der nördlichen Mojave-Wüste, das an die Great Basin Desert grenzt. Es ist einer der heißesten Orte der Erde, zusammen mit Wüsten im Nahen Osten und in der Sahara."
         },
         "NAM13": {
             "Frage": "Welche Stadt nannte man das *Tor zum Westen*?",
@@ -1131,7 +1129,7 @@
                 "Washington, D.C."
             ],
             "Lösung": 1,
-			"desc": "St. Louis ist eine Großstadt in Missouri am Mississippi. Ihr Wahrzeichen, der 192 m hohe Bogen Gateway Arch, wurde in den 1960ern zum Gedenken an die Lewis-und-Clark-Expedition des frühen 19. Jahrhunderts sowie die allgemeine westliche Erweiterung Amerikas errichtet."
+            "desc": "St. Louis ist eine Großstadt in Missouri am Mississippi. Ihr Wahrzeichen, der 192 m hohe Bogen Gateway Arch, wurde in den 1960ern zum Gedenken an die Lewis-und-Clark-Expedition des frühen 19. Jahrhunderts sowie die allgemeine westliche Erweiterung Amerikas errichtet."
         },
         "NAM14": {
             "Frage": "Die typischen Schneestürme im Innern des Kontinents heißt?",
@@ -1142,7 +1140,7 @@
                 "Winter Buran"
             ],
             "Lösung": 2,
-			"desc": "Der Blizzard ist ein starker Schneesturm, der hauptsächlich in Nordamerika auftritt. Die Bezeichnung eines heftigen Schneesturms als Blizzard wurde später auch in anderen Regionen wie z. B. in der Antarktis und in Nordskandinavien übernommen."
+            "desc": "Der Blizzard ist ein starker Schneesturm, der hauptsächlich in Nordamerika auftritt. Die Bezeichnung eines heftigen Schneesturms als Blizzard wurde später auch in anderen Regionen wie z. B. in der Antarktis und in Nordskandinavien übernommen."
         },
         "NAM15": {
             "Frage": "Einer Legende nach lebt im Okanagan Valley in British Columbia ein Monster. Was für eins ist es denn?",
@@ -1153,7 +1151,7 @@
                 "Ein Seemonster wie Nessie"
             ],
             "Lösung": 4,
-			"desc": "Die kanadische Version des Monsters von Loch Ness hört auf den Namen Ogopogo. Naja, mit dem Hören dürfte es so eine Sache sein. Der Legende nach handelt es sich beim Ogopogo nämlich um eine Schlange. Eine Seeschlange, um genau zu sein – die sich mit bis zu 15 Metern Länge und einem schafsähnlichen Kopf mit wallender Haarmähne durch den bis zu 230 Meter tiefen Okanagan Lake in British Columbia schlängelt. Und ­ – weil es sonst keine Legende wäre – sich auch äußerst ungern bis gar nicht an der Wasseroberfläche zeigt."
+            "desc": "Die kanadische Version des Monsters von Loch Ness hört auf den Namen Ogopogo. Naja, mit dem Hören dürfte es so eine Sache sein. Der Legende nach handelt es sich beim Ogopogo nämlich um eine Schlange. Eine Seeschlange, um genau zu sein – die sich mit bis zu 15 Metern Länge und einem schafsähnlichen Kopf mit wallender Haarmähne durch den bis zu 230 Meter tiefen Okanagan Lake in British Columbia schlängelt. Und ­ – weil es sonst keine Legende wäre – sich auch äußerst ungern bis gar nicht an der Wasseroberfläche zeigt."
         }
     },
     "CAM": {
@@ -1166,7 +1164,7 @@
                 "Puerto Rico"
             ],
             "Lösung": 3,
-			"desc": "Mit einer Fläche von gut 104.000 Quadratkilometern ist Kuba nicht nur die größte Insel der Großen Antillen, sondern der gesamten Karibik. Damit ist die Insel etwa so groß wie die alte DDR. Gleichzeitig hat Kuba mit 11.3 Millionen Einwohnern auch die größte Bevölkerung der Karibikstaaten und die Hauptstadt Havanna ist mit über zwei Millionen Einwohnern die größte Metropole der Karibik."
+            "desc": "Mit einer Fläche von gut 104.000 Quadratkilometern ist Kuba nicht nur die größte Insel der Großen Antillen, sondern der gesamten Karibik. Damit ist die Insel etwa so groß wie die alte DDR. Gleichzeitig hat Kuba mit 11.3 Millionen Einwohnern auch die größte Bevölkerung der Karibikstaaten und die Hauptstadt Havanna ist mit über zwei Millionen Einwohnern die größte Metropole der Karibik."
         },
         "CAM2": {
             "Frage": "Welcher karibische Inselstaat erlebte 1983 eine Invasion durch US-amerikanische Streitkräfte?",
@@ -1177,7 +1175,7 @@
                 "Kuba"
             ],
             "Lösung": 3,
-			"desc": "Die US-Invasion in Grenada war eine militärische Intervention, mit der die USA auf den Staatsstreich gegen den Regierungschef Grenadas, Maurice Bishop, reagierten. Das Unternehmen begann am 25. Oktober 1983 und endete etwa eine Woche später. Die Operation diente vorgeblich dazu, die Sicherheit US-amerikanischer Staatsbürger auf Grenada zu garantieren. Wahrscheinlicher ist, dass die damalige US-Regierung eine zu starke Anlehnung der kommunistischen Regierung Grenadas an Kuba und Nicaragua befürchtete."
+            "desc": "Die US-Invasion in Grenada war eine militärische Intervention, mit der die USA auf den Staatsstreich gegen den Regierungschef Grenadas, Maurice Bishop, reagierten. Das Unternehmen begann am 25. Oktober 1983 und endete etwa eine Woche später. Die Operation diente vorgeblich dazu, die Sicherheit US-amerikanischer Staatsbürger auf Grenada zu garantieren. Wahrscheinlicher ist, dass die damalige US-Regierung eine zu starke Anlehnung der kommunistischen Regierung Grenadas an Kuba und Nicaragua befürchtete."
         },
         "CAM3": {
             "Frage": "Woher kommt die Rosafärbung der berühmten 'Pink Beaches' der Bahamas?",
@@ -1188,7 +1186,7 @@
                 "con Chemieabwässern"
             ],
             "Lösung": 3,
-			"desc": "Der rosafarbene Sand auf vielen Urlaubsfotos aus der Karibik ist nicht etwa auf einen falschen Weißabgleich der Kamera zurückzuführen: Einige Strände der Bahamas schimmern tatsächlich rosa. Für die Färbung sind die pinkfarbenen oder hellroten Schalen zahlloser Foraminiferen verantwortlich. Diese urtümlichen Tierchen zählen zu den am weitesten verbreiteten Einzellern überhaupt und werden in entsprechenden Mengen angespült."
+            "desc": "Der rosafarbene Sand auf vielen Urlaubsfotos aus der Karibik ist nicht etwa auf einen falschen Weißabgleich der Kamera zurückzuführen: Einige Strände der Bahamas schimmern tatsächlich rosa. Für die Färbung sind die pinkfarbenen oder hellroten Schalen zahlloser Foraminiferen verantwortlich. Diese urtümlichen Tierchen zählen zu den am weitesten verbreiteten Einzellern überhaupt und werden in entsprechenden Mengen angespült."
         },
         "CAM4": {
             "Frage": "Mit Jamaika verbindet man neben weißen Sandstränden und türkisblauem Meer auch Musik. Welche der folgenden Musikrichtungen stammt von dieser Insel?",
@@ -1199,7 +1197,7 @@
                 "Ragtime"
             ],
             "Lösung": 1,
-			"desc": "Für eine einzelne, kleine Insel hatte Jamaika großen Einfluss auf die Popgeschichte: Nach Mento, Ska und Rocksteady entstand Ende der 1960er-Jahre der Reggae und entwickelte sich zu einer der bedeutendsten Richtungen der modernen Popmusik. Und natürlich stammen auch viele Reggae-Musiker wie Bob Marley und Shaggy von der Insel."
+            "desc": "Für eine einzelne, kleine Insel hatte Jamaika großen Einfluss auf die Popgeschichte: Nach Mento, Ska und Rocksteady entstand Ende der 1960er-Jahre der Reggae und entwickelte sich zu einer der bedeutendsten Richtungen der modernen Popmusik. Und natürlich stammen auch viele Reggae-Musiker wie Bob Marley und Shaggy von der Insel."
         },
         "CAM5": {
             "Frage": "Zu welcher Inselkette zählen auch unter den poetischen Namen 'Inseln über dem Wind' und 'Inseln unter dem Wind' bekannten Eilande?",
@@ -1210,7 +1208,7 @@
                 "Große Antillen"
             ],
             "Lösung": 3,
-			"desc": "Als Kleine Antillen bezeichnet man die Inselkette in der östlichen Karibik, die sich von den Jungferninseln im Norden bis vor die venezolanische Küste im Süden erstreckt. 'Inseln über dem Winde' ist ein poetischer Name für den nördlichen Teil der Kleinen Antillen, zu denen zu bekannte Inseln wie Barbados, Martinique oder Guadeloupe zählen. Weiter südwestlich liegen die 'Inseln unter dem Winde', darunter Aruba, Bonaire und Curaçao. Die Namen beziehen sich auf den in diesen Breiten vorherrschenden Nordost-Passatwind."
+            "desc": "Als Kleine Antillen bezeichnet man die Inselkette in der östlichen Karibik, die sich von den Jungferninseln im Norden bis vor die venezolanische Küste im Süden erstreckt. 'Inseln über dem Winde' ist ein poetischer Name für den nördlichen Teil der Kleinen Antillen, zu denen zu bekannte Inseln wie Barbados, Martinique oder Guadeloupe zählen. Weiter südwestlich liegen die 'Inseln unter dem Winde', darunter Aruba, Bonaire und Curaçao. Die Namen beziehen sich auf den in diesen Breiten vorherrschenden Nordost-Passatwind."
         },
         "CAM6": {
             "Frage": "Auf welcher der karibischen Inseln verläuft eine 'innereuropäische' Grenze?",
@@ -1221,7 +1219,7 @@
                 "Hispaniola"
             ],
             "Lösung": 1,
-			"desc": "St. Martin ist eine der Inseln im Norden der Kleinen Antillen. In dieser Inselgruppe gehört sie zu den 'Inseln über dem Winde'. Politisch ist sie geteilt zwischen Frankreich und den Niederlanden: Der nördliche, größere Inselteil zählt zusammen mit einigen Nebeninseln zum französischen Collectivité d’outre-mer Saint-Martin, während der Süden den autonomen Landesteil Sint Maarten im Königreich der Niederlande bildet. Nur dort haben Frankreich und die Niederlande eine gemeinsame Landgrenze."
+            "desc": "St. Martin ist eine der Inseln im Norden der Kleinen Antillen. In dieser Inselgruppe gehört sie zu den 'Inseln über dem Winde'. Politisch ist sie geteilt zwischen Frankreich und den Niederlanden: Der nördliche, größere Inselteil zählt zusammen mit einigen Nebeninseln zum französischen Collectivité d’outre-mer Saint-Martin, während der Süden den autonomen Landesteil Sint Maarten im Königreich der Niederlande bildet. Nur dort haben Frankreich und die Niederlande eine gemeinsame Landgrenze."
         },
         "CAM7": {
             "Frage": "Welchen Genuss hat die Welt der Karibik zu verdanken?",
@@ -1232,7 +1230,7 @@
                 "Mango-Chutney"
             ],
             "Lösung": 1,
-			"desc": "Ab dem 16. Jahrhundert war die Karibik die Hochburg für den Anbau von Zuckerrohr, das durch die Europäer dort eingeführt und in größtenteils von Sklaven bewirtschafteten Plantagen angebaut wurde. Der aus Melasse des Zuckerrohrs, seltener aus frischem Zuckerrohrsaft gewonnene Rum wurde im 17. Jahrhundert entwickelt. Bekannt wurde das Getränk unter anderem dadurch, dass die Royal Navy täglich um die Mittagszeit eine Rumration ausschenkte. Nicht zuletzt durch diesen Brauch wurde Rum, oft als Grog, weltweit zu einem typischen Seefahrergetränk."
+            "desc": "Ab dem 16. Jahrhundert war die Karibik die Hochburg für den Anbau von Zuckerrohr, das durch die Europäer dort eingeführt und in größtenteils von Sklaven bewirtschafteten Plantagen angebaut wurde. Der aus Melasse des Zuckerrohrs, seltener aus frischem Zuckerrohrsaft gewonnene Rum wurde im 17. Jahrhundert entwickelt. Bekannt wurde das Getränk unter anderem dadurch, dass die Royal Navy täglich um die Mittagszeit eine Rumration ausschenkte. Nicht zuletzt durch diesen Brauch wurde Rum, oft als Grog, weltweit zu einem typischen Seefahrergetränk."
         },
         "CAM8": {
             "Frage": "Auf welcher Karibikinsel ereignete sich der gemessen an den Opferzahlen schlimmste Vulkanausbruch des 20. Jahrhunderts?",
@@ -1243,7 +1241,7 @@
                 "Guadeloupe"
             ],
             "Lösung": 2,
-			"desc": "Der Mont Pelé ist ein 1.397 Meter hoher Stratovulkan auf der zu Frankreich gehörenden Insel Martinique. Während einer heftigen Aktivitätsphase zwischen 1902 und 1905 ereignete sich der folgenreiche Ausbruch vom 8. Mai 1902, welcher, gemessen an den Opferzahlen, der weltweit verlustreichste des 20. Jahrhunderts war. Die sieben Kilometer vom Gipfel entfernt am Meer gelegene Inselhauptstadt Saint-Pierre wurde vollständig vernichtet, wobei Schätzungen zufolge zwischen 28.000 und 40.000 Menschen ums Leben kamen. Seit der letzten Eruptionsperiode zwischen 1929 und 1932 ist der Vulkan inaktiv und eine beliebte Tourismusattraktion."
+            "desc": "Der Mont Pelé ist ein 1.397 Meter hoher Stratovulkan auf der zu Frankreich gehörenden Insel Martinique. Während einer heftigen Aktivitätsphase zwischen 1902 und 1905 ereignete sich der folgenreiche Ausbruch vom 8. Mai 1902, welcher, gemessen an den Opferzahlen, der weltweit verlustreichste des 20. Jahrhunderts war. Die sieben Kilometer vom Gipfel entfernt am Meer gelegene Inselhauptstadt Saint-Pierre wurde vollständig vernichtet, wobei Schätzungen zufolge zwischen 28.000 und 40.000 Menschen ums Leben kamen. Seit der letzten Eruptionsperiode zwischen 1929 und 1932 ist der Vulkan inaktiv und eine beliebte Tourismusattraktion."
         },
         "CAM9": {
             "Frage": "Wie heißt die sagenumwobene Meeresregion im Nordosten der Karibik?",
@@ -1254,7 +1252,7 @@
                 "Teufelsmeer"
             ],
             "Lösung": 1,
-			"desc": "Das berühmte Bermudadreieck liegt nordöstlich der Karibik im Westatlantik. Die drei Ecken bilden im Norden die Bermudainseln, im Westen die US-Metropole Miami und im Süden die Insel Puerto Rico. Die Region – auch Teufelsdreieck genannt – wurde durch rätselhafte Schiffs- und Flugzeugkatastrophen berühmt."
+            "desc": "Das berühmte Bermudadreieck liegt nordöstlich der Karibik im Westatlantik. Die drei Ecken bilden im Norden die Bermudainseln, im Westen die US-Metropole Miami und im Süden die Insel Puerto Rico. Die Region – auch Teufelsdreieck genannt – wurde durch rätselhafte Schiffs- und Flugzeugkatastrophen berühmt."
         },
         "CAM10": {
             "Frage": "Unter welchem Namen wurden die Piraten und Freibeuter der Karibik im 17. Jahrhundert berühmt und berüchtigt?",
@@ -1265,7 +1263,7 @@
                 "Filibuster"
             ],
             "Lösung": 2,
-			"desc": "Die ersten Bukaniere gingen aus den französischen Siedlern hervor, die versuchten sich im Kolonialgebiet in der Karibik niederzulassen. Später wurden diese durch eine große Zahl weiterer Holländer, Engländer und anderer Europäer verstärkt. Die Bukanier bedrohten zunächst die spanischen Siedlungen und Schiffe, später den gesamten europäischen Handelsverkehr in der Region. Der Ausdruck 'Bukanier' wurde daher schließlich als Synonym für Pirat benutzt."
+            "desc": "Die ersten Bukaniere gingen aus den französischen Siedlern hervor, die versuchten sich im Kolonialgebiet in der Karibik niederzulassen. Später wurden diese durch eine große Zahl weiterer Holländer, Engländer und anderer Europäer verstärkt. Die Bukanier bedrohten zunächst die spanischen Siedlungen und Schiffe, später den gesamten europäischen Handelsverkehr in der Region. Der Ausdruck 'Bukanier' wurde daher schließlich als Synonym für Pirat benutzt."
         },
         "CAM11": {
             "Frage": "In welchem Land befindet sich der höchste Berg der Karibik?",
@@ -1276,7 +1274,7 @@
                 "Grenada"
             ],
             "Lösung": 2,
-			"desc": "Heute heißt der Berg Pico Duarte. Während der Trujillo-Diktatur jedoch bekam der Berg zwischenzeitlich den Namen Pico Trujillo."
+            "desc": "Heute heißt der Berg Pico Duarte. Während der Trujillo-Diktatur jedoch bekam der Berg zwischenzeitlich den Namen Pico Trujillo."
         },
         "CAM12": {
             "Frage": "Welcher ist mit einer Fläche von 8.157 Quadratkilometer der größte See Zentralamerikas?",
@@ -1287,7 +1285,7 @@
                 "Schwarzsee"
             ],
             "Lösung": 1,
-			"desc": "Der Nicaraguasee ist auch der drittgrößte See ganz Lateinamerikas nach dem Maracaibo-See und dem Titicacasee. Die anderen beiden Seen existieren nicht."
+            "desc": "Der Nicaraguasee ist auch der drittgrößte See ganz Lateinamerikas nach dem Maracaibo-See und dem Titicacasee. Die anderen beiden Seen existieren nicht."
         },
         "CAM13": {
             "Frage": "Wie viele Sterne sind auf der Flagge von Honduras abgebildet?",
@@ -1298,7 +1296,7 @@
                 "7"
             ],
             "Lösung": 2,
-			"desc": "Die Sterne symbolisieren die ehemaligen Mitglieder der Zentralamerikanischen Konföderation."
+            "desc": "Die Sterne symbolisieren die ehemaligen Mitglieder der Zentralamerikanischen Konföderation."
         },
         "CAM14": {
             "Frage": "Der Flughafen welcher zentralamerikanischen Hauptstadt gilt mit seiner kurzen Landebahn und der Lage in bergigem Gelände als einer der gefährlichsten der Welt?",
@@ -1309,7 +1307,7 @@
                 "San Josè"
             ],
             "Lösung": 3,
-			"desc": "Zusätzlich stellt die Höhe und die kurze Landebahn des Flughafens eine Herausforderung dar."
+            "desc": "Zusätzlich stellt die Höhe und die kurze Landebahn des Flughafens eine Herausforderung dar."
         },
         "CAM15": {
             "Frage": "Nach welchem kubanischen Poeten und Nationalhelden ist der Flughafen von Havanna benannt?",
@@ -1320,7 +1318,7 @@
                 "Josè Martì"
             ],
             "Lösung": 4,
-			"desc": "Von ihm stammen zum Beispiel die Werke „New York unter dem Schnee“ und „Mit Feder und Machete“."
+            "desc": "Von ihm stammen zum Beispiel die Werke „New York unter dem Schnee“ und „Mit Feder und Machete“."
         },
         "CAM16": {
             "Frage": "Der mexikanische Chemiker Mario José Molina erhielt 1995 zusammen mit Frank Sherwood Rowland und dem Meteorologen Paul J. Crutzen den Nobelpreis für Chemie. Welches Phänomen erforschten diese Wissenschaftler?",
@@ -1331,7 +1329,7 @@
                 "Ozonloch"
             ],
             "Lösung": 4,
-			"desc": "Als Ozonloch bezeichnet man eine starke Ausdünnung der Ozonschicht, aufgrund chlorierter organischer Verbindungen (FCKW oder CFCs) in der Atmosphäre. Die ausgedünnte Ozonschicht lässt mehr vom UV-B-Anteil der Sonnenstrahlung zum Erdboden durch, was bei Lebewesen karzinogen wirken kann."
+            "desc": "Als Ozonloch bezeichnet man eine starke Ausdünnung der Ozonschicht, aufgrund chlorierter organischer Verbindungen (FCKW oder CFCs) in der Atmosphäre. Die ausgedünnte Ozonschicht lässt mehr vom UV-B-Anteil der Sonnenstrahlung zum Erdboden durch, was bei Lebewesen karzinogen wirken kann."
         },
         "CAM17": {
             "Frage": "Welcher österreichische Erzherzog wurde 1864 von Frankreich als Kaiser des mexikanischen Kaiserreichs eingesetzt und 1867 in Mexiko hingerichtet?",
@@ -1342,7 +1340,7 @@
                 "Erzherzog Erzherzog Franz Ferdinand"
             ],
             "Lösung": 3,
-			"desc": "Maximilian wurde jedoch schon 1867 von der legitimen Gegenregierung des Präsidenten Benito Juárez gefangen genommen, von einem Kriegsgericht zum Tode verurteilt und hingerichtet."
+            "desc": "Maximilian wurde jedoch schon 1867 von der legitimen Gegenregierung des Präsidenten Benito Juárez gefangen genommen, von einem Kriegsgericht zum Tode verurteilt und hingerichtet."
         },
         "CAM18": {
             "Frage": "Wer hat die berühmte Stadt Teotihuacan gebaut?",
@@ -1353,7 +1351,7 @@
                 "Es ist nicht bekannt"
             ],
             "Lösung": 4,
-			"desc": "Es ist nicht bekannt wer diese Stadt erbaut hat. Teotihuacán im Bundesstaat Mexico ist eine der bedeutendsten prähistorischen Ruinenstädte Amerikas, die vor allem für ihre Stufentempel wie etwa eine große Sonnenpyramide bekannt ist. Die Geschichte Teotihuacán musste komplett aus archäologischen Funden rekonstruiert werden."
+            "desc": "Es ist nicht bekannt wer diese Stadt erbaut hat. Teotihuacán im Bundesstaat Mexico ist eine der bedeutendsten prähistorischen Ruinenstädte Amerikas, die vor allem für ihre Stufentempel wie etwa eine große Sonnenpyramide bekannt ist. Die Geschichte Teotihuacán musste komplett aus archäologischen Funden rekonstruiert werden."
         },
         "CAM19": {
             "Frage": "Wo befindet sich der zweitgrößte heiße See der Welt?",
@@ -1364,7 +1362,7 @@
                 "in Dominica"
             ],
             "Lösung": 4,
-			"desc": "Der Boiling Lake liegt im Nationalpark Morne Trois Pitons, dem Weltkulturerbe von Dominica. Es ist der zweitgrößte heiße See der Welt nach dem Frying Pan Lake in Neuseeland. Sein Temperaturbereich liegt an den Rändern zwischen 82 und 92 Grad Celsius, aber in der Mittle des Sees kocht er aktiv"
+            "desc": "Der Boiling Lake liegt im Nationalpark Morne Trois Pitons, dem Weltkulturerbe von Dominica. Es ist der zweitgrößte heiße See der Welt nach dem Frying Pan Lake in Neuseeland. Sein Temperaturbereich liegt an den Rändern zwischen 82 und 92 Grad Celsius, aber in der Mittle des Sees kocht er aktiv"
         },
         "CAM20": {
             "Frage": "Welches der nachfolgenden Länder hat keine Armee?",
@@ -1375,7 +1373,7 @@
                 "Vatikan"
             ],
             "Lösung": 2,
-			"desc": "Costa Rica ist das Vorzeigeland für Sozialpolitik, Wirtschaft, Demokratie und Umweltschutz. Es wird auch gern als die *Schweiz von Amerika* bezeichnet. Die Costa Ricaner scheinen überzeugt, dass der Verzicht auf das Militär der sicherste Weg ist, all das zu erhalten und zu schützen."
+            "desc": "Costa Rica ist das Vorzeigeland für Sozialpolitik, Wirtschaft, Demokratie und Umweltschutz. Es wird auch gern als die *Schweiz von Amerika* bezeichnet. Die Costa Ricaner scheinen überzeugt, dass der Verzicht auf das Militär der sicherste Weg ist, all das zu erhalten und zu schützen."
         },
         "CAM21": {
             "Frage": "Woher kommt der Name Colòn? (Währung von Costa Rica)",
@@ -1386,7 +1384,7 @@
                 "vom lateinischen Namen für Währung der Kolonisten *moneda colonista*"
             ],
             "Lösung": 3,
-			"desc": "Der Colón oder Costa-Rica-Colón ist die Währung Costa Ricas. Der Colón wurde 1897 eingeführt und löste den Peso ab. Er war zuerst in 100 Céntimos unterteilt, von 1917 bis 1919 in 100 Centavos, und danach wieder in Céntimos."
+            "desc": "Der Colón oder Costa-Rica-Colón ist die Währung Costa Ricas. Der Colón wurde 1897 eingeführt und löste den Peso ab. Er war zuerst in 100 Céntimos unterteilt, von 1917 bis 1919 in 100 Centavos, und danach wieder in Céntimos."
         },
         "CAM22": {
             "Frage": "Wo liegt Veracruz?",
@@ -1397,7 +1395,7 @@
                 "Mexiko"
             ],
             "Lösung": 4,
-			"desc": "Veracruz, umgangssprachlich auch Puerto de Veracruz, ist der wichtigste Atlantikhafen Mexikos am Golf von Mexiko mit 428.323 Einwohnern, die jarochos genannt werden."
+            "desc": "Veracruz, umgangssprachlich auch Puerto de Veracruz, ist der wichtigste Atlantikhafen Mexikos am Golf von Mexiko mit 428.323 Einwohnern, die jarochos genannt werden."
         },
         "CAM23": {
             "Frage": "Was ist die zweitgrößte Stadt in Mexiko, nach Mexiko?",
@@ -1408,7 +1406,7 @@
                 "Puebla"
             ],
             "Lösung": 3,
-			"desc": "Guadalajara spanisch ist die Hauptstadt des Bundesstaates Jalisco und mit ca. 1,9 Mio. Einwohnern (Stadt) und ca. 5 Mio. (Metropolitanregion) die zweitgrößte Stadt in Mexiko. Die Stadt ist Sitz eines Erzbischofs und ist auch bekannt unter dem Namen Perla del Occidente (spanisch für „Perle des Westens“)."
+            "desc": "Guadalajara spanisch ist die Hauptstadt des Bundesstaates Jalisco und mit ca. 1,9 Mio. Einwohnern (Stadt) und ca. 5 Mio. (Metropolitanregion) die zweitgrößte Stadt in Mexiko. Die Stadt ist Sitz eines Erzbischofs und ist auch bekannt unter dem Namen Perla del Occidente (spanisch für „Perle des Westens“)."
         },
         "CAM24": {
             "Frage": "Wo liegt Tabasco?",
@@ -1419,7 +1417,7 @@
                 "Kuba"
             ],
             "Lösung": 2,
-			"desc": "Tabasco, offiziell Freier und Souveräner Staat Tabasco, ist ein Bundesstaat Mexikos, unmittelbar östlich des Isthmus von Tehuantepec an der Küste des Golfes von Mexiko."
+            "desc": "Tabasco, offiziell Freier und Souveräner Staat Tabasco, ist ein Bundesstaat Mexikos, unmittelbar östlich des Isthmus von Tehuantepec an der Küste des Golfes von Mexiko."
         },
         "CAM25": {
             "Frage": "Warum werden  24-Stunden-Ameisen auch Gewehrkugelameise genannt?",
@@ -1430,7 +1428,7 @@
                 "weil sie laute Geräusche machen"
             ],
             "Lösung": 3,
-			"desc": "Die 24-Stunden-Ameise, auch Tropische Riesenameise oder engl. Bullet Ant genannt, ist eine der größten Ameisenarten der Welt. Ihr Giftstich gilt als extrem schmerzhaft. Sie lebt in Süd- und Mittelamerika im tropischen Regenwald."
+            "desc": "Die 24-Stunden-Ameise, auch Tropische Riesenameise oder engl. Bullet Ant genannt, ist eine der größten Ameisenarten der Welt. Ihr Giftstich gilt als extrem schmerzhaft. Sie lebt in Süd- und Mittelamerika im tropischen Regenwald."
         }
     },
     "SAM": {
@@ -1443,7 +1441,7 @@
                 "Kolumbien"
             ],
             "Lösung": 2,
-			"desc": "Brasilien hat mir über 200 Millionen Einwohnern die meisten Einwohner in Südamerika."
+            "desc": "Brasilien hat mir über 200 Millionen Einwohnern die meisten Einwohner in Südamerika."
         },
         "SAM2": {
             "Frage": "Welche Landessprachen sind in Südamerika sehr weit verbreitet?",
@@ -1454,7 +1452,7 @@
                 "Türkisch und Deutsch"
             ],
             "Lösung": 3,
-			"desc": "Spanisch und Portugiesisch sind in Südamerika weit verbreitet."
+            "desc": "Spanisch und Portugiesisch sind in Südamerika weit verbreitet."
         },
         "SAM3": {
             "Frage": "Welcher Ozean grenzt im Osten an Südamerika?",
@@ -1465,7 +1463,7 @@
                 "Pazifischer Ozean"
             ],
             "Lösung": 1,
-			"desc": "Der Atlantische Ozean grenzt im Osten an Südamerika."
+            "desc": "Der Atlantische Ozean grenzt im Osten an Südamerika."
         },
         "SAM4": {
             "Frage": "Das Karibische Meer grenzt an welches Land?",
@@ -1476,7 +1474,7 @@
                 "Venezuela"
             ],
             "Lösung": 4,
-			"desc": "Venezuela hat eine lange Küste und das Meer an dieser nennt sich das Karibische Meer."
+            "desc": "Venezuela hat eine lange Küste und das Meer an dieser nennt sich das Karibische Meer."
         },
         "SAM5": {
             "Frage": "Welche der folgenden Religion ist in Südamerika am verbreitetsten?",
@@ -1487,7 +1485,7 @@
                 "Buddhismus"
             ],
             "Lösung": 2,
-			"desc": "Die überwiegende Mehrheit der Bevölkerung bekennt sich zum römisch-katholischen Glauben. Die Tendenz ist jedoch fallend."
+            "desc": "Die überwiegende Mehrheit der Bevölkerung bekennt sich zum römisch-katholischen Glauben. Die Tendenz ist jedoch fallend."
         },
         "SAM6": {
             "Frage": "Welche Inseln liegen etwa 400 Kilometer vor der Küste von Argentinien?",
@@ -1498,7 +1496,7 @@
                 "Malwinen"
             ],
             "Lösung": 4,
-			"desc": "Die Malwinen - auch Falklandinseln genannt - liegen etwa 400 Kilometer vor Argentinien."
+            "desc": "Die Malwinen - auch Falklandinseln genannt - liegen etwa 400 Kilometer vor Argentinien."
         },
         "SAM7": {
             "Frage": "Wie heißt die längste Gebirgskette der Erde?",
@@ -1509,7 +1507,7 @@
                 "Mount Everest"
             ],
             "Lösung": 2,
-			"desc": "Die Anden auf der Westseite des südamerikanischen Kontinents gehören zu den längsten Gebirgszügen der Erde."
+            "desc": "Die Anden auf der Westseite des südamerikanischen Kontinents gehören zu den längsten Gebirgszügen der Erde."
         },
         "SAM8": {
             "Frage": "In welchem Jahr wurde der Grundstein für die brasilianische Hauptstadt Brasilia gelegt?",
@@ -1520,7 +1518,7 @@
                 "1914"
             ],
             "Lösung": 3,
-			"desc": "Am 7. September 1922 wurde der Grundstein der Stadt gelegt, die 1960 Rio de Janeiro als Hauptstadt Brasiliens ablöste. Anlass für den Bau der Planhauptstadt war der Bedarf nach einer neuen föderalen Hauptstadt. Mittlerweile leben etwa 2,5 Millionen Menschen in der neuen Hauptstadt."
+            "desc": "Am 7. September 1922 wurde der Grundstein der Stadt gelegt, die 1960 Rio de Janeiro als Hauptstadt Brasiliens ablöste. Anlass für den Bau der Planhauptstadt war der Bedarf nach einer neuen föderalen Hauptstadt. Mittlerweile leben etwa 2,5 Millionen Menschen in der neuen Hauptstadt."
         },
         "SAM9": {
             "Frage": "Kennen Sie den Namen des höchsten Wasserfalls der Erde?",
@@ -1531,7 +1529,7 @@
                 "Salto Angel"
             ],
             "Lösung": 4,
-			"desc": "Mit seinen 978 Metern Fallhöhe ist der Salto Angel im Südosten Venezuelas der höchste Wasserfall der Erde. Benannt wurde er im Jahr 1933 nach seinem Wiederentdecker, dem Buschpiloten Jimmie Angel."
+            "desc": "Mit seinen 978 Metern Fallhöhe ist der Salto Angel im Südosten Venezuelas der höchste Wasserfall der Erde. Benannt wurde er im Jahr 1933 nach seinem Wiederentdecker, dem Buschpiloten Jimmie Angel."
         },
         "SAM10": {
             "Frage": "Der höchste Vulkan der Erde befindet sich in Südamerika, wie heißt er?",
@@ -1542,7 +1540,7 @@
                 "Licancabur"
             ],
             "Lösung": 1,
-			"desc": "Mit 6.893 Metern Höhe ist der Ojos del Salado der höchste aktive Vulkan der Welt. Er liegt im Grenzland von Argentinien und Chile in der Wüste Atacama."
+            "desc": "Mit 6.893 Metern Höhe ist der Ojos del Salado der höchste aktive Vulkan der Welt. Er liegt im Grenzland von Argentinien und Chile in der Wüste Atacama."
         },
         "SAM11": {
             "Frage": "Was passiert alle Jahre wieder zu Weihnachten in Rio de Janeiro?",
@@ -1553,7 +1551,7 @@
                 "Die Statue Cristo Redentor („Christus, der Erlöser“) wird rot beleuchtet"
             ],
             "Lösung": 3,
-			"desc": "Jedes Jahr zu Weihnachten tauscht der brasilianische Weihnachtsmann seinen Schlitten gegen einen Helikopter. Absetzen lässt er sich damit im größten Fußballstadion des Landes, dem Maracanã-Stadion, wo die Brasilianer eine große Weihnachtsfeier mit vielen Showeinlagen zelebrieren."
+            "desc": "Jedes Jahr zu Weihnachten tauscht der brasilianische Weihnachtsmann seinen Schlitten gegen einen Helikopter. Absetzen lässt er sich damit im größten Fußballstadion des Landes, dem Maracanã-Stadion, wo die Brasilianer eine große Weihnachtsfeier mit vielen Showeinlagen zelebrieren."
         },
         "SAM12": {
             "Frage": "Welchen Spitznamen trägt das Altiplano?",
@@ -1564,7 +1562,7 @@
                 "Die ewigen Berge"
             ],
             "Lösung": 2,
-			"desc": "Die vegetationsarmen Hochflächen des Altiplano in Bolivien und Peru tragen auch den Namen 'Dach der Welt'. Sie sind etwa so groß wie halb Deutschland. Am östlichen Rand des Altiplano liegt La Paz, eine der höchsten Städte der Welt."
+            "desc": "Die vegetationsarmen Hochflächen des Altiplano in Bolivien und Peru tragen auch den Namen 'Dach der Welt'. Sie sind etwa so groß wie halb Deutschland. Am östlichen Rand des Altiplano liegt La Paz, eine der höchsten Städte der Welt."
         },
         "SAM13": {
             "Frage": "Und was verbirgt sich hinter der hübschen Bezeichnung *das grüne Gold von Südamerika*?",
@@ -1575,10 +1573,9 @@
                 "Der Regenwald"
             ],
             "Lösung": 3,
-			"desc": "Ob Brasilien, Argentinien oder Uruguay: In ganz Südamerika gehört Mate zu den beliebtesten Getränken. Der Tee wird aus den klein geschnittenen getrockneten Blättern des Mate-Strauches gewonnen."
+            "desc": "Ob Brasilien, Argentinien oder Uruguay: In ganz Südamerika gehört Mate zu den beliebtesten Getränken. Der Tee wird aus den klein geschnittenen getrockneten Blättern des Mate-Strauches gewonnen."
         }
     },
-
     "NAS": {
         "NAS1": {
             "Frage": "Wie heißt die kälteste Großstadt der Welt?",
@@ -2251,7 +2248,6 @@
             "desc": "Mayanmar stand von 1962 bis 2011 unter Militärherrschaft"
         }
     },
-
     "OZN": {
         "OZN1": {
             "Frage": "Welche Tests wurden auf den Mikronesien durchgeführt?",

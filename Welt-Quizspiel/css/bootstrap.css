@@ -6936,11 +6936,79 @@ a.bg-success:hover, a.bg-success:focus, button.bg-success:hover, button.bg-succe
 }
 
 .bg-NAM {
-  background-color: #4D824B !important;
+  background-color: #d6958e !important;
 }
 
 .bg-CAM {
-  background-color: #F2D0FF !important;
+  background-color: #ed882f !important;
+}
+
+.bg-SAM {
+  background-color: #ed882f !important;
+}
+
+.bg-NAS {
+  background-color: #ed882f !important;
+}
+
+.bg-WAS {
+  background-color: #ed882f !important;
+}
+
+.bg-CAS {
+  background-color: #ed882f !important;
+}
+
+.bg-SAS {
+  background-color: #ed882f !important;
+}
+
+.bg-EAS {
+  background-color: #ed882f !important;
+}
+
+.bg-OZN {
+  background-color: #ed882f !important;
+}
+
+.bg-WEU {
+  background-color: #ed882f !important;
+}
+
+.bg-NEU {
+  background-color: #ed882f !important;
+}
+
+.bg-EEU {
+  background-color: #ed882f !important;
+}
+
+.bg-SEU {
+  background-color: #ed882f !important;
+}
+
+.bg-NAF {
+  background-color: #ed882f !important;
+}
+
+.bg-WAF {
+  background-color: #ed882f !important;
+}
+
+.bg-EAF {
+  background-color: #ed882f !important;
+}
+
+.bg-CAF {
+  background-color: #ed882f !important;
+}
+
+.bg-SAF {
+  background-color: #ed882f !important;
+}
+
+.bg-SEA {
+  background-color: #ed882f !important;
 }
 
 .bg-NAS {
@@ -6954,6 +7022,7 @@ a.bg-success:hover, a.bg-success:focus, button.bg-success:hover, button.bg-succe
 .bg-SAS {
   background-color: #69C487 !important;
 }
+
 .bg-OZN {
   background-color: #69C487 !important;
 }
@@ -10249,8 +10318,6 @@ a.text-dark:hover, a.text-dark:focus {
 .btn-primary {
   background: #b58900 -webkit-gradient(linear, left top, left bottom, from(#c09b26), to(#b58900)) repeat-x;
   background: #b58900 linear-gradient(180deg, #c09b26, #b58900) repeat-x;
-  
- 
 }
 
 .btn-secondary {
