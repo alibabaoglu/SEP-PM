@@ -10,7 +10,6 @@ fileStorage = new Store();
 initializeStorage();
 
 function initializeStorage(){
-    fileStorage.delete('init');
     if (!fileStorage.has('init')){
         console.log("Initializing Storage");
         fileStorage.set("highscore", fh.readFile("highscore.json"));
@@ -37,7 +36,7 @@ function createWindow() {
             }
         })
     //win.maximize();
-    //win.removeMenu();
+    win.removeMenu();
     win.setSize(1800, 950);
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'html/index.html'),

@@ -10,14 +10,14 @@
     "normal":{
         "rewardMoney":15,
         "penaltyMoney":10,
-        "travelCost":10,
+        "travelCost":15,
         "jokerCost":20,
         "startMoney":40
     },
     "hard":{
         "rewardMoney":10,
         "penaltyMoney":15,
-        "travelCost":30,
+        "travelCost":25,
         "jokerCost":30,
         "startMoney":30
     }

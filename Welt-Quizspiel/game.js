@@ -219,7 +219,8 @@ function lost() {
         var modal = document.getElementById("game-termination");
         modal.style.display = "block";
         $('#loss_name').text(username + " du hast verloren !");
-        $('#termination').text(time_passed);
+        $('#termination').text(time_passed); 
+        $('aq').text(answeredQuestion);
         timer.stop();
         return true;
     }
@@ -298,11 +299,11 @@ function checkAnswer(clicked_id) {
         $('#Description').css("visibility", "visible");
     }
     
-
+    
+    delete DATA[currentRegion][currentQuestion];
+    initializeBars();
     lost();
     isWon();
-    delete DATA[currentRegion][currentQuestion];
-
 
     $(".QuizAnswer").css("pointer-events", 'none');
     $('.joker').css('pointer-events', 'none');
@@ -319,6 +320,7 @@ function isWon() {
         modal.style.display = "block";
         $('#loss_name').text(username + " du hast gewonnen !");
         $('#termination').text(time_passed);
+        $('aq').text(answeredQuestion);
         timer.stop();
     }
 }
@@ -380,6 +382,7 @@ function coinAnimation() {
 
 function updateProgressbar(regionID) {
     var allQuestions = Object.keys(DATA[regionID]).length;
+    console.log(allQuestions);
     if (allQuestions == 6)
         $(`#${regionID}`).css({ 'width': "0%" });
     if (allQuestions == 5)
