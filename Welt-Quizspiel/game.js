@@ -14,6 +14,7 @@ correctAnswers = {};
 DATA = {};
 
 answeredQuestion = 0;
+correctAnsweredQuestions = 0;
 
 timer = new Timer();
 
@@ -220,7 +221,7 @@ function lost() {
         modal.style.display = "block";
         $('#loss_name').text(username + " du hast verloren !");
         $('#termination').text(time_passed); 
-        $('aq').text(answeredQuestion);
+        $('#aq').text(correctAnsweredQuestions);
         timer.stop();
         return true;
     }
@@ -287,6 +288,7 @@ function checkAnswer(clicked_id) {
         money += difficulty["rewardMoney"];
         coinAnimation();
         $(`#${solution}`).css("background-color", "lightgreen");
+        correctAnsweredQuestions++;
     } else {
         money -= difficulty["penaltyMoney"];
         updateUIElements();
@@ -320,7 +322,7 @@ function isWon() {
         modal.style.display = "block";
         $('#loss_name').text(username + " du hast gewonnen !");
         $('#termination').text(time_passed);
-        $('aq').text(answeredQuestion);
+        $('#aq').text(correctAnsweredQuestions);
         timer.stop();
     }
 }
